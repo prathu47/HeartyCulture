@@ -1,0 +1,31 @@
+[
+    {
+        "pid":1,
+        "pname":"Vermicompost (Pure Desi cow) - 900g",
+        "pdescription":"Varieties of Birthday gifts are available",
+        "price":350,
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Inkedvermicompost-1.8kg_276x276_LI_276x274.jpg?v=1645938248"
+    },
+    {
+        "pid":2,
+        "pname":"Potting Mixture - Seedling Starter - 900 g",
+        "pdescription":"Varieties of Annivarsary gifts are available",
+        "price":400,
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/potting-mixture-seed-starter-900g_383x381.png?v=1617298578"
+    },
+    {
+        "pid":3,
+        "pname":"Bio Charcoal for fruits and flowers (Charcoal + Topper) - 1.5 kg",
+        "pdescription":"Varieties of Cakes are available",
+        "price":500,
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/bio-char-fruits-flowers-1.5kg_876x873_logo_changed_383x381.png?v=1624170324"
+    },
+    {
+        "pid":4,
+        "pname":"Bio Charcoal for roots and leaves (Charcoal + Starter) - 1.5 kg",
+        "pdescription":"Varieties of Chocolates are available",
+        "price":200,
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/bio-char-roots-leaves1.5kg_383x381.png?v=1617296849"
+    }
+
+]
