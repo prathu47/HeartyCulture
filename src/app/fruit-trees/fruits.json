@@ -1,0 +1,59 @@
+[
+    {
+        "pid":1,
+        "pname":"Vermicompost (Pure Desi cow) - 900g",
+        "pdescription":"<del>399</del>",
+        "price":350,
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/004_3_c069fa9f-ca0d-451b-b1fd-6338eea6758d_305x305.png?v=1633842281"
+    },
+    {
+        "pid":2,
+        "pname":"Potting Mixture - Seedling Starter - 900 g",
+        "pdescription":"Varieties of Annivarsary gifts are available",
+        "price":400,
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/513A7246_1_df8e9992-3d36-44bc-b3d7-6e28bf64ca16_381x381.png?v=1635336295"
+    },
+    {
+        "pid":3,
+        "pname":"Bio Charcoal for fruits and flowers (Charcoal + Topper) - 1.5 kg",
+        "pdescription":"Varieties of Cakes are available",
+        "price":500,
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/004_2_56e4e0fe-3b22-4350-9c5f-9283a8334bea_381x381.png?v=1633842115"
+    },
+    {
+        "pid":4,
+        "pname":"Bio Charcoal for roots and leaves (Charcoal + Starter) - 1.5 kg",
+        "pdescription":"Varieties of Chocolates are available",
+        "price":200,
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/004_6_aa442b5e-c8aa-43ce-9ac5-a7fda8bf4c20_381x381.png?v=1633842992"
+    },
+    {
+        "pid":5,
+        "pname":"Vermicompost (Pure Desi cow) - 900g",
+        "pdescription":"Varieties of Birthday gifts are available",
+        "price":350,
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/004_1_ccde7321-528a-4aa3-9959-f1b56837676f_381x381.png?v=1633841971"
+    },
+    {
+        "pid":6,
+        "pname":"Potting Mixture - Seedling Starter - 900 g",
+        "pdescription":"Varieties of Annivarsary gifts are available",
+        "price":400,
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/002_8f065b6a-09dd-4123-b09b-c7b25584731f_381x381.png?v=1633841803"
+    },
+    {
+        "pid":7,
+        "pname":"Bio Charcoal for fruits and flowers (Charcoal + Topper) - 1.5 kg",
+        "pdescription":"Varieties of Cakes are available",
+        "price":500,
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/004_4_fe5b97d5-c4bd-4716-8640-d4ca54671ef5_381x381.png?v=1633842646"
+    },
+    {
+        "pid":8,
+        "pname":"Bio Charcoal for roots and leaves (Charcoal + Starter) - 1.5 kg",
+        "pdescription":"Varieties of Chocolates are available",
+        "price":200,
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/004_9de34c0f-f0a9-4155-9460-79cb2b08875d_381x381.png?v=1631515996"
+    }
+
+]
