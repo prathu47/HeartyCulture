@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { NavnextComponent } from './navnext/navnext.component';
+import { FruitTreesComponent } from './fruit-trees/fruit-trees.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
-    NavnextComponent
+    NavnextComponent,
+    FruitTreesComponent
   ],
   imports: [
     BrowserModule,
