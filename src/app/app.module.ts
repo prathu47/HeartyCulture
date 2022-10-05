@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { NavnextComponent } from './navnext/navnext.component';
+import { FruitTreesComponent } from './fruit-trees/fruit-trees.component';
 import { FertilizerComponent } from './fertilizer/fertilizer.component';
 import { ContactComponent } from './contact/contact.component';
 
@@ -13,6 +14,7 @@ import { ContactComponent } from './contact/contact.component';
     AppComponent,
     NavComponent,
     NavnextComponent,
+    FruitTreesComponent,
     FertilizerComponent,
     ContactComponent
   ],
