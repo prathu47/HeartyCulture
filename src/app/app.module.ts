@@ -8,6 +8,7 @@ import { NavnextComponent } from './navnext/navnext.component';
 import { FruitTreesComponent } from './fruit-trees/fruit-trees.component';
 import { FertilizerComponent } from './fertilizer/fertilizer.component';
 import { ContactComponent } from './contact/contact.component';
+import { PalmsCycasComponent } from './palms-cycas/palms-cycas.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ContactComponent } from './contact/contact.component';
     NavnextComponent,
     FruitTreesComponent,
     FertilizerComponent,
-    ContactComponent
+    ContactComponent,
+    PalmsCycasComponent
   ],
   imports: [
     BrowserModule,
