@@ -10,6 +10,7 @@ import { FertilizerComponent } from './fertilizer/fertilizer.component';
 import { ContactComponent } from './contact/contact.component';
 import { PalmsCycasComponent } from './palms-cycas/palms-cycas.component';
 import { FlowerSeedsComponent } from './flower-seeds/flower-seeds.component';
+import { MedicineSeedsComponent } from './medicine-seeds/medicine-seeds.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FlowerSeedsComponent } from './flower-seeds/flower-seeds.component';
     FertilizerComponent,
     ContactComponent,
     PalmsCycasComponent,
-    FlowerSeedsComponent
+    FlowerSeedsComponent,
+    MedicineSeedsComponent
   ],
   imports: [
     BrowserModule,

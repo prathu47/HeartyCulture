@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import * as product from "src/app/flower-seeds/seeds.json";
 @Component({
   selector: 'app-flower-seeds',
   templateUrl: './flower-seeds.component.html',
@@ -11,5 +11,5 @@ export class FlowerSeedsComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  productDetails:any=(product as any).default;
 }
