@@ -9,6 +9,8 @@ import { FruitTreesComponent } from './fruit-trees/fruit-trees.component';
 import { FertilizerComponent } from './fertilizer/fertilizer.component';
 import { ContactComponent } from './contact/contact.component';
 import { PalmsCycasComponent } from './palms-cycas/palms-cycas.component';
+import { CarouselComponent } from './carousel/carousel.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { PalmsCycasComponent } from './palms-cycas/palms-cycas.component';
     FruitTreesComponent,
     FertilizerComponent,
     ContactComponent,
-    PalmsCycasComponent
+    PalmsCycasComponent,
+    CarouselComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
