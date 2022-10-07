@@ -1,0 +1,96 @@
+[
+    {
+        "pid":1,
+        "pname":"Sitar's gold | Tradescantia spathacea",
+        "pdescription":"Heartyculture Nursery",
+        "price":349.00,
+        "price1":299.00,
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Sitar_sgold_396x396.jpg?v=1615824862"
+    },
+    {
+        "pid":2,
+        "pname":"Sword Fern",
+        "pdescription":"Heartyculture Nursery",
+        "price":449.00,
+        "price1":349.00,
+        "img":"https://floweraura-blog-img.s3.ap-south-1.amazonaws.com/Plant+Dec+2019-+Dec+2020/sword-fern-plant.jpg"
+    },
+    {
+        "pid":3,
+        "pname":"Silver Nerve Plant",
+        "pdescription":"Heartyculture Nursery",
+        "price":469.00,
+        "price1":429.00,
+        "img":"https://floweraura-blog-img.s3.ap-south-1.amazonaws.com/Plants+Dec-19-Dec-20/silver-nerve-plant.jpg"
+    },
+    {
+        "pid":4,
+        "pname":"Fibre Optic Grass Plant",
+        "pdescription":"Heartyculture Nursery",
+        "price":399.00,
+        "price1":349.00,
+        "img":"https://floweraura-blog-img.s3.ap-south-1.amazonaws.com/Plants+Dec-19-Dec-20/fibre-optic-grass-plant.jpg"
+    },
+    {
+        "pid":5,
+        "pname":"Snake Plant",
+        "pdescription":"Heartyculture Nursery",
+        "price1":305.00,
+        "img":"https://floweraura-blog-img.s3.ap-south-1.amazonaws.com/Plants+Dec-19-Dec-20/snake-plants.jpg"
+    },
+    {
+        "pid":6,
+        "pname":"Jade Plant",
+        "pdescription":"Heartyculture Nursery",
+        "price1":299.00,
+        "img":"https://yourgardenbuddy.com/wp-content/uploads/2020/07/Jade-Plant-720x540.jpg"
+    },
+    {
+        "pid":7,
+        "pname":"Peace Lily",
+        "pdescription":"Heartyculture Nursery",
+        "price1":405.00,
+        "img":"https://yourgardenbuddy.com/wp-content/uploads/2021/06/Peace-Lily.jpg"
+    },
+    {
+        "pid":8,
+        "pname":"ZZ Plant",
+        "pdescription":"Heartyculture Nursery",
+        "price1":315.00,
+        "img":"https://yourgardenbuddy.com/wp-content/uploads/2020/05/ZZ-Plant-Hard-to-kill-Airpurifying-Plant-720x540.jpg"
+    },
+    {
+        "pid":9,
+        "pname":"Water Bamboo",
+        "pdescription":"Heartyculture Nursery",
+        "price1":239.00,
+        "img":"https://floweraura-blog-img.s3.ap-south-1.amazonaws.com/Plants+Dec-19-Dec-20/chinese-water-bamboo-plant.jpg"
+    },
+    {
+        "pid":10,
+        "pname":"Rubber Plant",
+        "pdescription":"Heartyculture Nursery",
+        "price1":319.00,
+        "img":"https://yourgardenbuddy.com/wp-content/uploads/2021/06/Rubber-Plant.jpg"
+    },
+    {
+        "pid":11,
+        "pname":"Areca Palm",
+        "pdescription":"Heartyculture Nursery",
+        "price1":399.00,
+        
+        "img":"https://yourgardenbuddy.com/wp-content/uploads/2021/06/Areca-Palm.jpg"
+    },
+    {
+        "pid":12,
+        "pname":"Foxtail Fern",
+        "pdescription":"Heartyculture Nursery",
+        
+        "price1":399.00,
+        "img":"https://yourgardenbuddy.com/wp-content/uploads/2020/08/Foxtail-Fern-720x540.jpg"
+    }
+    
+
+    
+
+]

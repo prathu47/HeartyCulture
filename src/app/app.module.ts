@@ -11,6 +11,7 @@ import { ContactComponent } from './contact/contact.component';
 import { PalmsCycasComponent } from './palms-cycas/palms-cycas.component';
 import { FlowerSeedsComponent } from './flower-seeds/flower-seeds.component';
 import { MedicineSeedsComponent } from './medicine-seeds/medicine-seeds.component';
+import { OrnamantalTreesComponent } from './ornamantal-trees/ornamantal-trees.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { MedicineSeedsComponent } from './medicine-seeds/medicine-seeds.componen
     ContactComponent,
     PalmsCycasComponent,
     FlowerSeedsComponent,
-    MedicineSeedsComponent
+    MedicineSeedsComponent,
+    OrnamantalTreesComponent
   ],
   imports: [
     BrowserModule,

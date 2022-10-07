@@ -7,6 +7,7 @@ import { ContactComponent } from './contact/contact.component';
 import { FruitTreesComponent } from './fruit-trees/fruit-trees.component';
 import { FlowerSeedsComponent } from './flower-seeds/flower-seeds.component';
 import { MedicineSeedsComponent } from './medicine-seeds/medicine-seeds.component';
+import { OrnamantalTreesComponent } from './ornamantal-trees/ornamantal-trees.component';
 
 
 
@@ -18,7 +19,8 @@ const routes: Routes = [
   {path:'contact',component:ContactComponent},
   {path:'fruittrees',component:FruitTreesComponent},
   {path: 'flowerseeds', component:FlowerSeedsComponent},
-  {path: 'medicineseeds', component:MedicineSeedsComponent}
+  {path: 'medicineseeds', component:MedicineSeedsComponent},
+  {path: 'ornamantaltree', component:OrnamantalTreesComponent}
 ];
 
 @NgModule({
