@@ -12,6 +12,10 @@ import { PalmsCycasComponent } from './palms-cycas/palms-cycas.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { FooterComponent } from './footer/footer.component';
 
+import { FlowerSeedsComponent } from './flower-seeds/flower-seeds.component';
+import { MedicineSeedsComponent } from './medicine-seeds/medicine-seeds.component';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +26,11 @@ import { FooterComponent } from './footer/footer.component';
     ContactComponent,
     PalmsCycasComponent,
     CarouselComponent,
-    FooterComponent
+    FooterComponent,
+
+    FlowerSeedsComponent,
+    MedicineSeedsComponent
+
   ],
   imports: [
     BrowserModule,
