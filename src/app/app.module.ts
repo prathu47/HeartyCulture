@@ -9,9 +9,13 @@ import { FruitTreesComponent } from './fruit-trees/fruit-trees.component';
 import { FertilizerComponent } from './fertilizer/fertilizer.component';
 import { ContactComponent } from './contact/contact.component';
 import { PalmsCycasComponent } from './palms-cycas/palms-cycas.component';
+import { CarouselComponent } from './carousel/carousel.component';
+import { FooterComponent } from './footer/footer.component';
+
 import { FlowerSeedsComponent } from './flower-seeds/flower-seeds.component';
 import { MedicineSeedsComponent } from './medicine-seeds/medicine-seeds.component';
 import { OrnamantalTreesComponent } from './ornamantal-trees/ornamantal-trees.component';
+
 
 @NgModule({
   declarations: [
@@ -22,9 +26,17 @@ import { OrnamantalTreesComponent } from './ornamantal-trees/ornamantal-trees.co
     FertilizerComponent,
     ContactComponent,
     PalmsCycasComponent,
+    CarouselComponent,
+    FooterComponent,
+
     FlowerSeedsComponent,
+<<<<<<< HEAD
     MedicineSeedsComponent,
     OrnamantalTreesComponent
+=======
+    MedicineSeedsComponent
+
+>>>>>>> 7bb6b55b7f7d2e1763e9d95d7d213c9fa62b0dc1
   ],
   imports: [
     BrowserModule,
