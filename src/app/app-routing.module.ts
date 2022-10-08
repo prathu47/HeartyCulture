@@ -5,6 +5,7 @@ import { ContactComponent } from './contact/contact.component';
 import { FruitTreesComponent } from './fruit-trees/fruit-trees.component';
 import { CactusSucculentsComponent } from './cactus-succulents/cactus-succulents.component';
 import { PalmsCycasComponent } from './palms-cycas/palms-cycas.component';
+import { PalmIndoorComponent } from './palms-cycas/palm-indoor/palm-indoor.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { FooterComponent } from './footer/footer.component';
 import { FlowerSeedsComponent } from './flower-seeds/flower-seeds.component';
@@ -20,6 +21,7 @@ const routes: Routes = [
   {path:'fruittrees',component:FruitTreesComponent},
   {path:'cactus',component:CactusSucculentsComponent},
   {path:'palmscycas', component:PalmsCycasComponent},
+  {path:'palmindoor',component:PalmIndoorComponent},
   {path: 'flowerseeds', component:FlowerSeedsComponent},
   {path: 'medicineseeds', component:MedicineSeedsComponent},
   {path: 'ornamantaltree', component:OrnamantalTreesComponent},
