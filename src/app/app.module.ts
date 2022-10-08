@@ -20,6 +20,7 @@ import { FlowerSeedsComponent } from './flower-seeds/flower-seeds.component';
 import { MedicineSeedsComponent } from './medicine-seeds/medicine-seeds.component';
 import { OrnamantalTreesComponent } from './ornamantal-trees/ornamantal-trees.component';
 import { MedicinalHerbsComponent } from './plants/medicinal-herbs/medicinal-herbs.component';
+import { ComboPacksComponent } from './combo-packs/combo-packs.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { MedicinalHerbsComponent } from './plants/medicinal-herbs/medicinal-herb
     MedicinalHerbsComponent,
     CactusSucculentsComponent,
     CactusChilsComponent,
-    PalmsCycasComponent
+    PalmsCycasComponent,
+    ComboPacksComponent
 
   ],
   imports: [
