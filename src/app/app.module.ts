@@ -30,13 +30,10 @@ import { OrnamantalTreesComponent } from './ornamantal-trees/ornamantal-trees.co
     FooterComponent,
 
     FlowerSeedsComponent,
-<<<<<<< HEAD
     MedicineSeedsComponent,
-    OrnamantalTreesComponent
-=======
+    OrnamantalTreesComponent,
     MedicineSeedsComponent
 
->>>>>>> 7bb6b55b7f7d2e1763e9d95d7d213c9fa62b0dc1
   ],
   imports: [
     BrowserModule,
