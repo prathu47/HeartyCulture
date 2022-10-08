@@ -12,6 +12,7 @@ export class PalmsCycasComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  
   palmplant:any=(palm as any).default;
 
 
