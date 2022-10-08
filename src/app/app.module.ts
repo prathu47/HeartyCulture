@@ -24,6 +24,8 @@ import { PalmsCycasComponent } from './palms-cycas/palms-cycas.component';
 import { PalmIndoorComponent } from './palms-cycas/palm-indoor/palm-indoor.component';
 import { ComboPacksComponent } from './combo-packs/combo-packs.component';
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -42,6 +44,9 @@ import { ComboPacksComponent } from './combo-packs/combo-packs.component';
     CactusSucculentsComponent,
     CactusChilsComponent,
     PalmsCycasComponent,
+    
+    
+   
     PalmIndoorComponent,
 
     ComboPacksComponent

@@ -95,7 +95,7 @@ export class CactusService {
     const cactusObservable=new Observable(observe=>{
       setTimeout(()=> {
         observe.next(this.cactus_details);
-      },1000);
+      },300);
     });
     return cactusObservable;
   }
