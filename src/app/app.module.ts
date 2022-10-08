@@ -21,6 +21,8 @@ import { MedicineSeedsComponent } from './medicine-seeds/medicine-seeds.componen
 import { OrnamantalTreesComponent } from './ornamantal-trees/ornamantal-trees.component';
 import { MedicinalHerbsComponent } from './plants/medicinal-herbs/medicinal-herbs.component';
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -38,7 +40,10 @@ import { MedicinalHerbsComponent } from './plants/medicinal-herbs/medicinal-herb
     MedicinalHerbsComponent,
     CactusSucculentsComponent,
     CactusChilsComponent,
-    PalmsCycasComponent
+    PalmsCycasComponent,
+    
+    
+   
 
   ],
   imports: [
