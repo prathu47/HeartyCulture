@@ -9,6 +9,7 @@ import { FruitTreesComponent } from './fruit-trees/fruit-trees.component';
 import { FertilizerComponent } from './fertilizer/fertilizer.component';
 import { ContactComponent } from './contact/contact.component';
 import { PalmsCycasComponent } from './palms-cycas/palms-cycas.component';
+import { PalmCycasOutdoorComponent } from './palm-cycas-outdoor/palm-cycas-outdoor.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { FooterComponent } from './footer/footer.component';
 
@@ -26,14 +27,7 @@ import { MedicinalHerbsComponent } from './plants/medicinal-herbs/medicinal-herb
     FruitTreesComponent,
     FertilizerComponent,
     ContactComponent,
-    PalmsCycasComponent,
-    CarouselComponent,
-    FooterComponent,
-
-    FlowerSeedsComponent,
-    MedicineSeedsComponent,
-    OrnamantalTreesComponent,
-    MedicinalHerbsComponent
+    PalmsCycasComponent
   ],
   imports: [
     BrowserModule,
