@@ -9,6 +9,7 @@ import { FruitTreesComponent } from './fruit-trees/fruit-trees.component';
 import { FertilizerComponent } from './fertilizer/fertilizer.component';
 import { ContactComponent } from './contact/contact.component';
 import { PalmsCycasComponent } from './palms-cycas/palms-cycas.component';
+import { PalmCycasOutdoorComponent } from './palm-cycas-outdoor/palm-cycas-outdoor.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { PalmsCycasComponent } from './palms-cycas/palms-cycas.component';
     FruitTreesComponent,
     FertilizerComponent,
     ContactComponent,
-    PalmsCycasComponent
+    PalmsCycasComponent,
+    PalmCycasOutdoorComponent
   ],
   imports: [
     BrowserModule,
