@@ -35,7 +35,7 @@ import { MedicinalHerbsComponent } from './plants/medicinal-herbs/medicinal-herb
     FlowerSeedsComponent,
     MedicineSeedsComponent,
     OrnamantalTreesComponent,
-    MedicineSeedsComponent,
+    MedicinalHerbsComponent,
     CactusSucculentsComponent,
     CactusChilsComponent,
     PalmsCycasComponent
