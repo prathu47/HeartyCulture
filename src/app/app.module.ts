@@ -11,7 +11,7 @@ import { FertilizerComponent } from './fertilizer/fertilizer.component';
 import { ContactComponent } from './contact/contact.component';
 import { CactusSucculentsComponent } from './cactus-succulents/cactus-succulents.component';
 import { CactusChilsComponent } from './cactus-succulents/cactus-chils/cactus-chils.component';
-import { PalmsCycasComponent } from './palms-cycas/palms-cycas.component';
+
 import { PalmCycasOutdoorComponent } from './palm-cycas-outdoor/palm-cycas-outdoor.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { FooterComponent } from './footer/footer.component';
@@ -20,6 +20,9 @@ import { FlowerSeedsComponent } from './flower-seeds/flower-seeds.component';
 import { MedicineSeedsComponent } from './medicine-seeds/medicine-seeds.component';
 import { OrnamantalTreesComponent } from './ornamantal-trees/ornamantal-trees.component';
 import { MedicinalHerbsComponent } from './plants/medicinal-herbs/medicinal-herbs.component';
+import { PalmsCycasComponent } from './palms-cycas/palms-cycas.component';
+import { PalmIndoorComponent } from './palms-cycas/palm-indoor/palm-indoor.component';
+import { ComboPacksComponent } from './combo-packs/combo-packs.component';
 
 
 
@@ -31,7 +34,7 @@ import { MedicinalHerbsComponent } from './plants/medicinal-herbs/medicinal-herb
     FruitTreesComponent,
     FertilizerComponent,
     ContactComponent,
-    PalmsCycasComponent,
+    
     CarouselComponent,
     FooterComponent,
     FlowerSeedsComponent,
@@ -44,6 +47,9 @@ import { MedicinalHerbsComponent } from './plants/medicinal-herbs/medicinal-herb
     
     
    
+    PalmIndoorComponent,
+
+    ComboPacksComponent
 
   ],
   imports: [
