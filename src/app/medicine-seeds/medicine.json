@@ -47,5 +47,12 @@
         "pdescription":"Heartyculture Nursery",
         "price":100.00,
         "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/MBS01230_381x381.jpg?v=1644850539"
+    },
+    {
+        "pid":8,
+        "pname":"Betel seeds",
+        "pdescription":"Heartyculture Nursery",
+        "price":150.00,
+        "img":"https://i1.wp.com/strictlymedicinalseeds.com/wp-content/uploads/2017/01/Wild_betel_flat_500-scaled.jpg?w=2560&ssl=1"
     }
 ]
