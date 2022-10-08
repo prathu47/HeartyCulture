@@ -27,14 +27,14 @@ import { MedicinalHerbsComponent } from './plants/medicinal-herbs/medicinal-herb
     FruitTreesComponent,
     FertilizerComponent,
     ContactComponent,
-    PalmsCycasComponent,
+    PalmCycasOutdoorComponent,
     CarouselComponent,
     FooterComponent,
 
     FlowerSeedsComponent,
     MedicineSeedsComponent,
     OrnamantalTreesComponent,
-    MedicineSeedsComponent,
+    MedicinalHerbsComponent,
 
     PalmsCycasComponent
   ],
