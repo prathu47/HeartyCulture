@@ -20,8 +20,12 @@ import { FlowerSeedsComponent } from './flower-seeds/flower-seeds.component';
 import { MedicineSeedsComponent } from './medicine-seeds/medicine-seeds.component';
 import { OrnamantalTreesComponent } from './ornamantal-trees/ornamantal-trees.component';
 import { MedicinalHerbsComponent } from './plants/medicinal-herbs/medicinal-herbs.component';
+<<<<<<< HEAD
 import { PalmsCycasComponent } from './palms-cycas/palms-cycas.component';
 import { PalmIndoorComponent } from './palms-cycas/palm-indoor/palm-indoor.component';
+=======
+import { ComboPacksComponent } from './combo-packs/combo-packs.component';
+>>>>>>> d8240d383f5d6eef8206801ec219c2e51c4be732
 
 @NgModule({
   declarations: [
@@ -41,8 +45,12 @@ import { PalmIndoorComponent } from './palms-cycas/palm-indoor/palm-indoor.compo
     CactusSucculentsComponent,
     CactusChilsComponent,
     PalmsCycasComponent,
+<<<<<<< HEAD
     PalmIndoorComponent
 
+=======
+    ComboPacksComponent
+>>>>>>> d8240d383f5d6eef8206801ec219c2e51c4be732
 
   ],
   imports: [
