@@ -1,0 +1,8 @@
+.card-body a{
+    text-decoration: none;
+    color: grey;
+}
+
+.card-body a:hover{
+    color: red;
+}

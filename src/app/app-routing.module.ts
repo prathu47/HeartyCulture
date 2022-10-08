@@ -3,8 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { FertilizerComponent } from './fertilizer/fertilizer.component';
 import { ContactComponent } from './contact/contact.component';
 import { FruitTreesComponent } from './fruit-trees/fruit-trees.component';
+import { CactusSucculentsComponent } from './cactus-succulents/cactus-succulents.component';
 import { PalmsCycasComponent } from './palms-cycas/palms-cycas.component';
-
 import { CarouselComponent } from './carousel/carousel.component';
 import { FooterComponent } from './footer/footer.component';
 import { FlowerSeedsComponent } from './flower-seeds/flower-seeds.component';
@@ -13,15 +13,12 @@ import { OrnamantalTreesComponent } from './ornamantal-trees/ornamantal-trees.co
 import { MedicinalHerbsComponent } from './plants/medicinal-herbs/medicinal-herbs.component';
 
 
-
-  
-
-
 const routes: Routes = [
   {path:'',component:CarouselComponent},
   {path:'ferti',component:FertilizerComponent},
   {path:'contact',component:ContactComponent},
   {path:'fruittrees',component:FruitTreesComponent},
+  {path:'cactus',component:CactusSucculentsComponent},
   {path:'palmscycas', component:PalmsCycasComponent},
   {path: 'flowerseeds', component:FlowerSeedsComponent},
   {path: 'medicineseeds', component:MedicineSeedsComponent},
