@@ -14,6 +14,8 @@ import { FooterComponent } from './footer/footer.component';
 
 import { FlowerSeedsComponent } from './flower-seeds/flower-seeds.component';
 import { MedicineSeedsComponent } from './medicine-seeds/medicine-seeds.component';
+import { OrnamantalTreesComponent } from './ornamantal-trees/ornamantal-trees.component';
+import { MedicinalHerbsComponent } from './plants/medicinal-herbs/medicinal-herbs.component';
 
 
 @NgModule({
@@ -29,8 +31,9 @@ import { MedicineSeedsComponent } from './medicine-seeds/medicine-seeds.componen
     FooterComponent,
 
     FlowerSeedsComponent,
-    MedicineSeedsComponent
-
+    MedicineSeedsComponent,
+    OrnamantalTreesComponent,
+    MedicinalHerbsComponent
   ],
   imports: [
     BrowserModule,
