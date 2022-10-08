@@ -11,6 +11,15 @@ import { FertilizerComponent } from './fertilizer/fertilizer.component';
 import { ContactComponent } from './contact/contact.component';
 import { CactusSucculentsComponent } from './cactus-succulents/cactus-succulents.component';
 import { CactusChilsComponent } from './cactus-succulents/cactus-chils/cactus-chils.component';
+import { PalmsCycasComponent } from './palms-cycas/palms-cycas.component';
+import { PalmCycasOutdoorComponent } from './palm-cycas-outdoor/palm-cycas-outdoor.component';
+import { CarouselComponent } from './carousel/carousel.component';
+import { FooterComponent } from './footer/footer.component';
+
+import { FlowerSeedsComponent } from './flower-seeds/flower-seeds.component';
+import { MedicineSeedsComponent } from './medicine-seeds/medicine-seeds.component';
+import { OrnamantalTreesComponent } from './ornamantal-trees/ornamantal-trees.component';
+import { MedicinalHerbsComponent } from './plants/medicinal-herbs/medicinal-herbs.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +30,16 @@ import { CactusChilsComponent } from './cactus-succulents/cactus-chils/cactus-ch
     FertilizerComponent,
     ContactComponent,
     CactusSucculentsComponent,
-    CactusChilsComponent
+    CactusChilsComponent,
+    PalmsCycasComponent,
+    CarouselComponent,
+    FooterComponent,
+    FlowerSeedsComponent,
+    MedicineSeedsComponent,
+    OrnamantalTreesComponent,
+    MedicineSeedsComponent,
+    PalmsCycasComponent
+
   ],
   imports: [
     BrowserModule,
