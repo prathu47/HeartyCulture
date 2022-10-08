@@ -29,8 +29,6 @@ import { MedicinalHerbsComponent } from './plants/medicinal-herbs/medicinal-herb
     FruitTreesComponent,
     FertilizerComponent,
     ContactComponent,
-    CactusSucculentsComponent,
-    CactusChilsComponent,
     PalmsCycasComponent,
     CarouselComponent,
     FooterComponent,
@@ -38,6 +36,7 @@ import { MedicinalHerbsComponent } from './plants/medicinal-herbs/medicinal-herb
     MedicineSeedsComponent,
     OrnamantalTreesComponent,
     MedicineSeedsComponent,
+
     PalmsCycasComponent
 
   ],
