@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component,Input, OnInit } from '@angular/core';
+import * as palm from 'src/app/palms-cycas/palm.json'
 
 @Component({
   selector: 'app-palms-cycas',
@@ -6,10 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./palms-cycas.component.css']
 })
 export class PalmsCycasComponent implements OnInit {
-
+  @Input()product:any
   constructor() { }
 
   ngOnInit(): void {
   }
+  palmplant:any=(palm as any).default;
+
 
 }
