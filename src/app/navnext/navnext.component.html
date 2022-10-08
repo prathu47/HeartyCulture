@@ -5,8 +5,16 @@
           <li class="nav-item">
             <a class="nav-link" style="font-weight: bold;" aria-current="page" href="#">Home</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" style="font-weight: bold;" href="#">Plants</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" style="font-weight: bold;" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Plants
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" routerLink="plants/medicinal-herbs">Medicinal Herbs</a></li>
+              <li><a class="dropdown-item" routerLink="outdoor-plants">Outdoor Plants</a></li>
+              <li><a class="dropdown-item" routerLink="indoor-plants">Indoor Plants</a></li>
+              <li><a class="dropdown-item" routerLink="grasses">Grasses</a></li>
+            </ul>
           </li>
           <li class="nav-item dropdown"  style="font-weight: bold;">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -14,7 +22,7 @@
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" routerLink="fruittrees">Fruit Trees</a></li>
-              <li><a class="dropdown-item" href="#"></a></li>
+              <li><a class="dropdown-item" routerLink="ornamantaltree">Ornamantal Trees</a></li>
               <li><a class="dropdown-item" routerLink=" ">Medicinal Trees</a></li>
             </ul>
           </li>
@@ -34,8 +42,15 @@
               <li><a class="dropdown-item" routerLink=" ">Outdoor Plants</a></li>
             </ul>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" style="font-weight: bold;" href="#">Seeds</a>
+          <li class="nav-item dropdown"  style="font-weight: bold;">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Seeds
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" routerLink="flowerseeds">Flowering seeds</a></li>
+              <li><a class="dropdown-item" href="#"></a></li>
+              <li><a class="dropdown-item" routerLink="medicineseeds">Medicinal seeds</a></li>
+            </ul>
           </li>
           <li class="nav-item" style="font-weight: bold;">
             <a class="nav-link" routerLink="ferti">Fertilizer</a>

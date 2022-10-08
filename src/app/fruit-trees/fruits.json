@@ -3,8 +3,8 @@
         "pid":1,
         "pname":"Dragon Fruit|Selenicereus undatus",
         "pdescription":"Heartyculture Nursery",
-       
-        "price":300.00,
+        "price":349.00,
+        "price1":300.00,
         "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/004_3_c069fa9f-ca0d-451b-b1fd-6338eea6758d_305x305.png?v=1633842281"
     },
     {
@@ -12,6 +12,7 @@
         "pname":"Guava | Psidium guajava",
         "pdescription":"Heartyculture Nursery",
         "price":449.00,
+        "price1":349.00,
         "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/513A7246_1_df8e9992-3d36-44bc-b3d7-6e28bf64ca16_381x381.png?v=1635336295"
     },
     {
@@ -19,42 +20,77 @@
         "pname":"All Time Mango | Mangifera indica l.",
         "pdescription":"Heartyculture Nursery",
         "price":499.00,
+        "price1":429.00,
         "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/004_2_56e4e0fe-3b22-4350-9c5f-9283a8334bea_381x381.png?v=1633842115"
     },
     {
         "pid":4,
         "pname":"Mulberry | Morus alba",
         "pdescription":"Heartyculture Nursery",
-        "price":349.00,
+        "price":399.00,
+        "price1":349.00,
         "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/004_6_aa442b5e-c8aa-43ce-9ac5-a7fda8bf4c20_381x381.png?v=1633842992"
     },
     {
         "pid":5,
-        "pname":"Cricket ball chikku | Manilkara zapota",
+        "pname":"Jackfruit Tree",
         "pdescription":"Heartyculture Nursery",
-        "price":399.00,
-        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/004_1_ccde7321-528a-4aa3-9959-f1b56837676f_381x381.png?v=1633841971"
+        "price1":385.00,
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/004_9de34c0f-f0a9-4155-9460-79cb2b08875d_396x396.png?v=1631515996"
     },
     {
         "pid":6,
         "pname":"Banana TC | Musa",
         "pdescription":"Heartyculture Nursery",
-        "price":299.00,
+        "price1":299.00,
         "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/002_8f065b6a-09dd-4123-b09b-c7b25584731f_381x381.png?v=1633841803"
     },
     {
         "pid":7,
         "pname":"Kamala orange | Citrus sinensis",
         "pdescription":"Heartyculture Nursery",
-        "price":449.00,
+        "price1":449.00,
         "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/004_4_fe5b97d5-c4bd-4716-8640-d4ca54671ef5_381x381.png?v=1633842646"
     },
     {
         "pid":8,
         "pname":"Jackfruit Tree",
         "pdescription":"Heartyculture Nursery",
-        "price":385.00,
+        "price1":385.00,
         "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/004_9de34c0f-f0a9-4155-9460-79cb2b08875d_381x381.png?v=1631515996"
+    },
+    {
+        "pid":9,
+        "pname":"Cricket ball chikku | Manilkara zapota",
+        "pdescription":"Heartyculture Nursery",
+        "price1":399.00,
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/004_1_ccde7321-528a-4aa3-9959-f1b56837676f_395x395.png?v=1633841971"
+    },
+    {
+        "pid":10,
+        "pname":"Taiwan white guava | Taiwan white guava",
+        "pdescription":"Heartyculture Nursery",
+        "price1":449.00,
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/513A7246_1_395x395.png?v=1635336222"
+    },
+    {
+        "pid":11,
+        "pname":"kallapathi chikku | Manilkara zapota",
+        "pdescription":"Heartyculture Nursery",
+        "price":499.00,
+        "price1":399.00,
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/004_d9bc951f-d5ed-47cf-95eb-1173da01a369_395x395.png?v=1635143952"
+    },
+    {
+        "pid":12,
+        "pname":"White jamun | Syzygium cumini",
+        "pdescription":"Heartyculture Nursery",
+        "price":539.00 ,
+        "price1":499.00,
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/002_7_cb1e8a3b-ba9d-46ca-b0d7-101e42b2477e_395x395.png?v=1633843590"
     }
+    
+
+    
 
 ]
