@@ -16,6 +16,9 @@ import { ComboPacksComponent } from './combo-packs/combo-packs.component';
 import { IndoorPlantsComponent } from './plants/indoor-plants/indoor-plants.component';
 import { OutdoorPlantsComponent } from './plants/outdoor-plants/outdoor-plants.component';
 import { GrassesComponent } from './plants/grasses/grasses.component';
+import { ContainergardeningComponent } from './containergardening/containergardening.component';
+import { FoundationplantComponent } from './foundationplant/foundationplant.component';
+import { PlantselectionComponent } from './plantselection/plantselection.component';
 
 const routes: Routes = [
   {path:'',component:CarouselComponent},
@@ -32,7 +35,10 @@ const routes: Routes = [
   {path:'combo',component:ComboPacksComponent},
   {path:'plants/indoorplants',component:IndoorPlantsComponent},
   {path:'plants/outdoorplants',component:OutdoorPlantsComponent},
-  {path:'plants/grasses',component:GrassesComponent}
+  {path:'plants/grasses',component:GrassesComponent},
+  {path:'containergardening',component:ContainergardeningComponent},
+  {path:'foundationplant',component:FoundationplantComponent},
+  {path:'plantselection',component:PlantselectionComponent}
 ];
 
 @NgModule({

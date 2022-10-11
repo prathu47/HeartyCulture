@@ -26,6 +26,9 @@ import { ComboPacksComponent } from './combo-packs/combo-packs.component';
 import { OutdoorPlantsComponent } from './plants/outdoor-plants/outdoor-plants.component';
 import { IndoorPlantsComponent } from './plants/indoor-plants/indoor-plants.component';
 import { GrassesComponent } from './plants/grasses/grasses.component';
+import { ContainergardeningComponent } from './containergardening/containergardening.component';
+import { FoundationplantComponent } from './foundationplant/foundationplant.component';
+import { PlantselectionComponent } from './plantselection/plantselection.component';
 
 
 
@@ -55,8 +58,10 @@ import { GrassesComponent } from './plants/grasses/grasses.component';
     ComboPacksComponent,
       OutdoorPlantsComponent,
       IndoorPlantsComponent,
-      GrassesComponent
-
+      GrassesComponent,
+      ContainergardeningComponent,
+      FoundationplantComponent,
+      PlantselectionComponent
   ],
   imports: [
     BrowserModule,
