@@ -6,8 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./carousel.component.css']
 })
 export class CarouselComponent implements OnInit {
-
-  constructor() { }
+  //showButton:boolean=false;
+  constructor() {
+   
+   }
+   toggle(){
+    //this.showButton=!this.showButton
+   }
 
   ngOnInit(): void {
   }
