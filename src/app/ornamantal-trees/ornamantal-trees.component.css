@@ -11,3 +11,8 @@ img{
     color: #484848;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
+.effect:hover{
+    margin-right: 30px;
+    margin-left: 10px;
+    
+}

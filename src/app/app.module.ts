@@ -49,7 +49,8 @@ import { ComboPacksComponent } from './combo-packs/combo-packs.component';
    
     PalmIndoorComponent,
 
-    ComboPacksComponent
+    ComboPacksComponent,
+      
 
   ],
   imports: [
