@@ -23,6 +23,9 @@ import { MedicinalHerbsComponent } from './plants/medicinal-herbs/medicinal-herb
 import { PalmsCycasComponent } from './palms-cycas/palms-cycas.component';
 import { PalmIndoorComponent } from './palms-cycas/palm-indoor/palm-indoor.component';
 import { ComboPacksComponent } from './combo-packs/combo-packs.component';
+import { OutdoorPlantsComponent } from './plants/outdoor-plants/outdoor-plants.component';
+import { IndoorPlantsComponent } from './plants/indoor-plants/indoor-plants.component';
+import { GrassesComponent } from './plants/grasses/grasses.component';
 
 
 
@@ -49,7 +52,10 @@ import { ComboPacksComponent } from './combo-packs/combo-packs.component';
    
     PalmIndoorComponent,
 
-    ComboPacksComponent
+    ComboPacksComponent,
+      OutdoorPlantsComponent,
+      IndoorPlantsComponent,
+      GrassesComponent
 
   ],
   imports: [

@@ -1,0 +1,33 @@
+img{
+    height:100px;
+    width:100px;
+    margin-left:10px;
+    margin-top:10px;
+    margin-bottom:10px;
+    border-radius:10px;
+}
+.prodimg{
+    height:250px;
+    width:280px;
+    margin-left:20px;
+    margin-right: 20px;
+    margin-top:10px;
+    margin-bottom:10px;
+    border-radius:3px;
+}
+
+.card-group {
+    padding-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.card {
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+.header{
+    margin-left: 20px;
+    color: #484848;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}

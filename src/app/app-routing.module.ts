@@ -13,7 +13,9 @@ import { MedicineSeedsComponent } from './medicine-seeds/medicine-seeds.componen
 import { OrnamantalTreesComponent } from './ornamantal-trees/ornamantal-trees.component';
 import { MedicinalHerbsComponent } from './plants/medicinal-herbs/medicinal-herbs.component';
 import { ComboPacksComponent } from './combo-packs/combo-packs.component';
-
+import { IndoorPlantsComponent } from './plants/indoor-plants/indoor-plants.component';
+import { OutdoorPlantsComponent } from './plants/outdoor-plants/outdoor-plants.component';
+import { GrassesComponent } from './plants/grasses/grasses.component';
 
 const routes: Routes = [
   {path:'',component:CarouselComponent},
@@ -27,7 +29,10 @@ const routes: Routes = [
   {path: 'medicineseeds', component:MedicineSeedsComponent},
   {path: 'ornamantaltree', component:OrnamantalTreesComponent},
   {path:'plants/medicinal-herbs',component:MedicinalHerbsComponent},
-  {path:'combo',component:ComboPacksComponent}
+  {path:'combo',component:ComboPacksComponent},
+  {path:'plants/indoorplants',component:IndoorPlantsComponent},
+  {path:'plants/outdoorplants',component:OutdoorPlantsComponent},
+  {path:'plants/grasses',component:GrassesComponent}
 ];
 
 @NgModule({
