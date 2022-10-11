@@ -27,6 +27,8 @@ import { ContainergardeningComponent } from './containergardening/containergarde
 import { FoundationplantComponent } from './foundationplant/foundationplant.component';
 import { PlantselectionComponent } from './plantselection/plantselection.component';
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -45,6 +47,9 @@ import { PlantselectionComponent } from './plantselection/plantselection.compone
     CactusSucculentsComponent,
     CactusChilsComponent,
     PalmsCycasComponent,
+    
+    
+   
     PalmIndoorComponent,
 
     ComboPacksComponent,
