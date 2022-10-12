@@ -20,9 +20,7 @@ export class CarouselComponent implements OnInit {
   palmplant:any=(palm as any).default;
 
   //showButton:boolean=false;
-  constructor() {
-   
-   }
+  
    toggle(){
     //this.showButton=!this.showButton
    }
