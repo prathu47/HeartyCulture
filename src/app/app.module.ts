@@ -57,7 +57,12 @@ import { SearchFilterPipe } from './shared/search-filter.pipe';
     PlantselectionComponent,
     ContainergardeningComponent,
     FoundationplantsComponent,
-    SearchFilterPipe
+    SearchFilterPipe,
+    ContainergardeningComponent,
+    FoundationplantsComponent,
+    PlantselectionComponent
+      
+     
 
   ],
   imports: [

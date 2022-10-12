@@ -47,6 +47,21 @@
     </div>
     <div class="carousel-item">
       <img src="/assets/carousel5.jpg" class="d-block w-100" alt="...">
+<<<<<<< HEAD
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<br>
+<br>
+=======
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -126,22 +141,155 @@
   <br>
   <br>
   <div class="banner-container">
+>>>>>>> 76ad5496402a601305215a9a9f60777df2f418f5
 
-    <div class="banner">
-        <div style="text-align:left;margin-bottom:50px;" class="shoe">
-          <p style="text-align:left;font-size:30px;">Santulum album |  Sandal wood</p>
-            <p style="font-size: 20px;">Sandalwoods are heavy, yellow, and fine-grained, and, unlike many other aromatic woods, retain their fragrance for decades. Sandalwood is often cited as one of the most expensive woods in the world. Both the wood and the oil produce a distinctive fragrance that has been highly valued for centuries.</p>
-        <button style="border-color: white;font-weight: 500;height: 40px;margin-right:500px;margin-top: 30px;" type="submit">Buy now</button>
-        
-      </div>
-        <div class="Women">
-            <img src="https://cdn.shopify.com/s/files/1/0487/7598/7354/products/513A7376_938x938.png?v=1635154340" alt="">
-        </div>
+<div class="banner-container">
+
+  <div class="banner">
+    <div style="text-align:left;margin-bottom:50px;" class="shoe">
+      <p style="text-align:left;font-size:30px;">Santulum album | Sandal wood</p>
+      <p style="font-size: 20px;">Sandalwoods are heavy, yellow, and fine-grained, and, unlike many other aromatic
+        woods, retain their fragrance for decades. Sandalwood is often cited as one of the most expensive woods in the
+        world. Both the wood and the oil produce a distinctive fragrance that has been highly valued for centuries.</p>
+      <button style="border-color: white;font-weight: 500;height: 40px;margin-right:500px;margin-top: 30px;"
+        type="submit">Buy now</button>
+
+    </div>
+    <div class="Women">
+      <img src="https://cdn.shopify.com/s/files/1/0487/7598/7354/products/513A7376_938x938.png?v=1635154340" alt="">
     </div>
   </div>
+<<<<<<< HEAD
+</div>
+
+<!-- Images -->
+<div class="pxs"></div>
+
+<!-- Native Trees & Succulents -->
+<div class="header1">
+    <h4>Native Trees & Succulents</h4>
+</div>
+<div class="row">
+  <div class="col-sm-5 col-md-3 mt-4" style="width: 16rem; padding: 15px;">
+    <div class="card" style="height: 100%;">
+      <a class="collection" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF6S6kOPqMz3ywVAGlN0Qx4uYI0QPSYNuoaQ&usqp=CAU);" routerLink="/cactus">
+        <div class="inner">
+          <span>View More</span> <br>
+          <span>Cactus & Succulents</span>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <div class="col-sm-5 col-md-2 mt-4" style="width: 16rem; padding: 15px;" *ngFor="let cactus of cactusdetails.slice(0,8)">
+    <div class="card">
+      <img [src]="cactus.cactus_image" class="prodimage" style="height:170px; padding: 10px;">
+      <div class="card-body">
+        <p style="font-size: 16px;color:rgb(16, 16, 24);">{{cactus.cactus_name}}</p>
+        <small><a href="#">Heartyculture Nursery</a></small>
+        <p style="color:rgb(235, 37, 37);">{{ cactus.cactus_price| currency:'Rs. '}}</p>
+      </div>
+      <!--*ngIf="showButton"-->
+      <div class="row">
+        <div class="col" style="padding-bottom: 10px;">
+          <button type="button" class="btn btn-outline btn-sm"
+            style="margin-left: 5px; margin-right: 35px; border-color: gold;" href="#" data-bs-toggle="modal"
+            data-bs-target="#exampleModal">Quick Shop</button>
+          <a type="button" class="btn btn-warning btn-sm" href="">Add to cart</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Fruits Trees & Herbal Plants-->
+<div class="header1" style="margin-top: 25px;">
+  <h4>Fruits Trees & Herbal Plants</h4>
+</div>
+<div class="row">
+<div class="col-sm-5 col-md-3 mt-4" style="width: 16rem; padding: 15px;">
+  <div class="card" style="height: 100%;">
+    <a class="collection" style="background-image: url(https://cdn.shopify.com/s/files/1/0487/7598/7354/files/mae-mu-vbAEHCrvXZ0-unsplash_306x467_crop_center.jpg?v=1642066080);" routerLink="/fruittrees">
+      <div class="inner">
+        <span>View More</span> <br>
+        <span>Fruit Trees</span>
+      </div>
+    </a>
+  </div>
+</div>
+
+<div class="col-sm-5 col-md-2 mt-4" style="width: 16rem; padding: 15px;" *ngFor="let fruit of fruittreesDetails.slice(0,9)">
+  <div class="card">
+    <img [src]="fruit.img" class="prodimage" style="height:170px; padding: 10px;">
+    <div class="card-body">
+      <p style="font-size: 16px;color:rgb(16, 16, 24);">{{fruit.pname}}</p>
+      <small><a href="#">Heartyculture Nursery</a></small>
+      <p style="color:rgb(235, 37, 37);">{{ fruit.price1| currency:'Rs. '}}</p>
+    </div>
+    <!--*ngIf="showButton"-->
+    <div class="row">
+      <div class="col" style="padding-bottom: 10px;">
+        <button type="button" class="btn btn-outline btn-sm"
+          style="margin-left: 5px; margin-right: 35px; border-color: gold;" href="#" data-bs-toggle="modal"
+          data-bs-target="#exampleModal">Quick Shop</button>
+        <a type="button" class="btn btn-warning btn-sm" href="">Add to cart</a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<!-- Cycas & Outdoor Plants-->
+<div class="header1" style="margin-top: 25px;">
+  <h4>Cycas & Outdoor Plants</h4>
+</div>
+<div class="row wrapper">
+<div class="col-sm-5 col-md-3 mt-4" style="width: 16rem; padding: 15px;">
+  <div class="card" style="height: 100%;">
+    <a class="collection" style="background-image: url(https://cdn.shopify.com/s/files/1/0487/7598/7354/files/pexels-sarah-dietz-4501244_341x521_crop_center.jpg?v=1615183612);" routerLink="/fruittrees">
+      <div class="inner">
+        <span>View More</span> <br>
+        <span>Outdoor Plants</span>
+      </div>
+    </a>
+  </div>
+</div>
+
+<div class="col-sm-5 col-md-2 mt-4" style="width: 16rem; padding: 15px;" *ngFor="let palm of palmplant.slice(0,9)">
+  <div class="card">
+    <img [src]="palm.img" class="prodimage" style="height:170px; padding: 10px;">
+    <div class="card-body">
+      <p style="font-size: 16px;color:rgb(16, 16, 24);">{{palm.pname}}</p>
+      <small><a href="#">Heartyculture Nursery</a></small>
+      <p style="color:rgb(235, 37, 37);">{{ palm.price| currency:'Rs. '}}</p>
+    </div>
+    <!--*ngIf="showButton"-->
+    <div class="row target">
+      <div class="col" style="padding-bottom: 10px;">
+        <button type="button" class="btn btn-outline btn-sm"
+          style="margin-left: 5px; margin-right: 35px; border-color: gold;" href="#" data-bs-toggle="modal"
+          data-bs-target="#exampleModal">Quick Shop</button>
+        <a type="button" class="btn btn-warning btn-sm" href="">Add to cart</a>
+      </div>
+      
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- https://cdn.shopify.com/s/files/1/0487/7598/7354/articles/annie-spratt-gI_z1P5zC-M-unsplash_1167x1000_crop_center.jpg?v=1617178865 -->
+
+<br>
+<iframe width="1259" height="600" src="https://www.youtube.com/embed/b-iqUPbn2_Y">
+</iframe>
+<br>
+
+=======
   <br>
   <iframe width="1259" height="600" src="https://www.youtube.com/embed/b-iqUPbn2_Y">
   </iframe>
   <br>
   
   
+>>>>>>> 76ad5496402a601305215a9a9f60777df2f418f5
