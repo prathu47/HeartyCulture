@@ -1,24 +1,24 @@
 <div>
   <div>
-    <a class="nav-link" style="font-weight: 500;color:rgb(246, 70, 70)" aria-current="page" href="#">Home</a></div>
-  <div >
-  <p style="margin-top:-30px;font-weight:200;margin-left:70px;">>Cactus & Succulents</p></div>
+    <a class="nav-link" style="font-weight: 500;color:rgb(246, 70, 70)" aria-current="page" href="#">Home</a>
+  </div>
+  <div>
+    <p style="margin-top:-30px;font-weight:200;margin-left:70px;">>Cactus & Succulents</p>
+  </div>
 </div>
 
 <br>
 <div class="header">
-    <h1>Cactus & Succulents</h1>
+  <h1>Cactus & Succulents</h1>
 </div>
 <br>
 
 
 
-                <div class="container">
-                  <div class="row">
-                    <div class="col col-3 col-sm-6 col-md-3 mt-4" *ngFor="let cactus of cactusdetails">
-                      <app-cactus-chils [product_cactus]="cactus"></app-cactus-chils>
-                    </div>
-                  </div>
-                </div>
-              
-        
+<div class="container">
+  <div class="row">
+    <div class="col col-3 col-sm-6 col-md-3 mt-4" *ngFor="let cactus of cactusdetails">
+      <app-cactus-chils [product_cactus]="cactus"></app-cactus-chils>
+    </div>
+  </div>
+</div>
