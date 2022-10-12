@@ -10,7 +10,6 @@ import * as palm from 'src/app/palms-cycas/palm.json';
   styleUrls: ['./carousel.component.css']
 })
 export class CarouselComponent implements OnInit {
-<<<<<<< HEAD
 
   cactusdetails:Cactus[]=[];
 
@@ -20,7 +19,6 @@ export class CarouselComponent implements OnInit {
 
   palmplant:any=(palm as any).default;
 
-=======
   //showButton:boolean=false;
   constructor() {
    
@@ -28,7 +26,6 @@ export class CarouselComponent implements OnInit {
    toggle(){
     //this.showButton=!this.showButton
    }
->>>>>>> 76ad5496402a601305215a9a9f60777df2f418f5
 
   ngOnInit(): void {
     const contObervable=this.cactusService.getcactusdetails();
