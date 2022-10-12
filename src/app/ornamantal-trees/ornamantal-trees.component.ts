@@ -9,13 +9,12 @@ export class OrnamantalTreesComponent implements OnInit {
 
   constructor() { }
 
-  @Input()product:any
+ 
 
   ngOnInit(): void {
   }
-  productDetails=false;
-  //Event to perform the toggle effect
   
-  productDetail:any=(prod as any).default;
+  
+  productDetails:any=(prod as any).default;
 
 }

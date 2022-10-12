@@ -4,3 +4,10 @@
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
+.col{
+    margin-left: -20px;
+    margin-right: 20px;
+} 
+.container{
+    margin-left: 60px;
+} 

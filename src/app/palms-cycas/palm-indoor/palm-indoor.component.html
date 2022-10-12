@@ -1,5 +1,5 @@
-<div  style="padding-left:10px;margin-right:40px;"  (mouseover)="showButton=true" (mouseout)="showButton=false" > 
-     <div class="card" style="width: 18rem;padding: 10px; margin-right:40px;justify-content: space-between;" >
+<div  (mouseover)="showButton=true" (mouseout)="showButton=false" > 
+     <div class="card" style="width: 17rem;padding: 10px; justify-content: space-between;" >
              <img [src]="product.img" class="prodimage" style="padding:10px ; height:250px;width:250;">
              <div class="card-body">
                      <p style="font-size: 16px;color:rgb(16, 16, 24);">{{product.pname}}</p>
@@ -21,5 +21,7 @@
            </div>
         
          </div>
+         
+
    
   
