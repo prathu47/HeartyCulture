@@ -23,9 +23,13 @@ import { MedicinalHerbsComponent } from './plants/medicinal-herbs/medicinal-herb
 import { PalmsCycasComponent } from './palms-cycas/palms-cycas.component';
 import { PalmIndoorComponent } from './palms-cycas/palm-indoor/palm-indoor.component';
 import { ComboPacksComponent } from './combo-packs/combo-packs.component';
-import { ContainergardeningComponent } from './containergardening/containergardening.component';
-import { FoundationplantComponent } from './foundationplant/foundationplant.component';
-import { PlantselectionComponent } from './plantselection/plantselection.component';
+
+
+import { FoundationplantsComponent } from './PlantTips/foundationplants/foundationplants.component';
+import { ContainergardeningComponent } from './PlantTips/containergardening/containergardening.component';
+import { PlantselectionComponent } from './PlantTips/plantselection/plantselection.component';
+import { SearchFilterPipe } from './shared/search-filter.pipe';
+
 
 
 
@@ -47,15 +51,13 @@ import { PlantselectionComponent } from './plantselection/plantselection.compone
     CactusSucculentsComponent,
     CactusChilsComponent,
     PalmsCycasComponent,
-    
-    
-   
+    PalmCycasOutdoorComponent,
     PalmIndoorComponent,
-
     ComboPacksComponent,
-      ContainergardeningComponent,
-      FoundationplantComponent,
-      PlantselectionComponent
+    PlantselectionComponent,
+    ContainergardeningComponent,
+    FoundationplantsComponent,
+    SearchFilterPipe
 
   ],
   imports: [

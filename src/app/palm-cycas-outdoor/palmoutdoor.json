@@ -1,0 +1,73 @@
+[
+    {
+        "pid":1,
+        "pname":"Bamboo Palm",
+        "pdescription":"Heartyculture Nursery",
+        "price":366,
+        "img":"/assets/images/bamboopalm.jpg"
+
+    },
+    {
+        "pid":2,
+        "pname":"Date Palm",
+        "pdescription":"Heartyculture Nursery",
+        "price":600,
+        "img":"/assets/images/bamboopalm.jpg"
+
+    },
+    {
+        "pid":3,
+        "pname":"Macrozamia Moorei",
+        "pdescription":"Heartyculture Nursery",
+        "price":2999,
+        "img":"/assets/images/macrzamia.jpg"
+
+    },
+    {
+        "pid":4,
+        "pname":"Grandish Palm",
+        "pdescription":"Heartyculture Nursery",
+        "price":1063,
+        "img":"/assets/images/Grandish_Palm.jpg"
+
+    },
+    {
+        "pid":5,
+        "pname":"Elata Palm",
+        "pdescription":"Heartyculture Nursery",
+        "price":999,
+        "img":"/assets/images/elatapalm.jpg"
+
+    },
+    {
+        "pid":6,
+        "pname":"Ivory Cane Palm",
+        "pdescription":"Heartyculture Nursery",
+        "price":899,
+        "img":"/assets/images/ivorypalm.jpg"
+
+    },
+    {
+        "pid":7,
+        "pname":"Ruffled Latan Palm",
+        "pdescription":"Heartyculture Nursery",
+        "price":679,
+        "img":"/assets/images/latanpalm.jpg"
+
+    },
+    {
+        "pid":8,
+        "pname":"Pritchardia Pacifica Plant",
+        "pdescription":"Heartyculture Nursery",
+        "price":2097,
+        "img":"/assets/images/pacificiapalm.jpg"
+
+    }
+    
+    
+    
+    
+
+    
+]
+
