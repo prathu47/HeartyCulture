@@ -23,10 +23,22 @@ import { MedicinalHerbsComponent } from './plants/medicinal-herbs/medicinal-herb
 import { PalmsCycasComponent } from './palms-cycas/palms-cycas.component';
 import { PalmIndoorComponent } from './palms-cycas/palm-indoor/palm-indoor.component';
 import { ComboPacksComponent } from './combo-packs/combo-packs.component';
+<<<<<<< HEAD
 import { CommunityComponent } from './community/community.component';
 import { Article1Component } from './community-articles/article1/article1.component';
 import { Article2Component } from './community-articles/article2/article2.component';
 import { Article3Component } from './community-articles/article3/article3.component';
+=======
+
+
+import { FoundationplantsComponent } from './PlantTips/foundationplants/foundationplants.component';
+import { ContainergardeningComponent } from './PlantTips/containergardening/containergardening.component';
+import { PlantselectionComponent } from './PlantTips/plantselection/plantselection.component';
+import { SearchFilterPipe } from './shared/search-filter.pipe';
+
+
+
+>>>>>>> c95c8db9436579b546e0bfdf66caf24bf3144cf4
 
 @NgModule({
   declarations: [
@@ -46,12 +58,28 @@ import { Article3Component } from './community-articles/article3/article3.compon
     CactusSucculentsComponent,
     CactusChilsComponent,
     PalmsCycasComponent,
+<<<<<<< HEAD
     PalmIndoorComponent,
     ComboPacksComponent,
     CommunityComponent,
     Article1Component,
     Article2Component,
     Article3Component
+=======
+    PalmCycasOutdoorComponent,
+    PalmIndoorComponent,
+    ComboPacksComponent,
+    PlantselectionComponent,
+    ContainergardeningComponent,
+    FoundationplantsComponent,
+    SearchFilterPipe,
+    ContainergardeningComponent,
+    FoundationplantsComponent,
+    PlantselectionComponent
+      
+     
+
+>>>>>>> c95c8db9436579b546e0bfdf66caf24bf3144cf4
   ],
   imports: [
     BrowserModule,

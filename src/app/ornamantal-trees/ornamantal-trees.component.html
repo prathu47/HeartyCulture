@@ -2,15 +2,15 @@
   <div>
     <a class="nav-link" style="font-weight: 500;color:rgb(246, 70, 70)" aria-current="page" href="#">Home</a></div>
   <div >
-  <p style="margin-top:-30px;font-weight:200;margin-left:70px;">>Ornamental Trees</p></div>
+  <p style="margin-top:-30px;font-weight:200;margin-left:70px;">>Fruit Trees</p></div>
 </div>
 <br>
 <div class="header">
-    <h1>Ornamental Trees</h1>
+    <h1>Fruit Trees</h1>
 </div>
 <br>
 
-<div  *ngFor="let product of productDetail" style="float:left;">
+<div  *ngFor="let product of productDetails" style="float:left;">
     <div class="container" style="margin-top: 20px;">
       <div class="row">
         <div class="col col-3 col-sm-6 col-md-3">
@@ -21,7 +21,12 @@
                     <p style="font-size: 14px; color: grey "class="desc"> {{product.pdescription}} </p>
                     <p style="color: grey;" ><del>{{ product.price | currency:'Rs. '}}</del></p>
                     <p style="color:rgb(235, 37, 37);" >{{ product.price1 | currency:'Rs. '}}</p>
-             
+                    <div class="effect">
+                      <button type="button" class="btn btn-outline-primary">Quick Shop</button>
+                      <button type="button" class="btn btn-outline-secondary">Add to cart</button>
+                    </div>
+                    
+                   
                
             </div>
           </div>
@@ -29,5 +34,4 @@
       </div>
     </div>
   </div>
-  
   

@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+
+import * as outplants from 'src/app/palm-cycas-outdoor/palmoutdoor.json'
 
 @Component({
   selector: 'app-palm-cycas-outdoor',
@@ -6,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./palm-cycas-outdoor.component.css']
 })
 export class PalmCycasOutdoorComponent implements OnInit {
+  searchKey:string="";
+  @Input() product:any
 
   constructor() { }
 
+productDetail:any=(outplants as any).default;
   ngOnInit(): void {
   }
 

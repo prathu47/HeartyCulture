@@ -3,3 +3,25 @@
     <h1>Combo Packs</h1>
 </div>
 <br>
+
+<div class="container">
+    <div class="row">
+      <div class="col col-3 col-sm-6 col-md-3 mt-4" *ngFor="let combo of combodetails">
+        <div class="card" style="width: 18rem;" style="padding:10px;">
+            <img [src]="combo.combo_image" class="prodimage" style="padding: 7px; height:250px;">
+            <div class="card-body">
+                    <p style="font-size: 16px;color:rgb(16, 16, 24); font-weight: 450;">{{combo.combo_name}}</p>
+                    <small><a href="#">Heartyculture Nursery</a></small>
+                    <p style="color:rgb(235, 37, 37);" >{{ combo.combo_price| currency:'Rs. '}}</p>
+            </div>
+            <!--*ngIf="showButton"-->
+            <div class="row">
+              <div class="col target">
+                <button type="button" class="btn btn-outline" style="margin-right: 19px; border-color: gold;" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Quick Shop</button>
+                <a type="button"  class="btn btn-warning" href="">Add to cart</a>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
