@@ -13,7 +13,10 @@ import { MedicineSeedsComponent } from './medicine-seeds/medicine-seeds.componen
 import { OrnamantalTreesComponent } from './ornamantal-trees/ornamantal-trees.component';
 import { MedicinalHerbsComponent } from './plants/medicinal-herbs/medicinal-herbs.component';
 import { ComboPacksComponent } from './combo-packs/combo-packs.component';
-
+import { CommunityComponent } from './community/community.component';
+import { Article1Component } from './community-articles/article1/article1.component';
+import { Article2Component } from './community-articles/article2/article2.component';
+import { Article3Component } from './community-articles/article3/article3.component';
 
 const routes: Routes = [
   {path:'',component:CarouselComponent},
@@ -27,7 +30,12 @@ const routes: Routes = [
   {path: 'medicineseeds', component:MedicineSeedsComponent},
   {path: 'ornamantaltree', component:OrnamantalTreesComponent},
   {path:'plants/medicinal-herbs',component:MedicinalHerbsComponent},
-  {path:'combo',component:ComboPacksComponent}
+  {path:'combo',component:ComboPacksComponent},
+  {path:'community',component:CommunityComponent},
+  {path: 'communityarticles/article1', component:Article1Component},
+  {path: 'communityarticles/article2', component:Article2Component},
+  {path: 'communityarticles/article3', component: Article3Component}
+  
 ];
 
 @NgModule({
