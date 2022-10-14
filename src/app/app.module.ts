@@ -26,13 +26,18 @@ import { ComboPacksComponent } from './combo-packs/combo-packs.component';
 import { OutdoorPlantsComponent } from './plants/outdoor-plants/outdoor-plants.component';
 import { IndoorPlantsComponent } from './plants/indoor-plants/indoor-plants.component';
 import { GrassesComponent } from './plants/grasses/grasses.component';
-import { ContainergardeningComponent } from './containergardening/containergardening.component';
-import { FoundationplantComponent } from './foundationplant/foundationplant.component';
-import { PlantselectionComponent } from './plantselection/plantselection.component';
 import { IndoorComponent } from './plants/indoor-plants/indoor/indoor.component';
 import { CheckoutComponent } from './checkout/checkout.component';
+import { CommunityComponent } from './community/community.component';
+import { Article1Component } from './community-articles/article1/article1.component';
+import { Article2Component } from './community-articles/article2/article2.component';
+import { Article3Component } from './community-articles/article3/article3.component';
 
 
+import { FoundationplantsComponent } from './PlantTips/foundationplants/foundationplants.component';
+import { ContainergardeningComponent } from './PlantTips/containergardening/containergardening.component';
+import { PlantselectionComponent } from './PlantTips/plantselection/plantselection.component';
+import { SearchFilterPipe } from './shared/search-filter.pipe';
 
 
 
@@ -44,7 +49,6 @@ import { CheckoutComponent } from './checkout/checkout.component';
     FruitTreesComponent,
     FertilizerComponent,
     ContactComponent,
-    
     CarouselComponent,
     FooterComponent,
     FlowerSeedsComponent,
@@ -54,22 +58,27 @@ import { CheckoutComponent } from './checkout/checkout.component';
     CactusSucculentsComponent,
     CactusChilsComponent,
     PalmsCycasComponent,
-    
-    
-   
     PalmIndoorComponent,
-
     ComboPacksComponent,
-      OutdoorPlantsComponent,
-      IndoorPlantsComponent,
-      GrassesComponent,
-      ContainergardeningComponent,
-      FoundationplantComponent,
-      PlantselectionComponent,
-      IndoorComponent,
-      CheckoutComponent,
-      
-     
+    OutdoorPlantsComponent,
+    IndoorPlantsComponent,
+    GrassesComponent,
+    IndoorComponent,
+    CheckoutComponent,
+    CommunityComponent,
+    Article1Component,
+    Article2Component,
+    Article3Component,
+    PalmCycasOutdoorComponent,
+    PalmIndoorComponent,
+    ComboPacksComponent,
+    PlantselectionComponent,
+    ContainergardeningComponent,
+    FoundationplantsComponent,
+    SearchFilterPipe,
+    ContainergardeningComponent,
+    FoundationplantsComponent,
+    PlantselectionComponent
   ],
   imports: [
     BrowserModule,
