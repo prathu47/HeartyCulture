@@ -14,17 +14,14 @@ import { MedicineSeedsComponent } from './medicine-seeds/medicine-seeds.componen
 import { OrnamantalTreesComponent } from './ornamantal-trees/ornamantal-trees.component';
 import { MedicinalHerbsComponent } from './plants/medicinal-herbs/medicinal-herbs.component';
 import { ComboPacksComponent } from './combo-packs/combo-packs.component';
-<<<<<<< HEAD
 import { CommunityComponent } from './community/community.component';
 import { Article1Component } from './community-articles/article1/article1.component';
 import { Article2Component } from './community-articles/article2/article2.component';
 import { Article3Component } from './community-articles/article3/article3.component';
-=======
 
 import { ContainergardeningComponent } from './PlantTips/containergardening/containergardening.component';
 import { FoundationplantsComponent } from './PlantTips/foundationplants/foundationplants.component';
 import { PlantselectionComponent } from './PlantTips/plantselection/plantselection.component';
->>>>>>> c95c8db9436579b546e0bfdf66caf24bf3144cf4
 
 const routes: Routes = [
   {path:'',component:CarouselComponent},
@@ -40,19 +37,14 @@ const routes: Routes = [
   {path: 'ornamantaltree', component:OrnamantalTreesComponent},
   {path:'plants/medicinal-herbs',component:MedicinalHerbsComponent},
   {path:'combo',component:ComboPacksComponent},
-<<<<<<< HEAD
   {path:'community',component:CommunityComponent},
   {path: 'communityarticles/article1', component:Article1Component},
   {path: 'communityarticles/article2', component:Article2Component},
-  {path: 'communityarticles/article3', component: Article3Component}
-  
-=======
-  
+  {path: 'communityarticles/article3', component: Article3Component},
   {path:'PlantTips/containergardening',component:ContainergardeningComponent},
   {path:'PlantTips/foundationplants',component:FoundationplantsComponent},
   {path:'PlantTips/plantselection',component:ContainergardeningComponent}
 
->>>>>>> c95c8db9436579b546e0bfdf66caf24bf3144cf4
 ];
 
 @NgModule({
