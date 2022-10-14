@@ -41,6 +41,7 @@ import { ContainergardeningComponent } from './PlantTips/containergardening/cont
 import { PlantselectionComponent } from './PlantTips/plantselection/plantselection.component';
 import { SearchFilterPipe } from './shared/search-filter.pipe';
 import { CartItemsComponent } from './cart-items/cart-items.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 
@@ -99,7 +100,8 @@ import { CartItemsComponent } from './cart-items/cart-items.component';
     FormsModule,
     ReactiveFormsModule,
 <<<<<<< HEAD
-    HttpClientModule
+    HttpClientModule,
+BrowserAnimationsModule
 =======
     NgbModule
 >>>>>>> cb1ab51c82d901db113dffc8281d650c73c24458

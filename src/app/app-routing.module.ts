@@ -43,10 +43,7 @@ const routes: Routes = [
   {path: 'ornamantaltree', component:OrnamantalTreesComponent},
   {path:'plants/medicinal-herbs',component:MedicinalHerbsComponent},
   {path:'combo',component:ComboPacksComponent},
-<<<<<<< HEAD
-=======
   {path:'containergardening',component:ContainergardeningComponent},
-
   {path:'plantselection',component:PlantselectionComponent},
   {path:'sandalwood',component:SandalwoodComponent},
   {path:'miracleleaf',component:MiracleleafComponent},
@@ -56,9 +53,6 @@ const routes: Routes = [
   {path: 'communityarticles/article1', component:Article1Component},
   {path: 'communityarticles/article2', component:Article2Component},
   {path: 'communityarticles/article3', component: Article3Component},
-  
-  
->>>>>>> cb1ab51c82d901db113dffc8281d650c73c24458
   {path:'PlantTips/containergardening',component:ContainergardeningComponent},
   {path:'PlantTips/foundationplants',component:FoundationplantsComponent},
   {path:'PlantTips/plantselection',component:ContainergardeningComponent},
