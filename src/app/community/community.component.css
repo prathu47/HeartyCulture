@@ -1,0 +1,25 @@
+.read{
+    text-align: center;
+    color: Red;
+    font-weight: 450;
+    cursor: pointer;
+  }
+  .read span:nth-child(2){
+    display: none;
+  }
+  .read:hover span:nth-child(1){
+    display: none;
+  }
+  .read:hover span:nth-child(2){
+    display:contents;
+  }
+  .card-deck{
+    display: flex;
+  }
+  .card{
+    margin-right: 20px;
+    box-shadow: 15px 5px 5px 5px white;
+    }
+    
+    
+  

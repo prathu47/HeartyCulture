@@ -31,6 +31,16 @@ import { MiracleleafComponent } from './miracleleaf/miracleleaf.component';
 import { DestinatedComponent } from './destinated/destinated.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { TranquilComponent } from './tranquil/tranquil.component';
+import { CommunityComponent } from './community/community.component';
+import { Article1Component } from './community-articles/article1/article1.component';
+import { Article2Component } from './community-articles/article2/article2.component';
+import { Article3Component } from './community-articles/article3/article3.component';
+
+
+import { FoundationplantsComponent } from './PlantTips/foundationplants/foundationplants.component';
+import { ContainergardeningComponent } from './PlantTips/containergardening/containergardening.component';
+import { PlantselectionComponent } from './PlantTips/plantselection/plantselection.component';
+import { SearchFilterPipe } from './shared/search-filter.pipe';
 
 
 
@@ -53,12 +63,22 @@ import { TranquilComponent } from './tranquil/tranquil.component';
     CactusSucculentsComponent,
     CactusChilsComponent,
     PalmsCycasComponent,
-    
-    
-   
     PalmIndoorComponent,
-
     ComboPacksComponent,
+    CommunityComponent,
+    Article1Component,
+    Article2Component,
+    Article3Component,
+    PalmCycasOutdoorComponent,
+    PalmIndoorComponent,
+    ComboPacksComponent,
+    PlantselectionComponent,
+    ContainergardeningComponent,
+    FoundationplantsComponent,
+    SearchFilterPipe,
+    ContainergardeningComponent,
+    FoundationplantsComponent,
+    PlantselectionComponent
       
       ContainergardeningComponent,
       FoundationplantComponent,
@@ -67,6 +87,7 @@ import { TranquilComponent } from './tranquil/tranquil.component';
       MiracleleafComponent,
       DestinatedComponent,
       TranquilComponent
+     
 
   ],
   imports: [
