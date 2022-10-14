@@ -16,8 +16,10 @@ import { ComboPacksComponent } from './combo-packs/combo-packs.component';
 import { ContainergardeningComponent } from './containergardening/containergardening.component';
 import { FoundationplantComponent } from './foundationplant/foundationplant.component';
 import { PlantselectionComponent } from './plantselection/plantselection.component';
-
-
+import { SandalwoodComponent } from './sandalwood/sandalwood.component';
+import { MiracleleafComponent } from './miracleleaf/miracleleaf.component';
+import { DestinatedComponent } from './destinated/destinated.component';
+import { TranquilComponent } from './tranquil/tranquil.component';
 const routes: Routes = [
   {path:'',component:CarouselComponent},
   {path:'ferti',component:FertilizerComponent},
@@ -33,7 +35,11 @@ const routes: Routes = [
   {path:'combo',component:ComboPacksComponent},
   {path:'containergardening',component:ContainergardeningComponent},
   {path:'foundationplant',component:FoundationplantComponent},
-  {path:'plantselection',component:PlantselectionComponent}
+  {path:'plantselection',component:PlantselectionComponent},
+  {path:'sandalwood',component:SandalwoodComponent},
+  {path:'miracleleaf',component:MiracleleafComponent},
+  {path:'destinated',component:DestinatedComponent},
+  {path:'tranquil',component:TranquilComponent}
 ];
 
 @NgModule({

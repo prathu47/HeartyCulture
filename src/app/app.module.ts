@@ -26,6 +26,12 @@ import { ComboPacksComponent } from './combo-packs/combo-packs.component';
 import { ContainergardeningComponent } from './containergardening/containergardening.component';
 import { FoundationplantComponent } from './foundationplant/foundationplant.component';
 import { PlantselectionComponent } from './plantselection/plantselection.component';
+import { SandalwoodComponent } from './sandalwood/sandalwood.component';
+import { MiracleleafComponent } from './miracleleaf/miracleleaf.component';
+import { DestinatedComponent } from './destinated/destinated.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { TranquilComponent } from './tranquil/tranquil.component';
+
 
 
 
@@ -56,14 +62,19 @@ import { PlantselectionComponent } from './plantselection/plantselection.compone
       
       ContainergardeningComponent,
       FoundationplantComponent,
-      PlantselectionComponent
+      PlantselectionComponent,
+      SandalwoodComponent,
+      MiracleleafComponent,
+      DestinatedComponent,
+      TranquilComponent
 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
