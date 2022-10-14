@@ -1,21 +1,9 @@
-
-<div>
-    <div>
-      <a class="nav-link" style="font-weight: 500;color:rgb(246, 70, 70)" aria-current="page" href="#">Home</a></div>
-    <div >
-    <p style="margin-top:-30px;font-weight:200;margin-left:70px;">>Outdoor Plants</p></div>
-  </div>
-  <br>
-  <div class="header">
-      <h1>Outdoor Plants</h1>
-  </div>
-  <br>
-    <div style="border:none;">
+<div style="border:none;">
       <div  (mouseover)="showButton=true" (mouseout)="showButton=false" > 
       <div class="row card-group">
           <!--1st column-->
           
-          <div class="col col-3" *ngFor="let product of pro">
+          <div class="col col-3" *ngFor="let product of productDetail">
               <div class="card " style="width: 320px;">
                   <!--Property Binding-->
                   <img [src]="product.img" class="prodimg">

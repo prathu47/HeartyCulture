@@ -29,6 +29,10 @@ import { GrassesComponent } from './plants/grasses/grasses.component';
 import { ContainergardeningComponent } from './containergardening/containergardening.component';
 import { FoundationplantComponent } from './foundationplant/foundationplant.component';
 import { PlantselectionComponent } from './plantselection/plantselection.component';
+import { IndoorComponent } from './plants/indoor-plants/indoor/indoor.component';
+import { CheckoutComponent } from './checkout/checkout.component';
+
+
 
 
 
@@ -61,7 +65,11 @@ import { PlantselectionComponent } from './plantselection/plantselection.compone
       GrassesComponent,
       ContainergardeningComponent,
       FoundationplantComponent,
-      PlantselectionComponent
+      PlantselectionComponent,
+      IndoorComponent,
+      CheckoutComponent,
+      
+     
   ],
   imports: [
     BrowserModule,

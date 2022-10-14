@@ -1,11 +1,6 @@
-h2{
-   
+ h5{
         font-family: Lato,sans-serif;
         font-style: normal;
-        font-weight: 400;
-        font-size: var(--font-size-heading-4);
-        margin-top: 0;
-        margin-bottom: 0;
-        color: #484848;
-    
+        color: 484848;   
+        padding-top: 50px;
 }
