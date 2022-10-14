@@ -25,6 +25,16 @@ import { PalmsCycasComponent } from './palms-cycas/palms-cycas.component';
 import { PalmIndoorComponent } from './palms-cycas/palm-indoor/palm-indoor.component';
 import { ComboPacksComponent } from './combo-packs/combo-packs.component';
 
+import { SandalwoodComponent } from './sandalwood/sandalwood.component';
+import { MiracleleafComponent } from './miracleleaf/miracleleaf.component';
+import { DestinatedComponent } from './destinated/destinated.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { TranquilComponent } from './tranquil/tranquil.component';
+import { CommunityComponent } from './community/community.component';
+import { Article1Component } from './community-articles/article1/article1.component';
+import { Article2Component } from './community-articles/article2/article2.component';
+import { Article3Component } from './community-articles/article3/article3.component';
+
 
 import { FoundationplantsComponent } from './PlantTips/foundationplants/foundationplants.component';
 import { ContainergardeningComponent } from './PlantTips/containergardening/containergardening.component';
@@ -53,6 +63,12 @@ import { CartItemsComponent } from './cart-items/cart-items.component';
     CactusSucculentsComponent,
     CactusChilsComponent,
     PalmsCycasComponent,
+    PalmIndoorComponent,
+    ComboPacksComponent,
+    CommunityComponent,
+    Article1Component,
+    Article2Component,
+    Article3Component,
     PalmCycasOutdoorComponent,
     PalmIndoorComponent,
     ComboPacksComponent,
@@ -63,8 +79,17 @@ import { CartItemsComponent } from './cart-items/cart-items.component';
     ContainergardeningComponent,
     FoundationplantsComponent,
     PlantselectionComponent,
+<<<<<<< HEAD
     CartItemsComponent
+=======
+>>>>>>> cb1ab51c82d901db113dffc8281d650c73c24458
       
+     
+     
+      SandalwoodComponent,
+      MiracleleafComponent,
+      DestinatedComponent,
+      TranquilComponent
      
 
   ],
@@ -73,7 +98,11 @@ import { CartItemsComponent } from './cart-items/cart-items.component';
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
+<<<<<<< HEAD
     HttpClientModule
+=======
+    NgbModule
+>>>>>>> cb1ab51c82d901db113dffc8281d650c73c24458
   ],
   providers: [],
   bootstrap: [AppComponent]
