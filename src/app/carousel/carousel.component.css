@@ -89,10 +89,10 @@ img{
     color: red;
 }
 
-.wrapper:hover .target{
+/*.wrapper:hover .target{
     opacity: 1;
     pointer-events: visible;
-}
+}*/
 
 .pxs{
     padding-bottom: 39.0671%;
@@ -138,6 +138,20 @@ img{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: normal;
     font-weight: 600;
+}
+.card-hover{
+    height: 330px;
+    transition: 0.5s;  
+}
+.target{
+    visibility: hidden;
+}
+.card-hover:hover{
+    height: 370px;
+}
+.card-hover:hover .target{
+    visibility: visible;
+    
 }
 /*PlantCare Tips*/
 .read{

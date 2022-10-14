@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
+import {HttpClientModule} from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { NavnextComponent } from './navnext/navnext.component';
@@ -29,6 +30,7 @@ import { FoundationplantsComponent } from './PlantTips/foundationplants/foundati
 import { ContainergardeningComponent } from './PlantTips/containergardening/containergardening.component';
 import { PlantselectionComponent } from './PlantTips/plantselection/plantselection.component';
 import { SearchFilterPipe } from './shared/search-filter.pipe';
+import { CartItemsComponent } from './cart-items/cart-items.component';
 
 
 
@@ -60,7 +62,8 @@ import { SearchFilterPipe } from './shared/search-filter.pipe';
     SearchFilterPipe,
     ContainergardeningComponent,
     FoundationplantsComponent,
-    PlantselectionComponent
+    PlantselectionComponent,
+    CartItemsComponent
       
      
 
@@ -69,7 +72,8 @@ import { SearchFilterPipe } from './shared/search-filter.pipe';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

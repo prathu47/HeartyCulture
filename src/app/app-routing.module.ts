@@ -18,6 +18,7 @@ import { ComboPacksComponent } from './combo-packs/combo-packs.component';
 import { ContainergardeningComponent } from './PlantTips/containergardening/containergardening.component';
 import { FoundationplantsComponent } from './PlantTips/foundationplants/foundationplants.component';
 import { PlantselectionComponent } from './PlantTips/plantselection/plantselection.component';
+import { CartItemsComponent } from './cart-items/cart-items.component';
 
 const routes: Routes = [
   {path:'',component:CarouselComponent},
@@ -33,10 +34,10 @@ const routes: Routes = [
   {path: 'ornamantaltree', component:OrnamantalTreesComponent},
   {path:'plants/medicinal-herbs',component:MedicinalHerbsComponent},
   {path:'combo',component:ComboPacksComponent},
-  
   {path:'PlantTips/containergardening',component:ContainergardeningComponent},
   {path:'PlantTips/foundationplants',component:FoundationplantsComponent},
-  {path:'PlantTips/plantselection',component:ContainergardeningComponent}
+  {path:'PlantTips/plantselection',component:ContainergardeningComponent},
+  {path:"cartitems",component:CartItemsComponent}
 
 ];
 
