@@ -14,9 +14,7 @@ import { MedicineSeedsComponent } from './medicine-seeds/medicine-seeds.componen
 import { OrnamantalTreesComponent } from './ornamantal-trees/ornamantal-trees.component';
 import { MedicinalHerbsComponent } from './plants/medicinal-herbs/medicinal-herbs.component';
 import { ComboPacksComponent } from './combo-packs/combo-packs.component';
-import { ContainergardeningComponent } from './containergardening/containergardening.component';
-import { FoundationplantComponent } from './foundationplant/foundationplant.component';
-import { PlantselectionComponent } from './plantselection/plantselection.component';
+
 import { SandalwoodComponent } from './sandalwood/sandalwood.component';
 import { MiracleleafComponent } from './miracleleaf/miracleleaf.component';
 import { DestinatedComponent } from './destinated/destinated.component';
@@ -45,16 +43,16 @@ const routes: Routes = [
   {path:'plants/medicinal-herbs',component:MedicinalHerbsComponent},
   {path:'combo',component:ComboPacksComponent},
   {path:'containergardening',component:ContainergardeningComponent},
-  {path:'foundationplant',component:FoundationplantComponent},
+
   {path:'plantselection',component:PlantselectionComponent},
   {path:'sandalwood',component:SandalwoodComponent},
   {path:'miracleleaf',component:MiracleleafComponent},
   {path:'destinated',component:DestinatedComponent},
-  {path:'tranquil',component:TranquilComponent}
+  {path:'tranquil',component:TranquilComponent},
   {path:'community',component:CommunityComponent},
   {path: 'communityarticles/article1', component:Article1Component},
   {path: 'communityarticles/article2', component:Article2Component},
-  {path: 'communityarticles/article3', component: Article3Component}
+  {path: 'communityarticles/article3', component: Article3Component},
   
   
   {path:'PlantTips/containergardening',component:ContainergardeningComponent},

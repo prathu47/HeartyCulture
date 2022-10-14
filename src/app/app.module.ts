@@ -23,9 +23,7 @@ import { MedicinalHerbsComponent } from './plants/medicinal-herbs/medicinal-herb
 import { PalmsCycasComponent } from './palms-cycas/palms-cycas.component';
 import { PalmIndoorComponent } from './palms-cycas/palm-indoor/palm-indoor.component';
 import { ComboPacksComponent } from './combo-packs/combo-packs.component';
-import { ContainergardeningComponent } from './containergardening/containergardening.component';
-import { FoundationplantComponent } from './foundationplant/foundationplant.component';
-import { PlantselectionComponent } from './plantselection/plantselection.component';
+
 import { SandalwoodComponent } from './sandalwood/sandalwood.component';
 import { MiracleleafComponent } from './miracleleaf/miracleleaf.component';
 import { DestinatedComponent } from './destinated/destinated.component';
@@ -78,11 +76,10 @@ import { SearchFilterPipe } from './shared/search-filter.pipe';
     SearchFilterPipe,
     ContainergardeningComponent,
     FoundationplantsComponent,
-    PlantselectionComponent
+    PlantselectionComponent,
       
-      ContainergardeningComponent,
-      FoundationplantComponent,
-      PlantselectionComponent,
+     
+     
       SandalwoodComponent,
       MiracleleafComponent,
       DestinatedComponent,
