@@ -11,11 +11,9 @@ import { FertilizerComponent } from './fertilizer/fertilizer.component';
 import { ContactComponent } from './contact/contact.component';
 import { CactusSucculentsComponent } from './cactus-succulents/cactus-succulents.component';
 import { CactusChilsComponent } from './cactus-succulents/cactus-chils/cactus-chils.component';
-
 import { PalmCycasOutdoorComponent } from './palm-cycas-outdoor/palm-cycas-outdoor.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { FooterComponent } from './footer/footer.component';
-
 import { FlowerSeedsComponent } from './flower-seeds/flower-seeds.component';
 import { MedicineSeedsComponent } from './medicine-seeds/medicine-seeds.component';
 import { OrnamantalTreesComponent } from './ornamantal-trees/ornamantal-trees.component';
@@ -28,6 +26,11 @@ import { IndoorPlantsComponent } from './plants/indoor-plants/indoor-plants.comp
 import { GrassesComponent } from './plants/grasses/grasses.component';
 import { IndoorComponent } from './plants/indoor-plants/indoor/indoor.component';
 import { CheckoutComponent } from './checkout/checkout.component';
+import { SandalwoodComponent } from './sandalwood/sandalwood.component';
+import { MiracleleafComponent } from './miracleleaf/miracleleaf.component';
+import { DestinatedComponent } from './destinated/destinated.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { TranquilComponent } from './tranquil/tranquil.component';
 import { CommunityComponent } from './community/community.component';
 import { Article1Component } from './community-articles/article1/article1.component';
 import { Article2Component } from './community-articles/article2/article2.component';
@@ -78,13 +81,18 @@ import { SearchFilterPipe } from './shared/search-filter.pipe';
     SearchFilterPipe,
     ContainergardeningComponent,
     FoundationplantsComponent,
-    PlantselectionComponent
+    PlantselectionComponent,
+    SandalwoodComponent,
+    MiracleleafComponent,
+    DestinatedComponent,
+    TranquilComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

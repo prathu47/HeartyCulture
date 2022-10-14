@@ -14,13 +14,13 @@ import { MedicineSeedsComponent } from './medicine-seeds/medicine-seeds.componen
 import { OrnamantalTreesComponent } from './ornamantal-trees/ornamantal-trees.component';
 import { MedicinalHerbsComponent } from './plants/medicinal-herbs/medicinal-herbs.component';
 import { ComboPacksComponent } from './combo-packs/combo-packs.component';
-
-
 import { IndoorPlantsComponent } from './plants/indoor-plants/indoor-plants.component';
 import { OutdoorPlantsComponent } from './plants/outdoor-plants/outdoor-plants.component';
 import { GrassesComponent } from './plants/grasses/grasses.component';
-
-
+import { SandalwoodComponent } from './sandalwood/sandalwood.component';
+import { MiracleleafComponent } from './miracleleaf/miracleleaf.component';
+import { DestinatedComponent } from './destinated/destinated.component';
+import { TranquilComponent } from './tranquil/tranquil.component';
 import { CommunityComponent } from './community/community.component';
 import { Article1Component } from './community-articles/article1/article1.component';
 import { Article2Component } from './community-articles/article2/article2.component';
@@ -45,11 +45,15 @@ const routes: Routes = [
   {path: 'ornamantaltree', component:OrnamantalTreesComponent},
   {path:'plants/medicinal-herbs',component:MedicinalHerbsComponent},
   {path:'combo',component:ComboPacksComponent},
-
   {path:'plants/indoorplants',component:IndoorPlantsComponent},
   {path:'plants/outdoorplants',component:OutdoorPlantsComponent},
   {path:'plants/grasses',component:GrassesComponent},
-
+  {path:'containergardening',component:ContainergardeningComponent},
+  {path:'plantselection',component:PlantselectionComponent},
+  {path:'sandalwood',component:SandalwoodComponent},
+  {path:'miracleleaf',component:MiracleleafComponent},
+  {path:'destinated',component:DestinatedComponent},
+  {path:'tranquil',component:TranquilComponent},
   {path:'community',component:CommunityComponent},
   {path: 'communityarticles/article1', component:Article1Component},
   {path: 'communityarticles/article2', component:Article2Component},
