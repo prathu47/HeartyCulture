@@ -40,7 +40,7 @@ const routes: Routes = [
   {path:'community',component:CommunityComponent},
   {path: 'communityarticles/article1', component:Article1Component},
   {path: 'communityarticles/article2', component:Article2Component},
-  {path: 'communityarticles/article3', component: Article3Component}
+  {path: 'communityarticles/article3', component: Article3Component},
   
   
   {path:'PlantTips/containergardening',component:ContainergardeningComponent},

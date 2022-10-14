@@ -33,6 +33,7 @@ import { FoundationplantsComponent } from './PlantTips/foundationplants/foundati
 import { ContainergardeningComponent } from './PlantTips/containergardening/containergardening.component';
 import { PlantselectionComponent } from './PlantTips/plantselection/plantselection.component';
 import { SearchFilterPipe } from './shared/search-filter.pipe';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 
@@ -67,11 +68,9 @@ import { SearchFilterPipe } from './shared/search-filter.pipe';
     PlantselectionComponent,
     ContainergardeningComponent,
     FoundationplantsComponent,
-    SearchFilterPipe,
-    ContainergardeningComponent,
-    FoundationplantsComponent,
-    PlantselectionComponent
-      
+    SearchFilterPipe
+   
+   
      
 
   ],
@@ -79,7 +78,8 @@ import { SearchFilterPipe } from './shared/search-filter.pipe';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
