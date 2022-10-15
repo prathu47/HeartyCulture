@@ -80,10 +80,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ContainergardeningComponent,
     FoundationplantsComponent,
     PlantselectionComponent,
-<<<<<<< HEAD
-    CartItemsComponent
-=======
->>>>>>> cb1ab51c82d901db113dffc8281d650c73c24458
+    CartItemsComponent,
       
      
      
@@ -99,12 +96,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
-<<<<<<< HEAD
     HttpClientModule,
-BrowserAnimationsModule
-=======
+BrowserAnimationsModule,
     NgbModule
->>>>>>> cb1ab51c82d901db113dffc8281d650c73c24458
   ],
   providers: [],
   bootstrap: [AppComponent]
