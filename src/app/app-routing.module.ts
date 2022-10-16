@@ -29,6 +29,7 @@ import { Article3Component } from './community-articles/article3/article3.compon
 import { ContainergardeningComponent } from './PlantTips/containergardening/containergardening.component';
 import { FoundationplantsComponent } from './PlantTips/foundationplants/foundationplants.component';
 import { PlantselectionComponent } from './PlantTips/plantselection/plantselection.component';
+import { CartItemsComponent } from './cart-items/cart-items.component';
 
 
 const routes: Routes = [
@@ -58,11 +59,10 @@ const routes: Routes = [
   {path: 'communityarticles/article1', component:Article1Component},
   {path: 'communityarticles/article2', component:Article2Component},
   {path: 'communityarticles/article3', component: Article3Component},
-  
-  
   {path:'PlantTips/containergardening',component:ContainergardeningComponent},
   {path:'PlantTips/foundationplants',component:FoundationplantsComponent},
-  {path:'PlantTips/plantselection',component:ContainergardeningComponent}
+  {path:'PlantTips/plantselection',component:ContainergardeningComponent},
+  {path:"cartitems",component:CartItemsComponent}
 
 
 ];

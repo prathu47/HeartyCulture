@@ -6,19 +6,17 @@
 .card-body a:hover{
     color: red;
 }
-.card{
+.card-hover{
     height: 390px;
-    transition: 0.5s;
-    
+    transition: 0.5s;  
 }
 .target{
     visibility: hidden;
-  
 }
-.card:hover{
+.card-hover:hover{
     height: 450px;
 }
-.card:hover .target{
+.card-hover:hover .target{
     visibility: visible;
     
 }
