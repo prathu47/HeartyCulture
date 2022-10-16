@@ -7,16 +7,16 @@ import { OutdoorService } from 'src/app/Plants-services/outdoor.service';
   styleUrls: ['./outdoor-plants.component.css']
 })
 export class OutdoorPlantsComponent implements OnInit {
-  pro:Allproduct[]=[];
-  showButton: boolean = true;
-  constructor(private allproduct:OutdoorService) { }
- 
+  pro: Allproduct[] = [];
+  constructor(private allproduct: OutdoorService) {
+  }
+
   ngOnInit(): void {
     const allproObservable = this.allproduct.getallproDetails();
-    allproObservable.subscribe((allproductData:Allproduct[])=>{
-      this.pro=allproductData;
+    allproObservable.subscribe((allproductData: Allproduct[]) => {
+      this.pro = allproductData;
     });
   }
- 
+
 
 }

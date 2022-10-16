@@ -31,3 +31,15 @@ img{
     color: #484848;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
+
+.actionButtonView {
+    display: none;
+}
+
+.card:hover {
+    height: 500px;
+}
+
+.card:hover .actionButtonView {
+    display: block;
+}
