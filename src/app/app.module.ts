@@ -94,6 +94,7 @@ import { GalleryDirective } from './gallery.directive';
     DestinatedComponent,
     TranquilComponent,
     TranquilComponent,
+
      
      
       SandalwoodComponent,
