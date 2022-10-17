@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { GalleryDirective } from '../gallery.directive';
 @Component({
   selector: 'app-sandalwood',
   templateUrl: './sandalwood.component.html',
