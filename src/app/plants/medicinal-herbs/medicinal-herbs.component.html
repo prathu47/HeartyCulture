@@ -15,7 +15,7 @@
   <div class="row card-group">
     <!--1st column-->
     <div class="col col-3" *ngFor="let product of productDetail">
-      <div class="card shadow" style="width: 250px;">
+      <div class="card card-hover shadow" style="width: 260px;">
         <!--Property Binding-->
         <img [src]="product.img" class="prodimg" style="padding-right: 27px; height: 200px; width: 235px;">
         <div class="card-body">
@@ -23,6 +23,13 @@
           <p style="font-size: 14px; color: grey " class="desc"> {{product.pdescription}} </p>
           <p style="color:rgb(235, 37, 37);">{{ product.price | currency:'Rs. '}}</p>
 
+        </div>
+
+        <div class="row" style="margin-bottom: 10px; margin-left: 5px;">
+          <div class="col target">
+            <button type="button" class="btn btn-outline" style="margin-right: 19px; border-color: gold;" data-bs-toggle="modal" data-bs-target="#exampleModal">Quick Shop</button>
+            <button type="button"  class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#centralModalSm">Add to cart</button>
+          </div>
         </div>
       </div>
 
