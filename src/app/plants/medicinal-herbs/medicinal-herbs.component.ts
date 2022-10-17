@@ -14,7 +14,7 @@ export class MedicinalHerbsComponent implements OnInit {
   }
   productDetails=false;
  
-  //Event to perform the toggle effect
+  
   
   productDetail:any=(prod as any).default;
 

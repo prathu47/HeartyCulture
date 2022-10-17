@@ -9,7 +9,7 @@ img{
 .prodimg{
     height:250px;
     width:280px;
-    margin-left:15px;
+    margin-left:20px;
     margin-right: 20px;
     margin-top:10px;
     margin-bottom:10px;
@@ -27,22 +27,7 @@ img{
     margin-bottom: 20px;
 }
 .header{
-    margin-left: 30px;
+    margin-left: 20px;
     color: #484848;
     font-family:Georgia, 'Times New Roman', Times, serif;
-}
-
-.card-hover{
-    height: 360px;
-    transition: 0.5s;  
-}
-.target{
-    visibility: hidden;
-}
-.card-hover:hover{
-    height: 450px;
-}
-.card-hover:hover .target{
-    visibility: visible;
-    
 }

@@ -1,11 +1,3 @@
 {
-  "cart": [
-    {
-      "cart_id": 3,
-      "cart_image": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/001_f5eba41a-5ce0-49b3-900b-2d33bd4894a5_902x902.png?v=1631531130",
-      "cart_name": "Frozen Snake Plant | Sansevieria Trifasciata",
-      "cart_price": 399,
-      "id": 2
-    }
-  ]
+  "cart": []
 }

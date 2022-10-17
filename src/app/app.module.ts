@@ -22,6 +22,14 @@ import { MedicinalHerbsComponent } from './plants/medicinal-herbs/medicinal-herb
 import { PalmsCycasComponent } from './palms-cycas/palms-cycas.component';
 import { PalmIndoorComponent } from './palms-cycas/palm-indoor/palm-indoor.component';
 import { ComboPacksComponent } from './combo-packs/combo-packs.component';
+<<<<<<< HEAD
+=======
+import { OutdoorPlantsComponent } from './plants/outdoor-plants/outdoor-plants.component';
+import { IndoorPlantsComponent } from './plants/indoor-plants/indoor-plants.component';
+import { GrassesComponent } from './plants/grasses/grasses.component';
+import { IndoorComponent } from './plants/indoor-plants/indoor/indoor.component';
+import { CheckoutComponent } from './checkout/checkout.component';
+>>>>>>> 36a218b942a3b4d2ca5fc42c16177b7808123063
 import { SandalwoodComponent } from './sandalwood/sandalwood.component';
 import { MiracleleafComponent } from './miracleleaf/miracleleaf.component';
 import { DestinatedComponent } from './destinated/destinated.component';
@@ -37,7 +45,7 @@ import { PlantselectionComponent } from './PlantTips/plantselection/plantselecti
 import { SearchFilterPipe } from './shared/search-filter.pipe';
 import { CartItemsComponent } from './cart-items/cart-items.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
+import { GalleryDirective } from './gallery.directive';
 
 
 
@@ -60,6 +68,11 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     PalmsCycasComponent,
     PalmIndoorComponent,
     ComboPacksComponent,
+    OutdoorPlantsComponent,
+    IndoorPlantsComponent,
+    GrassesComponent,
+    IndoorComponent,
+    CheckoutComponent,
     CommunityComponent,
     Article1Component,
     Article2Component,
@@ -74,11 +87,31 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ContainergardeningComponent,
     FoundationplantsComponent,
     PlantselectionComponent,
+<<<<<<< HEAD
+=======
+    SandalwoodComponent,
+    MiracleleafComponent,
+    DestinatedComponent,
+    TranquilComponent,
+>>>>>>> 36a218b942a3b4d2ca5fc42c16177b7808123063
     CartItemsComponent,
     SandalwoodComponent,
     MiracleleafComponent,
     DestinatedComponent,
+<<<<<<< HEAD
     TranquilComponent
+=======
+    TranquilComponent,
+     
+     
+      SandalwoodComponent,
+      MiracleleafComponent,
+      DestinatedComponent,
+      TranquilComponent,
+      GalleryDirective
+     
+
+>>>>>>> 36a218b942a3b4d2ca5fc42c16177b7808123063
   ],
   imports: [
     BrowserModule,
@@ -86,9 +119,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
+<<<<<<< HEAD
     BrowserAnimationsModule,
     NgbModule
 
+=======
+BrowserAnimationsModule,
+    NgbModule
+>>>>>>> 36a218b942a3b4d2ca5fc42c16177b7808123063
   ],
   providers: [],
   bootstrap: [AppComponent]

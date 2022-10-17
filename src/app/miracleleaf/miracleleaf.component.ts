@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import * as plant from "./miracle.json";
+import { GalleryDirective } from '../gallery.directive';
 @Component({
   selector: 'app-miracleleaf',
   templateUrl: './miracleleaf.component.html',
