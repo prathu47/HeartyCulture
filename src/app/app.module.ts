@@ -44,6 +44,7 @@ import { PlantselectionComponent } from './PlantTips/plantselection/plantselecti
 import { SearchFilterPipe } from './shared/search-filter.pipe';
 import { CartItemsComponent } from './cart-items/cart-items.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { PaymentComponent } from './payment/payment.component';
 
 
 
@@ -93,7 +94,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     SandalwoodComponent,
     MiracleleafComponent,
     DestinatedComponent,
-    TranquilComponent
+    TranquilComponent,
+    PaymentComponent
      
   ],
   imports: [

@@ -31,6 +31,7 @@ import { FoundationplantsComponent } from './PlantTips/foundationplants/foundati
 import { PlantselectionComponent } from './PlantTips/plantselection/plantselection.component';
 import { CartItemsComponent } from './cart-items/cart-items.component';
 import { CheckoutComponent } from './checkout/checkout.component';
+import { PaymentComponent } from './payment/payment.component';
 
 
 const routes: Routes = [
@@ -64,7 +65,8 @@ const routes: Routes = [
   {path:'PlantTips/foundationplants',component:FoundationplantsComponent},
   {path:'PlantTips/plantselection',component:ContainergardeningComponent},
   {path:"cartitems",component:CartItemsComponent},
-  {path:"checkout", component:CheckoutComponent}
+  {path:"checkout", component:CheckoutComponent},
+  {path:"payment",component:PaymentComponent}
 
 ];
 
