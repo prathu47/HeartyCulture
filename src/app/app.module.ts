@@ -12,11 +12,9 @@ import { FertilizerComponent } from './fertilizer/fertilizer.component';
 import { ContactComponent } from './contact/contact.component';
 import { CactusSucculentsComponent } from './cactus-succulents/cactus-succulents.component';
 import { CactusChilsComponent } from './cactus-succulents/cactus-chils/cactus-chils.component';
-
 import { PalmCycasOutdoorComponent } from './palm-cycas-outdoor/palm-cycas-outdoor.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { FooterComponent } from './footer/footer.component';
-
 import { FlowerSeedsComponent } from './flower-seeds/flower-seeds.component';
 import { MedicineSeedsComponent } from './medicine-seeds/medicine-seeds.component';
 import { OrnamantalTreesComponent } from './ornamantal-trees/ornamantal-trees.component';
@@ -24,7 +22,11 @@ import { MedicinalHerbsComponent } from './plants/medicinal-herbs/medicinal-herb
 import { PalmsCycasComponent } from './palms-cycas/palms-cycas.component';
 import { PalmIndoorComponent } from './palms-cycas/palm-indoor/palm-indoor.component';
 import { ComboPacksComponent } from './combo-packs/combo-packs.component';
-
+import { OutdoorPlantsComponent } from './plants/outdoor-plants/outdoor-plants.component';
+import { IndoorPlantsComponent } from './plants/indoor-plants/indoor-plants.component';
+import { GrassesComponent } from './plants/grasses/grasses.component';
+import { IndoorComponent } from './plants/indoor-plants/indoor/indoor.component';
+import { CheckoutComponent } from './checkout/checkout.component';
 import { SandalwoodComponent } from './sandalwood/sandalwood.component';
 import { MiracleleafComponent } from './miracleleaf/miracleleaf.component';
 import { DestinatedComponent } from './destinated/destinated.component';
@@ -46,7 +48,6 @@ import { GalleryDirective } from './gallery.directive';
 
 
 
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -55,7 +56,6 @@ import { GalleryDirective } from './gallery.directive';
     FruitTreesComponent,
     FertilizerComponent,
     ContactComponent,
-    
     CarouselComponent,
     FooterComponent,
     FlowerSeedsComponent,
@@ -67,6 +67,11 @@ import { GalleryDirective } from './gallery.directive';
     PalmsCycasComponent,
     PalmIndoorComponent,
     ComboPacksComponent,
+    OutdoorPlantsComponent,
+    IndoorPlantsComponent,
+    GrassesComponent,
+    IndoorComponent,
+    CheckoutComponent,
     CommunityComponent,
     Article1Component,
     Article2Component,
@@ -81,8 +86,15 @@ import { GalleryDirective } from './gallery.directive';
     ContainergardeningComponent,
     FoundationplantsComponent,
     PlantselectionComponent,
+    SandalwoodComponent,
+    MiracleleafComponent,
+    DestinatedComponent,
+    TranquilComponent,
     CartItemsComponent,
-      
+    SandalwoodComponent,
+    MiracleleafComponent,
+    DestinatedComponent,
+    TranquilComponent,
      
      
       SandalwoodComponent,
