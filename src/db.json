@@ -1,0 +1,90 @@
+{
+  "cart": [
+    {
+      "cart_id": 2,
+      "cart_image": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/002_10_902x902.jpg?v=1633236420",
+      "cart_name": "Sanseveria trifasciata 'Stars and Stripes'",
+      "cart_price": 450,
+      "id": 1
+    }
+  ],
+  "users": [
+    {
+      "firstname": "Ramya",
+      "lastname": "shree",
+      "useremail": "ramyashree1301@gmail.com",
+      "password": "Ramya@123",
+      "id": 3
+    },
+    {
+      "firstname": "vvb",
+      "lastname": "vvc",
+      "useremail": "tt@gmail.com",
+      "password": "tt123",
+      "id": 4
+    },
+    {
+      "firstname": "vvb",
+      "lastname": "vvc",
+      "useremail": "shree@gmail.com",
+      "password": "123456",
+      "id": 5
+    },
+    {
+      "firstname": "Pooja",
+      "lastname": "G",
+      "useremail": "tt123@gmail.com",
+      "password": "123456",
+      "id": 6
+    },
+    {
+      "firstname": "pallavi",
+      "lastname": "katari",
+      "useremail": "pallavikatari@gmail.com",
+      "password": "pallavi",
+      "id": 7
+    },
+    {
+      "firstname": "san",
+      "lastname": "h",
+      "useremail": "shree@gmail.com",
+      "password": "",
+      "id": 8
+    },
+    {
+      "firstname": "fff",
+      "lastname": "g",
+      "useremail": "tt@gmail.com",
+      "password": "",
+      "id": 9
+    },
+    {
+      "firstname": "Ramya",
+      "lastname": "shree",
+      "useremail": "ramyashree1301@gmail.com",
+      "password": "",
+      "id": 10
+    },
+    {
+      "firstname": "Ramya",
+      "lastname": "shree",
+      "useremail": "ramyashree1301@gmail.com",
+      "password": "",
+      "id": 11
+    },
+    {
+      "firstname": "Ramya",
+      "lastname": "shree",
+      "useremail": "ramyashree1301@gmail.com",
+      "password": "",
+      "id": 12
+    },
+    {
+      "firstname": "Ramya",
+      "lastname": "shree",
+      "useremail": "ramyashree1301@gmail.com",
+      "password": "",
+      "id": 13
+    }
+  ]
+}

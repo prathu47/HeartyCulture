@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
+import {HttpClientModule} from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { NavnextComponent } from './navnext/navnext.component';
@@ -23,6 +24,11 @@ import { MedicinalHerbsComponent } from './plants/medicinal-herbs/medicinal-herb
 import { PalmsCycasComponent } from './palms-cycas/palms-cycas.component';
 import { PalmIndoorComponent } from './palms-cycas/palm-indoor/palm-indoor.component';
 import { ComboPacksComponent } from './combo-packs/combo-packs.component';
+
+import { SandalwoodComponent } from './sandalwood/sandalwood.component';
+import { MiracleleafComponent } from './miracleleaf/miracleleaf.component';
+import { DestinatedComponent } from './destinated/destinated.component';
+import { TranquilComponent } from './tranquil/tranquil.component';
 import { CommunityComponent } from './community/community.component';
 import { Article1Component } from './community-articles/article1/article1.component';
 import { Article2Component } from './community-articles/article2/article2.component';
@@ -34,6 +40,10 @@ import { ContainergardeningComponent } from './PlantTips/containergardening/cont
 import { PlantselectionComponent } from './PlantTips/plantselection/plantselection.component';
 import { SearchFilterPipe } from './shared/search-filter.pipe';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { CartItemsComponent } from './cart-items/cart-items.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 
 
 
@@ -68,9 +78,16 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     PlantselectionComponent,
     ContainergardeningComponent,
     FoundationplantsComponent,
-    SearchFilterPipe
-   
-   
+    SearchFilterPipe,
+    CartItemsComponent,
+     
+     
+      SandalwoodComponent,
+      MiracleleafComponent,
+      DestinatedComponent,
+      TranquilComponent,
+      LoginComponent,
+      RegisterComponent
      
 
   ],
@@ -79,7 +96,13 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
+
+    NgbModule,
+
+    HttpClientModule,
+BrowserAnimationsModule,
     NgbModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

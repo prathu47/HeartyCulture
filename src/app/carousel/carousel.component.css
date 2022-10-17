@@ -1,6 +1,6 @@
-img{
-    height:500px;
-  }
+
+
+
 .banner-container{
     display: flex;
     align-items: center;
@@ -89,10 +89,10 @@ img{
     color: red;
 }
 
-.wrapper:hover .target{
+/*.wrapper:hover .target{
     opacity: 1;
     pointer-events: visible;
-}
+}*/
 
 .pxs{
     padding-bottom: 39.0671%;
@@ -139,6 +139,20 @@ img{
     font-style: normal;
     font-weight: 600;
 }
+.card-hover{
+    height: 330px;
+    transition: 0.5s;  
+}
+.target{
+    visibility: hidden;
+}
+.card-hover:hover{
+    height: 370px;
+}
+.card-hover:hover .target{
+    visibility: visible;
+    
+}
 /*PlantCare Tips*/
 .read{
   text-align: center;
@@ -163,3 +177,5 @@ img{
 margin-right: 20px;
 box-shadow: 15px 5px 5px 5px white;
 }
+
+

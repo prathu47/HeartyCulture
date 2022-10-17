@@ -1,5 +1,5 @@
 <!--  -->
-<div class="card" style="width: 18rem;" style="padding:10px;" (mouseover)="showButton=true" (mouseout)="showButton=false">
+<div class="card card-hover" style="width: 18rem;" style="padding:10px;" (mouseover)="showButton=true" (mouseout)="showButton=false">
     <img [src]="product_cactus.cactus_image" class="prodimage" style="padding: 7px; height:250px;">
     <div class="card-body">
             <p style="font-size: 16px;color:rgb(16, 16, 24);">{{product_cactus.cactus_name}}</p>
@@ -10,7 +10,7 @@
     <div class="row">
       <div class="col target">
         <button type="button" class="btn btn-outline" style="margin-right: 19px; border-color: gold;" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Quick Shop</button>
-        <a type="button"  class="btn btn-warning" href="">Add to cart</a>
+        <button type="button"  class="btn btn-warning" (click)="addToCart(product_cactus)" data-bs-toggle="modal" data-bs-target="#centralModalSm">Add to cart</button>
       </div>
     </div>
   </div>
@@ -46,3 +46,25 @@
       </div>
     </div>
   </div>
+
+
+  <div class="modal fade" id="centralModalSm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content" *ngFor="let pop of cartsi">
+      <div class="modal-header">
+        <h4 class="modal-title w-100" id="myModalLabel">Modal title</h4>
+        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img [src]="pop.cart_image" class="prodimage" style="padding: 7px; height:250px;">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary btn-sm">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>

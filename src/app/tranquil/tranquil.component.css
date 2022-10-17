@@ -1,0 +1,20 @@
+img{
+    height: 80px;
+    margin: 0 0 0.5rem;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+}
+.links
+{
+    margin-top: 20px;
+    
+    display: block;
+    margin-right: 10px;
+    
+}
+.icons{
+    margin-left: -5px;
+    
+
+    justify-content: space-between;
+}
