@@ -14,8 +14,14 @@ import { MedicineSeedsComponent } from './medicine-seeds/medicine-seeds.componen
 import { OrnamantalTreesComponent } from './ornamantal-trees/ornamantal-trees.component';
 import { MedicinalHerbsComponent } from './plants/medicinal-herbs/medicinal-herbs.component';
 import { ComboPacksComponent } from './combo-packs/combo-packs.component';
+<<<<<<< HEAD
 import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
+=======
+import { IndoorPlantsComponent } from './plants/indoor-plants/indoor-plants.component';
+import { OutdoorPlantsComponent } from './plants/outdoor-plants/outdoor-plants.component';
+import { GrassesComponent } from './plants/grasses/grasses.component';
+>>>>>>> a3cd1687de50f60f0866e6b1744cd2b6ec6e9432
 import { SandalwoodComponent } from './sandalwood/sandalwood.component';
 import { MiracleleafComponent } from './miracleleaf/miracleleaf.component';
 import { DestinatedComponent } from './destinated/destinated.component';
@@ -29,6 +35,8 @@ import { ContainergardeningComponent } from './PlantTips/containergardening/cont
 import { FoundationplantsComponent } from './PlantTips/foundationplants/foundationplants.component';
 import { PlantselectionComponent } from './PlantTips/plantselection/plantselection.component';
 import { CartItemsComponent } from './cart-items/cart-items.component';
+import { CheckoutComponent } from './checkout/checkout.component';
+
 
 const routes: Routes = [
   {path:'',component:CarouselComponent},
@@ -44,6 +52,9 @@ const routes: Routes = [
   {path: 'ornamantaltree', component:OrnamantalTreesComponent},
   {path:'plants/medicinal-herbs',component:MedicinalHerbsComponent},
   {path:'combo',component:ComboPacksComponent},
+  {path:'plants/indoorplants',component:IndoorPlantsComponent},
+  {path:'plants/outdoorplants',component:OutdoorPlantsComponent},
+  {path:'plants/grasses',component:GrassesComponent},
   {path:'containergardening',component:ContainergardeningComponent},
   {path:'plantselection',component:PlantselectionComponent},
   {path:'sandalwood',component:SandalwoodComponent},
@@ -60,7 +71,8 @@ const routes: Routes = [
   {path:'PlantTips/containergardening',component:ContainergardeningComponent},
   {path:'PlantTips/foundationplants',component:FoundationplantsComponent},
   {path:'PlantTips/plantselection',component:ContainergardeningComponent},
-  {path:"cartitems",component:CartItemsComponent}
+  {path:"cartitems",component:CartItemsComponent},
+  {path:"checkout", component:CheckoutComponent}
 
 ];
 

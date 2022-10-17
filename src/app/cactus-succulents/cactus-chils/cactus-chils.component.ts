@@ -4,6 +4,7 @@ import { Cartitems } from 'src/app/cartitems';
 import { Router } from '@angular/router';
 import Swal from 'sweetalert2';
 
+
 @Component({
   selector: 'app-cactus-chils',
   templateUrl: './cactus-chils.component.html',
@@ -64,7 +65,6 @@ cartsi: Cartitems[] = [];
     )
   }
 @Input()product_cactus:any
-
 
 
 }

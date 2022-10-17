@@ -9,7 +9,7 @@
     <!--*ngIf="showButton"-->
     <div class="row">
       <div class="col target">
-        <button type="button" class="btn btn-outline" style="margin-right: 19px; border-color: gold;" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Quick Shop</button>
+        <button type="button" class="btn btn-outline" style="margin-right: 19px; border-color: gold;" data-bs-toggle="modal" data-bs-target="#exampleModal">Quick Shop</button>
         <button type="button"  class="btn btn-warning" (click)="addToCart(product_cactus)" data-bs-toggle="modal" data-bs-target="#centralModalSm">Add to cart</button>
       </div>
     </div>
@@ -32,7 +32,7 @@
                             <img [src]="product_cactus.cactus_image" alt="image" style="width: 400px; height: 350px;" formControlName="image">  
                         </div>
                         <div class="col-sm-6" style="text-align: left; padding-left: 50px;">
-                            <h2 formControlName="name">{{product_cactus.cactus_name}}</h2> 
+                            <h2 formControlName="name"></h2> 
                         </div>
                     </div>
                   </form>

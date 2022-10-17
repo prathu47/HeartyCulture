@@ -9,13 +9,12 @@
     },
     {
         "pid":2,
-        "pname":"Cricket ball chikku | Manilkara zapota",
+        "pname":"Guava | Psidium guajava",
         "pdescription":"Heartyculture Nursery",
-        "price":449.00,
-        "price1":349.00,
-        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/004_1_ccde7321-528a-4aa3-9959-f1b56837676f_395x395.png?v=1633841971"
-       
-    },
+        "price1":399.00,
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/513A7246_1_df8e9992-3d36-44bc-b3d7-6e28bf64ca16_381x381.png?v=1635336295"
+        },
+    
     {
         "pid":3,
         "pname":"All Time Mango | Mangifera indica",
@@ -63,11 +62,14 @@
     },
     {
         "pid":9,
-        "pname":"Guava | Psidium guajava",
+        "pname":"Cricket ball chikku | Manilkara ",
         "pdescription":"Heartyculture Nursery",
-        "price1":399.00,
-        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/513A7246_1_df8e9992-3d36-44bc-b3d7-6e28bf64ca16_381x381.png?v=1635336295"
-        },
+        "price":449.00,
+        "price1":349.00,
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/004_1_ccde7321-528a-4aa3-9959-f1b56837676f_395x395.png?v=1633841971"
+       
+    },
+    
     {
         "pid":10,
         "pname":"Taiwan white guava | Taiwan white guava",

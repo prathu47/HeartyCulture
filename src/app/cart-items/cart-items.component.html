@@ -1,3 +1,4 @@
+<ng-container *ngIf="cart.length !=0">
 <form action="">
   <header class="cart-title">
     <div class="cart-title-left">
@@ -7,7 +8,7 @@
       <div class="col">
         <div class="cart-title-total" data-cart-title-total>
           <span class="text-title">Subtotal</span>
-          <button type="button" class="btn btn-warning cart-title-button mdc-ripple-surface"
+          <button type="button" class="btn btn-warning cart-title-button mdc-ripple-surface" routerLink="/checkout"
             style="margin-right: 30px;"><i class="fa-sharp fa-solid fa-cart-shopping"></i>&nbsp;&nbsp;Checkout</button>
         </div>
         <span class="text-title">Rs. {{totalPrice(cart)}}.00</span>
@@ -76,3 +77,32 @@
     </div>
   </section>
 </form>
+</ng-container>
+
+<ng-container *ngIf="cart.length ==0">
+  <header class="cart-title">
+    <div class="cart-title-left">
+      <h1 style="margin-left: 35px;">Your Cart</h1>
+    </div>
+    <div class="cart-title-right">
+      <div class="col">
+        <div class="shop-more">
+          <a href="" style="text-decoration: none; color: red; margin-right: 40px;">Continue shopping
+            <span class="fa-solid fa-angle-right"></span>
+            <span class="fa-solid fa-arrow-right-long"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+ 
+    <div class="container">
+      <div class="card">
+        <div class="center-sty">
+          <h5>Your Cart is Empty!</h5>
+          <a href="" class="btn btn-warning btn-block" type="button"><i
+            class="fa-sharp fa-solid fa-cart-shopping"></i>&nbsp;&nbsp;Continue shopping</a>
+        </div>
+    </div>
+  </div>
+</ng-container>
