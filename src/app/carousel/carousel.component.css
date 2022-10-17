@@ -1,6 +1,6 @@
-img{
-    height:500px;
-  }
+
+
+
 .banner-container{
     display: flex;
     align-items: center;
@@ -163,3 +163,4 @@ img{
 margin-right: 20px;
 box-shadow: 15px 5px 5px 5px white;
 }
+

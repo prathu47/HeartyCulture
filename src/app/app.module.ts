@@ -23,6 +23,12 @@ import { MedicinalHerbsComponent } from './plants/medicinal-herbs/medicinal-herb
 import { PalmsCycasComponent } from './palms-cycas/palms-cycas.component';
 import { PalmIndoorComponent } from './palms-cycas/palm-indoor/palm-indoor.component';
 import { ComboPacksComponent } from './combo-packs/combo-packs.component';
+
+import { SandalwoodComponent } from './sandalwood/sandalwood.component';
+import { MiracleleafComponent } from './miracleleaf/miracleleaf.component';
+import { DestinatedComponent } from './destinated/destinated.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { TranquilComponent } from './tranquil/tranquil.component';
 import { CommunityComponent } from './community/community.component';
 import { Article1Component } from './community-articles/article1/article1.component';
 import { Article2Component } from './community-articles/article2/article2.component';
@@ -70,8 +76,14 @@ import { SearchFilterPipe } from './shared/search-filter.pipe';
     SearchFilterPipe,
     ContainergardeningComponent,
     FoundationplantsComponent,
-    PlantselectionComponent
+    PlantselectionComponent,
       
+     
+     
+      SandalwoodComponent,
+      MiracleleafComponent,
+      DestinatedComponent,
+      TranquilComponent
      
 
   ],
@@ -79,7 +91,8 @@ import { SearchFilterPipe } from './shared/search-filter.pipe';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
