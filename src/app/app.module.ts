@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
-import {HttpClientModule} from '@angular/common/http';
+import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { NavnextComponent } from './navnext/navnext.component';
@@ -36,8 +36,6 @@ import { CommunityComponent } from './community/community.component';
 import { Article1Component } from './community-articles/article1/article1.component';
 import { Article2Component } from './community-articles/article2/article2.component';
 import { Article3Component } from './community-articles/article3/article3.component';
-
-
 import { FoundationplantsComponent } from './PlantTips/foundationplants/foundationplants.component';
 import { ContainergardeningComponent } from './PlantTips/containergardening/containergardening.component';
 import { PlantselectionComponent } from './PlantTips/plantselection/plantselection.component';
@@ -45,6 +43,7 @@ import { SearchFilterPipe } from './shared/search-filter.pipe';
 import { CartItemsComponent } from './cart-items/cart-items.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PaymentComponent } from './payment/payment.component';
+import { GalleryDirective } from './gallery.directive';
 
 
 
@@ -95,8 +94,12 @@ import { PaymentComponent } from './payment/payment.component';
     MiracleleafComponent,
     DestinatedComponent,
     TranquilComponent,
-    PaymentComponent
-     
+    PaymentComponent,
+    SandalwoodComponent,
+    MiracleleafComponent,
+    DestinatedComponent,
+    TranquilComponent,
+    GalleryDirective
   ],
   imports: [
     BrowserModule,
@@ -104,6 +107,9 @@ import { PaymentComponent } from './payment/payment.component';
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
+    BrowserAnimationsModule,
+    NgbModule,
+
 BrowserAnimationsModule,
     NgbModule
   ],
