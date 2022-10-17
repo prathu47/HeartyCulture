@@ -31,3 +31,18 @@ img{
     color: #484848;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
+
+.card-hover{
+    height: 360px;
+    transition: 0.5s;  
+}
+.target{
+    visibility: hidden;
+}
+.card-hover:hover{
+    height: 450px;
+}
+.card-hover:hover .target{
+    visibility: visible;
+    
+}
