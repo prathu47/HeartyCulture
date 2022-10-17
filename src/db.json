@@ -1,11 +1,83 @@
 {
   "cart": [
+  ],
+  "users": [
     {
-      "cart_id": 1,
-      "cart_image": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/001_97054d94-f5a7-48e3-acee-4aefa950304f_938x938.png?v=1631529612",
-      "cart_name": "Sansevieria trifasciata 'Flame' With Pot",
-      "cart_price": 429,
-      "id": 1
+      "firstname": "Ramya",
+      "lastname": "shree",
+      "useremail": "ramyashree1301@gmail.com",
+      "password": "Ramya@123",
+      "id": 3
+    },
+    {
+      "firstname": "vvb",
+      "lastname": "vvc",
+      "useremail": "tt@gmail.com",
+      "password": "tt123",
+      "id": 4
+    },
+    {
+      "firstname": "vvb",
+      "lastname": "vvc",
+      "useremail": "shree@gmail.com",
+      "password": "123456",
+      "id": 5
+    },
+    {
+      "firstname": "Pooja",
+      "lastname": "G",
+      "useremail": "tt123@gmail.com",
+      "password": "123456",
+      "id": 6
+    },
+    {
+      "firstname": "pallavi",
+      "lastname": "katari",
+      "useremail": "pallavikatari@gmail.com",
+      "password": "pallavi",
+      "id": 7
+    },
+    {
+      "firstname": "san",
+      "lastname": "h",
+      "useremail": "shree@gmail.com",
+      "password": "",
+      "id": 8
+    },
+    {
+      "firstname": "fff",
+      "lastname": "g",
+      "useremail": "tt@gmail.com",
+      "password": "",
+      "id": 9
+    },
+    {
+      "firstname": "Ramya",
+      "lastname": "shree",
+      "useremail": "ramyashree1301@gmail.com",
+      "password": "",
+      "id": 10
+    },
+    {
+      "firstname": "Ramya",
+      "lastname": "shree",
+      "useremail": "ramyashree1301@gmail.com",
+      "password": "",
+      "id": 11
+    },
+    {
+      "firstname": "Ramya",
+      "lastname": "shree",
+      "useremail": "ramyashree1301@gmail.com",
+      "password": "",
+      "id": 12
+    },
+    {
+      "firstname": "Ramya",
+      "lastname": "shree",
+      "useremail": "ramyashree1301@gmail.com",
+      "password": "",
+      "id": 13
     }
   ]
 }
