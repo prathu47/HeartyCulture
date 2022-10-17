@@ -30,7 +30,6 @@ import { CheckoutComponent } from './checkout/checkout.component';
 import { SandalwoodComponent } from './sandalwood/sandalwood.component';
 import { MiracleleafComponent } from './miracleleaf/miracleleaf.component';
 import { DestinatedComponent } from './destinated/destinated.component';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { TranquilComponent } from './tranquil/tranquil.component';
 import { CommunityComponent } from './community/community.component';
 import { Article1Component } from './community-articles/article1/article1.component';
@@ -40,9 +39,12 @@ import { FoundationplantsComponent } from './PlantTips/foundationplants/foundati
 import { ContainergardeningComponent } from './PlantTips/containergardening/containergardening.component';
 import { PlantselectionComponent } from './PlantTips/plantselection/plantselection.component';
 import { SearchFilterPipe } from './shared/search-filter.pipe';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CartItemsComponent } from './cart-items/cart-items.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PaymentComponent } from './payment/payment.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 import { GalleryDirective } from './gallery.directive';
 
 
@@ -82,6 +84,7 @@ import { GalleryDirective } from './gallery.directive';
     ContainergardeningComponent,
     FoundationplantsComponent,
     SearchFilterPipe,
+    CartItemsComponent,
     ContainergardeningComponent,
     FoundationplantsComponent,
     PlantselectionComponent,
@@ -99,6 +102,14 @@ import { GalleryDirective } from './gallery.directive';
     MiracleleafComponent,
     DestinatedComponent,
     TranquilComponent,
+    GalleryDirective,
+    TranquilComponent,
+    SandalwoodComponent,
+    MiracleleafComponent,
+    DestinatedComponent,
+    TranquilComponent,
+    LoginComponent,
+    RegisterComponent,
     GalleryDirective
   ],
   imports: [
@@ -106,6 +117,13 @@ import { GalleryDirective } from './gallery.directive';
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
+
+    NgbModule,
+
+    HttpClientModule,
+BrowserAnimationsModule,
+    NgbModule,
+
     HttpClientModule,
     BrowserAnimationsModule,
     NgbModule,
