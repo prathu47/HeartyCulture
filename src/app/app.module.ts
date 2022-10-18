@@ -50,6 +50,10 @@ import { ProductdetailsComponent } from './productdetails/productdetails.compone
 import { AllproductsComponent } from './allproducts/allproducts.component';
 import { CactusDetailComponent } from './cactus-succulents/cactus-detail/cactus-detail.component';
 import { ComboDetailComponent } from './combo-packs/combo-detail/combo-detail.component';
+import { PrivacypolicyComponent } from './policy/privacypolicy/privacypolicy.component';
+import { TermsComponent } from './policy/terms/terms.component';
+import { ShippingComponent } from './policy/shipping/shipping.component';
+import { RefundsComponent } from './policy/refunds/refunds.component';
 
 
 @NgModule({
@@ -120,7 +124,11 @@ import { ComboDetailComponent } from './combo-packs/combo-detail/combo-detail.co
     GalleryDirective,
     LoginComponent,
     RegisterComponent,
-    AllproductsComponent
+    AllproductsComponent,
+    PrivacypolicyComponent,
+    TermsComponent,
+    ShippingComponent,
+    RefundsComponent
     
 
   ],

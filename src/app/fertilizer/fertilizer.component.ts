@@ -12,8 +12,7 @@ export class FertilizerComponent implements OnInit {
 
   @Input()product:any
 
-  ngOnInit(): void {
-  }
+  
   //Toggle effect to show and hide the pdescription and price
   //Property for toggle effect
   productDetails=false;
@@ -26,15 +25,66 @@ export class FertilizerComponent implements OnInit {
   }
   //function to toggle between the span content from + to - and vice versa
   //and bind the function to [ngClass]
-  toggleContent(){
-    var content='';
-    if(this.productDetails){
-      content='fa fa-plus';
-    }
-    else{
-      content='fa fa-minus';
-    }
-    return content;
+  ngOnInit(): void {
+    this.productDetail= this.productDetail.sort((low: { price: number; }, high: { price: number; }) => low.price - high.price);
+
   }
+  
+  sort(event: any) {
+    switch (event.target.value) {
+      case "Low":
+        {
+          this.productDetail = this.productDetail.sort((low: { price: number; }, high: { price: number; }) => low.price - high.price);
+          break;
+        }
+
+      case "High":
+        {
+          this.productDetail = this.productDetail.sort((low: { price: number; }, high: { price: number; }) => high.price - low.price);
+          break;
+        }
+
+      case "Name":
+        {
+          this.productDetail = this.productDetail.sort(function (low: { pname: String; }, high: { pname: String; }) {
+            if (low.pname < high.pname) {
+              return -1;
+            }
+            else if (low.pname > high.pname) {
+              return 1;
+            }
+            else {
+              return 0;
+            }
+          })
+          break;
+        }
+        case "HName":
+          {
+            this.productDetail = this.productDetail.sort(function (low: { pname: String; }, high: { pname: String; }) {
+              if (low.pname > high.pname) {
+                return -1;
+              }
+              else if (low.pname < high.pname) {
+                return 1;
+              }
+              else {
+                return 0;
+              }
+            })
+            break;
+          }
+
+      default: {
+        this.productDetail = this.productDetail.sort((low: { price: number; }, high: { price: number; }) => low.price - high.price);
+        break;
+      }
+
+    }
+    return this.productDetail;
+  }
+
+  
+  
 
 }

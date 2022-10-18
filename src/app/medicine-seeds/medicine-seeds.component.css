@@ -23,7 +23,7 @@ img{
     visibility: hidden;
 }
 .card-hover:hover{
-    height: 450px;
+    height: 475px;
 }
 .card-hover:hover .target{
     visibility: visible;
