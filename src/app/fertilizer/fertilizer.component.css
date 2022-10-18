@@ -60,3 +60,31 @@ img{
     visibility: visible;
     
 }
+/*sorting*/
+.card-body a{
+    text-decoration: none;
+    color: grey;
+}
+.navbar-custom{
+    background-color: #f6f6f6;
+    margin-left: 35px;
+    margin-right: 40px;
+}
+.menu_label {
+    width: 120px;
+    color: #FFFFFF;
+    background-color: #F43B05;
+    float: left;
+    position: absolute;
+    top: 50px;
+    left: 5px;
+    padding: 4px;
+    margin-top: 11.47rem;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    margin-left: 1rem;
+    padding-left: 4px;
+
+}
+

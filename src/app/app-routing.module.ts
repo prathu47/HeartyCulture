@@ -36,6 +36,10 @@ import { CheckoutComponent } from './checkout/checkout.component';
 import { ComboDetailComponent } from './combo-packs/combo-detail/combo-detail.component';
 import { PaymentComponent } from './payment/payment.component';
 import { AllproductsComponent } from './allproducts/allproducts.component';
+import { PrivacypolicyComponent } from './policy/privacypolicy/privacypolicy.component';
+import { TermsComponent } from './policy/terms/terms.component';
+import { ShippingComponent } from './policy/shipping/shipping.component';
+import { RefundsComponent } from './policy/refunds/refunds.component';
 
 
 
@@ -76,7 +80,11 @@ const routes: Routes = [
   {path:"payment",component: PaymentComponent},
   {path: "allproducts", component: AllproductsComponent},
 {path:"cactuaDetail/:id",component:CactusDetailComponent},
-{path:"comboDetail/:id",component:ComboDetailComponent}
+{path:"comboDetail/:id",component:ComboDetailComponent},
+{path:"policy",component:PrivacypolicyComponent},
+{path:"terms",component:TermsComponent},
+{path:"ship",component:ShippingComponent},
+{path:"refund",component:RefundsComponent}
 
 
 ];

@@ -1,7 +1,5 @@
 {
-<<<<<<< HEAD
-  "cart": [],
-=======
+  
   "cart": [
     {
       "cart_id": 2,
@@ -25,7 +23,6 @@
 
     }
   ],
->>>>>>> 48acc1d43a959f5f3d20bfe099bf8a55648e1632
   "users": [
     {
       "firstname": "Ramya",
