@@ -50,6 +50,7 @@ import { AllproductsComponent } from './allproducts/allproducts.component';
 
 import { CactusDetailComponent } from './cactus-succulents/cactus-detail/cactus-detail.component';
 import { ComboDetailComponent } from './combo-packs/combo-detail/combo-detail.component';
+import { SearchComponent } from './search/search.component';
 
 
 @NgModule({
@@ -100,7 +101,8 @@ import { ComboDetailComponent } from './combo-packs/combo-detail/combo-detail.co
     GalleryDirective,
     LoginComponent,
     RegisterComponent,
-    AllproductsComponent
+    AllproductsComponent,
+    SearchComponent
     
 
   ],

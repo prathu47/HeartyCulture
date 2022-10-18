@@ -9,6 +9,7 @@ import { CactusService } from '../cactus.service';
 })
 export class CactusSucculentsComponent implements OnInit {
 
+
   cactusdetails:Cactus[]=[];
  
 
@@ -22,8 +23,7 @@ export class CactusSucculentsComponent implements OnInit {
       this.cactusdetails=cactusData;
     });
   }
-
-  
+ 
   
  
 }
