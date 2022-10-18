@@ -33,14 +33,7 @@ import { FoundationplantsComponent } from './PlantTips/foundationplants/foundati
 import { PlantselectionComponent } from './PlantTips/plantselection/plantselection.component';
 import { CartItemsComponent } from './cart-items/cart-items.component';
 import { CheckoutComponent } from './checkout/checkout.component';
-<<<<<<< HEAD
 import { ProductdetailsComponent } from './productdetails/productdetails.component';
-=======
-import { ComboDetailComponent } from './combo-packs/combo-detail/combo-detail.component';
-import { PaymentComponent } from './payment/payment.component';
-import { AllproductsComponent } from './allproducts/allproducts.component';
-
->>>>>>> 9f075b670374b946175bd6eaf84808bf18bb790a
 
 
 const routes: Routes = [
@@ -77,15 +70,7 @@ const routes: Routes = [
   {path:'PlantTips/plantselection',component:ContainergardeningComponent},
   {path:"cartitems",component:CartItemsComponent},
   {path:"checkout", component:CheckoutComponent},
-<<<<<<< HEAD
   {path:"prod_details",component:ProductdetailsComponent}
-=======
-  {path:"payment",component: PaymentComponent},
-  {path: "allproducts", component: AllproductsComponent},
-{path:"cactuaDetail/:id",component:CactusDetailComponent},
-{path:"comboDetail/:id",component:ComboDetailComponent}
-
->>>>>>> 9f075b670374b946175bd6eaf84808bf18bb790a
 
 ];
 
