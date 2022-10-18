@@ -33,12 +33,17 @@ import { FoundationplantsComponent } from './PlantTips/foundationplants/foundati
 import { PlantselectionComponent } from './PlantTips/plantselection/plantselection.component';
 import { CartItemsComponent } from './cart-items/cart-items.component';
 import { CheckoutComponent } from './checkout/checkout.component';
+import { ProductdetailsComponent } from './productdetails/productdetails.component';
 import { ComboDetailComponent } from './combo-packs/combo-detail/combo-detail.component';
 import { PaymentComponent } from './payment/payment.component';
 import { AllproductsComponent } from './allproducts/allproducts.component';
 import { MedicinalHerbsDetailsComponent } from './plants/medicinal-herbs/medicinal-herbs-details/medicinal-herbs-details.component';
 import { FertilizerDetailsComponent } from './fertilizer/fertilizer-details/fertilizer-details.component';
 import { IndoordetailsComponent } from './palms-cycas/indoordetails/indoordetails.component';
+import { PrivacypolicyComponent } from './policy/privacypolicy/privacypolicy.component';
+import { TermsComponent } from './policy/terms/terms.component';
+import { ShippingComponent } from './policy/shipping/shipping.component';
+import { RefundsComponent } from './policy/refunds/refunds.component';
 
 
 
@@ -76,8 +81,13 @@ const routes: Routes = [
   {path:'PlantTips/plantselection',component:ContainergardeningComponent},
   {path:"cartitems",component:CartItemsComponent},
   {path:"checkout", component:CheckoutComponent},
+  {path:"prod_details",component:ProductdetailsComponent},
 {path:"cactuaDetail/:id",component:CactusDetailComponent},
 {path:"comboDetail/:id",component:ComboDetailComponent},
+{path:"policy",component:PrivacypolicyComponent},
+{path:"terms",component:TermsComponent},
+{path:"ship",component:ShippingComponent},
+{path:"refund",component:RefundsComponent},
   {path:"payment",component:PaymentComponent},
   {path: "allproducts", component: AllproductsComponent},
   {path:"medicinaldetails/:id", component:MedicinalHerbsDetailsComponent},

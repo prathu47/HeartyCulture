@@ -15,6 +15,7 @@ import Swal from 'sweetalert2';
   styleUrls: ['./carousel.component.css']
 })
 export class CarouselComponent implements OnInit {
+ 
 
   cactusdetails:Cactus[]=[];
 
@@ -75,5 +76,21 @@ export class CarouselComponent implements OnInit {
       }
     )
   }
+  productsearch: string=' '  
+
+  //Event
+  search_product(pname:string):void{ //Laptop
+    if(pname=='')
+    {
+      // this.productentered=' ';
+      alert('search something');
+    }
+    
+    
+    this.productsearch=pname  ; //Laptop
+    console.log(pname)
+  }
+  
+ 
 
 }

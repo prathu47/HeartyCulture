@@ -53,6 +53,11 @@ import { ComboDetailComponent } from './combo-packs/combo-detail/combo-detail.co
 import { MedicinalHerbsDetailsComponent } from './plants/medicinal-herbs/medicinal-herbs-details/medicinal-herbs-details.component';
 import { FertilizerDetailsComponent } from './fertilizer/fertilizer-details/fertilizer-details.component';
 import { IndoordetailsComponent } from './palms-cycas/indoordetails/indoordetails.component';
+import { SearchComponent } from './search/search.component';
+import { PrivacypolicyComponent } from './policy/privacypolicy/privacypolicy.component';
+import { TermsComponent } from './policy/terms/terms.component';
+import { ShippingComponent } from './policy/shipping/shipping.component';
+import { RefundsComponent } from './policy/refunds/refunds.component';
 
 
 @NgModule({
@@ -126,7 +131,13 @@ import { IndoordetailsComponent } from './palms-cycas/indoordetails/indoordetail
     AllproductsComponent,
     MedicinalHerbsDetailsComponent,
     FertilizerDetailsComponent,
-    IndoordetailsComponent    
+    IndoordetailsComponent,    
+    SearchComponent,
+    PrivacypolicyComponent,
+    TermsComponent,
+    ShippingComponent,
+    RefundsComponent
+    
 
   ],
   imports: [
