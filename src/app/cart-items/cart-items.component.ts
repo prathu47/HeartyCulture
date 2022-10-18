@@ -25,6 +25,7 @@ export class CartItemsComponent implements OnInit {
   cartData: any = [];
   total_price: number = 0;
   cart_quality = 1;
+  subTotal:number| any;
 
   totalPrice(data: any) {
     debugger
@@ -52,6 +53,13 @@ export class CartItemsComponent implements OnInit {
       title: 'Item deleted successfully'
     })*/
     this.ngOnInit();
+  }
+
+  ChangeTotal(product:any,index: any){
+      const qty=product.cart_quality;
+      const amt=product.cart_price;
+
+      this.subTotal=amt*qty;
   }
   ngOnInit(): void {
     this.cartSvc.getCartItems().subscribe(

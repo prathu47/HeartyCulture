@@ -46,7 +46,10 @@ import { PaymentComponent } from './payment/payment.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { GalleryDirective } from './gallery.directive';
+import { AllproductsComponent } from './allproducts/allproducts.component';
 
+import { CactusDetailComponent } from './cactus-succulents/cactus-detail/cactus-detail.component';
+import { ComboDetailComponent } from './combo-packs/combo-detail/combo-detail.component';
 
 
 @NgModule({
@@ -67,7 +70,6 @@ import { GalleryDirective } from './gallery.directive';
     CactusChilsComponent,
     PalmsCycasComponent,
     PalmIndoorComponent,
-    ComboPacksComponent,
     OutdoorPlantsComponent,
     IndoorPlantsComponent,
     GrassesComponent,
@@ -77,22 +79,30 @@ import { GalleryDirective } from './gallery.directive';
     Article3Component,
     Article1Component,
     Article2Component,
+    Article3Component,
     PalmCycasOutdoorComponent,
     ComboPacksComponent,
-    PlantselectionComponent,
     ContainergardeningComponent,
     FoundationplantsComponent,
     SearchFilterPipe,
-    CartItemsComponent,
+    PlantselectionComponent,
     SandalwoodComponent,
+    CartItemsComponent,
     MiracleleafComponent,
     DestinatedComponent,
     TranquilComponent,
+    GalleryDirective,
+    LoginComponent,
+    RegisterComponent,
+    CactusDetailComponent,
+    ComboDetailComponent,
     PaymentComponent,
     GalleryDirective,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    AllproductsComponent
     
+
   ],
   imports: [
     BrowserModule,
@@ -102,7 +112,12 @@ import { GalleryDirective } from './gallery.directive';
     HttpClientModule,
     BrowserAnimationsModule,
     NgbModule,
-    HttpClientModule
+
+BrowserAnimationsModule,
+    NgbModule,
+    HttpClientModule,
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

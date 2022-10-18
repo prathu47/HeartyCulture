@@ -1,22 +1,24 @@
 import { Component, OnInit } from '@angular/core';
-import { ComboServiceService } from './combo-service.service';
-import { Combo } from './combo';
-import { CartService } from 'src/app/cart.service';
+import { ActivatedRoute } from '@angular/router';
 import { Cartitems } from 'src/app/cartitems';
+import { CartService } from 'src/app/cart.service';
 import Swal from 'sweetalert2';
+import { ComboServiceService } from '../combo-service.service';
 
 
 @Component({
-  selector: 'app-combo-packs',
-  templateUrl: './combo-packs.component.html',
-  styleUrls: ['./combo-packs.component.css']
+  selector: 'app-combo-detail',
+  templateUrl: './combo-detail.component.html',
+  styleUrls: ['./combo-detail.component.css']
 })
-export class ComboPacksComponent implements OnInit {
+export class ComboDetailComponent implements OnInit {
 
+  currentRate= 3
 
-  combodetails:Combo[]=[];
+  course:any;
+  totalid:number | any;
+  constructor(private route:ActivatedRoute,private cartsrv:CartService,private combosrv:ComboServiceService) { }
 
-  constructor(private comboService:ComboServiceService,private cartsrv:CartService) { }
   cart:Cartitems={
     cart_id:0,
     cart_image:'',
@@ -53,23 +55,25 @@ export class ComboPacksComponent implements OnInit {
 
   cartsi: Cartitems[] = [];
 
-
   ngOnInit(): void {
-    
-    const contObervable=this.comboService.getcombodetails();
-    contObervable.subscribe((comboData:Combo[])=>{
-      this.combodetails=comboData;
-    });
 
+    /*console.warn("Cactus id is",this.route.snapshot.paramMap.get('id'));
+    this.cactusid=this.route.snapshot.paramMap.get('id');*/
 
-    this.cartsrv.getCartItems().subscribe(
-      (response) => {
-        this.cartsi = response;
-        console.log(this.cart)
-      }
-    )
+   /* this.route.params.subscribe(params => this.getCactusById(params['id']));*/
+   
+   this.totalid=this.route.snapshot.paramMap.get('id');
+   this.course=this.combosrv.combo_details.find(x => x.combo_id==this.totalid);
+   
+
+   this.cartsrv.getCartItems().subscribe(
+    (response) => {
+      this.cartsi = response;
+      console.log(this.cart)
+    }
+  )
+
   }
 
-  
 
 }

@@ -1,0 +1,145 @@
+[
+    {
+        "pid":1,
+        "pname":"Lemon grass|Cymbopogon",
+        "pdescription":"Heartyculture Nursery",
+        "price":199.00,
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/002_9_391x391.png?v=1633686907"
+    },
+    {
+        "pid":2,
+        "pname":"Curry Leaves | Murraya",
+        "pdescription":"Heartyculture Nursery",
+        "price":199.00,
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Murrayakoenigii_256x256.jpg?v=1608907943"
+    },
+    {
+        "pid":3,
+        "pname":"Insulin plant | Chamaecostus cuspidatus",
+        "pdescription":"Heartyculture Nursery",
+        "price":399.00,
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/002_6_6254b369-064d-4e28-b4a3-7cf8489f4265_476x476.png?v=1633685906"
+    },
+    {
+        "pid":4,
+        "pname":"Patta ajwain | Coleus amboinicus ",
+        "pdescription":"Heartyculture Nursery",
+        "price":149.00,
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/002_2_6afa9224-1dce-46db-a5b9-ae94d2184da3_256x256.png?v=1633685031"
+    },
+    {
+        "pid":5,
+        "pname":"Sitar's gold ",
+        "pdescription":"Heartyculture Nursery",
+        "price":349.00,
+        "price1":299.00,
+        "img":"https://yourgardenbuddy.com/wp-content/uploads/2020/08/Foxtail-Fern-720x540.jpg"
+    },
+    {
+        "pid":6,
+        "pname":"Sword Fern",
+        "pdescription":"Heartyculture Nursery",
+        "price":449.00,
+        "price1":349.00,
+        "img":"https://floweraura-blog-img.s3.ap-south-1.amazonaws.com/Plant+Dec+2019-+Dec+2020/sword-fern-plant.jpg"
+    },
+    {
+        "pid":7,
+        "pname":"Silver Nerve Plant",
+        "pdescription":"Heartyculture Nursery",
+        "price":469.00,
+        "price1":429.00,
+        "img":"https://floweraura-blog-img.s3.ap-south-1.amazonaws.com/Plants+Dec-19-Dec-20/silver-nerve-plant.jpg"
+    },
+    {
+        "pid":8,
+        "pname":"Fibre Optic Grass Plant",
+        "pdescription":"Heartyculture Nursery",
+        "price":399.00,
+        "price1":349.00,
+        "img":"https://floweraura-blog-img.s3.ap-south-1.amazonaws.com/Plants+Dec-19-Dec-20/fibre-optic-grass-plant.jpg"
+    },
+    {
+        "pid":9,
+        "pname":"Sansevieria trifasciata 'Flame' With Pot",
+        "pdescription":"Heartyculture Nursery",
+        "price":429.00,
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/001_97054d94-f5a7-48e3-acee-4aefa950304f_938x938.png?v=1631529612"
+        
+      },
+      {
+        "pid":10,
+        "pname":"Sanseveria trifasciata 'Stars and Stripes'",
+        "pdescription":"Heartyculture Nursery",
+        "price":450.00,
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/002_10_902x902.jpg?v=1633236420"  
+      },
+      {
+        "pid":11,
+        "pname":"Frozen Snake Plant",
+        "pdescription":"Heartyculture Nursery",
+        "price":399.00,
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/001_f5eba41a-5ce0-49b3-900b-2d33bd4894a5_902x902.png?v=1631531130"
+       
+        
+      },
+      {
+        "pid":12,
+        "pname":"Sedum rubrotinctum 'Aurora' (Redish)",
+        "pdescription":"Heartyculture Nursery",
+        "price":400.00,
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/002_6_396x396.jpg?v=1633177562"
+      },
+      {
+        "pid":13,
+        "pname":"French Marigold Scarlet red Seeds",
+        "pdescription":"Heartyculture Nursery",
+        "price":99.00,
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/FrenchMarigoldScarletred_381x381.jpg?v=1620131172"
+    },
+    {
+        "pid":14,
+        "pname":"African Marigold F2 White Seeds",
+        "pdescription":"Heartyculture Nursery",
+        "price":99.00,
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/AfricanMarigoldF2WhiteFlower-Seeds_381x381.jpg?v=1620130424"
+    },
+    {
+        "pid":15,
+        "pname":"African Marigold F2 Orange Seeds",
+        "pdescription":"Heartyculture Nursery",
+        "price":99.00,
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/AfricanMarigoldF2Orange_381x381.jpg?v=1620130122"
+    },
+    {
+        "pid":16,
+        "pname":"Cosmos Sensation Mix Seeds",
+        "pdescription":"Heartyculture Nursery",
+        "price":99.00,
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/cosmosdwarfsensationmix_381x381.jpg?v=1620131081"
+    },
+    {
+        "pid":17,
+        "pname":"Vermicompost (Pure Desi cow)-900g",
+        "price":350,
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Inkedvermicompost-1.8kg_276x276_LI_276x274.jpg?v=1645938248"
+    },
+      {
+        "pid": 23,
+        "pname": "Hibiscuss | Parijatha | Jasmine Combo",
+        "price":650.00,
+        "img": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Hibiscus_Parijat_Jasmine_396x396.jpg?v=1620469310" 
+      },
+      {
+        "pid": 24,
+        "pname": "Bryophyllum, Insulin, Aloe vera",
+        "price": 599.00,
+        "img": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/001_1_1171822f-22ee-443d-b5be-97c5e7915880_396x396.png?v=1633608608"
+      },
+      {
+        "pid":5,
+        "pname":"Vermicompost (Pure Desi cow) - 900g",
+        "price":350,
+        "img":"https://cdn.shopify.com/s/files/1/0579/7924/0580/products/flora_product_image_shot_900x1200px.png?v=1661310215&width=375"
+    } 
+]
