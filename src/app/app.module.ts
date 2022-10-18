@@ -46,6 +46,7 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 
 import { GalleryDirective } from './gallery.directive';
+import { ProductdetailsComponent } from './productdetails/productdetails.component';
 
 
 
@@ -80,25 +81,21 @@ import { GalleryDirective } from './gallery.directive';
     PalmCycasOutdoorComponent,
     PalmIndoorComponent,
     ComboPacksComponent,
-    PlantselectionComponent,
-    ContainergardeningComponent,
-    FoundationplantsComponent,
+    
     SearchFilterPipe,
     CartItemsComponent,
     ContainergardeningComponent,
     FoundationplantsComponent,
     PlantselectionComponent,
     SandalwoodComponent,
-    MiracleleafComponent,
+    
     DestinatedComponent,
     TranquilComponent,
     CartItemsComponent,
-    SandalwoodComponent,
+   
     MiracleleafComponent,
     DestinatedComponent,
-    TranquilComponent,
-    TranquilComponent,
-
+    
      
      
       SandalwoodComponent,
@@ -107,7 +104,8 @@ import { GalleryDirective } from './gallery.directive';
       TranquilComponent,
       LoginComponent,
       RegisterComponent,
-      GalleryDirective
+      GalleryDirective,
+      ProductdetailsComponent
      
 
   ],
