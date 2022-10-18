@@ -4,6 +4,7 @@
         "pname":"Lemon grass|Cymbopogon",
         "pdescription":"Heartyculture Nursery",
         "price":199.00,
+        "discount":200,
         "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/002_9_391x391.png?v=1633686907"
     },
     {
@@ -11,6 +12,7 @@
         "pname":"Curry Leaves | Murraya",
         "pdescription":"Heartyculture Nursery",
         "price":199.00,
+        "discount":0,
         "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Murrayakoenigii_256x256.jpg?v=1608907943"
     },
     {
@@ -18,6 +20,7 @@
         "pname":"Insulin plant | Chamaecostus cuspidatus",
         "pdescription":"Heartyculture Nursery",
         "price":399.00,
+        "discount":160,
         "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/002_6_6254b369-064d-4e28-b4a3-7cf8489f4265_476x476.png?v=1633685906"
     },
     {
@@ -25,6 +28,7 @@
         "pname":"Patta ajwain | Coleus amboinicus ",
         "pdescription":"Heartyculture Nursery",
         "price":149.00,
+        "discount":0,
         "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/002_2_6afa9224-1dce-46db-a5b9-ae94d2184da3_256x256.png?v=1633685031"
     },
     {
@@ -32,6 +36,7 @@
         "pname":"Aloe vera",
         "pdescription":"Heartyculture Nursery",
         "price":100.00,
+        "discount":0,
         "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/001_3_72e5df53-3f99-40ea-9c68-44328957b6a5_256x256.png?v=1633685291"
     },
     {
@@ -39,6 +44,7 @@
         "pname":"Rosemary | Salvia rosmarinus",
         "pdescription":"Heartyculture Nursery",
         "price":199.00,
+        "discount":180,
         "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Rosemary_256x256.jpg?v=1615569194"
     },
     {
@@ -46,6 +52,7 @@
         "pname":"Periwinkle",
         "pdescription":"Heartyculture Nursery",
         "price":199.00,
+        "discount":0,
         "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Figure-5-Catharanthus-roseus-Source-wwwinvasives-orgza_256x256.png?v=1650265968"
     }
 ]

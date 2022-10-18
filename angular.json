@@ -30,7 +30,10 @@
               "src/assets"
             ],
             "styles": [
+<<<<<<< HEAD
              
+=======
+>>>>>>> 7a2261d7e547ae0d4789790c711af83724e411f3
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],

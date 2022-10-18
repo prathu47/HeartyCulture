@@ -42,9 +42,9 @@ import { SearchFilterPipe } from './shared/search-filter.pipe';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CartItemsComponent } from './cart-items/cart-items.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { PaymentComponent } from './payment/payment.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
-
 import { GalleryDirective } from './gallery.directive';
 
 
@@ -74,61 +74,35 @@ import { GalleryDirective } from './gallery.directive';
     IndoorComponent,
     CheckoutComponent,
     CommunityComponent,
+    Article3Component,
     Article1Component,
     Article2Component,
-    Article3Component,
     PalmCycasOutdoorComponent,
-    PalmIndoorComponent,
     ComboPacksComponent,
     PlantselectionComponent,
     ContainergardeningComponent,
     FoundationplantsComponent,
     SearchFilterPipe,
     CartItemsComponent,
-    ContainergardeningComponent,
-    FoundationplantsComponent,
-    PlantselectionComponent,
     SandalwoodComponent,
     MiracleleafComponent,
     DestinatedComponent,
     TranquilComponent,
-    CartItemsComponent,
-    SandalwoodComponent,
-    MiracleleafComponent,
-    DestinatedComponent,
-    TranquilComponent,
-    TranquilComponent,
-
-     
-     
-      SandalwoodComponent,
-      MiracleleafComponent,
-      DestinatedComponent,
-      TranquilComponent,
-      LoginComponent,
-      RegisterComponent,
-      GalleryDirective
-     
-
+    PaymentComponent,
+    GalleryDirective,
+    LoginComponent,
+    RegisterComponent
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
-
-    NgbModule,
-
-    HttpClientModule,
-BrowserAnimationsModule,
-    NgbModule,
-
     HttpClientModule,
     BrowserAnimationsModule,
     NgbModule,
-
-BrowserAnimationsModule,
-    NgbModule
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
