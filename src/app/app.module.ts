@@ -46,7 +46,18 @@ import { PaymentComponent } from './payment/payment.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { GalleryDirective } from './gallery.directive';
-
+import { ProductdetailsComponent } from './productdetails/productdetails.component';
+import { AllproductsComponent } from './allproducts/allproducts.component';
+import { CactusDetailComponent } from './cactus-succulents/cactus-detail/cactus-detail.component';
+import { ComboDetailComponent } from './combo-packs/combo-detail/combo-detail.component';
+import { MedicinalHerbsDetailsComponent } from './plants/medicinal-herbs/medicinal-herbs-details/medicinal-herbs-details.component';
+import { FertilizerDetailsComponent } from './fertilizer/fertilizer-details/fertilizer-details.component';
+import { IndoordetailsComponent } from './palms-cycas/indoordetails/indoordetails.component';
+import { SearchComponent } from './search/search.component';
+import { PrivacypolicyComponent } from './policy/privacypolicy/privacypolicy.component';
+import { TermsComponent } from './policy/terms/terms.component';
+import { ShippingComponent } from './policy/shipping/shipping.component';
+import { RefundsComponent } from './policy/refunds/refunds.component';
 
 
 @NgModule({
@@ -67,7 +78,6 @@ import { GalleryDirective } from './gallery.directive';
     CactusChilsComponent,
     PalmsCycasComponent,
     PalmIndoorComponent,
-    ComboPacksComponent,
     OutdoorPlantsComponent,
     IndoorPlantsComponent,
     GrassesComponent,
@@ -77,22 +87,58 @@ import { GalleryDirective } from './gallery.directive';
     Article3Component,
     Article1Component,
     Article2Component,
+    Article3Component,
     PalmCycasOutdoorComponent,
     ComboPacksComponent,
-    PlantselectionComponent,
+    
     ContainergardeningComponent,
     FoundationplantsComponent,
     SearchFilterPipe,
-    CartItemsComponent,
+    PlantselectionComponent,
     SandalwoodComponent,
+    
+    DestinatedComponent,
+    TranquilComponent,
+    CartItemsComponent,
+   
+    MiracleleafComponent,
+    DestinatedComponent,
+    
+     
+     
+      SandalwoodComponent,
+      MiracleleafComponent,
+      DestinatedComponent,
+      TranquilComponent,
+      LoginComponent,
+      RegisterComponent,
+      GalleryDirective,
+      ProductdetailsComponent,
+     
+    CartItemsComponent,
     MiracleleafComponent,
     DestinatedComponent,
     TranquilComponent,
+    GalleryDirective,
+    LoginComponent,
+    RegisterComponent,
+    CactusDetailComponent,
+    ComboDetailComponent,
     PaymentComponent,
     GalleryDirective,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    AllproductsComponent,
+    MedicinalHerbsDetailsComponent,
+    FertilizerDetailsComponent,
+    IndoordetailsComponent,    
+    SearchComponent,
+    PrivacypolicyComponent,
+    TermsComponent,
+    ShippingComponent,
+    RefundsComponent
     
+
   ],
   imports: [
     BrowserModule,
@@ -102,7 +148,12 @@ import { GalleryDirective } from './gallery.directive';
     HttpClientModule,
     BrowserAnimationsModule,
     NgbModule,
-    HttpClientModule
+
+BrowserAnimationsModule,
+    NgbModule,
+    HttpClientModule,
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

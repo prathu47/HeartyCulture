@@ -3,7 +3,7 @@
     <a class="nav-link" style="font-weight: 500;color:rgb(246, 70, 70)" aria-current="page" href="#">Home</a>
   </div>
   <div>
-    <p style="margin-top:-30px;font-weight:200;margin-left:70px;">>Cactus & Succulents</p>
+    <p style="margin-top:-23px;font-weight:300;margin-left:50px;">>Cactus & Succulents</p>
   </div>
 </div>
 
@@ -13,12 +13,34 @@
 </div>
 <br>
 
+<div class="sorting">
+  <nav class="navbar navbar-expand navbar-custom" id="productSort">
+    <ul class="navbar-nav">
+      <li class="nav-item  ">
+        <a class="nav-link text-dark" href="#">Sort by</a>
+      </li>
+      <li class="navbar-item" style="margin-top: 8px;">
+        <select id="sort-by" (change)="sort($event)" style="border:none;background-color: #f6f6f6;">
+          <option value="" selected disabled hidden style="color: black;">Sort By</option>
+          <option value="Name">Alphebetically,A-Z</option>
+          <option value="HName">Alphebetically,Z-A</option>
+          <option value="Low">Price, Low to High</option>
+          <option value="High">Price, High to Low</option>
+        </select>
+      </li>
+
+    </ul>
+  </nav>
+</div>
 
 
 <div class="container">
   <div class="row">
     <div class="col col-3 col-sm-6 col-md-3 mt-4" *ngFor="let cactus of cactusdetails">
+
+
       <app-cactus-chils [product_cactus]="cactus"></app-cactus-chils>
+      </div>
     </div>
   </div>
-</div>
+

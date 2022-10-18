@@ -30,6 +30,7 @@
       <span class="sr-only">Next</span>
     </a>
   </div> -->
+ 
 
 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
@@ -96,6 +97,7 @@
 
     <!-- Images -->
     <div class="pxs"></div>
+   
 
     <!-- Native Trees & Succulents -->
     <div class="header1">
@@ -117,6 +119,8 @@
 
       <div class="col-sm-5 col-md-2 mt-4" style="width: 16rem; padding: 5px;"
         *ngFor="let cactus of cactusdetails.slice(0,8)">
+        
+
         <div class="card card-hover">
           <img [src]="cactus.cactus_image" class="prodimage" style="height:170px; padding: 10px;">
           <div class="card-body">
@@ -127,15 +131,16 @@
           <!--*ngIf="showButton"-->
           <div class="row">
             <div class="col target" style="padding-bottom: 10px;">
-              <button type="button" class="btn btn-outline btn-sm"
-                style="margin-left: 5px; margin-right: 35px; border-color: gold;" href="#" data-bs-toggle="modal"
-                data-bs-target="#exampleModal">Quick Shop</button>
-              <a type="button" class="btn btn-warning btn-sm" href="">Add to cart</a>
+              <a type="button" class="btn btn-outline btn-sm"
+                style="margin-left: 5px; margin-right: 35px; border-color: gold;" [routerLink]="['/cactuaDetail',cactus.cactus_id]">Quick Shop</a>
+              <a type="button" class="btn btn-warning btn-sm" (click)="addToCart(cactus)">Add to cart</a>
             </div>
           </div>
         </div>
+    </div>
       </div>
     </div>
+    
 
     <!-- Fruits Trees & Herbal Plants-->
     <div class="header1" style="margin-top: 25px;">
@@ -157,6 +162,7 @@
 
       <div class="col-sm-5 col-md-2 mt-4" style="width: 16rem; padding: 5px;"
         *ngFor="let fruit of fruittreesDetails.slice(0,9)">
+    
         <div class="card card-hover">
           <img [src]="fruit.img" class="prodimage" style="height:170px; padding: 10px;">
           <div class="card-body">
@@ -175,7 +181,9 @@
           </div>
         </div>
       </div>
+      </div>
     </div>
+
 
 
     <!-- Cycas & Outdoor Plants-->
@@ -197,6 +205,8 @@
       </div>
 
       <div class="col-sm-5 col-md-2 mt-4" style="width: 16rem; padding: 5px;" *ngFor="let palm of palmplant.slice(0,9)">
+        
+
         <div class="card card-hover">
           <img [src]="palm.img" class="prodimage" style="height:170px; padding: 10px;">
           <div class="card-body">
@@ -216,7 +226,8 @@
           </div>
         </div>
       </div>
-    </div>
+      </div>
+  
     <br>
 
     <div class="banner-container">
@@ -238,16 +249,21 @@
         </div>
       </div>
     </div>
+
+    <h4 style="margin-top:20px;text-align: center; font-weight:500;">Cast Around More Categories </h4>
+    <br>
     <div class="row row-cols-1 row-cols-md-3 g-4">
       <div class="col" style="width: 290px;height: 300px;margin-left: 26px;">
-        <div class="card h-10">
-          <a routerLink="ferti"><img style="width: 290px;height: 300px;" src="https://cdn.shopify.com/s/files/1/0487/7598/7354/products/FrenchMarigoldScarletred_432x432.jpg?v=1620131172" class="card-img-top"></a>
+        <div class="card" >
+          <a routerLink="ferti"><img style="width: 250px;height: 300px;" src="https://cdn.shopify.com/s/files/1/0487/7598/7354/products/FrenchMarigoldScarletred_432x432.jpg?v=1620131172" class="card-img-top"></a>
           <div class="card-body">
          
             <a style=" text-decoration: none;"routerLink="ferti"><h4 style="color: rgb(239, 30, 30);font-size: 16px;font-weight: 600;text-align: center;" class="card-title">Flower Seeds</h4></a>
           </div>
         </div>
       </div>
+
+     
       <div class="col" style="width: 290px;height: 300px;margin-left: 20px;">
         <div class="card h-10">
           <a routerLink="ferti"><img style="width: 290px;height: 300px;" src="https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Palak_432x432.png?v=1616014387" class="card-img-top"></a>
@@ -351,3 +367,4 @@
 
 
     <app-community></app-community>
+    

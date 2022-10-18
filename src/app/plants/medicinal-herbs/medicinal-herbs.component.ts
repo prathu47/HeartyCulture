@@ -13,6 +13,8 @@ import * as prod from "src/app/plantdata/medicinalherb.json";
 
 export class MedicinalHerbsComponent implements OnInit {
 
+ 
+  
   constructor(private cartservice: CartService, private router: Router) { }
 
   @Input() product: any
@@ -64,6 +66,7 @@ export class MedicinalHerbsComponent implements OnInit {
     this.productDetail= this.productDetail.sort((low: { price: number; }, high: { price: number; }) => low.price - high.price);
   }
   productDetail: any = (prod as any).default;
+
 
   sort(event: any) {
     switch (event.target.value) {

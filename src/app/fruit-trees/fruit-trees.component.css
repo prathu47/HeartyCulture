@@ -6,8 +6,36 @@ img{
     margin-bottom:10px;
     
 }
+/*sorting*/
+.card-body a{
+    text-decoration: none;
+    color: grey;
+}
+.navbar-custom{
+    background-color: #f6f6f6;
+    margin-left: 35px;
+    margin-right: 40px;
+}
 .header{
     margin-left: 20px;
     color: #484848;
     font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.card {
+    padding-top: 10px;
+    margin-bottom: 40px;
+}
+.card-hover{
+    height: 440px;
+    transition: 0.5s;  
+}
+.target{
+    visibility: hidden;
+}
+.card-hover:hover{
+    height: 490px;
+}
+.card-hover:hover .target{
+    visibility: visible;
+    
 }

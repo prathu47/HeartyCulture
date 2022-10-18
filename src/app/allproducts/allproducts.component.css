@@ -1,0 +1,32 @@
+img{
+    height:250px;
+    width:250px;
+    margin-left:20px;
+    margin-top:10px;
+    margin-bottom:10px;
+    
+}
+.header{
+    margin-left: 20px;
+    color: #484848;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.card {
+    padding-top: 10px;
+    margin-bottom: 40px;
+}
+.card-hover{
+    height: 440px;
+    transition: 0.5s;  
+}
+.target{
+    visibility: hidden;
+}
+.card-hover:hover{
+    height: 500px;
+}
+.card-hover:hover .target{
+    visibility: visible;
+    
+}
