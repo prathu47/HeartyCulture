@@ -50,6 +50,9 @@ import { ProductdetailsComponent } from './productdetails/productdetails.compone
 import { AllproductsComponent } from './allproducts/allproducts.component';
 import { CactusDetailComponent } from './cactus-succulents/cactus-detail/cactus-detail.component';
 import { ComboDetailComponent } from './combo-packs/combo-detail/combo-detail.component';
+import { MedicinalHerbsDetailsComponent } from './plants/medicinal-herbs/medicinal-herbs-details/medicinal-herbs-details.component';
+import { FertilizerDetailsComponent } from './fertilizer/fertilizer-details/fertilizer-details.component';
+import { IndoordetailsComponent } from './palms-cycas/indoordetails/indoordetails.component';
 
 
 @NgModule({
@@ -120,8 +123,10 @@ import { ComboDetailComponent } from './combo-packs/combo-detail/combo-detail.co
     GalleryDirective,
     LoginComponent,
     RegisterComponent,
-    AllproductsComponent
-    
+    AllproductsComponent,
+    MedicinalHerbsDetailsComponent,
+    FertilizerDetailsComponent,
+    IndoordetailsComponent    
 
   ],
   imports: [

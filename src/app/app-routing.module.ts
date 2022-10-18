@@ -36,6 +36,9 @@ import { CheckoutComponent } from './checkout/checkout.component';
 import { ComboDetailComponent } from './combo-packs/combo-detail/combo-detail.component';
 import { PaymentComponent } from './payment/payment.component';
 import { AllproductsComponent } from './allproducts/allproducts.component';
+import { MedicinalHerbsDetailsComponent } from './plants/medicinal-herbs/medicinal-herbs-details/medicinal-herbs-details.component';
+import { FertilizerDetailsComponent } from './fertilizer/fertilizer-details/fertilizer-details.component';
+import { IndoordetailsComponent } from './palms-cycas/indoordetails/indoordetails.component';
 
 
 
@@ -76,7 +79,12 @@ const routes: Routes = [
 {path:"cactuaDetail/:id",component:CactusDetailComponent},
 {path:"comboDetail/:id",component:ComboDetailComponent},
   {path:"payment",component:PaymentComponent},
-  {path: "allproducts", component: AllproductsComponent}
+  {path: "allproducts", component: AllproductsComponent},
+  {path:"medicinaldetails/:id", component:MedicinalHerbsDetailsComponent},
+  {path:"fertilizerdetails/:id", component:FertilizerDetailsComponent},
+  {path:"indoordetails/:id", component:IndoordetailsComponent}
+
+
 
 
 
