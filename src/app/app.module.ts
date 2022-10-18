@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
-import {HttpClientModule} from '@angular/common/http';
+import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { NavnextComponent } from './navnext/navnext.component';
@@ -36,8 +36,6 @@ import { CommunityComponent } from './community/community.component';
 import { Article1Component } from './community-articles/article1/article1.component';
 import { Article2Component } from './community-articles/article2/article2.component';
 import { Article3Component } from './community-articles/article3/article3.component';
-
-
 import { FoundationplantsComponent } from './PlantTips/foundationplants/foundationplants.component';
 import { ContainergardeningComponent } from './PlantTips/containergardening/containergardening.component';
 import { PlantselectionComponent } from './PlantTips/plantselection/plantselection.component';
@@ -66,7 +64,6 @@ import { GalleryDirective } from './gallery.directive';
     CactusChilsComponent,
     PalmsCycasComponent,
     PalmIndoorComponent,
-    ComboPacksComponent,
     OutdoorPlantsComponent,
     IndoorPlantsComponent,
     GrassesComponent,
@@ -76,32 +73,17 @@ import { GalleryDirective } from './gallery.directive';
     Article1Component,
     Article2Component,
     Article3Component,
-    PalmCycasOutdoorComponent,
-    PalmIndoorComponent,
     ComboPacksComponent,
-    PlantselectionComponent,
     ContainergardeningComponent,
     FoundationplantsComponent,
     SearchFilterPipe,
-    ContainergardeningComponent,
-    FoundationplantsComponent,
     PlantselectionComponent,
     SandalwoodComponent,
-    MiracleleafComponent,
-    DestinatedComponent,
-    TranquilComponent,
     CartItemsComponent,
-    SandalwoodComponent,
     MiracleleafComponent,
     DestinatedComponent,
     TranquilComponent,
-     
-     
-      SandalwoodComponent,
-      MiracleleafComponent,
-      DestinatedComponent,
-      TranquilComponent,
-      GalleryDirective
+    GalleryDirective
      
 
   ],
@@ -111,6 +93,9 @@ import { GalleryDirective } from './gallery.directive';
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
+    BrowserAnimationsModule,
+    NgbModule,
+
 BrowserAnimationsModule,
     NgbModule
   ],
