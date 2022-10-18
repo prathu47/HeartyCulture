@@ -88,19 +88,16 @@ import { ComboDetailComponent } from './combo-packs/combo-detail/combo-detail.co
     MiracleleafComponent,
     DestinatedComponent,
     TranquilComponent,
-<<<<<<< HEAD
     GalleryDirective,
     LoginComponent,
     RegisterComponent,
     CactusDetailComponent,
-    ComboDetailComponent
-=======
+    ComboDetailComponent,
     PaymentComponent,
     GalleryDirective,
     LoginComponent,
     RegisterComponent
     
->>>>>>> 48acc1d43a959f5f3d20bfe099bf8a55648e1632
   ],
   imports: [
     BrowserModule,

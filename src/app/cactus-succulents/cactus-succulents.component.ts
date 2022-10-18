@@ -17,13 +17,70 @@ export class CactusSucculentsComponent implements OnInit {
   }
 
   ngOnInit(): void {
+
+    this.cactusdetails= this.cactusdetails.sort((low: { cactus_price: number; }, high: { cactus_price: number; }) => low.cactus_price - high.cactus_price);
+
     const contObervable=this.cactusService.getcactusdetails();
     contObervable.subscribe((cactusData:Cactus[])=>{
       this.cactusdetails=cactusData;
     });
+
   }
 
-  
+  sort(event: any) {
+    switch (event.target.value) {
+      case "Low":
+        {
+          this.cactusdetails = this.cactusdetails.sort((low: { cactus_price: number; }, high: { cactus_price: number; }) => low.cactus_price - high.cactus_price);
+          break;
+        }
+
+      case "High":
+        {
+          this.cactusdetails = this.cactusdetails.sort((low: { cactus_price: number; }, high: { cactus_price: number; }) => high.cactus_price - low.cactus_price);
+          break;
+        }
+
+      case "Name":
+        {
+          this.cactusdetails = this.cactusdetails.sort(function (low: { cactus_name: String; }, high: { cactus_name: String; }) {
+            if (low.cactus_name < high.cactus_name) {
+              return -1;
+            }
+            else if (low.cactus_name > high.cactus_name) {
+              return 1;
+            }
+            else {
+              return 0;
+            }
+          })
+          break;
+        }
+        case "HName":
+          {
+            this.cactusdetails = this.cactusdetails.sort(function (low: { cactus_name: String; }, high: { cactus_name: String; }) {
+              if (low.cactus_name > high.cactus_name) {
+                return -1;
+              }
+              else if (low.cactus_name < high.cactus_name) {
+                return 1;
+              }
+              else {
+                return 0;
+              }
+            })
+            break;
+          }
+
+      default: {
+        this.cactusdetails = this.cactusdetails.sort((low: { cactus_price: number; }, high: { cactus_price: number; }) => low.cactus_price - high.cactus_price);
+        break;
+      }
+
+    }
+    return this.cactusdetails;
+  }
+
   
  
 }
