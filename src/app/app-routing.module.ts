@@ -14,14 +14,11 @@ import { MedicineSeedsComponent } from './medicine-seeds/medicine-seeds.componen
 import { OrnamantalTreesComponent } from './ornamantal-trees/ornamantal-trees.component';
 import { MedicinalHerbsComponent } from './plants/medicinal-herbs/medicinal-herbs.component';
 import { ComboPacksComponent } from './combo-packs/combo-packs.component';
-<<<<<<< HEAD
 import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
-=======
 import { IndoorPlantsComponent } from './plants/indoor-plants/indoor-plants.component';
 import { OutdoorPlantsComponent } from './plants/outdoor-plants/outdoor-plants.component';
 import { GrassesComponent } from './plants/grasses/grasses.component';
->>>>>>> a3cd1687de50f60f0866e6b1744cd2b6ec6e9432
 import { SandalwoodComponent } from './sandalwood/sandalwood.component';
 import { MiracleleafComponent } from './miracleleaf/miracleleaf.component';
 import { DestinatedComponent } from './destinated/destinated.component';
@@ -30,12 +27,13 @@ import { CommunityComponent } from './community/community.component';
 import { Article1Component } from './community-articles/article1/article1.component';
 import { Article2Component } from './community-articles/article2/article2.component';
 import { Article3Component } from './community-articles/article3/article3.component';
-
+import { CactusDetailComponent } from './cactus-succulents/cactus-detail/cactus-detail.component';
 import { ContainergardeningComponent } from './PlantTips/containergardening/containergardening.component';
 import { FoundationplantsComponent } from './PlantTips/foundationplants/foundationplants.component';
 import { PlantselectionComponent } from './PlantTips/plantselection/plantselection.component';
 import { CartItemsComponent } from './cart-items/cart-items.component';
 import { CheckoutComponent } from './checkout/checkout.component';
+import { ComboDetailComponent } from './combo-packs/combo-detail/combo-detail.component';
 
 
 const routes: Routes = [
@@ -67,12 +65,15 @@ const routes: Routes = [
   {path: 'communityarticles/article3', component: Article3Component},
   {path:'login',component:LoginComponent},
   {path:'register',component:RegisterComponent},
-  
   {path:'PlantTips/containergardening',component:ContainergardeningComponent},
   {path:'PlantTips/foundationplants',component:FoundationplantsComponent},
   {path:'PlantTips/plantselection',component:ContainergardeningComponent},
   {path:"cartitems",component:CartItemsComponent},
-  {path:"checkout", component:CheckoutComponent}
+  {path:"checkout", component:CheckoutComponent},
+{path:"cactuaDetail/:id",component:CactusDetailComponent},
+{path:"comboDetail/:id",component:ComboDetailComponent}
+
+
 
 ];
 

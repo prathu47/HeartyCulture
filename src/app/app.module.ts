@@ -44,9 +44,9 @@ import { CartItemsComponent } from './cart-items/cart-items.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
-
 import { GalleryDirective } from './gallery.directive';
-
+import { CactusDetailComponent } from './cactus-succulents/cactus-detail/cactus-detail.component';
+import { ComboDetailComponent } from './combo-packs/combo-detail/combo-detail.component';
 
 
 @NgModule({
@@ -67,7 +67,6 @@ import { GalleryDirective } from './gallery.directive';
     CactusChilsComponent,
     PalmsCycasComponent,
     PalmIndoorComponent,
-    ComboPacksComponent,
     OutdoorPlantsComponent,
     IndoorPlantsComponent,
     GrassesComponent,
@@ -88,11 +87,11 @@ import { GalleryDirective } from './gallery.directive';
     MiracleleafComponent,
     DestinatedComponent,
     TranquilComponent,
-      GalleryDirective,
-      LoginComponent,
-      RegisterComponent
-     
-
+    GalleryDirective,
+    LoginComponent,
+    RegisterComponent,
+    CactusDetailComponent,
+    ComboDetailComponent
   ],
   imports: [
     BrowserModule,
@@ -102,7 +101,8 @@ import { GalleryDirective } from './gallery.directive';
     HttpClientModule,
     BrowserAnimationsModule,
     NgbModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

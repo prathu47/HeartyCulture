@@ -11,7 +11,7 @@
           <button type="button" class="btn btn-warning cart-title-button mdc-ripple-surface" routerLink="/checkout"
             style="margin-right: 30px;"><i class="fa-sharp fa-solid fa-cart-shopping"></i>&nbsp;&nbsp;Checkout</button>
         </div>
-        <span class="text-title">Rs. {{totalPrice(cart)}}.00</span>
+        <span class="text-title">Rs. {{totalPrice(cart) | number : '1.2-2'}}</span>
 
       </div>
     </div>
@@ -20,7 +20,7 @@
     <div class="container h-70">
       <div class="row d-flex justify-content-center align-items-center h-70">
         <div class="col">
-          <div class="card rounded-3 mb-4" *ngFor="let item of cart">
+          <div class="card rounded-3 mb-4" *ngFor="let item of cart; let i=index" >
             <div class="card-body p-4">
               <div class="row d-flex justify-content-between align-items-center">
                 <div class="col-md-2 col-lg-2 col-xl-2">
@@ -35,7 +35,8 @@
                     onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
                     <i class="fas fa-minus"></i>
                   </button>
-                  <input id="form1" type="number" name="cart_quality" style="width:50px;border-radius:10px;" min="1"
+                  <!-- [(ngModel)]="item.cart_quality" [ngModelOptions]="{standalone: true}" (change)="ChangeTotal(item,i)" -->
+                  <input  id="form1" type="number" name="" style="width:50px;border-radius:10px;" min="1"
                     max="10" value="1" class="form-control form-control-sm">
                   <button class="btn btn-link px-2"
                     onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
@@ -54,7 +55,7 @@
 
           <div>
             <span class="total">Subtotal</span>
-            <span class="amount">{{totalPrice(cart)|currency:'INR':'symbol':'3.0'}}</span>
+            <span class="amount">Rs. {{totalPrice(cart)|number : '1.2-2'}}</span>
           </div>
           <div>
             <span>Shipping & taxes calculated at checkout</span>
