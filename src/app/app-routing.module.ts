@@ -33,7 +33,11 @@ import { FoundationplantsComponent } from './PlantTips/foundationplants/foundati
 import { PlantselectionComponent } from './PlantTips/plantselection/plantselection.component';
 import { CartItemsComponent } from './cart-items/cart-items.component';
 import { CheckoutComponent } from './checkout/checkout.component';
+<<<<<<< HEAD
 import { ComboDetailComponent } from './combo-packs/combo-detail/combo-detail.component';
+=======
+import { PaymentComponent } from './payment/payment.component';
+>>>>>>> 48acc1d43a959f5f3d20bfe099bf8a55648e1632
 
 
 const routes: Routes = [
@@ -70,10 +74,14 @@ const routes: Routes = [
   {path:'PlantTips/plantselection',component:ContainergardeningComponent},
   {path:"cartitems",component:CartItemsComponent},
   {path:"checkout", component:CheckoutComponent},
+<<<<<<< HEAD
 {path:"cactuaDetail/:id",component:CactusDetailComponent},
 {path:"comboDetail/:id",component:ComboDetailComponent}
 
 
+=======
+  {path:"payment",component:PaymentComponent}
+>>>>>>> 48acc1d43a959f5f3d20bfe099bf8a55648e1632
 
 ];
 

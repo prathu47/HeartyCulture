@@ -42,6 +42,7 @@ import { SearchFilterPipe } from './shared/search-filter.pipe';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CartItemsComponent } from './cart-items/cart-items.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { PaymentComponent } from './payment/payment.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { GalleryDirective } from './gallery.directive';
@@ -87,11 +88,19 @@ import { ComboDetailComponent } from './combo-packs/combo-detail/combo-detail.co
     MiracleleafComponent,
     DestinatedComponent,
     TranquilComponent,
+<<<<<<< HEAD
     GalleryDirective,
     LoginComponent,
     RegisterComponent,
     CactusDetailComponent,
     ComboDetailComponent
+=======
+    PaymentComponent,
+    GalleryDirective,
+    LoginComponent,
+    RegisterComponent
+    
+>>>>>>> 48acc1d43a959f5f3d20bfe099bf8a55648e1632
   ],
   imports: [
     BrowserModule,
