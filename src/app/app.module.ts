@@ -42,12 +42,18 @@ import { SearchFilterPipe } from './shared/search-filter.pipe';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CartItemsComponent } from './cart-items/cart-items.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { PaymentComponent } from './payment/payment.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
-
 import { GalleryDirective } from './gallery.directive';
+<<<<<<< HEAD
 import { ProductdetailsComponent } from './productdetails/productdetails.component';
+=======
+import { AllproductsComponent } from './allproducts/allproducts.component';
+>>>>>>> 9f075b670374b946175bd6eaf84808bf18bb790a
 
+import { CactusDetailComponent } from './cactus-succulents/cactus-detail/cactus-detail.component';
+import { ComboDetailComponent } from './combo-packs/combo-detail/combo-detail.component';
 
 
 @NgModule({
@@ -68,26 +74,28 @@ import { ProductdetailsComponent } from './productdetails/productdetails.compone
     CactusChilsComponent,
     PalmsCycasComponent,
     PalmIndoorComponent,
-    ComboPacksComponent,
     OutdoorPlantsComponent,
     IndoorPlantsComponent,
     GrassesComponent,
     IndoorComponent,
     CheckoutComponent,
     CommunityComponent,
+    Article3Component,
     Article1Component,
     Article2Component,
     Article3Component,
     PalmCycasOutdoorComponent,
-    PalmIndoorComponent,
     ComboPacksComponent,
+<<<<<<< HEAD
     
-    SearchFilterPipe,
-    CartItemsComponent,
+=======
     ContainergardeningComponent,
     FoundationplantsComponent,
+>>>>>>> 9f075b670374b946175bd6eaf84808bf18bb790a
+    SearchFilterPipe,
     PlantselectionComponent,
     SandalwoodComponent,
+<<<<<<< HEAD
     
     DestinatedComponent,
     TranquilComponent,
@@ -107,6 +115,23 @@ import { ProductdetailsComponent } from './productdetails/productdetails.compone
       GalleryDirective,
       ProductdetailsComponent
      
+=======
+    CartItemsComponent,
+    MiracleleafComponent,
+    DestinatedComponent,
+    TranquilComponent,
+    GalleryDirective,
+    LoginComponent,
+    RegisterComponent,
+    CactusDetailComponent,
+    ComboDetailComponent,
+    PaymentComponent,
+    GalleryDirective,
+    LoginComponent,
+    RegisterComponent,
+    AllproductsComponent
+    
+>>>>>>> 9f075b670374b946175bd6eaf84808bf18bb790a
 
   ],
   imports: [
@@ -114,19 +139,15 @@ import { ProductdetailsComponent } from './productdetails/productdetails.compone
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
-
-    NgbModule,
-
-    HttpClientModule,
-BrowserAnimationsModule,
-    NgbModule,
-
     HttpClientModule,
     BrowserAnimationsModule,
     NgbModule,
 
 BrowserAnimationsModule,
-    NgbModule
+    NgbModule,
+    HttpClientModule,
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

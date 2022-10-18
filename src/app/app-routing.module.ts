@@ -27,13 +27,20 @@ import { CommunityComponent } from './community/community.component';
 import { Article1Component } from './community-articles/article1/article1.component';
 import { Article2Component } from './community-articles/article2/article2.component';
 import { Article3Component } from './community-articles/article3/article3.component';
-
+import { CactusDetailComponent } from './cactus-succulents/cactus-detail/cactus-detail.component';
 import { ContainergardeningComponent } from './PlantTips/containergardening/containergardening.component';
 import { FoundationplantsComponent } from './PlantTips/foundationplants/foundationplants.component';
 import { PlantselectionComponent } from './PlantTips/plantselection/plantselection.component';
 import { CartItemsComponent } from './cart-items/cart-items.component';
 import { CheckoutComponent } from './checkout/checkout.component';
+<<<<<<< HEAD
 import { ProductdetailsComponent } from './productdetails/productdetails.component';
+=======
+import { ComboDetailComponent } from './combo-packs/combo-detail/combo-detail.component';
+import { PaymentComponent } from './payment/payment.component';
+import { AllproductsComponent } from './allproducts/allproducts.component';
+
+>>>>>>> 9f075b670374b946175bd6eaf84808bf18bb790a
 
 
 const routes: Routes = [
@@ -65,13 +72,20 @@ const routes: Routes = [
   {path: 'communityarticles/article3', component: Article3Component},
   {path:'login',component:LoginComponent},
   {path:'register',component:RegisterComponent},
-  
   {path:'PlantTips/containergardening',component:ContainergardeningComponent},
   {path:'PlantTips/foundationplants',component:FoundationplantsComponent},
   {path:'PlantTips/plantselection',component:ContainergardeningComponent},
   {path:"cartitems",component:CartItemsComponent},
   {path:"checkout", component:CheckoutComponent},
+<<<<<<< HEAD
   {path:"prod_details",component:ProductdetailsComponent}
+=======
+  {path:"payment",component: PaymentComponent},
+  {path: "allproducts", component: AllproductsComponent},
+{path:"cactuaDetail/:id",component:CactusDetailComponent},
+{path:"comboDetail/:id",component:ComboDetailComponent}
+
+>>>>>>> 9f075b670374b946175bd6eaf84808bf18bb790a
 
 ];
 

@@ -4,14 +4,19 @@
         "pname":"Cycas Revoluta, Sago Palm PLant",
         "pdescription":"Heartyculture Nursery",
         "price":554,
-        "img":"/assets/images/Sago_Palm.jpg"
+        "img":"/assets/images/Sago_Palm.jpg",
+        "palm_image1":"https://wildroots.in/wp-content/uploads/2021/01/Untitled-design-63-100x100.jpg",
+        "palm_image2":"https://wildroots.in/wp-content/uploads/2021/01/Untitled-design-11-1.jpg",
+        "palm_image3":"https://wildroots.in/wp-content/uploads/2021/01/Untitled-design-12-1.jpg"
     },
     {
         "pid":2,
         "pname":"Bismarckia Nobilis Blue Form",
         "pdescription":"Heartyculture Nursery",
         "price":749,
-        "img":"/assets/images/bismarckia.jpg"
+        "img":"/assets/images/bismarckia.jpg",
+        "palm_image1":"https://www.nparks.gov.sg/-/media/ffw/migrated/round2/flora/2600/1275a27743d944f19488a0d64949e6d0.ashx",
+        "palm_image2":"https://www.nparks.gov.sg/-/media/ffw/migrated/round2/flora/2600/226c551d96b54638b4c87f94e69ed8d7.ashx"
         
     },
     {
@@ -19,7 +24,9 @@
         "pname":"Roystonea Regia, Royal Palm",
         "pdescription":"Heartyculture Nursery",
         "price":500,
-        "img":"/assets/images/royal_Palm.jpg"
+        "img":"/assets/images/royal_Palm.jpg",
+        "palm_image1":"https://m.media-amazon.com/images/I/41lfIEQhc5L._SS40_.jpg",
+        "palm_image2":"https://m.media-amazon.com/images/I/21IOSxG09zL._SS40_.jpg"
         
     },
     {
@@ -27,14 +34,17 @@
         "pname":"Pygmy Date Palm Plant with Pot",
         "pdescription":"Heartyculture Nursery",
         "price":1063,
-        "img":"/assets/images/Pygmy_Date_Palm.jpg"
+        "img":"/assets/images/Pygmy_Date_Palm.jpg",
+        "palm_image1":"https://m.media-amazon.com/images/I/51B5SiYxojL._SS40_.jpg"
     },
     {
         "pid":5,
-        "pname":"Cyrtostachys Renda",
+        "pname":"Madagascar Palm",
         "pdescription":"Heartyculture Nursery",
         "price":799,
-        "img":"/assets/images/cyrotostachys.jpg"
+        "img":"https://nurserynisarga.in/wp-content/uploads/2020/07/20201104231544_IMG_9436-01.jpg",
+        "palm_image1":"https://nurserynisarga.in/wp-content/uploads/2020/07/20201104231544_IMG_9436-01.jpg",
+        "palm_image2":"https://nurserynisarga.in/wp-content/uploads/2020/07/20201104231639_IMG_9438-01-100x100.jpg"
     },
     {
         "pid":6,
@@ -45,17 +55,23 @@
     },
     {
         "pid":7,
-        "pname":"Zamia Furfurea",
+        "pname":"Ruffled Palm Fan Plant",
         "pdescription":"Heartyculture Nursery",
         "price":1999,
-        "img":"/assets/images/zamia.jpg"
+        "img":"https://nurserynisarga.in/wp-content/uploads/2021/09/Fan-Palm_02.webp",
+        "palm_image1":"https://nurserynisarga.in/wp-content/uploads/2021/09/IMG_2646-100x100.jpg",
+        "palm_image2":"https://nurserynisarga.in/wp-content/uploads/2021/09/IMG_2648-100x100.jpg",
+        "palm_image3":"https://nurserynisarga.in/wp-content/uploads/2021/09/Fan-Palm_01-100x100.webp"
     },
     {
         "pid":8,
-        "pname":"Umbrella Palm",
+        "pname":"Lady Finger Palm",
         "pdescription":"Heartyculture Nursery",
         "price":399,
-        "img":"/assets/images/Umbrella_Palm.jpg"
+        "img":"https://nurserynisarga.in/wp-content/uploads/2020/06/IMG_2985.jpg",
+        "palm_image1":"https://nurserynisarga.in/wp-content/uploads/2020/06/IMG_2976-100x100.jpg",
+        "palm_image2":"https://nurserynisarga.in/wp-content/uploads/2020/06/IMG_2982-100x100.jpg",
+        "palm_image3":"https://nurserynisarga.in/wp-content/uploads/2020/06/IMG_2984_Measurement-100x100.jpg"
     }
 
 ]

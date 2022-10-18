@@ -1,4 +1,5 @@
 {
+
   "posts": [
     {
       "id": 2,
@@ -50,6 +51,8 @@
       "img": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/AfricanMarigoldF2WhiteFlower-Seeds_381x381.jpg?v=1620130424"
     }
   ],
+
+
   "cart": [
     {
       "cart_id": 2,
@@ -58,14 +61,17 @@
       "cart_price": 450,
       "id": 1
     },
+    
     {
-      "cart_id": 3,
-      "cart_image": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/001_f5eba41a-5ce0-49b3-900b-2d33bd4894a5_902x902.png?v=1631531130",
-      "cart_name": "Frozen Snake Plant | Sansevieria Trifasciata",
-      "cart_price": 399,
+      "cart_id": 11,
+      "cart_image": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/002_2_6afa9224-1dce-46db-a5b9-ae94d2184da3_256x256.png?v=1633685031",
+      "cart_name": "Patta ajwain | Coleus amboinicus ",
+      "cart_price": 149,
       "id": 2
+
     }
   ],
+
   "users": [
     {
       "firstname": "Ramya",
@@ -143,6 +149,13 @@
       "useremail": "ramyashree1301@gmail.com",
       "password": "",
       "id": 13
+    },
+    {
+      "firstname": "Pooja",
+      "lastname": "g",
+      "useremail": "tt@gmail.com",
+      "password": "tt1234",
+      "id": 14
     }
   ]
 }
