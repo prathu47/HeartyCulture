@@ -78,6 +78,8 @@ const routes: Routes = [
   {path:"payment",component:PaymentComponent},
   {path: "allproducts", component: AllproductsComponent}
 
+
+
 ];
 
 @NgModule({

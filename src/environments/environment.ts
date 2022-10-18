@@ -4,6 +4,7 @@
 
 export const environment = {
   production: true,
+  postsapi:"http://localhost:3000/posts",
   cartapi:"http://localhost:3000/cart",
   userapi:"http://localhost:3000/users"
 

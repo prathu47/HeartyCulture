@@ -46,8 +46,8 @@ import { PaymentComponent } from './payment/payment.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { GalleryDirective } from './gallery.directive';
+import { ProductdetailsComponent } from './productdetails/productdetails.component';
 import { AllproductsComponent } from './allproducts/allproducts.component';
-
 import { CactusDetailComponent } from './cactus-succulents/cactus-detail/cactus-detail.component';
 import { ComboDetailComponent } from './combo-packs/combo-detail/combo-detail.component';
 
@@ -82,11 +82,31 @@ import { ComboDetailComponent } from './combo-packs/combo-detail/combo-detail.co
     Article3Component,
     PalmCycasOutdoorComponent,
     ComboPacksComponent,
+    
     ContainergardeningComponent,
     FoundationplantsComponent,
     SearchFilterPipe,
     PlantselectionComponent,
     SandalwoodComponent,
+    
+    DestinatedComponent,
+    TranquilComponent,
+    CartItemsComponent,
+   
+    MiracleleafComponent,
+    DestinatedComponent,
+    
+     
+     
+      SandalwoodComponent,
+      MiracleleafComponent,
+      DestinatedComponent,
+      TranquilComponent,
+      LoginComponent,
+      RegisterComponent,
+      GalleryDirective,
+      ProductdetailsComponent,
+     
     CartItemsComponent,
     MiracleleafComponent,
     DestinatedComponent,
@@ -101,6 +121,7 @@ import { ComboDetailComponent } from './combo-packs/combo-detail/combo-detail.co
     LoginComponent,
     RegisterComponent,
     AllproductsComponent
+    
 
   ],
   imports: [
