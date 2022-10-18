@@ -13,6 +13,8 @@ import * as prod from "src/app/plantdata/medicinalherb.json";
 
 export class MedicinalHerbsComponent implements OnInit {
 
+ 
+  
   constructor(private cartservice: CartService, private router: Router) { }
 
   @Input() product: any
@@ -62,10 +64,13 @@ export class MedicinalHerbsComponent implements OnInit {
       }
     )
   }
-  productDetails = false;
+  productDetails:any=(prod as any).default;
+  
+  
+  
+ 
 
 
-
-  productDetail: any = (prod as any).default;
+  
 
 }

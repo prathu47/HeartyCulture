@@ -22,10 +22,11 @@
   <h1>Medicinal Herbs</h1>
 </div>
 <br>
+
 <div class="container-fluid">
   <div class="row card-group">
     <!--1st column-->
-    <div class="col col-3" *ngFor="let product of productDetail">
+    <div class="col col-3" *ngFor="let product of productDetails">
       <div class="card card-hover shadow">
         <!--Property Binding-->
         <img [src]="product.img" class="prodimg mx-auto">
@@ -51,8 +52,9 @@
           </div>
         </div>
       </div>
-
     </div>
+  </div>
+  <app-footer></app-footer>
     <!--2nd column-->
   </div>
-</div>
+

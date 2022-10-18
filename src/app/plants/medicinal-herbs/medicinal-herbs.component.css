@@ -1,3 +1,24 @@
+img{
+    height:250px;
+    width:250px;
+    margin-left:20px;
+    margin-top:10px;
+    margin-bottom:10px;
+    
+}
+.header{
+    margin-left: 20px;
+    color: #484848;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.card {
+    padding-top: 10px;
+    margin-bottom: 40px;
+}
+.card-hover{
+    height: 420px;
+    transition: 0.5s;  
+}
 .breadcrumb {
     margin-left: 2px;
     padding: 10px;
@@ -85,8 +106,10 @@ img {
 
 .card-hover:hover .target {
     visibility: visible;
-
+    
 }
+
+
 
 .product-name {
     height: 60px;

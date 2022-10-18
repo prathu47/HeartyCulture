@@ -48,6 +48,8 @@ import { RegisterComponent } from './register/register.component';
 import { GalleryDirective } from './gallery.directive';
 import { AllproductsComponent } from './allproducts/allproducts.component';
 
+import { CactusDetailComponent } from './cactus-succulents/cactus-detail/cactus-detail.component';
+import { ComboDetailComponent } from './combo-packs/combo-detail/combo-detail.component';
 
 
 @NgModule({
@@ -89,14 +91,18 @@ import { AllproductsComponent } from './allproducts/allproducts.component';
     MiracleleafComponent,
     DestinatedComponent,
     TranquilComponent,
-     
-
+    GalleryDirective,
+    LoginComponent,
+    RegisterComponent,
+    CactusDetailComponent,
+    ComboDetailComponent,
     PaymentComponent,
     GalleryDirective,
     LoginComponent,
     RegisterComponent,
     AllproductsComponent
     
+
   ],
   imports: [
     BrowserModule,
@@ -109,7 +115,9 @@ import { AllproductsComponent } from './allproducts/allproducts.component';
 
 BrowserAnimationsModule,
     NgbModule,
-    HttpClientModule
+    HttpClientModule,
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
