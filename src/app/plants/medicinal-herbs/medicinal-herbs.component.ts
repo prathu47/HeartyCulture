@@ -8,12 +8,11 @@ import * as prod from "src/app/plantdata/medicinalherb.json";
 export class MedicinalHerbsComponent implements OnInit {
 
   constructor() { }
-  @Input()product:any
+  @Input()
 
   ngOnInit(): void {
   }
-  productDetails=false;
- 
+  productDetails:any=(prod as any).default;
   
   
   productDetail:any=(prod as any).default;

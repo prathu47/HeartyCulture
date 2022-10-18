@@ -14,14 +14,11 @@ import { MedicineSeedsComponent } from './medicine-seeds/medicine-seeds.componen
 import { OrnamantalTreesComponent } from './ornamantal-trees/ornamantal-trees.component';
 import { MedicinalHerbsComponent } from './plants/medicinal-herbs/medicinal-herbs.component';
 import { ComboPacksComponent } from './combo-packs/combo-packs.component';
-<<<<<<< HEAD
 import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
-=======
 import { IndoorPlantsComponent } from './plants/indoor-plants/indoor-plants.component';
 import { OutdoorPlantsComponent } from './plants/outdoor-plants/outdoor-plants.component';
 import { GrassesComponent } from './plants/grasses/grasses.component';
->>>>>>> a3cd1687de50f60f0866e6b1744cd2b6ec6e9432
 import { SandalwoodComponent } from './sandalwood/sandalwood.component';
 import { MiracleleafComponent } from './miracleleaf/miracleleaf.component';
 import { DestinatedComponent } from './destinated/destinated.component';
