@@ -6,5 +6,6 @@ export class Cactus {
     cactus_image2:string|undefined;
     cactus_image3:string|undefined;
     cactus_name:string|any;
-    cactus_price:number|undefined;
+  
+    cactus_price:number|any;
 }

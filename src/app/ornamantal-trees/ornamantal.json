@@ -5,7 +5,9 @@
         "pdescription":"Heartyculture Nursery",
         "price":349.00,
         "price1":299.00,
-        "img":"https://yourgardenbuddy.com/wp-content/uploads/2020/08/Foxtail-Fern-720x540.jpg"
+        "img":"https://yourgardenbuddy.com/wp-content/uploads/2020/08/Foxtail-Fern-720x540.jpg",
+        "img2":"https://www.logees.com/media/catalog/product/cache/088d41982d5ddfc4a0a1e449b5ddd946/r/2/r2352-4-large.jpg",
+        "img3":"https://cdn.shopify.com/s/files/1/0483/5075/7013/products/combo_e8b3ff68-3be3-4144-b40f-61417168012c_1024x.jpg?v=1663668267"
     },
     {
         "pid":2,
@@ -13,7 +15,9 @@
         "pdescription":"Heartyculture Nursery",
         "price":449.00,
         "price1":349.00,
-        "img":"https://floweraura-blog-img.s3.ap-south-1.amazonaws.com/Plant+Dec+2019-+Dec+2020/sword-fern-plant.jpg"
+        "img":"https://floweraura-blog-img.s3.ap-south-1.amazonaws.com/Plant+Dec+2019-+Dec+2020/sword-fern-plant.jpg",
+        "img2":"https://themamapirate.com/wp-content/uploads/2020/07/How-to-grow-sword-ferns-from-spores.jpg",
+        "img3":"https://t4.ftcdn.net/jpg/03/72/82/93/360_F_372829378_nARuDPniKZzzobcSP5Pe4DxQy0d6Pye2.jpg"
     },
     {
         "pid":3,
@@ -21,7 +25,9 @@
         "pdescription":"Heartyculture Nursery",
         "price":469.00,
         "price1":429.00,
-        "img":"https://floweraura-blog-img.s3.ap-south-1.amazonaws.com/Plants+Dec-19-Dec-20/silver-nerve-plant.jpg"
+        "img":"https://floweraura-blog-img.s3.ap-south-1.amazonaws.com/Plants+Dec-19-Dec-20/silver-nerve-plant.jpg",
+        "img2":"https://www.thespruce.com/thmb/OR2y7xQ8_4U8PjCdmxOx_wdiDYQ=/2048x1497/filters:no_upscale():max_bytes(150000):strip_icc()/grow-fittonia-houseplants-indoors-1902486-01-4daff2eea07f475a987b19d97dda4f20.jpg",
+        "img3":"https://i.pinimg.com/originals/25/6f/3b/256f3bfa7543edd7ef52fadc8c32595c.jpg"
     },
     {
         "pid":4,
@@ -29,49 +35,63 @@
         "pdescription":"Heartyculture Nursery",
         "price":399.00,
         "price1":349.00,
-        "img":"https://floweraura-blog-img.s3.ap-south-1.amazonaws.com/Plants+Dec-19-Dec-20/fibre-optic-grass-plant.jpg"
+        "img":"https://floweraura-blog-img.s3.ap-south-1.amazonaws.com/Plants+Dec-19-Dec-20/fibre-optic-grass-plant.jpg",
+        "img2":"https://www.wetland-plants.co.uk/wp-content/uploads/2014/12/Scirpus_Cernuus_big1.jpg",
+        "img3":"https://flower4you.es/picture/indoor-plants/156-417-fiber-optic-grass-bg.jpg"
     },
     {
         "pid":5,
         "pname":"Snake Plant",
         "pdescription":"Heartyculture Nursery",
         "price1":305.00,
-        "img":"https://floweraura-blog-img.s3.ap-south-1.amazonaws.com/Plants+Dec-19-Dec-20/snake-plants.jpg"
+        "img":"https://floweraura-blog-img.s3.ap-south-1.amazonaws.com/Plants+Dec-19-Dec-20/snake-plants.jpg",
+        "img2":"http://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-plants-sansevieria-trifasciata-hahnii-snake-plant-plant-16969295855756.jpg?v=1634228043",
+        "img3":"https://post.healthline.com/wp-content/uploads/2022/01/snake-plant-detail-732x549-thumbnail-732x549.jpg"
     },
     {
         "pid":6,
         "pname":"Jade Plant",
         "pdescription":"Heartyculture Nursery",
         "price1":299.00,
-        "img":"https://yourgardenbuddy.com/wp-content/uploads/2020/07/Jade-Plant-720x540.jpg"
+        "img":"https://yourgardenbuddy.com/wp-content/uploads/2020/07/Jade-Plant-720x540.jpg",
+        "img2":"https://assets-news.housing.com/news/wp-content/uploads/2022/08/03101913/All-about-Jade-plants-and-how-to-take-care-of-them.jpg",
+        "img3":"https://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-gifts-symbol-of-friendship-jade-plant-in-handi-pot-16969364668556_600x600_e4c14369-534c-4154-b09f-287434b9b820_300x@2x.jpg?v=1639233311"
     },
     {
         "pid":7,
         "pname":"Peace Lily",
         "pdescription":"Heartyculture Nursery",
         "price1":405.00,
-        "img":"https://yourgardenbuddy.com/wp-content/uploads/2021/06/Peace-Lily.jpg"
+        "img":"https://yourgardenbuddy.com/wp-content/uploads/2021/06/Peace-Lily.jpg",
+        "img2":"https://urbano.in/wp-content/uploads/2020/09/spathiphyllum-chopin-in-9cm-pot-p1460-37464_image.jpg",
+        "img3":"https://www.plantslive.in/wp-content/uploads/2017/04/peace-lily-plantslive.jpg"
     },
     {
         "pid":8,
         "pname":"ZZ Plant",
         "pdescription":"Heartyculture Nursery",
         "price1":315.00,
-        "img":"https://yourgardenbuddy.com/wp-content/uploads/2020/05/ZZ-Plant-Hard-to-kill-Airpurifying-Plant-720x540.jpg"
+        "img":"https://yourgardenbuddy.com/wp-content/uploads/2020/05/ZZ-Plant-Hard-to-kill-Airpurifying-Plant-720x540.jpg",
+        "img2":"https://budsnblush.com/wp-content/uploads/2017/07/774db0706fde747de6a1e0965addc0d5_compress62.jpg",
+        "img3":"https://m.media-amazon.com/images/I/81RQd073hbS._SL1500_.jpg"
     },
     {
         "pid":9,
         "pname":"Water Bamboo",
         "pdescription":"Heartyculture Nursery",
         "price1":239.00,
-        "img":"https://floweraura-blog-img.s3.ap-south-1.amazonaws.com/Plants+Dec-19-Dec-20/chinese-water-bamboo-plant.jpg"
+        "img":"https://floweraura-blog-img.s3.ap-south-1.amazonaws.com/Plants+Dec-19-Dec-20/chinese-water-bamboo-plant.jpg",
+        "img2":"https://i.ytimg.com/vi/qOJxCXJM2Mo/maxresdefault.jpg",
+        "img3":"http://cdn.shopify.com/s/files/1/0579/7924/0580/products/45_38.png?v=1661320893"
     },
     {
         "pid":10,
         "pname":"Rubber Plant",
         "pdescription":"Heartyculture Nursery",
         "price1":319.00,
-        "img":"https://yourgardenbuddy.com/wp-content/uploads/2021/06/Rubber-Plant.jpg"
+        "img":"https://yourgardenbuddy.com/wp-content/uploads/2021/06/Rubber-Plant.jpg",
+        "img2":"https://rukminim1.flixcart.com/image/416/416/k8by93k0/plant-sapling/v/k/v/gardens-ficus-elastica-baby-rubber-plant-1-lushgreen-original-imafqdqhgebp4sap.jpeg?q=70",
+        "img3":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTLE5TpLCfWw1n2HuhWe95KX1uT9PhppaKZw&usqp=CAU"
     },
     {
         "pid":11,
