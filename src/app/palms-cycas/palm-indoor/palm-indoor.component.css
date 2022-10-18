@@ -1,11 +1,22 @@
-img{
-    height:230px;
-    width:220px;
-    margin-left:5px; 
- 
-    
+.card-body a{
+    text-decoration: none;
+    color: grey;
+}
 
-    margin-top:10px;
-    margin-bottom:10px;
+.card-body a:hover{
+    color: red;
+}
+.card-hover{
+    height: 390px;
+    transition: 0.5s;  
+}
+.target{
+    visibility: hidden;
+}
+.card-hover:hover{
+    height: 450px;
+}
+.card-hover:hover .target{
+    visibility: visible;
     
-} 
+}

@@ -4,31 +4,44 @@
         "pname":"Bamboo Palm",
         "pdescription":"Heartyculture Nursery",
         "price":366,
-        "img":"/assets/images/bamboopalm.jpg"
+        "img":"/assets/images/bamboopalm.jpg",
+        "palm_image1":"https://nurserynisarga.in/wp-content/uploads/2020/10/DSC_0058-01-100x100.jpg",
+        "palm_image2":"https://nurserynisarga.in/wp-content/uploads/2020/10/Parlour-palm-100x100.jpg",
+        "palm_image3":"https://nurserynisarga.in/wp-content/uploads/2022/03/3-100x100.webp"
 
     },
     {
         "pid":2,
-        "pname":"Date Palm",
+        "pname":"Fox Tail Palm",
         "pdescription":"Heartyculture Nursery",
         "price":600,
-        "img":"/assets/images/bamboopalm.jpg"
+        "img":"https://nurserynisarga.in/wp-content/uploads/2022/03/Foxtail-Palm-01.webp",
+        "palm_image1":"https://nurserynisarga.in/wp-content/uploads/2022/03/Foxtail-Palm-01-100x100.webp",
+        "palm_image2":"https://nurserynisarga.in/wp-content/uploads/2022/03/Foxtail-Palm-Plant-01-100x100.webp"
 
     },
     {
         "pid":3,
-        "pname":"Macrozamia Moorei",
+        "pname":"Champagne Palm",
         "pdescription":"Heartyculture Nursery",
-        "price":2999,
-        "img":"/assets/images/macrzamia.jpg"
+        "price":1849,
+        "img":"https://nurserynisarga.in/wp-content/uploads/2021/09/Champagne-Palm-Plant_02.jpg",
+        "palm_image1":"https://nurserynisarga.in/wp-content/uploads/2021/09/Champagne-Palm-Plant_01-100x100.jpg",
+        "palm_image2":"https://nurserynisarga.in/wp-content/uploads/2021/09/Champagne-Palm-Plant_03-100x100.jpg",
+        "palm_image3":"https://nurserynisarga.in/wp-content/uploads/2021/11/1-100x100.webp"
+
 
     },
     {
         "pid":4,
-        "pname":"Grandish Palm",
+        "pname":"Sago Palm",
         "pdescription":"Heartyculture Nursery",
         "price":1063,
-        "img":"/assets/images/Grandish_Palm.jpg"
+        "img":"https://nurserynisarga.in/wp-content/uploads/2021/10/sago-palm-04.webp",
+        "palm_image1":"https://nurserynisarga.in/wp-content/uploads/2021/10/sago-palm-01-100x100.webp",
+        "palm_image2":"https://nurserynisarga.in/wp-content/uploads/2021/10/sago-palm-03-100x100.webp",
+        "palm_image3":"https://nurserynisarga.in/wp-content/uploads/2021/10/sago-palm-02-100x100.webp"
+        
 
     },
     {
@@ -36,7 +49,10 @@
         "pname":"Elata Palm",
         "pdescription":"Heartyculture Nursery",
         "price":999,
-        "img":"/assets/images/elatapalm.jpg"
+        "img":"https://nurserynisarga.in/wp-content/uploads/2021/11/Dypsis-Decaryi-Triangle-Palm-01.webp",
+        "palm_image1":"https://nurserynisarga.in/wp-content/uploads/2021/09/IMG_3268-100x100.jpg",
+        "palm_image2":"https://nurserynisarga.in/wp-content/uploads/2021/11/Dypsis-Decaryi-Triangle-Palm-04-100x100.webp",
+        "palm_image3":"https://nurserynisarga.in/wp-content/uploads/2021/11/Dypsis-Decaryi-Triangle-Palm-05-100x100.webp"
 
     },
     {
@@ -44,15 +60,19 @@
         "pname":"Ivory Cane Palm",
         "pdescription":"Heartyculture Nursery",
         "price":899,
-        "img":"/assets/images/ivorypalm.jpg"
+        "img":"/assets/images/ivorypalm.jpg",
+        "palm_image1":"https://www.thejunglecollective.com.au/wp-content/uploads/2020/06/Ivory-Cane-Palm-250mm-s.jpg",
+        "palm_image2":"https://www.thejunglecollective.com.au/wp-content/uploads/2020/06/Ivory-Cane-Palm-250mm-s.jpg"
 
     },
     {
         "pid":7,
-        "pname":"Ruffled Latan Palm",
+        "pname":"Red Palm",
         "pdescription":"Heartyculture Nursery",
         "price":679,
-        "img":"/assets/images/latanpalm.jpg"
+        "img":"https://nurserynisarga.in/wp-content/uploads/2022/03/2.webp",
+        "palm_image1":"https://nurserynisarga.in/wp-content/uploads/2022/03/3-100x100.webp",
+        "palm_image2":"https://nurserynisarga.in/wp-content/uploads/2022/03/2-100x100.webp"
 
     },
     {
@@ -60,7 +80,9 @@
         "pname":"Pritchardia Pacifica Plant",
         "pdescription":"Heartyculture Nursery",
         "price":2097,
-        "img":"/assets/images/pacificiapalm.jpg"
+        "img":"/assets/images/pacificiapalm.jpg",
+        "palm_image1":"https://tropical.theferns.info/plantimages/sized/6/f/6f25203ed362a162629cd02991dbf53da166d747_300px.jpg",
+        "palm_image2":"https://i.pinimg.com/474x/92/ec/e1/92ece11ad5528ad85cfbb47d7004fc4e.jpg"
 
     }
     
