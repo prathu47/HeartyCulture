@@ -4,56 +4,80 @@
         "pname":"Vermicompost (Pure Desi cow) - 900g",
         "pdescription":"Varieties of Birthday gifts are available",
         "price":350,
-        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Inkedvermicompost-1.8kg_276x276_LI_276x274.jpg?v=1645938248"
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Inkedvermicompost-1.8kg_276x276_LI_276x274.jpg?v=1645938248",
+        "ferti1":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/PXL_20210401_115436563.PORTRAIT-01.COVER_150x150_crop_center.jpg?v=1617298650",
+        "ferti2":"https://cdn.shopify.com/s/files/1/0487/7598/7354/produc.ts/PXL_20210401_120046978.PORTRAIT-01.COVER_150x150_crop_center.jpg?v=1645938248",
+        "ferti3":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/PXL_20210401_121230905.PORTRAIT-01.COVER_150x150_crop_center.jpg?v=1624170324"
     },
     {
         "pid":2,
         "pname":"Potting Mixture - Seedling Starter - 900 g",
         "pdescription":"Varieties of Annivarsary gifts are available",
         "price":400,
-        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/potting-mixture-seed-starter-900g_383x381.png?v=1617298578"
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/potting-mixture-seed-starter-900g_383x381.png?v=1617298578",
+        "ferti1":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/PXL_20210401_115436563.PORTRAIT-01.COVER_150x150_crop_center.jpg?v=1617298650",
+        "ferti2":"https://cdn.shopify.com/s/files/1/0487/7598/7354/produc.ts/PXL_20210401_120046978.PORTRAIT-01.COVER_150x150_crop_center.jpg?v=1645938248",
+        "ferti3":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/PXL_20210401_121230905.PORTRAIT-01.COVER_150x150_crop_center.jpg?v=1624170324"
     },
     {
         "pid":3,
         "pname":"Bio Charcoal for fruits and flowers (Charcoal + Topper) - 1.5 kg",
         "pdescription":"Varieties of Cakes are available",
         "price":500,
-        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/bio-char-fruits-flowers-1.5kg_876x873_logo_changed_383x381.png?v=1624170324"
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/bio-char-fruits-flowers-1.5kg_876x873_logo_changed_383x381.png?v=1624170324",
+        "ferti1":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/PXL_20210401_115436563.PORTRAIT-01.COVER_150x150_crop_center.jpg?v=1617298650",
+        "ferti2":"https://cdn.shopify.com/s/files/1/0487/7598/7354/produc.ts/PXL_20210401_120046978.PORTRAIT-01.COVER_150x150_crop_center.jpg?v=1645938248",
+        "ferti3":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/PXL_20210401_121230905.PORTRAIT-01.COVER_150x150_crop_center.jpg?v=1624170324"
     },
     {
         "pid":4,
         "pname":"Bio Charcoal for roots and leaves (Charcoal + Starter) - 1.5 kg",
         "pdescription":"Varieties of Chocolates are available",
         "price":200,
-        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/bio-char-roots-leaves1.5kg_383x381.png?v=1617296849"
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/bio-char-roots-leaves1.5kg_383x381.png?v=1617296849",
+        "ferti1":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/PXL_20210401_115436563.PORTRAIT-01.COVER_150x150_crop_center.jpg?v=1617298650",
+        "ferti2":"https://cdn.shopify.com/s/files/1/0487/7598/7354/produc.ts/PXL_20210401_120046978.PORTRAIT-01.COVER_150x150_crop_center.jpg?v=1645938248",
+        "ferti3":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/PXL_20210401_121230905.PORTRAIT-01.COVER_150x150_crop_center.jpg?v=1624170324"
     },
     {
         "pid":5,
         "pname":"Vermicompost (Pure Desi cow) - 900g",
         "pdescription":"Varieties of Birthday gifts are available",
         "price":350,
-        "img":"https://cdn.shopify.com/s/files/1/0579/7924/0580/products/flora_product_image_shot_900x1200px.png?v=1661310215&width=375"
+        "img":"https://cdn.shopify.com/s/files/1/0579/7924/0580/products/flora_product_image_shot_900x1200px.png?v=1661310215&width=375",
+        "ferti1":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/PXL_20210401_115436563.PORTRAIT-01.COVER_150x150_crop_center.jpg?v=1617298650",
+        "ferti2":"https://cdn.shopify.com/s/files/1/0487/7598/7354/produc.ts/PXL_20210401_120046978.PORTRAIT-01.COVER_150x150_crop_center.jpg?v=1645938248",
+        "ferti3":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/PXL_20210401_121230905.PORTRAIT-01.COVER_150x150_crop_center.jpg?v=1624170324"
     },
     {
         "pid":6,
         "pname":"Potting Mixture - Seedling Starter - 900 g",
         "pdescription":"Varieties of Annivarsary gifts are available",
         "price":400,
-        "img":"https://cdn.shopify.com/s/files/1/0579/7924/0580/products/humi_product_image_shot_900x1200px.png?v=1661310554&width=375"
+        "img":"https://cdn.shopify.com/s/files/1/0579/7924/0580/products/humi_product_image_shot_900x1200px.png?v=1661310554&width=375",
+        "ferti1":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/PXL_20210401_115436563.PORTRAIT-01.COVER_150x150_crop_center.jpg?v=1617298650",
+        "ferti2":"https://cdn.shopify.com/s/files/1/0487/7598/7354/produc.ts/PXL_20210401_120046978.PORTRAIT-01.COVER_150x150_crop_center.jpg?v=1645938248",
+        "ferti3":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/PXL_20210401_121230905.PORTRAIT-01.COVER_150x150_crop_center.jpg?v=1624170324"
     },
     {
         "pid":7,
         "pname":"Bio Charcoal for fruits and flowers (Charcoal + Topper) - 1.5 kg",
         "pdescription":"Varieties of Cakes are available",
         "price":500,
-        "img":"https://cdn.shopify.com/s/files/1/0579/7924/0580/products/protec_product_image_shot_900x1200px.png?v=1661310377&width=375"
+        "img":"https://cdn.shopify.com/s/files/1/0579/7924/0580/products/protec_product_image_shot_900x1200px.png?v=1661310377&width=375",
+        "ferti1":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/PXL_20210401_115436563.PORTRAIT-01.COVER_150x150_crop_center.jpg?v=1617298650",
+        "ferti2":"https://cdn.shopify.com/s/files/1/0487/7598/7354/produc.ts/PXL_20210401_120046978.PORTRAIT-01.COVER_150x150_crop_center.jpg?v=1645938248",
+        "ferti3":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/PXL_20210401_121230905.PORTRAIT-01.COVER_150x150_crop_center.jpg?v=1624170324"
     },
     {
         "pid":8,
         "pname":"Bio Charcoal for roots and leaves (Charcoal + Starter) - 1.5 kg",
         "pdescription":"Varieties of Chocolates are available",
         "price":200,
-        "img":"https://cdn.shopify.com/s/files/1/0579/7924/0580/products/grow_product_image_shot_900x1200px.png?v=1661310051&width=375"
+        "img":"https://cdn.shopify.com/s/files/1/0579/7924/0580/products/grow_product_image_shot_900x1200px.png?v=1661310051&width=375",
+        "ferti1":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/PXL_20210401_115436563.PORTRAIT-01.COVER_150x150_crop_center.jpg?v=1617298650",
+        "ferti2":"https://cdn.shopify.com/s/files/1/0487/7598/7354/produc.ts/PXL_20210401_120046978.PORTRAIT-01.COVER_150x150_crop_center.jpg?v=1645938248",
+        "ferti3":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/PXL_20210401_121230905.PORTRAIT-01.COVER_150x150_crop_center.jpg?v=1624170324"
     }
-
+    
 ]
