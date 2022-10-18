@@ -30,16 +30,9 @@
                                                 d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
                                         </svg>
                                     </li>
-                                    <li class="breadcrumb__item">
-                                        <span>Shipping</span>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11"
-                                            fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                                            <path fill-rule="evenodd"
-                                                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                                        </svg>
-                                    </li>
-                                    <li class="breadcrumb__item">
-                                        <span>Payment</span>
+                                    
+                                    <li class="breadcrumb__item" >
+                                        <span >Payment</span>
                                     </li>
                                 </ol>
                             </nav>
@@ -122,10 +115,11 @@
 
                         <br>
                         <div>
+                            <a routerLink="payment">
                             <button name="button" type="submit" class="btn cts" aria-busy="false">
-                                <span class="btn-content" data-continue-button-content="true">Continue to
-                                    shipping</span>
-                            </button>
+                                <span class="btn-content" data-continue-button-content="true" >Continue to
+                                    payment</span>
+                            </button></a>
                             <a class="previous-link" routerLink="cartitems">
                                 <svg width="10" height="10" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M8 1L7 0 3 4 2 5l1 1 4 4 1-1-4-4" />
@@ -138,7 +132,8 @@
         </div>
         <div class="col-4 grey-bck">
             <div class="container right-col">
-                <table>
+                
+                <!-- <table>
                     <tbody>
                         <tr>
                             <td>
@@ -159,7 +154,7 @@
                     </tbody>
                 </table>
             </div>
-        </div>
+        </div> -->
         <div class="col-1 grey-bck"></div>
     </div>
 </div>

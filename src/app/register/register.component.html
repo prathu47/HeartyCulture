@@ -1,0 +1,46 @@
+<div class="mt-5">
+    <div class="col-md-12 min-vh-100 d-flex flex-column">
+        <div class="login-form" style="margin-bottom:30px;">
+            <form class="row g-3" [formGroup]="registerForm" (ngSubmit)="submitHandler()">
+                <h2 class="text-center secondary ms-mb-m main-heading ng-binding" style="font-weight: 450;">Create account</h2>
+                <br>
+                <div class="form-group" class="col-md-6">
+                    <input type="text" class="form-control" name="firstname" formControlName="firstname"
+                        placeholder="First Name">
+                    <label class="error ng-binding" style="color:red;" *ngIf="submitted && f['firstname'].invalid">First name is required
+                    </label>
+                </div>
+                <br>
+                <div class="form-group" class="col-md-6">
+                    <input type="text" class="form-control" name="lastname" formControlName="lastname"
+                        placeholder="Last Name">
+                    <label class="error ng-binding" style="color:red;" *ngIf="submitted && f['lastname'].invalid">Last name is required
+                    </label>
+                </div>
+                <br>
+                <div class="form-group" class="col-md-6">
+                    <input type="email" class="form-control" name="useremail" formControlName="useremail"
+                        placeholder="Enter email">
+                    <label class="error ng-binding" style="color:red;" *ngIf="submitted && f['useremail'].invalid">Email is required
+                        </label>
+                    <label class="error ng-binding" style="color:red;" *ngIf="submitted && f['useremail'].errors?.['useremail']">Email must
+                        be a
+                        valid email address</label>
+                </div>
+                <br>
+                <div class="form-group" class="col-md-6">
+                    <input type="password" class="form-control" name="password" formControlName="password" placeholder="Password">
+                    <label class="error ng-binding" style="color:red;" *ngIf="submitted && f['password'].errors?.['required']">Password is required</label>
+                    <label class="error ng-binding" style="color:red;" *ngIf="submitted && f['password'].errors?.['minlength']">Password must be at least 6 characters</label>
+                </div>
+                <br>
+                <button  type="submit" class="btn btn-warning" style="width:100px;margin-left: 10px;">Create</button>
+                <a class="col-md-6" style="color: rgb(16, 9, 9);text-decoration: none;" routerLink="/login" class="secondary ng-binding" >
+                    Returning Customer?<span style="color:rgb(215, 11, 11)"> Sign in</span></a>
+                
+            </form>
+        </div>
+    </div>
+    </div>
+
+    

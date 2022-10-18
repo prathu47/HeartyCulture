@@ -3,8 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false,
-  cartapi:"http://localhost:3000/cart"
+  production: true,
+  cartapi:"http://localhost:3000/cart",
+  userapi:"http://localhost:3000/users"
 
 };
 

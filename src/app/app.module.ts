@@ -30,7 +30,6 @@ import { CheckoutComponent } from './checkout/checkout.component';
 import { SandalwoodComponent } from './sandalwood/sandalwood.component';
 import { MiracleleafComponent } from './miracleleaf/miracleleaf.component';
 import { DestinatedComponent } from './destinated/destinated.component';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { TranquilComponent } from './tranquil/tranquil.component';
 import { CommunityComponent } from './community/community.component';
 import { Article1Component } from './community-articles/article1/article1.component';
@@ -40,9 +39,14 @@ import { FoundationplantsComponent } from './PlantTips/foundationplants/foundati
 import { ContainergardeningComponent } from './PlantTips/containergardening/containergardening.component';
 import { PlantselectionComponent } from './PlantTips/plantselection/plantselection.component';
 import { SearchFilterPipe } from './shared/search-filter.pipe';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CartItemsComponent } from './cart-items/cart-items.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { PaymentComponent } from './payment/payment.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 import { GalleryDirective } from './gallery.directive';
+import { AllproductsComponent } from './allproducts/allproducts.component';
 
 
 
@@ -70,9 +74,11 @@ import { GalleryDirective } from './gallery.directive';
     IndoorComponent,
     CheckoutComponent,
     CommunityComponent,
+    Article3Component,
     Article1Component,
     Article2Component,
     Article3Component,
+    PalmCycasOutdoorComponent,
     ComboPacksComponent,
     ContainergardeningComponent,
     FoundationplantsComponent,
@@ -83,9 +89,14 @@ import { GalleryDirective } from './gallery.directive';
     MiracleleafComponent,
     DestinatedComponent,
     TranquilComponent,
-    GalleryDirective
      
 
+    PaymentComponent,
+    GalleryDirective,
+    LoginComponent,
+    RegisterComponent,
+    AllproductsComponent
+    
   ],
   imports: [
     BrowserModule,
@@ -97,7 +108,8 @@ import { GalleryDirective } from './gallery.directive';
     NgbModule,
 
 BrowserAnimationsModule,
-    NgbModule
+    NgbModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
