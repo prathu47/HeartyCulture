@@ -25,7 +25,7 @@ img{
 .card-hover:hover{
     height: 490px;
 }
-.card-hover:hover .target{
+.card:hover .target{
     visibility: visible;
     
 }

@@ -77,14 +77,15 @@ const routes: Routes = [
   {path:'PlantTips/plantselection',component:ContainergardeningComponent},
   {path:"cartitems",component:CartItemsComponent},
   {path:"checkout", component:CheckoutComponent},
-  {path:"payment",component: PaymentComponent},
-  {path: "allproducts", component: AllproductsComponent},
 {path:"cactuaDetail/:id",component:CactusDetailComponent},
 {path:"comboDetail/:id",component:ComboDetailComponent},
 {path:"policy",component:PrivacypolicyComponent},
 {path:"terms",component:TermsComponent},
 {path:"ship",component:ShippingComponent},
-{path:"refund",component:RefundsComponent}
+{path:"refund",component:RefundsComponent},
+  {path:"payment",component:PaymentComponent},
+  {path: "allproducts", component: AllproductsComponent}
+
 
 
 ];
