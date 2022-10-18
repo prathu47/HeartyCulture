@@ -7,13 +7,13 @@ export class SearchFilterPipe implements PipeTransform {
 
 
     
-  transform(value : any[], filterString: string, propName:string): any[] {
+  transform(value : any[], filterString: string, pname:string): any[] {
     const result:any =[];
-    if(!value || filterString==='' || propName ===''){
+    if(!value || filterString==='' || pname ===''){
       return value;
     }
     value.forEach((a:any)=>{
-      if(a[propName].trim().toLowerCase().includes(filterString.toLowerCase())){
+      if(a[pname].trim().toLowerCase().includes(filterString.toLowerCase())){
         result.push(a);
       }
     });

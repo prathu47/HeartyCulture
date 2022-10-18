@@ -46,10 +46,15 @@ import { PaymentComponent } from './payment/payment.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { GalleryDirective } from './gallery.directive';
+import { ProductdetailsComponent } from './productdetails/productdetails.component';
 import { AllproductsComponent } from './allproducts/allproducts.component';
-
 import { CactusDetailComponent } from './cactus-succulents/cactus-detail/cactus-detail.component';
 import { ComboDetailComponent } from './combo-packs/combo-detail/combo-detail.component';
+import { SearchComponent } from './search/search.component';
+import { PrivacypolicyComponent } from './policy/privacypolicy/privacypolicy.component';
+import { TermsComponent } from './policy/terms/terms.component';
+import { ShippingComponent } from './policy/shipping/shipping.component';
+import { RefundsComponent } from './policy/refunds/refunds.component';
 
 
 @NgModule({
@@ -82,11 +87,31 @@ import { ComboDetailComponent } from './combo-packs/combo-detail/combo-detail.co
     Article3Component,
     PalmCycasOutdoorComponent,
     ComboPacksComponent,
+    
     ContainergardeningComponent,
     FoundationplantsComponent,
     SearchFilterPipe,
     PlantselectionComponent,
     SandalwoodComponent,
+    
+    DestinatedComponent,
+    TranquilComponent,
+    CartItemsComponent,
+   
+    MiracleleafComponent,
+    DestinatedComponent,
+    
+     
+     
+      SandalwoodComponent,
+      MiracleleafComponent,
+      DestinatedComponent,
+      TranquilComponent,
+      LoginComponent,
+      RegisterComponent,
+      GalleryDirective,
+      ProductdetailsComponent,
+     
     CartItemsComponent,
     MiracleleafComponent,
     DestinatedComponent,
@@ -100,7 +125,12 @@ import { ComboDetailComponent } from './combo-packs/combo-detail/combo-detail.co
     GalleryDirective,
     LoginComponent,
     RegisterComponent,
-    AllproductsComponent
+    AllproductsComponent,
+    SearchComponent,
+    PrivacypolicyComponent,
+    TermsComponent,
+    ShippingComponent,
+    RefundsComponent
     
 
   ],
