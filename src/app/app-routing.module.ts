@@ -35,6 +35,8 @@ import { CartItemsComponent } from './cart-items/cart-items.component';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { ComboDetailComponent } from './combo-packs/combo-detail/combo-detail.component';
 import { PaymentComponent } from './payment/payment.component';
+import { AllproductsComponent } from './allproducts/allproducts.component';
+
 
 
 const routes: Routes = [
@@ -73,7 +75,8 @@ const routes: Routes = [
   {path:"checkout", component:CheckoutComponent},
 {path:"cactuaDetail/:id",component:CactusDetailComponent},
 {path:"comboDetail/:id",component:ComboDetailComponent},
-  {path:"payment",component:PaymentComponent}
+  {path:"payment",component:PaymentComponent},
+  {path: "allproducts", component: AllproductsComponent}
 
 ];
 

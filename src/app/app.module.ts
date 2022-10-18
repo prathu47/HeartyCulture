@@ -46,6 +46,8 @@ import { PaymentComponent } from './payment/payment.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { GalleryDirective } from './gallery.directive';
+import { AllproductsComponent } from './allproducts/allproducts.component';
+
 import { CactusDetailComponent } from './cactus-succulents/cactus-detail/cactus-detail.component';
 import { ComboDetailComponent } from './combo-packs/combo-detail/combo-detail.component';
 
@@ -77,14 +79,15 @@ import { ComboDetailComponent } from './combo-packs/combo-detail/combo-detail.co
     Article3Component,
     Article1Component,
     Article2Component,
+    Article3Component,
     PalmCycasOutdoorComponent,
     ComboPacksComponent,
-    PlantselectionComponent,
     ContainergardeningComponent,
     FoundationplantsComponent,
     SearchFilterPipe,
-    CartItemsComponent,
+    PlantselectionComponent,
     SandalwoodComponent,
+    CartItemsComponent,
     MiracleleafComponent,
     DestinatedComponent,
     TranquilComponent,
@@ -96,8 +99,9 @@ import { ComboDetailComponent } from './combo-packs/combo-detail/combo-detail.co
     PaymentComponent,
     GalleryDirective,
     LoginComponent,
-    RegisterComponent
-    
+    RegisterComponent,
+    AllproductsComponent
+
   ],
   imports: [
     BrowserModule,
@@ -107,6 +111,10 @@ import { ComboDetailComponent } from './combo-packs/combo-detail/combo-detail.co
     HttpClientModule,
     BrowserAnimationsModule,
     NgbModule,
+
+BrowserAnimationsModule,
+    NgbModule,
+    HttpClientModule,
     HttpClientModule,
     FormsModule
   ],

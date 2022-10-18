@@ -15,15 +15,15 @@ img{
     padding-top: 10px;
     margin-bottom: 40px;
 }
-.card{
-    height: 430px;
+.card-hover{
+    height: 450px;
     transition: 0.5s;  
 }
 .target{
     visibility: hidden;
 }
-.card:hover{
-    height: 470px;
+.card-hover:hover{
+    height: 465px;
 }
 .card:hover .target{
     visibility: visible;
