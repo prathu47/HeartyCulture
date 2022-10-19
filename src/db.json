@@ -1,5 +1,4 @@
 {
-  
   "cart": [
     {
       "id": 2,
@@ -49,9 +48,14 @@
       "pdescription": "Heartyculture Nursery",
       "price": 99,
       "img": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/AfricanMarigoldF2WhiteFlower-Seeds_381x381.jpg?v=1620130424"
+    },
+    {
+      "cart_id": 2,
+      "cart_image": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/513A7246_1_df8e9992-3d36-44bc-b3d7-6e28bf64ca16_381x381.png?v=1635336295",
+      "cart_name": "Guava | Psidium guajava",
+      "id": 9
     }
   ],
-  
   "users": [
     {
       "firstname": "Ramya",
