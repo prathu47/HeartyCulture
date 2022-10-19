@@ -12,6 +12,7 @@ import Swal from 'sweetalert2';
   styleUrls: ['./combo-packs.component.css']
 })
 export class ComboPacksComponent implements OnInit {
+  searchText: string='';
 
 
   combodetails:Combo[]=[];
@@ -70,6 +71,10 @@ export class ComboPacksComponent implements OnInit {
     )
   }
 
-  
+  onSearchTextEntered(searchValue : string){
+    this.searchText=searchValue;
+    console.log(this.searchText);
+   }
+   
 
 }

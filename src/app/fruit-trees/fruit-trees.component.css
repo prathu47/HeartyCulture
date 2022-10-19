@@ -39,3 +39,7 @@ img{
     visibility: visible;
     
 }
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}

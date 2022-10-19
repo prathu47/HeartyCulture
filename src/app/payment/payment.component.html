@@ -1,4 +1,4 @@
-<div class="tab">
+<!-- <div class="tab">
     <button class="tablinks" onclick="openCity(event, 'Credit Card')"id="defaultOpen">Credit Card</button>
     <button class="tablinks" onclick="openCity(event, 'Debit Card')">Debit Card</button>
     <button class="tablinks" onclick="openCity(event, 'Debit Card + ATM Pin')">Debit Card + ATM Pin</button>
@@ -107,4 +107,180 @@
     
     <input type="submit" value="Submit">
     <input type="reset" value="Reset">
+</div> -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-1"></div>
+        <div class="col-5 main-container">
+            <div class="content" data-content>
+                <div class="wrap">
+                    <div class="main">
+                        <header class="main__header" role="banner">
+                            <a class="" href="/"><img class="logo" alt="Heartyculture Nursery"
+                                    src="https://i.postimg.cc/nr3wpQpG/Hearty-Culture-Nursery-Logo-1912-X-500.png" /></a>
+                            <h1 class="visually-hidden">
+                                Information
+                            </h1>
+                            <nav aria-label="Breadcrumb">
+                                <ol class="breadcrumb" role="list">
+                                    <li>
+                                        <a routerLink="cartitems">Cart</a>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11"
+                                            fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                                        </svg>
+                                    </li>
+
+                                    <li class="breadcrumb__item">
+                                        <span class="breadcrumb-item-current">Information</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11"
+                                            fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                                        </svg>
+                                    </li>
+
+                                    <li class="breadcrumb__item">
+                                        <span>Payment</span>
+                                    </li>
+                                </ol>
+                            </nav>
+                        </header>
+                    </div>
+                </div>
+            </div>
+            <div class="sections">
+                <div class="section">
+                    
+    
+                    <div class="main-form">
+                        <div class="section_payment" style="position: relative;padding-top:2em;">
+                            <div class="pay_head">
+                            <h2 class="pay_title"> Payment</h2>
+                            <p class="pay_text"> All transactions are secure and encrypted.</p>
+                            </div>
+                            <div class="pay_content">
+                                <div class="content-box" style="border-color:#d9d9d9 ;">
+                                    <div class="wrapper content_box1">
+                                        <div class="payment_label">
+                                            <h3 class="pay_label" style="font-size: 15px;"> Credit Card / Debit Card/ Net Banking / UPI</h3>
+                                            <div class="pay_with">
+                                                <h3 style="font-size: 15px;"> Pay with:</h3>
+                                                <ul class="pay_icons">
+                                                    <li class="paywith">
+                                                        <img src="https://cdn.shopify.com/shopifycloud/shopify/assets/payment_icons/visa-319d545c6fd255c9aad5eeaad21fd6f7f7b4fdbdb1a35ce83b89cca12a187f00.svg">
+
+                                                    </li>
+                                                    <li class="paywith">
+                                                        <img src="https://cdn.shopify.com/shopifycloud/shopify/assets/payment_icons/master-173035bc8124581983d4efa50cf8626e8553c2b311353fbf67485f9c1a2b88d1.svg">
+                                                    </li>
+                                                    <li class="paywith">
+                                                        <img src="https://cdn.shopify.com/shopifycloud/shopify/assets/payment_icons/american_express-2264c9b8b57b23b0b0831827e90cd7bcda2836adc42a912ebedf545dead35b20.svg">
+                                                    </li>
+                                                    <li class="paywith">
+                                                        <img src="https://cdn.shopify.com/shopifycloud/shopify/assets/payment_icons/discover-cc9808e50193c7496e7a5245eb86d5e06f02e2476c0fe70f2c40016707d35461.svg">
+
+                                                    </li>
+                                                    <li>
+                                                        <small style="color:#737373;"> and  more.....</small>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                        <i style="margin-left:160px ;" class="cloud" ><img src="https://cdn.shopify.com/shopifycloud/shopify/assets/checkout/offsite-small-0d8fd34431b27358e5c54a5ad660f76f8d628fad88320450d799287a8654982f.svg"></i>
+                                        <p class="pay_info">After clicking “Proceed to payment”, you will be redirected to RazorPay to complete your purchase securely.</p>
+
+                                    </div>
+    
+                                </div>
+                            </div>
+    
+
+                         
+                        </div>
+                    
+                      
+                        <br>
+                        <div>
+                            <a class="pay_tag" href="https://rzp.io/i/fg36IzVqD">
+                                <button name="button" type="submit" class="btn cts"  style="border: none;" aria-busy="false">
+                                    <span class="btn-content" data-continue-button-content="true">Proceed to
+                                        payment</span>
+                                </button></a>
+                            <a class="previous-link" routerLink="/cartitems">
+                                <svg width="10" height="10" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8 1L7 0 3 4 2 5l1 1 4 4 1-1-4-4" />
+                                </svg>
+                                <span class="previous-link-content">Return to cart</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-5 grey-bck show-cart-items-container">
+            <!-- <div class="container right-col"> -->
+               <h3> Your Order Summary</h3>
+            <table class="show-cart-items-container-table">
+                <tbody>
+                    <tr class="each-product" *ngFor="let item of cart">
+                        <div class="product-thumbnail-1">
+                            <td class="product-image">
+                                <div class="product-thumbnail">
+                                    <div class="product-thumbnail-wrapper">
+                                        <img src={{item.cart_image}} class="product-thumbnail-image"
+                                            alt="Cotton T-shirt">
+                                    </div>
+                                    <span class="product-thumbnail-quantity"
+                                        aria-hidden="true">{{map.get(item.cart_id)}}</span>
+                                </div>
+                            </td>
+                        </div>
+                        <th class="product__description" scope="row">
+                            <span class="product-description">{{item.cart_name}}</span>
+
+                        </th>
+                        <td class="product__price">
+                            <span
+                                class="order-summary">{{item.cart_price|currency:'INR'}}</span>
+                        </td>
+                        
+                    </tr>
+
+                </tbody>
+            </table>
+            <hr>
+            <table class="total-table">
+                <tbody class="total-line-table-tbody">
+                    <tr>
+                        <th class="total-line-name">Your Total</th>
+                        <td class="total-line-price" style="font-weight: bold;">
+                            <span>
+                                <h5>{{totalPrice(temp_cart)|currency:'INR':'symbol':'3.0'}}</h5>
+                            </span>
+                        </td>
+                    </tr>
+                    
+                
+                    <a aria-haspopup="dialog" data-modal="policy-shipping-policy" data-title-text="Shipping policy"
+                        data-close-text="Close" data-iframe="true"
+                        href="/48775987354/policies/shipping-policy.html?locale=en-IN">
+                        <span class="visually-hidden">Shipping costs</span>
+                        <svg class="icon-svg icon-svg--color-adaptive-lighter icon-svg--size-14 icon-svg--inline-after icon-svg--clickable"
+                            role="presentation" aria-hidden="true" focusable="false">
+                            <use xlink:href="#question"></use>
+                        </svg>
+                    </a>
+
+
+
+
+                </tbody>
+            </table>
+            
+        </div>
+        <div class="col-1 grey-bck"></div>
+    </div>
 </div>

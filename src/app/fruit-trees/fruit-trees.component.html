@@ -5,6 +5,7 @@
     <p style="margin-top:-23px;font-weight:380;margin-left:50px;">>Fruit Trees</p>
   </div>
 <br>
+<app-search (searchTextChanged)="onSearchTextEntered($event)"></app-search> 
 <div class="header">
     <h1>Fruits Trees</h1>
 </div>
@@ -51,15 +52,13 @@
         </div>
       </div>
     </div>
-<<<<<<< HEAD
-=======
   </div>
->>>>>>> dd6955587eb6ce33432c21a70b1c1e912e320ccd
   </div> -->
   <div class="container-fluid" style="margin-top:20px;">
     <div class="row card-group">
       <!--1st column-->
       <div class="col col-3" *ngFor="let product of productDetails">
+        <div  *ngIf="searchText==='' ||product.pname.toLowerCase().includes(searchText)"> 
         <div class="card card-hover shadow">
           <!--Property Binding-->
           <img [src]="product.img" class="prodimg mx-auto">
@@ -86,6 +85,7 @@
           </div>
         </div>
       </div>
+    </div>
     </div>
    
       <!--2nd column-->

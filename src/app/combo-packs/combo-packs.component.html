@@ -8,6 +8,7 @@
 </div>
 
 <br>
+<app-search (searchTextChanged)="onSearchTextEntered($event)"></app-search> 
 <div class="header">
     <h1>Combo Packs</h1>
 </div>
@@ -16,6 +17,7 @@
 <div class="container">
     <div class="row">
       <div class="col col-3 col-sm-6 col-md-3 mt-4" *ngFor="let combo of combodetails">
+        <div  *ngIf="searchText==='' ||combo.combo_name.toLowerCase().includes(searchText)"> 
         <div class="card" style="width: 18rem;" style="padding:10px;">
             <img [src]="combo.combo_image" class="prodimage" style="padding: 7px; height:250px;">
             <div class="card-body">
@@ -33,4 +35,5 @@
           </div>
       </div>
     </div>
+  </div>
   </div>

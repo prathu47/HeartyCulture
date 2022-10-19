@@ -6,6 +6,7 @@
     <p style="margin-top:-23px;font-weight:380;margin-left:50px;">>Fertilizers</p>
   </div>
 <br>
+<app-search (searchTextChanged)="onSearchTextEntered($event)"></app-search> 
 <div class="header">
     <h1>Fertilizer</h1>
 </div>
@@ -64,6 +65,7 @@
     <div class="row card-group">
       <!--1st column-->
       <div class="col col-3" *ngFor="let product of productDetail">
+        <div  *ngIf="searchText==='' ||product.pname.toLowerCase().includes(searchText)"> 
         <div class="card card-hover shadow">
           <!--Property Binding-->
           <img [src]="product.img" class="prodimg mx-auto">
@@ -89,6 +91,7 @@
           </div>
         </div>
       </div>
+    </div>
     </div>
     </div>
     

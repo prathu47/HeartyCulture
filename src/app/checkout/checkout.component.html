@@ -47,7 +47,7 @@
                             <p class="section-title" id="main-header" tabindex="-1">Contact information</p>
                             <p class="account-signup">
                                 Already have an account?
-                                <a routerLink="login"> Log in</a>
+                                <a routerLink="/login"> Log in</a>
                             </p>
                         </div>
                     </div>
@@ -67,59 +67,56 @@
                             </div>
                         </div>
 
-                        <form>
+                        <form  [formGroup]="checkoutForm" (ngSubmit)="submitHandler()">
                             <div class="form-group">
-                                <input type="text" class="form-control form-control-lg" id="country"
-                                    placeholder="Country/region">
+                                <input type="text" class="form-control form-control-lg" id="country" placeholder="Country/region" name="country" formControlName="country">
                             </div>
                             <div class="form-group">
                                 <div class="row">
                                     <div class="col">
-                                        <input type="text" class="form-control form-control-lg"
-                                            placeholder="First name">
+                                        <input type="text" class="form-control form-control-lg" placeholder="First name" name="firstname" formControlName="firstname">
                                     </div>
                                     <div class="col">
-                                        <input type="text" class="form-control form-control-lg" placeholder="Last name">
+                                        <input type="text" class="form-control form-control-lg" placeholder="Last name" name="lastname" formControlName="lastname">
                                     </div>
                                 </div>
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control form-control-lg" id="address"
-                                    placeholder="Address">
+                                <input type="text" class="form-control form-control-lg" id="address" placeholder="Address" name="address" formControlName="address">
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control form-control-lg" id="apartment"
-                                    placeholder="Apartment, suite, etc. (optional)">
+                                <input type="text" class="form-control form-control-lg" id="apartment" placeholder="Apartment, suite, etc. (optional)" name="apartment" formControlName="apartment">
                             </div>
                             <div class="form-group">
                                 <div class="row">
                                     <div class="col">
-                                        <input type="text" class="form-control form-control-lg" placeholder="City">
+                                        <input type="text" class="form-control form-control-lg" placeholder="City" name="city" formControlName="city">
                                     </div>
                                     <div class="col">
-                                        <input type="text" class="form-control form-control-lg" placeholder="State">
+                                        <input type="text" class="form-control form-control-lg" placeholder="State" name="state" formControlName="state">
                                     </div>
                                     <div class="col">
-                                        <input type="text" class="form-control form-control-lg" placeholder="PIN code">
+                                        <input type="text" class="form-control form-control-lg" placeholder="PIN code"  name="pin" formControlName="pin">
                                     </div>
                                 </div>
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control form-control-lg" id="phone" placeholder="Phone">
+                                <input type="text" class="form-control form-control-lg" id="phone" placeholder="Phone" name="phone" formControlName="phone">
                             </div>
                             <div class="check-box">
                                 <input class="form-check-input" type="checkbox" id="check1" name="news">
                                 <label class="form-check-label">Save this information for next time</label>
                             </div>
+                            
+                            <button  name="button" type="submit" class="btn cts" style="border: none;"aria-busy="false">
+                                <span class="btn-content" data-continue-button-content="true">Continue to
+                                    payment</span>
+                            </button>
                         </form>
 
                         <br>
                         <div>
-                            <a routerLink="payment">
-                                <button name="button" type="submit" class="btn cts" aria-busy="false">
-                                    <span class="btn-content" data-continue-button-content="true">Continue to
-                                        payment</span>
-                                </button></a>
+                         
                             <a class="previous-link" routerLink="cartitems">
                                 <svg width="10" height="10" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M8 1L7 0 3 4 2 5l1 1 4 4 1-1-4-4" />

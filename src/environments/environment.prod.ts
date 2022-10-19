@@ -3,5 +3,6 @@ export const environment = {
 
   postsapi:"http://localhost:3000/posts",
   userapi:"http://localhost:3000/users",
-  cartapi:"http://localhost:3000/cart"
+  cartapi:"http://localhost:3000/cart",  
+  checkoutapi:"http://localhost:3000/checkout"
 };

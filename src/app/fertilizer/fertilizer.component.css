@@ -87,4 +87,8 @@ img{
     padding-left: 4px;
 
 }
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
 

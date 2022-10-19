@@ -156,9 +156,7 @@ import { AllproductsdetailsComponent } from './allproducts/allproductsdetails/al
 
 BrowserAnimationsModule,
     NgbModule,
-    HttpClientModule,
-    HttpClientModule,
-    FormsModule
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

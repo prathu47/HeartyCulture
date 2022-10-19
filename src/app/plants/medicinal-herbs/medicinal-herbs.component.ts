@@ -12,7 +12,7 @@ import * as prod from "src/app/plantdata/medicinalherb.json";
 })
 
 export class MedicinalHerbsComponent implements OnInit {
-
+  searchText: string='';
  
   
   constructor(private cartservice: CartService, private router: Router) { }
@@ -121,6 +121,10 @@ export class MedicinalHerbsComponent implements OnInit {
     }
     return this.productDetail;
   }
+  onSearchTextEntered(searchValue : string){
+    this.searchText=searchValue;
+    console.log(this.searchText);
+   }
 
 }
 
