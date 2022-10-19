@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { UserService } from '../user.service';
+import { AdminService } from '../admin.service';
 @Component({
   selector: 'app-navnext',
   templateUrl: './navnext.component.html',
@@ -7,8 +8,9 @@ import { UserService } from '../user.service';
 })
 export class NavnextComponent implements OnInit {
 
-  constructor(private authService:UserService) { }
+  constructor(private authService:UserService,private adminService:AdminService) { }
   auth:boolean=false;
+  admin:boolean=false;
   ngOnInit(): void {
     this.authService.authSubject.subscribe(
       data => 
@@ -17,7 +19,15 @@ export class NavnextComponent implements OnInit {
         this.auth = data;
       }
     );
+    this.adminService.adminSubject.subscribe(
+      data => 
+      {
+        console.log('admin inside nav component: ' + data);
+        this.admin = data;
+      }
+    );
   }
+  
 
 }
 
