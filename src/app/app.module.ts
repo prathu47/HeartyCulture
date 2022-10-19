@@ -58,6 +58,8 @@ import { PrivacypolicyComponent } from './policy/privacypolicy/privacypolicy.com
 import { TermsComponent } from './policy/terms/terms.component';
 import { ShippingComponent } from './policy/shipping/shipping.component';
 import { RefundsComponent } from './policy/refunds/refunds.component';
+import { FruitsDetailsComponent } from './fruit-trees/fruits-details/fruits-details.component';
+import { AllproductsdetailsComponent } from './allproducts/allproductsdetails/allproductsdetails.component';
 
 
 @NgModule({
@@ -136,7 +138,9 @@ import { RefundsComponent } from './policy/refunds/refunds.component';
     PrivacypolicyComponent,
     TermsComponent,
     ShippingComponent,
-    RefundsComponent
+    RefundsComponent,
+    FruitsDetailsComponent,
+    AllproductsdetailsComponent
     
 
   ],

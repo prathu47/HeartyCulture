@@ -72,14 +72,20 @@
           <!-- Grid column -->
   
           <!-- Grid column -->
+          
           <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
             <!-- Links -->
-            
+            <form  [formGroup]="subscribeForm" (ngSubmit)="submitHandler()" 
+            action="https://formspree.io/f/xzbwagej"
+            method="POST">
             <h6 class="text-uppercase fw-bold mb-4">Subscribe</h6>
-            <label for="inputEmail4" class="form-label"></label>
-      <input type="email" class="form-control" id="inputEmail4" placeholder="Email address"><br>
+            <input type="email" class="form-control" name="useremail" formControlName="useremail"
+      placeholder="Email">
+      <br>
       <button style="height:50px;width:85px;"  type="submit" class="btn btn-warning">Sign up</button>
-          </div>
+    </form>
+            </div>
+      
           <!-- Grid column -->
         </div>
         <!-- Grid row -->
