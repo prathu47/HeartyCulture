@@ -1,34 +1,6 @@
 {
-  "cart": [
-    {
-      "cart_id": 11,
-      "cart_image": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/002_2_6afa9224-1dce-46db-a5b9-ae94d2184da3_256x256.png?v=1633685031",
-      "cart_name": "Patta ajwain | Coleus amboinicus ",
-      "cart_price": 149,
-      "id": 2
-    },
-    {
-      "cart_id": 12,
-      "cart_image": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/001_3_72e5df53-3f99-40ea-9c68-44328957b6a5_256x256.png?v=1633685291",
-      "cart_name": "Aloe vera",
-      "cart_price": 100,
-      "id": 3
-    },
-    {
-      "cart_id": 12,
-      "cart_image": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/001_3_72e5df53-3f99-40ea-9c68-44328957b6a5_256x256.png?v=1633685291",
-      "cart_name": "Aloe vera",
-      "cart_price": 100,
-      "id": 4
-    },
-    {
-      "cart_id": 6,
-      "cart_image": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Rosemary_256x256.jpg?v=1615569194",
-      "cart_name": "Rosemary | Salvia rosmarinus",
-      "cart_price": 199,
-      "id": 5
-    }
-  ],
+
+  "cart": [],
   "posts": [
     {
       "id": 2,
@@ -78,7 +50,12 @@
       "pdescription": "Heartyculture Nursery",
       "price": 99,
       "img": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/AfricanMarigoldF2WhiteFlower-Seeds_381x381.jpg?v=1620130424"
-    }
+    },
+    {
+      "cart_id": 2,
+      "cart_image": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/513A7246_1_df8e9992-3d36-44bc-b3d7-6e28bf64ca16_381x381.png?v=1635336295",
+      "cart_name": "Guava | Psidium guajava",
+      "id": 9
   ],
   "users": [
     {
@@ -157,6 +134,20 @@
       "useremail": "ramyashree1301@gmail.com",
       "password": "",
       "id": 13
+    },
+    {
+      "firstname": "Harry",
+      "lastname": "Styles",
+      "useremail": "harry@gmail.com",
+      "password": "harry56",
+      "id": 14
+    },
+    {
+      "firstname": "Ramya",
+      "lastname": "shree",
+      "useremail": "ramyashree1301@gmail.com",
+      "password": "fhgdgs",
+      "id": 15
     }
   ]
 }

@@ -44,6 +44,8 @@ import { PrivacypolicyComponent } from './policy/privacypolicy/privacypolicy.com
 import { TermsComponent } from './policy/terms/terms.component';
 import { ShippingComponent } from './policy/shipping/shipping.component';
 import { RefundsComponent } from './policy/refunds/refunds.component';
+import { FruitsDetailsComponent } from './fruit-trees/fruits-details/fruits-details.component';
+import { AllproductsdetailsComponent } from './allproducts/allproductsdetails/allproductsdetails.component';
 
 
 
@@ -92,7 +94,11 @@ const routes: Routes = [
   {path: "allproducts", component: AllproductsComponent},
   {path:"medicinaldetails/:id", component:MedicinalHerbsDetailsComponent},
   {path:"fertilizerdetails/:id", component:FertilizerDetailsComponent},
-  {path:"indoordetails/:id", component:IndoordetailsComponent}
+  {path:"indoordetails/:id", component:IndoordetailsComponent},
+  {path:"fruitdetails/:id", component:FruitsDetailsComponent},
+  {path:"allproductdetails/:id", component:AllproductsdetailsComponent}
+
+
 
 
 
