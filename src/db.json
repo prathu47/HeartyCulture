@@ -1,6 +1,12 @@
 {
   "cart": [
-    
+    {
+      "cart_id": 1,
+      "cart_image": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/004_3_c069fa9f-ca0d-451b-b1fd-6338eea6758d_305x305.png?v=1633842281",
+      "cart_name": "Dragon Fruit |Selenicereus undatus",
+      "cart_price": 349,
+      "id": 1
+    }
   ],
   "admin": [
     {
@@ -26,7 +32,6 @@
       "password": "prathu123",
       "id": 4
     }
-   
   ],
   "posts": [
     {
@@ -137,6 +142,14 @@
     {
       "useremail": "jancy@gmail.com",
       "id": 14
+    },
+    {
+      "useremail": "ramyashree1301@gmail.com",
+      "id": 15
+    },
+    {
+      "useremail": "jancy@gmail.com",
+      "id": 16
     }
   ]
 }
