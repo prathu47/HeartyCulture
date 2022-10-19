@@ -1,23 +1,26 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import * as prod from "src/app/plantdata/medicinalherb.json";
 import { Cartitems } from 'src/app/cartitems';
 import { CartService } from 'src/app/cart.service';
 import Swal from 'sweetalert2';
-import { ComboServiceService } from '../combo-service.service';
 
 
 @Component({
-  selector: 'app-combo-detail',
-  templateUrl: './combo-detail.component.html',
-  styleUrls: ['./combo-detail.component.css']
+  selector: 'app-medicinal-herbs-details',
+  templateUrl: './medicinal-herbs-details.component.html',
+  styleUrls: ['./medicinal-herbs-details.component.css']
 })
-export class ComboDetailComponent implements OnInit {
+export class MedicinalHerbsDetailsComponent implements OnInit {
+
+  medicinalherbsDetails:any=(prod as any).default;
+
+  constructor(private route:ActivatedRoute,private cartsrv:CartService) { }
 
   currentRate= 3
 
   course:any;
   totalid:number | any;
-  constructor(private route:ActivatedRoute,private cartsrv:CartService,private combosrv:ComboServiceService) { }
 
   cart:Cartitems={
     cart_id:0,
@@ -30,16 +33,16 @@ export class ComboDetailComponent implements OnInit {
 
   total_price: number = 0;
   cart_quality:number=1;
-  
+
   addToCart(product:any){
-    this.cart.cart_image=product.combo_image;
-    this.cart.cart_name=product.combo_name;
-    this.cart.cart_price=product.combo_price;
+    this.cart.cart_image=product.img;
+    this.cart.cart_name=product.pname;
+    this.cart.cart_price=product.price;
     this.cart.total_price=product.total_price;
     this.cart.cart_quality=product.cart_quality;
-    this.cart.cart_id=product.combo_id;
+    this.cart.cart_id=product.pid;
     this.cartsrv.addToCart(this.cart);
-    console.log(product.combo_id)
+    console.log(product.pid)
     const Toast = Swal.mixin({
       toast: true,
       position: 'top',
@@ -57,15 +60,8 @@ export class ComboDetailComponent implements OnInit {
   cartsi: Cartitems[] = [];
 
   ngOnInit(): void {
-
-    /*console.warn("Cactus id is",this.route.snapshot.paramMap.get('id'));
-    this.cactusid=this.route.snapshot.paramMap.get('id');*/
-
-   /* this.route.params.subscribe(params => this.getCactusById(params['id']));*/
-   
-   this.totalid=this.route.snapshot.paramMap.get('id');
-   this.course=this.combosrv.combo_details.find(x => x.combo_id==this.totalid);
-   
+    this.totalid=this.route.snapshot.paramMap.get('id');
+   this.course=this.medicinalherbsDetails.find((x:any) => x.pid==this.totalid);
 
    this.cartsrv.getCartItems().subscribe(
     (response) => {
