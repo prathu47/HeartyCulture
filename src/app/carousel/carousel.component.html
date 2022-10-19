@@ -71,17 +71,12 @@
         <div class="row">
 
 
-          <h4 style="margin-top:20px;text-align: center; font-weight:500;">Great Combos</h4>
-          <div class="col col-6 ">
-            <a href="miracleleaf"> <img
-                src="https://cdn.shopify.com/s/files/1/0487/7598/7354/files/blessings_589x327.jpg?v=1614391323"
-                height="350px" alt="">
-            </a>
-            <a href="destinated"> <img
-                src="https://cdn.shopify.com/s/files/1/0487/7598/7354/files/divine1_972x540.jpg?v=1614391511"
-                height="350px" alt="">
-            </a>
-
+        <div class="card card-hover">
+          <img [src]="palm.img" class="prodimage" style="height:170px; padding: 10px;">
+          <div class="card-body">
+            <p style="font-size: 16px;color:rgb(16, 16, 24);">{{palm.pname}}</p>
+            <small><a href="/allproducts">Heartyculture Nursery</a></small>
+            <p style="color:rgb(235, 37, 37);">{{ palm.price| currency:'Rs. '}}</p>
           </div>
           <div class="col col-6 readmore">
             <a href="destinated"> <img
@@ -96,23 +91,37 @@
           </div>
         </div>
 
-        <!-- Indoor Plants & Medicinal Herbs -->
-        <div class="header1" style="margin-top: 25px;">
-          <h4>Medicinal Herbs & Outdoor Plants
-          </h4>
+
+
+    <div class="row wrapper">
+      <div class="col-sm-5 col-md-3 mt-4" style="width: 16rem; padding: 5px;">
+        <div class="card" style="height: 100%;">
+          <a class="collection"
+            style="background-image: url(https://cdn.shopify.com/s/files/1/0487/7598/7354/files/ferns3_276x276_8c6f2806-27de-4f37-9ebb-dd69f098bbdc_184x276_crop_center.jpg?v=1642074385);"
+            href="/plants/outdoorplants">
+            <div class="inner">
+              <span>View More</span> <br>
+              <span>Outdoor Plants</span>
+            </div>
+          </a>
         </div>
 
-        <div class="row wrapper">
-          <div class="col-sm-5 col-md-3 mt-4" style="width: 16rem; padding: 5px;">
-            <div class="card" style="height: 100%;">
-              <a class="collection"
-                style="background-image: url(https://cdn.shopify.com/s/files/1/0487/7598/7354/files/Indoor_9a8f7556-7e29-4f59-8d10-8e522f0a8583_341x552_crop_center.png?v=1642503843%201.50x);"
-                routerLink="/plants/medicinal-herbs">
-                <div class="inner">
-                  <span>View More</span> <br>
-                  <span>Medicinal Herbs</span>
-                </div>
-              </a>
+      <div class="col-sm-5 col-md-2 mt-4" style="width: 16rem; padding: 5px;" *ngFor="let palm of outdoorplants.slice(0,9)">
+        
+
+        <div class="card card-hover">
+          <img [src]="palm.img" class="prodimage" style="height:170px; padding: 10px;">
+          <div class="card-body">
+            <p style="font-size: 16px;color:rgb(16, 16, 24);">{{palm.pname}}</p>
+            <small><a href="/allproducts">Heartyculture Nursery</a></small>
+            <p style="color:rgb(235, 37, 37);">{{ palm.price| currency:'Rs. '}}</p>
+          </div>
+          <!--*ngIf="showButton"-->
+          <div class="row target">
+            <div class="col" style="padding-bottom: 10px;">
+              <button type="button" class="btn btn-outline btn-sm"
+                style="margin-left: 5px; margin-right: 35px; border-color: gold;">Quick Shop</button>
+              <a type="button" class="btn btn-warning btn-sm" (click)="addToCart1(palm)">Add to cart</a>
             </div>
           </div>
 
@@ -136,7 +145,19 @@
                   <a type="button" class="btn btn-warning btn-sm" (click)="addToCart1(palm)">Add to cart</a>
                 </div>
 
-              </div>
+        <div class="card card-hover">
+          <img [src]="cactus.cactus_image" class="prodimage" style="height:170px; padding: 10px;">
+          <div class="card-body">
+            <p style="font-size: 16px;color:rgb(16, 16, 24);">{{cactus.cactus_name}}</p>
+            <small><a href="/allproducts">Heartyculture Nursery</a></small>
+            <p style="color:rgb(235, 37, 37);">{{ cactus.cactus_price| currency:'Rs. '}}</p>
+          </div>
+          <!--*ngIf="showButton"-->
+          <div class="row">
+            <div class="col target" style="padding-bottom: 10px;">
+              <a type="button" class="btn btn-outline btn-sm"
+                style="margin-left: 5px; margin-right: 35px; border-color: gold;" [routerLink]="['/cactuaDetail',cactus.cactus_id]">Quick Shop</a>
+              <a type="button" class="btn btn-warning btn-sm" (click)="addToCart(cactus)">Add to cart</a>
             </div>
           </div>
         </div>
@@ -155,6 +176,19 @@
                 </div>
               </a>
             </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-sm-5 col-md-2 mt-4" style="width: 16rem; padding: 5px;"
+        *ngFor="let fruit of fruittreesDetails.slice(0,9)">
+    
+        <div class="card card-hover">
+          <img [src]="fruit.img" class="prodimage" style="height:170px; padding: 10px;">
+          <div class="card-body">
+            <p style="font-size: 16px;color:rgb(16, 16, 24);">{{fruit.pname}}</p>
+            <small><a href="/allproducts">Heartyculture Nursery</a></small>
+            <p style="color:rgb(235, 37, 37);">{{ fruit.price1| currency:'Rs. '}}</p>
           </div>
 
           <div class="col-sm-5 col-md-2 mt-4" style="width: 16rem; padding: 5px;"
@@ -299,7 +333,7 @@
           <img [src]="palm.img" class="prodimage" style="height:170px; padding: 10px;">
           <div class="card-body">
             <p style="font-size: 16px;color:rgb(16, 16, 24);">{{palm.pname}}</p>
-            <small><a href="#">Heartyculture Nursery</a></small>
+            <small><a href="/allproducts">Heartyculture Nursery</a></small>
             <p style="color:rgb(235, 37, 37);">{{ palm.price| currency:'Rs. '}}</p>
           </div>
           <!--*ngIf="showButton"-->
@@ -329,7 +363,7 @@
             world. Both the wood and the oil produce a distinctive fragrance that has been highly valued for centuries.
           </p>
           <button style="border-color: white;font-weight: 500;height: 40px;margin-right:500px;margin-top: 30px;"
-            type="submit">Buy now</button>
+            type="submit" routerLink="/allproducts">Buy now</button>
 
         </div>
         <div class="Women">
@@ -342,17 +376,11 @@
     <br>
     <div class="row row-cols-1 row-cols-md-3 g-4">
       <div class="col" style="width: 290px;height: 300px;margin-left: 26px;">
-        <div class="card">
-          <a routerLink="ferti"><img style="width: 250px;height: 300px;"
-              src="https://cdn.shopify.com/s/files/1/0487/7598/7354/products/FrenchMarigoldScarletred_432x432.jpg?v=1620131172"
-              class="card-img-top"></a>
+        <div class="card" >
+          <a href="/flowerseeds"><img style="width: 250px;height: 300px;" src="https://cdn.shopify.com/s/files/1/0487/7598/7354/products/FrenchMarigoldScarletred_432x432.jpg?v=1620131172" class="card-img-top"></a>
           <div class="card-body">
-
-            <a style=" text-decoration: none;" routerLink="ferti">
-              <h4 style="color: rgb(239, 30, 30);font-size: 16px;font-weight: 600;text-align: center;"
-                class="card-title">
-                Flower Seeds</h4>
-            </a>
+         
+            <a style=" text-decoration: none;" href="/flowerseeds"><h4 style="color: rgb(239, 30, 30);font-size: 16px;font-weight: 600;text-align: center;" class="card-title">Flower Seeds</h4></a>
           </div>
         </div>
       </div>
@@ -360,47 +388,30 @@
 
       <div class="col" style="width: 290px;height: 300px;margin-left: 20px;">
         <div class="card h-10">
-          <a routerLink="ferti"><img style="width: 290px;height: 300px;"
-              src="https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Palak_432x432.png?v=1616014387"
-              class="card-img-top"></a>
-
+          <a href="/ornamantaltree"><img style="width: 290px;height: 300px;" src="https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Palak_432x432.png?v=1616014387" class="card-img-top"></a>
+            
           <div class="card-body">
-
-            <a style=" text-decoration: none;" routerLink="ferti">
-              <h4 style="color: rgb(239, 30, 30);font-size: 16px;font-weight: 600;text-align: center;"
-                class="card-title">
-                Vegetable seeds</h4>
-            </a>
+          
+            <a style=" text-decoration: none;" href="/ornamantaltree"><h4 style="color: rgb(239, 30, 30);font-size: 16px;font-weight: 600;text-align: center;" class="card-title">Ornamental Tree</h4></a>
           </div>
         </div>
       </div>
       <div class="col" style="width: 290px;height: 300px;margin-left: 20px;">
         <div class="card h-10">
-          <a routerLink="ferti"><img style="width: 290px;height: 300px;"
-              src="https://cdn.shopify.com/s/files/1/0487/7598/7354/products/d3_225x225.jpg?v=1633092227"
-              class="card-img-top"></a>
+          <a href="/medicineseeds"><img style="width: 290px;height: 300px;" src="https://cdn.shopify.com/s/files/1/0487/7598/7354/products/d3_225x225.jpg?v=1633092227" class="card-img-top"></a>
           <div class="card-body">
-
-            <a style=" text-decoration: none;" routerLink="ferti">
-              <h4 style="color: rgb(239, 30, 30);font-size: 16px;font-weight: 600;text-align: center;"
-                class="card-title">
-                Medicinal Seeds</h4>
-            </a>
+          
+            <a style=" text-decoration: none;" href="/medicineseeds"><h4 style="color: rgb(239, 30, 30);font-size: 16px;font-weight: 600;text-align: center;" class="card-title">Medicinal Seeds</h4></a>
           </div>
         </div>
       </div>
       <div class="col" style="width: 290px;height: 300px;margin-left: 20px;">
         <div class="card h-10">
-          <a routerLink="ferti"><img style="width: 290px;height: 300px;"
-              src="https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Inkedvermicompost-1.8kg_276x276_LI_276x274.jpg?v=1645938248"
-              class="card-img-top"></a>
+          <a href="/ferti"><img style="width: 290px;height: 300px;" src="https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Inkedvermicompost-1.8kg_276x276_LI_276x274.jpg?v=1645938248" class="card-img-top"
+            ></a>
           <div class="card-body">
-
-            <a style=" text-decoration: none;" routerLink="ferti">
-              <h4 style="color: rgb(239, 30, 30);font-size: 16px;font-weight: 600;text-align: center;"
-                class="card-title">
-                Fertilizers</h4>
-            </a>
+         
+            <a style=" text-decoration: none;"href="/ferti"><h4 style="color: rgb(239, 30, 30);font-size: 16px;font-weight: 600;text-align: center;" class="card-title">Fertilizers</h4></a>
           </div>
         </div>
       </div>
