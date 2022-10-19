@@ -1,6 +1,29 @@
- h5{
-        font-family: Lato,sans-serif;
-        font-style: normal;
-        color: 484848;   
-        padding-top: 50px;
-}
+ h5 {
+         font-family: 'Lato', sans-serif;
+         font-style: normal;
+         color: 484848;
+         padding-top: 50px;
+ }
+
+ .breadcrumb {
+         margin-left: 2px;
+         padding: 10px;
+         padding-top: 18px;
+ }
+
+ .breadcrumb a {
+         padding-right: 8px;
+         color: red;
+         text-decoration: none;
+ }
+
+ .breadcrumb__item {
+         padding-left: 8px;
+         color: grey;
+ }
+
+ .header {
+         margin-left: 20px;
+         color: #484848;
+         font-family: 'Lato', sans-serif;
+ }
