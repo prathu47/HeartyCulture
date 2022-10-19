@@ -39,10 +39,7 @@
                     <p style="font-size: 14px; color: grey "class="desc"> {{product.pdescription}} </p>
                     <p style="color: grey;" ><del>{{ product.price | currency:'Rs. '}}</del></p>
                     <p style="color:rgb(235, 37, 37);" >{{ product.price1 | currency:'Rs. '}}</p>
-                    
-                    
-                   
-               
+                     
             </div>
             <div class="row" style="margin-bottom: 10px; margin-left: 5px;">
               <div class="col target">
@@ -54,6 +51,7 @@
         </div>
       </div>
     </div>
+  </div>
   </div> -->
   <div class="container-fluid" style="margin-top:20px;">
     <div class="row card-group">
@@ -79,9 +77,8 @@
   
           <div class="row" style="margin-bottom: 10px; margin-left: 10px;">
             <div class="col target">
-              <button type="button" class="btn btn-outline" style="margin-right: 19px; border-color: gold;"
-                data-bs-toggle="modal" data-bs-target="#exampleModal">Quick Shop</button>
-              <button type="submit" class="btn btn-warning" >Add to cart</button>
+              <button type="button" class="btn btn-outline" style="margin-right: 19px; border-color: gold;"[routerLink]="['/fruitdetails',product.pid]">Quick Shop</button>
+              <button type="submit" class="btn btn-warning" (click)="addToCart(product)">Add to cart</button>
             </div>
           </div>
         </div>

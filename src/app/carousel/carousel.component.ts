@@ -7,6 +7,9 @@ import { CartService } from 'src/app/cart.service';
 import { Cartitems } from 'src/app/cartitems';
 import { Router } from '@angular/router';
 import Swal from 'sweetalert2';
+import * as mediherbs from "src/app/plantdata/medicinalherb.json";
+import { OutdoorService } from 'src/app/Plants-services/outdoor.service';
+import { Allproduct } from 'src/app/Plants-services/outdoor';
 
 
 @Component({
@@ -15,14 +18,21 @@ import Swal from 'sweetalert2';
   styleUrls: ['./carousel.component.css']
 })
 export class CarouselComponent implements OnInit {
+ 
 
   cactusdetails:Cactus[]=[];
 
-  constructor(private cactusService:CactusService,private cartsrv:CartService) { }
+  outdoorplants:Allproduct[]=[];
+
+  constructor(private cactusService:CactusService,private cartsrv:CartService,private oudoosrv:OutdoorService) { }
 
   fruittreesDetails:any=(product as any).default;
 
   palmplant:any=(palm as any).default;
+
+  medicinalherbs:any=(mediherbs as any).default;
+
+
 
   cart:Cartitems={
     cart_id:0,
@@ -59,10 +69,34 @@ export class CarouselComponent implements OnInit {
     this.cartsrv.getCount();
   }
 
+  addToCart1(product:any){
+    this.cart.cart_image=product.img;
+    this.cart.cart_name=product.pname;
+    this.cart.cart_price=product.price;
+    this.cart.total_price=product.total_price;
+    this.cart.cart_quality=product.cart_quality;
+    this.cart.cart_id=product.pid;
+    this.cartsrv.addToCart(this.cart);
+    console.log(product.pid)
+    const Toast = Swal.mixin({
+      toast: true,
+      position: 'top',
+      showConfirmButton: false,
+      timer: 3000,
+      timerProgressBar: true,
+    })
+    Toast.fire({
+      icon: 'success',
+      title: 'Item added successfully'
+    })
+    this.cartsrv.getCount();
+  }
+
   cartsi: Cartitems[] = [];
 
   
   ngOnInit(): void {
+    
     const contObervable=this.cactusService.getcactusdetails();
     contObervable.subscribe((cactusData:Cactus[])=>{
       this.cactusdetails=cactusData;
@@ -74,6 +108,26 @@ export class CarouselComponent implements OnInit {
         console.log(this.cart)
       }
     )
+
+    const allproObservable = this.oudoosrv.getallproDetails();
+    allproObservable.subscribe((allproductData: Allproduct[]) => {
+      this.outdoorplants = allproductData;
+    });
   }
+  productsearch: string=' '  
+
+  search_product(pname:string):void{ 
+    if(pname=='')
+    {
+      // this.productentered=' ';
+      alert('search something');
+    }
+    
+    
+    this.productsearch=pname  ; //Laptop
+    console.log(pname)
+  }
+  
+ 
 
 }
