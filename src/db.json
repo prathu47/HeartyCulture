@@ -20,6 +20,13 @@
       "cart_name": "Aloe vera",
       "cart_price": 100,
       "id": 4
+    },
+    {
+      "cart_id": 6,
+      "cart_image": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Rosemary_256x256.jpg?v=1615569194",
+      "cart_name": "Rosemary | Salvia rosmarinus",
+      "cart_price": 199,
+      "id": 5
     }
   ],
   "posts": [
@@ -73,7 +80,6 @@
       "img": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/AfricanMarigoldF2WhiteFlower-Seeds_381x381.jpg?v=1620130424"
     }
   ],
-  
   "users": [
     {
       "firstname": "Ramya",
