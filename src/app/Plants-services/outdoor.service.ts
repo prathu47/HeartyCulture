@@ -8,7 +8,7 @@ import { Allproduct } from './outdoor';
 export class OutdoorService {
 
   constructor() { }
-  pro:Allproduct[]=[
+  productDetail:Allproduct[]=[
     {
         "pid":15,
         "pname":"Marwa | Marjoram - Origanum majorana",
@@ -153,7 +153,7 @@ export class OutdoorService {
 public getallproDetails(): any {
     const allproObservable = new Observable(observe => {
       setTimeout(() => {
-        observe.next(this.pro);
+        observe.next(this.productDetail);
       }, 1000);
     });
     return allproObservable;

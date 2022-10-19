@@ -173,6 +173,7 @@
     {
         "pid":17,
         "pname":"Vermicompost (Pure Desi cow)-900g",
+        "pdescription":"Heartyculture Nursery",
         "price":350,
         "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Inkedvermicompost-1.8kg_276x276_LI_276x274.jpg?v=1645938248",
         "img1":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/PXL_20210401_115436563.PORTRAIT-01.COVER_150x150_crop_center.jpg?v=1617298650",
@@ -183,6 +184,7 @@
       {
         "pid": 18,
         "pname": "Hibiscus | Parijatha | Jasmine Combo",
+        "pdescription":"Heartyculture Nursery",
         "price":650.00,
         "img": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Hibiscus_Parijat_Jasmine_396x396.jpg?v=1620469310" ,
         "img1": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Hibiscus_Parijat_Jasmine_150x150_crop_center.jpg?v=1620469310"
@@ -190,6 +192,7 @@
       {
         "pid": 19,
         "pname": "Bryophyllum, Insulin, Aloe vera",
+        "pdescription":"Heartyculture Nursery",
         "price": 599.00,
         "img": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/001_1_1171822f-22ee-443d-b5be-97c5e7915880_396x396.png?v=1633608608",
         "img1": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/001_1_1171822f-22ee-443d-b5be-97c5e7915880_150x150_crop_center.png?v=1633608608",
@@ -202,6 +205,7 @@
       {
         "pid":20,
         "pname":"Vermicompost (Pure Desi cow) - 900g",
+        "pdescription":"Heartyculture Nursery",
         "price":350,
         "img":"https://cdn.shopify.com/s/files/1/0579/7924/0580/products/flora_product_image_shot_900x1200px.png?v=1661310215&width=375",
         "img1":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/PXL_20210401_115436563.PORTRAIT-01.COVER_150x150_crop_center.jpg?v=1617298650",

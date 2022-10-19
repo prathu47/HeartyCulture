@@ -5,7 +5,11 @@
           <li class="nav-item">
             <a class="nav-link" style="font-weight: bold;" aria-current="page" href="#">Home</a>
           </li>
-          <li class="nav-item dropdown">
+          <li class="nav-item">
+            <a class="nav-link" style="font-weight: bold;" aria-current="page" routerLink="/prod_details" *ngIf="admin">Details</a>
+          </li>
+         
+          <li class="nav-item dropdown" *ngIf="!admin">
             <a class="nav-link dropdown-toggle" style="font-weight: bold;" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Plants
             </a>
@@ -17,22 +21,22 @@
             </ul>
           </li>
           <li class="nav-item dropdown"  style="font-weight: bold;">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Trees & Bamboo
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+              *ngIf="!admin">Trees & Bamboo
             </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" *ngIf="!admin">
               <li><a class="dropdown-item" routerLink="fruittrees">Fruit Trees</a></li>
               <li><a class="dropdown-item" routerLink="ornamantaltree">Ornamantal Trees</a></li>
              
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" style="font-weight: bold;" routerLink="cactus">Cactus & Succulents</a>
+            <a class="nav-link" style="font-weight: bold;" routerLink="cactus" *ngIf="!admin">Cactus & Succulents</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" style="font-weight: bold;" routerLink="combo">Combo packs</a>
+            <a class="nav-link" style="font-weight: bold;" routerLink="combo" *ngIf="!admin">Combo packs</a>
           </li>
-          <li class="nav-item dropdown"  style="font-weight: bold;">
+          <li class="nav-item dropdown"  style="font-weight: bold;" *ngIf="!admin">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Palm & Cycas
             </a>
@@ -42,7 +46,7 @@
               <li><a class="dropdown-item" routerLink="palmcycasoutdoor">Outdoor Plants</a></li>
             </ul>
           </li>
-          <li class="nav-item dropdown"  style="font-weight: bold;">
+          <li class="nav-item dropdown"  style="font-weight: bold;" *ngIf="!admin">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Seeds
             </a>
@@ -53,18 +57,18 @@
             </ul>
           </li>
           <li class="nav-item" style="font-weight: bold;">
-            <a class="nav-link" routerLink="ferti">Fertilizer</a>
+            <a class="nav-link" routerLink="ferti" *ngIf="!admin">Fertilizer</a>
           </li>
           <!-- <li class="nav-item" style="font-weight: bold;">
             <a class="nav-link" routerLink="prod_details">Products</a>
           </li> -->
           <li class="nav-item" style="font-weight: bold;">
-            <a class="nav-link" routerLink="contact">Contact us</a>
-          <li class="nav-item" style="font-weight: bold;margin-left: 165px;">
+            <a class="nav-link" routerLink="contact" *ngIf="!admin">Contact us</a>
+          <li class="nav-item" style="font-weight: bold;margin-left: 170px;">
               <a class="nav-link" routerLink="login" *ngIf="!auth">Login</a>
           </li>
-          <a class="btn btn-outline-warning" type="submit" style="border-radius:10px;color:black;" routerLink="login"
-          *ngIf="auth">Logout</a>
+          <a class="btn btn-outline-warning" type="submit" style="height:40px;border-radius:10px;color:black;" routerLink="login"
+          *ngIf="auth || admin">Logout</a>
         </ul>
       </div>
     </div>

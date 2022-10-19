@@ -1,32 +1,20 @@
 {
   "cart": [
     {
-      "cart_id": 3,
-      "cart_image": "/assets/images/royal_Palm.jpg",
-      "cart_name": "Roystonea Regia, Royal Palm",
-      "cart_price": 500,
-      "id": 1
-    },
-    {
-      "cart_id": 7,
-      "cart_image": "https://nurserynisarga.in/wp-content/uploads/2022/03/2.webp",
-      "cart_name": "Red Palm",
-      "cart_price": 679,
-      "id": 2
-    },
-    {
       "cart_id": 1,
-      "cart_image": "/assets/images/bamboopalm.jpg",
-      "cart_name": "Bamboo Palm",
-      "cart_price": 366,
-      "id": 3
-    },
+      "cart_image": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/001_97054d94-f5a7-48e3-acee-4aefa950304f_938x938.png?v=1631529612",
+      "cart_name": "Sansevieria trifasciata 'Flame' With Pot",
+      "cart_price": 429,
+      "id": 1
+    }
+  ],
+  "admin": [
     {
-      "cart_id": 2,
-      "cart_image": "/assets/images/bismarckia.jpg",
-      "cart_name": "Bismarckia Nobilis Blue Form",
-      "cart_price": 749,
-      "id": 4
+      "username": "sandhya",
+      "useremail": "admin@gmail.com",
+      "password": "admin@123",
+      "mobile": "9675843223",
+      "id": 1
     }
   ],
   "users": [
@@ -38,96 +26,19 @@
       "id": 3
     },
     {
-      "firstname": "vvb",
-      "lastname": "vvc",
-      "useremail": "tt@gmail.com",
-      "password": "tt123",
+      "firstname": "prathu",
+      "lastname": "reddy",
+      "useremail": "prathu@gmail.com",
+      "password": "prathu123",
       "id": 4
-    },
-    {
-      "firstname": "vvb",
-      "lastname": "vvc",
-      "useremail": "shree@gmail.com",
-      "password": "123456",
-      "id": 5
-    },
-    {
-      "firstname": "Pooja",
-      "lastname": "G",
-      "useremail": "tt123@gmail.com",
-      "password": "123456",
-      "id": 6
-    },
-    {
-      "firstname": "pallavi",
-      "lastname": "katari",
-      "useremail": "pallavikatari@gmail.com",
-      "password": "pallavi",
-      "id": 7
-    },
-    {
-      "firstname": "san",
-      "lastname": "h",
-      "useremail": "shree@gmail.com",
-      "password": "",
-      "id": 8
-    },
-    {
-      "firstname": "fff",
-      "lastname": "g",
-      "useremail": "tt@gmail.com",
-      "password": "",
-      "id": 9
-    },
-    {
-      "firstname": "Ramya",
-      "lastname": "shree",
-      "useremail": "ramyashree1301@gmail.com",
-      "password": "",
-      "id": 10
-    },
-    {
-      "firstname": "Ramya",
-      "lastname": "shree",
-      "useremail": "ramyashree1301@gmail.com",
-      "password": "",
-      "id": 11
-    },
-    {
-      "firstname": "Ramya",
-      "lastname": "shree",
-      "useremail": "ramyashree1301@gmail.com",
-      "password": "",
-      "id": 12
-    },
-    {
-      "firstname": "Ramya",
-      "lastname": "shree",
-      "useremail": "ramyashree1301@gmail.com",
-      "password": "",
-      "id": 13
-    },
-    {
-      "firstname": "Raksha",
-      "lastname": "Kademani",
-      "useremail": "raksha.rk14@gmail.com",
-      "password": "Raksha14",
-      "id": 14
     }
   ],
   "posts": [
     {
-      "id": 2,
-      "pname": "Tulsi Plant seeds",
-      "pdescription": "Heartyculture Nursery",
-      "price": 60,
-      "img": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/download_7fa81907-27a8-40b3-a5d4-601a29e86bb7_225x225.jpg?v=1633095387"
-    },
-    {
       "id": 3,
       "pname": "Rosemary Seeds",
       "pdescription": "Heartyculture Nursery",
-      "price": 139,
+      "price": "138",
       "img": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Rosemary_33fbd848-d467-4ef4-a4ef-3ff55e1c834a_381x254.jpg?v=1643524181"
     },
     {
@@ -173,97 +84,6 @@
       "mobile": "9901188059",
       "message": "nnghgfn",
       "id": 1
-    },
-    {
-      "name": "vbdbb",
-      "useremail": "jancy@gmail.com",
-      "mobile": "9901188059",
-      "message": "gooditem",
-      "id": 2
-    },
-    {
-      "name": "bbb",
-      "useremail": "shree@gmail.com",
-      "mobile": "0665554766",
-      "message": "gooditem",
-      "id": 3
-    },
-    {
-      "name": "pooja",
-      "useremail": "admin@gmail.com",
-      "mobile": "9901188059",
-      "message": "item is damaged",
-      "id": 4
-    },
-    {
-      "name": "Raksha",
-      "useremail": "raksha@gmail.com",
-      "mobile": "9591617518",
-      "message": "damaged product",
-      "id": 5
-    },
-    {
-      "name": "pooja",
-      "useremail": "admin@gmail.com",
-      "mobile": "9901188059",
-      "message": "bad",
-      "id": 6
-    },
-    {
-      "name": "vvb vvc",
-      "useremail": "shree@gmail.com",
-      "mobile": "06655547668",
-      "message": "bbb",
-      "id": 7
-    },
-    {
-      "name": "rrr",
-      "useremail": "shree@gmail.com",
-      "mobile": "06655547668",
-      "message": "bad",
-      "id": 8
-    },
-    {
-      "name": "Jennie",
-      "useremail": "tt123@gmail.com",
-      "mobile": "9376534521",
-      "message": "good",
-      "id": 9
-    },
-    {
-      "name": "vvb vvc",
-      "useremail": "shree@gmail.com",
-      "mobile": "06655547668",
-      "message": "nnn",
-      "id": 10
-    },
-    {
-      "name": "vvb vvc",
-      "useremail": "shree@gmail.com",
-      "mobile": "06655547668",
-      "message": "bbn",
-      "id": 11
-    },
-    {
-      "name": "pallavi katari",
-      "useremail": "pallavikatari@gmail.com",
-      "mobile": "9901188059",
-      "message": "damaged product",
-      "id": 12
-    },
-    {
-      "name": "pooja",
-      "useremail": "admin@gmail.com",
-      "mobile": "9901188059",
-      "message": "good",
-      "id": 13
-    },
-    {
-      "name": "vvb vvc",
-      "useremail": "shree@gmail.com",
-      "mobile": "06655547668",
-      "message": "nnn",
-      "id": 14
     }
   ],
   "subscribe": [
@@ -318,6 +138,22 @@
     {
       "useremail": "jancy@gmail.com",
       "id": 13
+    },
+    {
+      "useremail": "jancy@gmail.com",
+      "id": 14
+    },
+    {
+      "useremail": "ramyashree1301@gmail.com",
+      "id": 15
+    },
+    {
+      "useremail": "jancy@gmail.com",
+      "id": 16
+    },
+    {
+      "useremail": "raksha.rk14@gmail.com",
+      "id": 17
     }
   ],
   "checkout": [
@@ -397,6 +233,17 @@
       "state": "karnataka",
       "phone": "+919591617518",
       "id": 7
+    },
+    {
+      "country": "India",
+      "firstname": "Raksha",
+      "lastname": "Kademani",
+      "address": "sq-19,jnv",
+      "apartment": "sq19",
+      "city": "vijaypur",
+      "state": "state",
+      "phone": "+919591617518",
+      "id": 8
     }
   ]
 }

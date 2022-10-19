@@ -1,28 +1,39 @@
 <div>
-  <div>
-    <a class="nav-link" style="font-weight: 500;color:rgb(246, 70, 70)" aria-current="page" href="#">Home</a>
-  </div>
-  <div>
-    <p style="margin-top:-23px;font-weight:380;margin-left:50px;">>Outdoor Plants</p>
-  </div>
+  <header class="main__header" role="banner">
+    <nav aria-label="Breadcrumb">
+      <ol class="breadcrumb" role="list">
+        <li>
+          <a routerLink="/">Home</a>
+          <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" fill="currentColor" class="bi bi-chevron-right"
+            viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+          </svg>
+        </li>
+        <li class="breadcrumb__item">
+          <span class="breadcrumb-item-current">Medicinal Herbs</span>
+        </li>
+      </ol>
+    </nav>
+  </header>
 </div>
 <br>
 <div class="header">
-  <h1>Outdoor Plants</h1>
+  <h1>Medicinal Herbs</h1>
 </div>
 <br>
-<div style="border:none;">
+<!-- <div style="border:none;">
   <div>
     <div class="row card-group">
-      <!--1st column-->
+      1st column
       <div class="col col-3" *ngFor="let product of pro">
         <div>
           <div class="card" style="width: 320px;">
-            <!--Property Binding-->
+            Property Binding
             <img [src]="product.img" class="prodimg">
             <div class="card-body">
               <p style="font-size: 16px;color:rgb(16, 16, 24);">{{product.pname}}</p>
-              <p style="font-size: 14px; color: grey " class="desc"> {{product.pdescription}} </p>
+              <a href="/allproducts" style="font-size: 14px; color: grey " class="desc"> {{product.pdescription}} </a>
               <p style="color:rgb(235, 37, 37);">{{ product.price}}</p>
             </div>
             <div class="row">
@@ -31,11 +42,59 @@
                   data-bs-toggle="modal" data-bs-target="#exampleModal">Quick Shop</button>
                 <a type="button" class="btn btn-warning" href="">Add to cart</a>
               </div>
-            </div>
+            </div> -->
+
+<div class="sorting">
+  <nav class="navbar navbar-expand navbar-custom" id="productSort">
+    <ul class="navbar-nav">
+      <li class="nav-item  ">
+        <a class="nav-link text-dark" href="#">Sort by</a>
+      </li>
+      <li class="navbar-item" style="margin-top: 8px;">
+        <select id="sort-by" (change)="sort($event)" style="border:none;background-color: #f6f6f6;">
+          <option value="" selected disabled hidden style="color: black;">Sort By</option>
+          <option value="Name">Alphebetically,A-Z</option>
+          <option value="HName">Alphebetically,Z-A</option>
+          <option value="Low">Price, Low to High</option>
+          <option value="High">Price, High to Low</option>
+        </select>
+      </li>
+
+    </ul>
+  </nav>
+</div>
+
+<div class="container-fluid">
+  <div class="row card-group">
+    <!--1st column-->
+    <div class="col col-3" *ngFor="let product of productDetail">
+      <div class="card card-hover shadow">
+        <!--Property Binding-->
+        <img [src]="product.img" class="prodimg mx-auto">
+        <span *ngif="product.discount > 0" class="menu_label">
+          Save ₹ {{product.discount}}.00
+        </span> 
+        <div class="card-body">
+          <div class="product-name">
+            <p style="font-size: 16px;color:rgb(16, 16, 24);">{{product.pname}}</p>
+          </div>
+          <a href="/allproducts" style="font-size: 14px; color: grey " class="desc"> {{product.pdescription}} </a>
+          <p style="color:rgb(235, 37, 37);">{{ product.price | currency:'Rs. '}}</p>
+          <span *ngIf="product.discount > 0" class="menu_label">
+            Save ₹ {{product.discount}}.00
+          </span> 
+        </div>
+
+        
+        <div class="row" style="margin-bottom: 10px; margin-left: 5px;">
+          <div class="col target">
+            <button type="button" class="btn btn-outline" style="margin-right: 19px; border-color: gold;" [routerLink]="['/medicinaldetails',product.pid]">Quick Shop</button>
+            <button type="submit" class="btn btn-warning" (click)="addToCart(product)">Add to cart</button>
           </div>
         </div>
-        <!--2nd column-->
-
       </div>
     </div>
-    
+  </div>
+    <!--2nd column-->
+  </div>
+
