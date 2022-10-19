@@ -30,6 +30,7 @@ export class ComboDetailComponent implements OnInit {
 
   total_price: number = 0;
   cart_quality:number=1;
+  
   addToCart(product:any){
     this.cart.cart_image=product.combo_image;
     this.cart.cart_name=product.combo_name;

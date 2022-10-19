@@ -37,10 +37,15 @@ import { ProductdetailsComponent } from './productdetails/productdetails.compone
 import { ComboDetailComponent } from './combo-packs/combo-detail/combo-detail.component';
 import { PaymentComponent } from './payment/payment.component';
 import { AllproductsComponent } from './allproducts/allproducts.component';
+import { MedicinalHerbsDetailsComponent } from './plants/medicinal-herbs/medicinal-herbs-details/medicinal-herbs-details.component';
+import { FertilizerDetailsComponent } from './fertilizer/fertilizer-details/fertilizer-details.component';
+import { IndoordetailsComponent } from './palms-cycas/indoordetails/indoordetails.component';
 import { PrivacypolicyComponent } from './policy/privacypolicy/privacypolicy.component';
 import { TermsComponent } from './policy/terms/terms.component';
 import { ShippingComponent } from './policy/shipping/shipping.component';
 import { RefundsComponent } from './policy/refunds/refunds.component';
+import { FruitsDetailsComponent } from './fruit-trees/fruits-details/fruits-details.component';
+import { AllproductsdetailsComponent } from './allproducts/allproductsdetails/allproductsdetails.component';
 
 
 
@@ -86,7 +91,16 @@ const routes: Routes = [
 {path:"ship",component:ShippingComponent},
 {path:"refund",component:RefundsComponent},
   {path:"payment",component:PaymentComponent},
-  {path: "allproducts", component: AllproductsComponent}
+  {path: "allproducts", component: AllproductsComponent},
+  {path:"medicinaldetails/:id", component:MedicinalHerbsDetailsComponent},
+  {path:"fertilizerdetails/:id", component:FertilizerDetailsComponent},
+  {path:"indoordetails/:id", component:IndoordetailsComponent},
+  {path:"fruitdetails/:id", component:FruitsDetailsComponent},
+  {path:"allproductdetails/:id", component:AllproductsdetailsComponent}
+
+
+
+
 
 
 

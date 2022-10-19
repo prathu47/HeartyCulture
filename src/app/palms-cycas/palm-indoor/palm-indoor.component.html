@@ -1,4 +1,4 @@
-<div class="card card-hover" style="width: 18rem;" style="padding:10px;" (mouseover)="showButton=true" (mouseout)="showButton=false">
+<div class="card card-hover" style="width: 18rem;" style="padding:10px;">
   <img [src]="product.img" class="prodimage" style="padding: 7px; height:250px;">
   <div class="card-body">
           <p style="font-size: 16px;color:rgb(16, 16, 24);">{{product.pname}}</p>
@@ -8,8 +8,11 @@
   <!--*ngIf="showButton"-->
   <div class="row">
     <div class="col target">
-      <button type="button" class="btn btn-outline" style="margin-right: 19px; border-color: gold;" data-bs-toggle="modal" data-bs-target="#exampleModal">Quick Shop</button>
+
+      <button type="button" class="btn btn-outline" style="margin-right: 19px; border-color: gold;" [routerLink]="['/indoordetails',product.pid]">Quick Shop</button>
       <button type="button"  class="btn btn-warning"  data-bs-toggle="modal" data-bs-target="#centralModalSm" (click)="addToCart(product)">Add to cart</button>
+     
+    
     </div>
   </div>
 </div>

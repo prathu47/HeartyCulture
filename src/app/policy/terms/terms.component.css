@@ -1,0 +1,17 @@
+.header h2{
+    margin-top: 25px;
+text-align: center;
+font-family: Lato,sans-serif;
+font-style: normal;
+    font-weight: 540;
+    letter-spacing: 0em;
+}
+.content p{
+    font-style: normal;
+    font-family: Lato,sans-serif;
+    font-weight: 500;
+    font-size: var(--font-size-body);
+    width: 100%;
+    color: #4d4d4d;
+
+}
