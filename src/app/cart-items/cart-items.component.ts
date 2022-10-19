@@ -13,7 +13,6 @@ import { UserService } from '../user.service';
 })
 export class CartItemsComponent implements OnInit {
 
- auth:boolean=false;
   constructor(private cartSvc: CartService,private authService:UserService, private router: Router) { }
 
   carts: Cartitems = {
@@ -71,12 +70,6 @@ export class CartItemsComponent implements OnInit {
         console.log(this.cart)
       }
     )
-    this.authService.authSubject.subscribe(
-      data=>{
-        console.log('auth inside nav component:'+data);
-        this.auth=data;
-      }
-    );
   }
 
 }

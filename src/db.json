@@ -2,52 +2,10 @@
   "cart": [
     {
       "cart_id": 1,
-      "cart_image": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Inkedvermicompost-1.8kg_276x276_LI_276x274.jpg?v=1645938248",
-      "cart_name": "Vermicompost (Pure Desi cow) - 900g",
-      "cart_price": 350,
+      "cart_image": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/004_3_c069fa9f-ca0d-451b-b1fd-6338eea6758d_305x305.png?v=1633842281",
+      "cart_name": "Dragon Fruit |Selenicereus undatus",
+      "cart_price": 349,
       "id": 1
-    },
-    {
-      "cart_id": 20,
-      "cart_image": "https://cdn.shopify.com/s/files/1/0579/7924/0580/products/flora_product_image_shot_900x1200px.png?v=1661310215&width=375",
-      "cart_name": "Vermicompost (Pure Desi cow) - 900g",
-      "cart_price": 350,
-      "id": 2
-    },
-    {
-      "cart_id": 2,
-      "cart_image": "/assets/images/bismarckia.jpg",
-      "cart_name": "Bismarckia Nobilis Blue Form",
-      "cart_price": 749,
-      "id": 5
-    },
-    {
-      "cart_id": 1,
-      "cart_image": "/assets/images/bamboopalm.jpg",
-      "cart_name": "Bamboo Palm",
-      "cart_price": 366,
-      "id": 6
-    },
-    {
-      "cart_id": 7,
-      "cart_image": "https://nurserynisarga.in/wp-content/uploads/2022/03/2.webp",
-      "cart_name": "Red Palm",
-      "cart_price": 679,
-      "id": 7
-    },
-    {
-      "cart_id": 3,
-      "cart_image": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/bio-char-fruits-flowers-1.5kg_876x873_logo_changed_383x381.png?v=1624170324",
-      "cart_name": "Bio Charcoal for fruits and flowers (Charcoal + Topper) - 1.5 kg",
-      "cart_price": 500,
-      "id": 8
-    },
-    {
-      "cart_id": 7,
-      "cart_image": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/KAV06223_396x396.jpg?v=1632486754",
-      "cart_name": "Fairies Washboard | Haworthia limifolia 'Jewel'",
-      "cart_price": 320,
-      "id": 9
     }
   ],
   "admin": [
@@ -68,81 +26,11 @@
       "id": 3
     },
     {
-      "firstname": "vvb",
-      "lastname": "vvc",
-      "useremail": "tt@gmail.com",
-      "password": "tt123",
+      "firstname": "prathu",
+      "lastname": "reddy",
+      "useremail": "prathu@gmail.com",
+      "password": "prathu123",
       "id": 4
-    },
-    {
-      "firstname": "vvb",
-      "lastname": "vvc",
-      "useremail": "shree@gmail.com",
-      "password": "123456",
-      "id": 5
-    },
-    {
-      "firstname": "Pooja",
-      "lastname": "G",
-      "useremail": "tt123@gmail.com",
-      "password": "123456",
-      "id": 6
-    },
-    {
-      "firstname": "pallavi",
-      "lastname": "katari",
-      "useremail": "pallavikatari@gmail.com",
-      "password": "pallavi",
-      "id": 7
-    },
-    {
-      "firstname": "san",
-      "lastname": "h",
-      "useremail": "shree@gmail.com",
-      "password": "",
-      "id": 8
-    },
-    {
-      "firstname": "fff",
-      "lastname": "g",
-      "useremail": "tt@gmail.com",
-      "password": "",
-      "id": 9
-    },
-    {
-      "firstname": "Ramya",
-      "lastname": "shree",
-      "useremail": "ramyashree1301@gmail.com",
-      "password": "",
-      "id": 10
-    },
-    {
-      "firstname": "Ramya",
-      "lastname": "shree",
-      "useremail": "ramyashree1301@gmail.com",
-      "password": "",
-      "id": 11
-    },
-    {
-      "firstname": "Ramya",
-      "lastname": "shree",
-      "useremail": "ramyashree1301@gmail.com",
-      "password": "",
-      "id": 12
-    },
-    {
-      "firstname": "Ramya",
-      "lastname": "shree",
-      "useremail": "ramyashree1301@gmail.com",
-      "password": "",
-      "id": 13
-    },
-    {
-      "firstname": "Raksha",
-      "lastname": "Kademani",
-      "useremail": "raksha.rk14@gmail.com",
-      "password": "Raksha14",
-      "id": 14
     }
   ],
   "posts": [
@@ -196,111 +84,6 @@
       "mobile": "9901188059",
       "message": "nnghgfn",
       "id": 1
-    },
-    {
-      "name": "vbdbb",
-      "useremail": "jancy@gmail.com",
-      "mobile": "9901188059",
-      "message": "gooditem",
-      "id": 2
-    },
-    {
-      "name": "bbb",
-      "useremail": "shree@gmail.com",
-      "mobile": "0665554766",
-      "message": "gooditem",
-      "id": 3
-    },
-    {
-      "name": "pooja",
-      "useremail": "admin@gmail.com",
-      "mobile": "9901188059",
-      "message": "item is damaged",
-      "id": 4
-    },
-    {
-      "name": "Raksha",
-      "useremail": "raksha@gmail.com",
-      "mobile": "9591617518",
-      "message": "damaged product",
-      "id": 5
-    },
-    {
-      "name": "pooja",
-      "useremail": "admin@gmail.com",
-      "mobile": "9901188059",
-      "message": "bad",
-      "id": 6
-    },
-    {
-      "name": "vvb vvc",
-      "useremail": "shree@gmail.com",
-      "mobile": "06655547668",
-      "message": "bbb",
-      "id": 7
-    },
-    {
-      "name": "rrr",
-      "useremail": "shree@gmail.com",
-      "mobile": "06655547668",
-      "message": "bad",
-      "id": 8
-    },
-    {
-      "name": "Jennie",
-      "useremail": "tt123@gmail.com",
-      "mobile": "9376534521",
-      "message": "good",
-      "id": 9
-    },
-    {
-      "name": "vvb vvc",
-      "useremail": "shree@gmail.com",
-      "mobile": "06655547668",
-      "message": "nnn",
-      "id": 10
-    },
-    {
-      "name": "vvb vvc",
-      "useremail": "shree@gmail.com",
-      "mobile": "06655547668",
-      "message": "bbn",
-      "id": 11
-    },
-    {
-      "name": "pallavi katari",
-      "useremail": "pallavikatari@gmail.com",
-      "mobile": "9901188059",
-      "message": "damaged product",
-      "id": 12
-    },
-    {
-      "name": "pooja",
-      "useremail": "admin@gmail.com",
-      "mobile": "9901188059",
-      "message": "good",
-      "id": 13
-    },
-    {
-      "name": "vvb vvc",
-      "useremail": "shree@gmail.com",
-      "mobile": "06655547668",
-      "message": "nnn",
-      "id": 14
-    },
-    {
-      "name": "vvb vvc",
-      "useremail": "shree@gmail.com",
-      "mobile": "06655547668",
-      "message": "good",
-      "id": 15
-    },
-    {
-      "name": "vbdbb",
-      "useremail": "jancy@gmail.com",
-      "mobile": "9901188059",
-      "message": "bbvv",
-      "id": 16
     }
   ],
   "subscribe": [

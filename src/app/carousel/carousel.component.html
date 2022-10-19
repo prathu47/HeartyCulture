@@ -120,7 +120,7 @@
           <img [src]="palm.img" class="prodimage" style="height:170px; padding: 10px;">
           <div class="card-body">
             <p style="font-size: 16px;color:rgb(16, 16, 24);">{{palm.pname}}</p>
-            <small><a href="#">Heartyculture Nursery</a></small>
+            <small><a href="/allproducts">Heartyculture Nursery</a></small>
             <p style="color:rgb(235, 37, 37);">{{ palm.price| currency:'Rs. '}}</p>
           </div>
           <!--*ngIf="showButton"-->
@@ -143,7 +143,7 @@
         <div class="card" style="height: 100%;">
           <a class="collection"
             style="background-image: url(https://cdn.shopify.com/s/files/1/0487/7598/7354/files/ferns3_276x276_8c6f2806-27de-4f37-9ebb-dd69f098bbdc_184x276_crop_center.jpg?v=1642074385);"
-            routerLink="/plants/medicinal-herbs">
+            href="/plants/outdoorplants">
             <div class="inner">
               <span>View More</span> <br>
               <span>Outdoor Plants</span>
@@ -159,7 +159,7 @@
           <img [src]="palm.img" class="prodimage" style="height:170px; padding: 10px;">
           <div class="card-body">
             <p style="font-size: 16px;color:rgb(16, 16, 24);">{{palm.pname}}</p>
-            <small><a href="#">Heartyculture Nursery</a></small>
+            <small><a href="/allproducts">Heartyculture Nursery</a></small>
             <p style="color:rgb(235, 37, 37);">{{ palm.price| currency:'Rs. '}}</p>
           </div>
           <!--*ngIf="showButton"-->
@@ -206,7 +206,7 @@
           <img [src]="cactus.cactus_image" class="prodimage" style="height:170px; padding: 10px;">
           <div class="card-body">
             <p style="font-size: 16px;color:rgb(16, 16, 24);">{{cactus.cactus_name}}</p>
-            <small><a href="#">Heartyculture Nursery</a></small>
+            <small><a href="/allproducts">Heartyculture Nursery</a></small>
             <p style="color:rgb(235, 37, 37);">{{ cactus.cactus_price| currency:'Rs. '}}</p>
           </div>
           <!--*ngIf="showButton"-->
@@ -248,7 +248,7 @@
           <img [src]="fruit.img" class="prodimage" style="height:170px; padding: 10px;">
           <div class="card-body">
             <p style="font-size: 16px;color:rgb(16, 16, 24);">{{fruit.pname}}</p>
-            <small><a href="#">Heartyculture Nursery</a></small>
+            <small><a href="/allproducts">Heartyculture Nursery</a></small>
             <p style="color:rgb(235, 37, 37);">{{ fruit.price1| currency:'Rs. '}}</p>
           </div>
           <!--*ngIf="showButton"-->
@@ -291,7 +291,7 @@
           <img [src]="palm.img" class="prodimage" style="height:170px; padding: 10px;">
           <div class="card-body">
             <p style="font-size: 16px;color:rgb(16, 16, 24);">{{palm.pname}}</p>
-            <small><a href="#">Heartyculture Nursery</a></small>
+            <small><a href="/allproducts">Heartyculture Nursery</a></small>
             <p style="color:rgb(235, 37, 37);">{{ palm.price| currency:'Rs. '}}</p>
           </div>
           <!--*ngIf="showButton"-->
@@ -320,7 +320,7 @@
             world. Both the wood and the oil produce a distinctive fragrance that has been highly valued for centuries.
           </p>
           <button style="border-color: white;font-weight: 500;height: 40px;margin-right:500px;margin-top: 30px;"
-            type="submit">Buy now</button>
+            type="submit" routerLink="/allproducts">Buy now</button>
 
         </div>
         <div class="Women">
@@ -334,10 +334,10 @@
     <div class="row row-cols-1 row-cols-md-3 g-4">
       <div class="col" style="width: 290px;height: 300px;margin-left: 26px;">
         <div class="card" >
-          <a routerLink="ferti"><img style="width: 250px;height: 300px;" src="https://cdn.shopify.com/s/files/1/0487/7598/7354/products/FrenchMarigoldScarletred_432x432.jpg?v=1620131172" class="card-img-top"></a>
+          <a href="/flowerseeds"><img style="width: 250px;height: 300px;" src="https://cdn.shopify.com/s/files/1/0487/7598/7354/products/FrenchMarigoldScarletred_432x432.jpg?v=1620131172" class="card-img-top"></a>
           <div class="card-body">
          
-            <a style=" text-decoration: none;"routerLink="ferti"><h4 style="color: rgb(239, 30, 30);font-size: 16px;font-weight: 600;text-align: center;" class="card-title">Flower Seeds</h4></a>
+            <a style=" text-decoration: none;" href="/flowerseeds"><h4 style="color: rgb(239, 30, 30);font-size: 16px;font-weight: 600;text-align: center;" class="card-title">Flower Seeds</h4></a>
           </div>
         </div>
       </div>
@@ -345,30 +345,30 @@
      
       <div class="col" style="width: 290px;height: 300px;margin-left: 20px;">
         <div class="card h-10">
-          <a routerLink="ferti"><img style="width: 290px;height: 300px;" src="https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Palak_432x432.png?v=1616014387" class="card-img-top"></a>
+          <a href="/ornamantaltree"><img style="width: 290px;height: 300px;" src="https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Palak_432x432.png?v=1616014387" class="card-img-top"></a>
             
           <div class="card-body">
           
-            <a style=" text-decoration: none;"routerLink="ferti"><h4 style="color: rgb(239, 30, 30);font-size: 16px;font-weight: 600;text-align: center;" class="card-title">Vegetable seeds</h4></a>
+            <a style=" text-decoration: none;" href="/ornamantaltree"><h4 style="color: rgb(239, 30, 30);font-size: 16px;font-weight: 600;text-align: center;" class="card-title">Ornamental Tree</h4></a>
           </div>
         </div>
       </div>
       <div class="col" style="width: 290px;height: 300px;margin-left: 20px;">
         <div class="card h-10">
-          <a routerLink="ferti"><img style="width: 290px;height: 300px;" src="https://cdn.shopify.com/s/files/1/0487/7598/7354/products/d3_225x225.jpg?v=1633092227" class="card-img-top"></a>
+          <a href="/medicineseeds"><img style="width: 290px;height: 300px;" src="https://cdn.shopify.com/s/files/1/0487/7598/7354/products/d3_225x225.jpg?v=1633092227" class="card-img-top"></a>
           <div class="card-body">
           
-            <a style=" text-decoration: none;"routerLink="ferti"><h4 style="color: rgb(239, 30, 30);font-size: 16px;font-weight: 600;text-align: center;" class="card-title">Medicinal Seeds</h4></a>
+            <a style=" text-decoration: none;" href="/medicineseeds"><h4 style="color: rgb(239, 30, 30);font-size: 16px;font-weight: 600;text-align: center;" class="card-title">Medicinal Seeds</h4></a>
           </div>
         </div>
       </div>
       <div class="col" style="width: 290px;height: 300px;margin-left: 20px;">
         <div class="card h-10">
-          <a routerLink="ferti"><img style="width: 290px;height: 300px;" src="https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Inkedvermicompost-1.8kg_276x276_LI_276x274.jpg?v=1645938248" class="card-img-top"
+          <a href="/ferti"><img style="width: 290px;height: 300px;" src="https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Inkedvermicompost-1.8kg_276x276_LI_276x274.jpg?v=1645938248" class="card-img-top"
             ></a>
           <div class="card-body">
          
-            <a style=" text-decoration: none;"routerLink="ferti"><h4 style="color: rgb(239, 30, 30);font-size: 16px;font-weight: 600;text-align: center;" class="card-title">Fertilizers</h4></a>
+            <a style=" text-decoration: none;"href="/ferti"><h4 style="color: rgb(239, 30, 30);font-size: 16px;font-weight: 600;text-align: center;" class="card-title">Fertilizers</h4></a>
           </div>
         </div>
       </div>

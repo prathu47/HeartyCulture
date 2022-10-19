@@ -1,8 +1,8 @@
-.header{
+/* .header{
     margin-left: 20px;
     color: #484848;
     font-family:Georgia, 'Times New Roman', Times, serif;
-}
+} */
 /*sorting*/
 .navbar-custom{
     background-color: #f6f6f6;
@@ -21,3 +21,25 @@
 }
 
 
+.breadcrumb {
+    margin-left: 2px;
+    padding: 10px;
+    padding-top: 18px;
+}
+
+.breadcrumb a {
+    padding-right: 8px;
+    color: red;
+    text-decoration: none;
+}
+
+.breadcrumb__item {
+    padding-left: 8px;
+    color: grey;
+}
+
+.header {
+    margin-left: 20px;
+    color: #484848;
+    font-family: 'Lato', sans-serif;
+}
