@@ -1,7 +1,7 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-1"></div>
-        <div class="col-6">
+        <div class="col-5 main-container">
             <div class="content" data-content>
                 <div class="wrap">
                     <div class="main">
@@ -30,9 +30,9 @@
                                                 d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
                                         </svg>
                                     </li>
-                                    
-                                    <li class="breadcrumb__item" >
-                                        <span >Payment</span>
+
+                                    <li class="breadcrumb__item">
+                                        <span>Payment</span>
                                     </li>
                                 </ol>
                             </nav>
@@ -116,10 +116,10 @@
                         <br>
                         <div>
                             <a routerLink="payment">
-                            <button name="button" type="submit" class="btn cts" aria-busy="false">
-                                <span class="btn-content" data-continue-button-content="true" >Continue to
-                                    payment</span>
-                            </button></a>
+                                <button name="button" type="submit" class="btn cts" aria-busy="false">
+                                    <span class="btn-content" data-continue-button-content="true">Continue to
+                                        payment</span>
+                                </button></a>
                             <a class="previous-link" routerLink="cartitems">
                                 <svg width="10" height="10" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M8 1L7 0 3 4 2 5l1 1 4 4 1-1-4-4" />
@@ -130,31 +130,65 @@
                 </div>
             </div>
         </div>
-        <div class="col-4 grey-bck">
-            <div class="container right-col">
-                
-                <!-- <table>
-                    <tbody>
-                        <tr>
-                            <td>
-                                <div>
-                                    <img src="" alt="">
+        <div class="col-5 grey-bck show-cart-items-container">
+            <!-- <div class="container right-col"> -->
+            <table class="show-cart-items-container-table">
+                <tbody>
+                    <tr class="each-product" *ngFor="let item of cart">
+                        <div class="product-thumbnail-1">
+                            <td class="product-image">
+                                <div class="product-thumbnail">
+                                    <div class="product-thumbnail-wrapper">
+                                        <img src={{item.cart_image}} class="product-thumbnail-image"
+                                            alt="Cotton T-shirt">
+                                    </div>
+                                    <span class="product-thumbnail-quantity"
+                                        aria-hidden="true">{{map.get(item.cart_id)}}</span>
                                 </div>
                             </td>
-                            <th>
-                                <span>
-                                    Acalypha Wilkesiana Rosea
-                                </span>
-                            </th>
-                            <td>
-                                <span>₹200</span>
-                            </td>
-                        </tr>
-                        <br>
-                    </tbody>
-                </table>
-            </div>
-        </div> -->
+                        </div>
+                        <th class="product__description" scope="row">
+                            <span class="product-description">{{item.cart_name}}</span>
+
+                        </th>
+                        <td class="product__price">
+                            <span
+                                class="order-summary">{{item.cart_price|currency:'INR'}}</span>
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+            <hr>
+            <table class="total-table">
+                <tbody class="total-line-table-tbody">
+                    <tr>
+                        <th class="total-line-name">Subtotal</th>
+                        <td class="total-line-price" style="font-weight: bold;">
+                            <span>
+                                <h5>{{totalPrice(temp_cart)|currency:'INR':'symbol':'3.0'}}</h5>
+                            </span>
+                        </td>
+                    </tr>
+                    <a aria-haspopup="dialog" data-modal="policy-shipping-policy" data-title-text="Shipping policy"
+                        data-close-text="Close" data-iframe="true"
+                        href="/48775987354/policies/shipping-policy.html?locale=en-IN">
+                        <span class="visually-hidden">Shipping costs</span>
+                        <svg class="icon-svg icon-svg--color-adaptive-lighter icon-svg--size-14 icon-svg--inline-after icon-svg--clickable"
+                            role="presentation" aria-hidden="true" focusable="false">
+                            <use xlink:href="#question"></use>
+                        </svg>
+                    </a>
+
+
+
+
+
+
+
+                </tbody>
+            </table>
+        </div>
         <div class="col-1 grey-bck"></div>
     </div>
 </div>

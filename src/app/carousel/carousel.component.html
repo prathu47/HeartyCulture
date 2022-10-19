@@ -30,6 +30,7 @@
       <span class="sr-only">Next</span>
     </a>
   </div> -->
+ 
 
 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
@@ -96,6 +97,7 @@
 
     <!-- Images -->
     <div class="pxs"></div>
+   
 
     <!-- Native Trees & Succulents -->
     <div class="header1">
@@ -117,6 +119,8 @@
 
       <div class="col-sm-5 col-md-2 mt-4" style="width: 16rem; padding: 5px;"
         *ngFor="let cactus of cactusdetails.slice(0,8)">
+        
+
         <div class="card card-hover">
           <img [src]="cactus.cactus_image" class="prodimage" style="height:170px; padding: 10px;">
           <div class="card-body">
@@ -133,8 +137,10 @@
             </div>
           </div>
         </div>
+    </div>
       </div>
     </div>
+    
 
     <!-- Fruits Trees & Herbal Plants-->
     <div class="header1" style="margin-top: 25px;">
@@ -156,6 +162,7 @@
 
       <div class="col-sm-5 col-md-2 mt-4" style="width: 16rem; padding: 5px;"
         *ngFor="let fruit of fruittreesDetails.slice(0,9)">
+    
         <div class="card card-hover">
           <img [src]="fruit.img" class="prodimage" style="height:170px; padding: 10px;">
           <div class="card-body">
@@ -174,7 +181,9 @@
           </div>
         </div>
       </div>
+      </div>
     </div>
+
 
 
     <!-- Cycas & Outdoor Plants-->
@@ -196,6 +205,8 @@
       </div>
 
       <div class="col-sm-5 col-md-2 mt-4" style="width: 16rem; padding: 5px;" *ngFor="let palm of palmplant.slice(0,9)">
+        
+
         <div class="card card-hover">
           <img [src]="palm.img" class="prodimage" style="height:170px; padding: 10px;">
           <div class="card-body">
@@ -215,7 +226,8 @@
           </div>
         </div>
       </div>
-    </div>
+      </div>
+  
     <br>
 
     <div class="banner-container">

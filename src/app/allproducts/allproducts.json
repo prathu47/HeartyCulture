@@ -4,28 +4,45 @@
         "pname":"Lemon grass|Cymbopogon",
         "pdescription":"Heartyculture Nursery",
         "price":199.00,
-        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/002_9_391x391.png?v=1633686907"
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/002_9_391x391.png?v=1633686907",
+        "img1": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/002_9_150x150_crop_center.png?v=1633686907",
+        "img2": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/11_150x150_crop_center.jpg?v=1633686985",
+        "img3": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Cymbopogoncitratus_150x150_crop_center.jpg?v=1633686985",
+        "img4": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/001_9_150x150_crop_center.png?v=1633686907",
+        "img5": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/003_9_150x150_crop_center.png?v=1633686907",
+        "img6": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/004_9_4eacde84-de99-4439-b8df-12401a04937d_150x150_crop_center.png?v=1633686907"
     },
     {
         "pid":2,
         "pname":"Curry Leaves | Murraya",
         "pdescription":"Heartyculture Nursery",
         "price":199.00,
-        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Murrayakoenigii_256x256.jpg?v=1608907943"
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Murrayakoenigii_256x256.jpg?v=1608907943",
+        "img2": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Murrayakoenigii_150x150_crop_center.jpg?v=1608907943"
     },
     {
         "pid":3,
         "pname":"Insulin plant | Chamaecostus cuspidatus",
         "pdescription":"Heartyculture Nursery",
         "price":399.00,
-        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/002_6_6254b369-064d-4e28-b4a3-7cf8489f4265_476x476.png?v=1633685906"
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/002_6_6254b369-064d-4e28-b4a3-7cf8489f4265_476x476.png?v=1633685906",
+        "img1": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/002_6_6254b369-064d-4e28-b4a3-7cf8489f4265_150x150_crop_center.png?v=1633685906",
+        "img2": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/004_6_d8b3ea60-5341-4617-9ebb-1239cddf8946_150x150_crop_center.png?v=1633685907",
+        "img3": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/003_6_e7229f7d-d2ac-4583-a924-54929bdd366a_150x150_crop_center.png?v=1633685907",
+        "img4": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/001_6_150x150_crop_center.png?v=1633685907",
+        "img5": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Chamaecostuscuspidatus_150x150_crop_center.jpg?v=1633685927"
     },
     {
         "pid":4,
         "pname":"Patta ajwain | Coleus amboinicus ",
         "pdescription":"Heartyculture Nursery",
         "price":149.00,
-        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/002_2_6afa9224-1dce-46db-a5b9-ae94d2184da3_256x256.png?v=1633685031"
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/002_2_6afa9224-1dce-46db-a5b9-ae94d2184da3_256x256.png?v=1633685031",
+        "img1": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/002_2_6afa9224-1dce-46db-a5b9-ae94d2184da3_150x150_crop_center.png?v=1633685031",
+        "img2": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/004_2_98cc2073-424f-4161-8c7e-bffea41f2cbb_150x150_crop_center.png?v=1633685030",
+        "img3": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/003_2_74c7d8f8-d9fa-4d3d-b29e-ff9f2baa3e08_150x150_crop_center.png?v=1633685031",
+        "img4": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/001_2_d47d1227-416d-4a67-836a-874eb774558c_150x150_crop_center.png?v=1633685031",
+        "img5": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/06_6242e3c1-9d52-4828-88c8-9e8d45ce7fb4_150x150_crop_center.jpg?v=1633685061"
     },
     {
         "pid":5,
@@ -33,113 +50,162 @@
         "pdescription":"Heartyculture Nursery",
         "price":349.00,
         "price1":299.00,
-        "img":"https://yourgardenbuddy.com/wp-content/uploads/2020/08/Foxtail-Fern-720x540.jpg"
+        "img":"https://yourgardenbuddy.com/wp-content/uploads/2020/08/Foxtail-Fern-720x540.jpg",
+        "img1": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Sitar_sgold_150x150_crop_center.jpg?v=1615824862"
     },
     {
         "pid":6,
-        "pname":"Sword Fern",
+        "pname":"4 o'clock mix. Plant Seeds",
         "pdescription":"Heartyculture Nursery",
-        "price":449.00,
-        "price1":349.00,
-        "img":"https://floweraura-blog-img.s3.ap-south-1.amazonaws.com/Plant+Dec+2019-+Dec+2020/sword-fern-plant.jpg"
+        "price":60.00,
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/1_381x381.jpg?v=1633085441",
+        "img1": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/1_150x150_crop_center.jpg?v=1633085441",
+        "img2": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/KAV07461_1_150x150_crop_center.jpg?v=1633086807",
+        "img3": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/KAV07456_1_150x150_crop_center.jpg?v=1633086848",
+        "img4": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/KAV07449_1_150x150_crop_center.jpg?v=1633086896",
+        "img5": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/KAV07450_1_150x150_crop_center.jpg?v=1633086936",
+        "img6": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/KAV07455_1_150x150_crop_center.jpg?v=1633087084",
+        "img7": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/KAV07460_1_1_150x150_crop_center.jpg?v=1633087150"
+    },
+    {
+        "pid":6,
+        "pname":"Sansevieria trifasciata 'Flame'",
+        "pdescription":"Heartyculture Nursery",
+        "price":429.00,
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/001_97054d94-f5a7-48e3-acee-4aefa950304f_902x902.png?v=1631529612",
+        "img1": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/001_97054d94-f5a7-48e3-acee-4aefa950304f_150x150_crop_center.png?v=1631529612",
+        "img2": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/002_60e587dd-a7fa-406e-9a49-c48681407054_150x150_crop_center.png?v=1631529627",
+        "img3": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/003_39492c9a-9575-440c-a21f-7060e3908952_150x150_crop_center.png?v=1631529647",
+        "img4": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/004_55dd1830-2226-4d41-a3a9-6268d4c8172a_150x150_crop_center.png?v=1631529663"
+
     },
     {
         "pid":7,
-        "pname":"Silver Nerve Plant",
+        "pname":"Money plant neon",
         "pdescription":"Heartyculture Nursery",
-        "price":469.00,
-        "price1":429.00,
-        "img":"https://floweraura-blog-img.s3.ap-south-1.amazonaws.com/Plants+Dec-19-Dec-20/silver-nerve-plant.jpg"
+        "price":349.00,
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/001_5_902x902.png?v=1632569716",
+        "img1": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/001_5_150x150_crop_center.png?v=1632569716",
+        "img2": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/004_5_150x150_crop_center.png?v=1632569717",
+        "img3": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/003_5_150x150_crop_center.png?v=1632569717",
+        "img4": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/002_5_150x150_crop_center.png?v=1632569717"
+
     },
     {
         "pid":8,
-        "pname":"Fibre Optic Grass Plant",
+        "pname":"Silk cotton tree | Bombax cieba",
         "pdescription":"Heartyculture Nursery",
-        "price":399.00,
-        "price1":349.00,
-        "img":"https://floweraura-blog-img.s3.ap-south-1.amazonaws.com/Plants+Dec-19-Dec-20/fibre-optic-grass-plant.jpg"
+        "price":325.00,
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/513A7286_902x902.png?v=1635159548",
+        "img1": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/513A7286_150x150_crop_center.png?v=1635159548",
+        "img2": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/513A7299_150x150_crop_center.png?v=1635159548",
+        "img3": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/513A7296_150x150_crop_center.png?v=1635159547",
+        "img4": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/513A7295_150x150_crop_center.png?v=1635159548",
+        "img5": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Bombaxceiba_25c59e97-df34-42ad-a0e9-dfa0cf28ac32_150x150_crop_center.jpg?v=1622830862",
+        "img6": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Bombaxceiba_150x150_crop_center.jpg?v=1622830862"
     },
     {
         "pid":9,
-        "pname":"Sansevieria trifasciata 'Flame' With Pot",
+        "pname":"Allamanda yellow dwarf",
         "pdescription":"Heartyculture Nursery",
-        "price":429.00,
-        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/001_97054d94-f5a7-48e3-acee-4aefa950304f_938x938.png?v=1631529612"
-        
-      },
-      {
-        "pid":10,
-        "pname":"Sanseveria trifasciata 'Stars and Stripes'",
-        "pdescription":"Heartyculture Nursery",
-        "price":450.00,
-        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/002_10_902x902.jpg?v=1633236420"  
-      },
+        "price":299.00,
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/513A8963_902x902.png?v=1636172462",
+        "img1": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/513A8963_150x150_crop_center.png?v=1636172462",
+        "img2": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Allamandaneriifolia_150x150_crop_center.jpg?v=1608905657",
+        "img3": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/513A8964_150x150_crop_center.png?v=1636172462",
+        "img4": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/513A8965_150x150_crop_center.png?v=1636172463",
+        "img5": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/513A8966_150x150_crop_center.png?v=1636172462",
+        "img6": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/513A8968_150x150_crop_center.png?v=1636172462"
+    },
+    {
+        "pid": 10,
+        "pname" : "Ixora new Yellow",
+        "pdescription": "Heartyculture Nursery",
+        "price": 249.00,
+        "img": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/ixorayellow_902x902.jpg?v=1608704512",
+        "img1": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/ixorayellow_150x150_crop_center.jpg?v=1608704512"
+    },
       {
         "pid":11,
         "pname":"Frozen Snake Plant",
         "pdescription":"Heartyculture Nursery",
         "price":399.00,
-        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/001_f5eba41a-5ce0-49b3-900b-2d33bd4894a5_902x902.png?v=1631531130"
-       
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/001_f5eba41a-5ce0-49b3-900b-2d33bd4894a5_902x902.png?v=1631531130",
+        "img1": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/001_f5eba41a-5ce0-49b3-900b-2d33bd4894a5_150x150_crop_center.png?v=1631531130",
+        "img2": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/002_10454d49-0411-4d57-a643-6fe3e2e3da85_150x150_crop_center.png?v=1631531148",
+        "img3": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/003_52513fe3-b0ad-4413-a77b-5c3660b0283e_150x150_crop_center.png?v=1631531172",
+        "img4": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/004_034b5faf-5692-408f-999e-8708ba65bcdd_150x150_crop_center.png?v=1631531209"
         
       },
-      {
-        "pid":12,
-        "pname":"Sedum rubrotinctum 'Aurora' (Redish)",
-        "pdescription":"Heartyculture Nursery",
-        "price":400.00,
-        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/002_6_396x396.jpg?v=1633177562"
-      },
+      
       {
         "pid":13,
         "pname":"French Marigold Scarlet red Seeds",
         "pdescription":"Heartyculture Nursery",
         "price":99.00,
-        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/FrenchMarigoldScarletred_381x381.jpg?v=1620131172"
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/FrenchMarigoldScarletred_381x381.jpg?v=1620131172",
+        "img1": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/FrenchMarigoldScarletred_150x150_crop_center.jpg?v=1620131172"
     },
     {
         "pid":14,
         "pname":"African Marigold F2 White Seeds",
         "pdescription":"Heartyculture Nursery",
         "price":99.00,
-        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/AfricanMarigoldF2WhiteFlower-Seeds_381x381.jpg?v=1620130424"
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/AfricanMarigoldF2WhiteFlower-Seeds_381x381.jpg?v=1620130424",
+        "img1": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/AfricanMarigoldF2WhiteFlower-Seeds_150x150_crop_center.jpg?v=1620130424"
     },
     {
         "pid":15,
         "pname":"African Marigold F2 Orange Seeds",
         "pdescription":"Heartyculture Nursery",
         "price":99.00,
-        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/AfricanMarigoldF2Orange_381x381.jpg?v=1620130122"
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/AfricanMarigoldF2Orange_381x381.jpg?v=1620130122",
+        "img1": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/AfricanMarigoldF2Orange_150x150_crop_center.jpg?v=1620130122"
     },
     {
         "pid":16,
         "pname":"Cosmos Sensation Mix Seeds",
         "pdescription":"Heartyculture Nursery",
         "price":99.00,
-        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/cosmosdwarfsensationmix_381x381.jpg?v=1620131081"
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/cosmosdwarfsensationmix_381x381.jpg?v=1620131081",
+        "img1": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/cosmosdwarfsensationmix_150x150_crop_center.jpg?v=1620131081"
     },
     {
         "pid":17,
         "pname":"Vermicompost (Pure Desi cow)-900g",
         "price":350,
-        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Inkedvermicompost-1.8kg_276x276_LI_276x274.jpg?v=1645938248"
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Inkedvermicompost-1.8kg_276x276_LI_276x274.jpg?v=1645938248",
+        "img1":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/PXL_20210401_115436563.PORTRAIT-01.COVER_150x150_crop_center.jpg?v=1617298650",
+        "img2":"https://cdn.shopify.com/s/files/1/0487/7598/7354/produc.ts/PXL_20210401_120046978.PORTRAIT-01.COVER_150x150_crop_center.jpg?v=1645938248",
+        "img3":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/PXL_20210401_121230905.PORTRAIT-01.COVER_150x150_crop_center.jpg?v=1624170324"
+        
     },
       {
-        "pid": 23,
-        "pname": "Hibiscuss | Parijatha | Jasmine Combo",
+        "pid": 18,
+        "pname": "Hibiscus | Parijatha | Jasmine Combo",
         "price":650.00,
-        "img": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Hibiscus_Parijat_Jasmine_396x396.jpg?v=1620469310" 
+        "img": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Hibiscus_Parijat_Jasmine_396x396.jpg?v=1620469310" ,
+        "img1": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Hibiscus_Parijat_Jasmine_150x150_crop_center.jpg?v=1620469310"
       },
       {
-        "pid": 24,
+        "pid": 19,
         "pname": "Bryophyllum, Insulin, Aloe vera",
         "price": 599.00,
-        "img": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/001_1_1171822f-22ee-443d-b5be-97c5e7915880_396x396.png?v=1633608608"
-      },
+        "img": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/001_1_1171822f-22ee-443d-b5be-97c5e7915880_396x396.png?v=1633608608",
+        "img1": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/001_1_1171822f-22ee-443d-b5be-97c5e7915880_150x150_crop_center.png?v=1633608608",
+        "img2": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/003_1_150x150_crop_center.png?v=1633608608",
+        "img3": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Aloevera_95a75e54-64ad-4f48-bca6-3ad189df3818_150x150_crop_center.jpg?v=1633608659",
+        "img4": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/004_1_150x150_crop_center.png?v=1633608608",
+        "img5": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/BryophyllumPinnatum_634f7c2a-6892-4f1e-bb7b-d2b265fdb09b_150x150_crop_center.jpg?v=1633608659",
+        "img6": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/002_1_150x150_crop_center.png?v=1633608609"
+          },
       {
-        "pid":5,
+        "pid":20,
         "pname":"Vermicompost (Pure Desi cow) - 900g",
         "price":350,
-        "img":"https://cdn.shopify.com/s/files/1/0579/7924/0580/products/flora_product_image_shot_900x1200px.png?v=1661310215&width=375"
-    } 
+        "img":"https://cdn.shopify.com/s/files/1/0579/7924/0580/products/flora_product_image_shot_900x1200px.png?v=1661310215&width=375",
+        "img1":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/PXL_20210401_115436563.PORTRAIT-01.COVER_150x150_crop_center.jpg?v=1617298650",
+        "img2":"https://cdn.shopify.com/s/files/1/0487/7598/7354/produc.ts/PXL_20210401_120046978.PORTRAIT-01.COVER_150x150_crop_center.jpg?v=1645938248",
+        "img3":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/PXL_20210401_121230905.PORTRAIT-01.COVER_150x150_crop_center.jpg?v=1624170324"
+    }  
 ]

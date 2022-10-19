@@ -12,6 +12,9 @@
   <h1>Palms & Cycas Outdoor Plants</h1>
 </div>
 <br>
+
+
+
 <div class="sorting">
   <nav class="navbar navbar-expand navbar-custom" id="productSort">
     <ul class="navbar-nav">
@@ -77,10 +80,12 @@
   </div>
 <<<<<<< HEAD
 </div> -->
+<!-- <app-search (searchTextChanged)="onSearchTextEntered($event)"></app-search> -->
 <div class="container ">
   <div class="row card-group">
     <!--1st column-->
     <div class="col col-3" *ngFor="let product of productDetail">
+      <!-- <div  *ngIf="searchText==='' ||product.pname.toLowerCase().includes(searchText)"> -->
       <div class="card card-hover shadow" style="width: 260px;">
         <!--Property Binding-->
         <img [src]="product.img" class="prodimg" style="padding-right: 27px; height: 200px; width: 235px;">
@@ -98,11 +103,14 @@
           </div>
         </div>
       </div>
+    </div>
 
     </div>
+    </div>
+    
     <!--2nd column-->
-  </div>
-  </div>
+  
+  
 
    
  
