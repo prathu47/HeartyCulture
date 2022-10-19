@@ -96,26 +96,13 @@
       "id": 13
     },
     {
-      "firstname": "Harry",
-      "lastname": "Styles",
-      "useremail": "harry@gmail.com",
-      "password": "harry56",
+      "firstname": "Raksha",
+      "lastname": "Kademani",
+      "useremail": "raksha.rk14@gmail.com",
+      "password": "Raksha14",
       "id": 14
-    },
-    {
-      "firstname": "Ramya",
-      "lastname": "shree",
-      "useremail": "ramyashree1301@gmail.com",
-      "password": "fhgdgs",
-      "id": 15
-    },
-    {
-      "firstname": "Ramya",
-      "lastname": "shree",
-      "useremail": "ramyashree1301@gmail.com",
-      "password": "bvvcxxc",
-      "id": 16
     }
+   
   ],
   "posts": [
     {
