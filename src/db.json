@@ -1,57 +1,5 @@
 {
-  
-  "cart": [
-    {
-      "id": 2,
-      "pname": "Tulsi Plant seeds",
-      "pdescription": "Heartyculture Nursery",
-      "price": 60,
-      "img": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/download_7fa81907-27a8-40b3-a5d4-601a29e86bb7_225x225.jpg?v=1633095387"
-    },
-    {
-      "id": 3,
-      "pname": "Rosemary Seeds",
-      "pdescription": "Heartyculture Nursery",
-      "price": 139,
-      "img": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Rosemary_33fbd848-d467-4ef4-a4ef-3ff55e1c834a_381x254.jpg?v=1643524181"
-    },
-    {
-      "id": 4,
-      "img": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/001_97054d94-f5a7-48e3-acee-4aefa950304f_938x938.png?v=1631529612",
-      "pname": "Sansevieria trifasciata 'Flame' With Pot",
-      "pdescription": "Heartyculture Nursery",
-      "price": 429
-    },
-    {
-      "id": 5,
-      "img": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/002_10_902x902.jpg?v=1633236420",
-      "pname": "Sanseveria trifasciata 'Stars and Stripes",
-      "pdescription": "Heartyculture Nursery",
-      "price": 450
-    },
-    {
-      "id": 6,
-      "img": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/001_f5eba41a-5ce0-49b3-900b-2d33bd4894a5_902x902.png?v=1631531130",
-      "pname": "Frozen Snake Plant | Sansevieria Trifasciata",
-      "pdescription": "Heartyculture Nursery",
-      "price": 399
-    },
-    {
-      "id": 7,
-      "pname": "French Marigold Scarlet red Seeds",
-      "pdescription": "Heartyculture Nursery",
-      "price": 99,
-      "img": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/FrenchMarigoldScarletred_381x381.jpg?v=1620131172"
-    },
-    {
-      "id": 8,
-      "pname": "African Marigold F2 White Seeds",
-      "pdescription": "Heartyculture Nursery",
-      "price": 99,
-      "img": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/AfricanMarigoldF2WhiteFlower-Seeds_381x381.jpg?v=1620130424"
-    }
-  ],
-  
+  "cart": [],
   "users": [
     {
       "firstname": "Ramya",
@@ -129,6 +77,13 @@
       "useremail": "ramyashree1301@gmail.com",
       "password": "",
       "id": 13
+    },
+    {
+      "firstname": "Raksha",
+      "lastname": "Kademani",
+      "useremail": "raksha.rk14@gmail.com",
+      "password": "Raksha14",
+      "id": 14
     }
   ],
   "posts": [
