@@ -9,7 +9,7 @@
         <div class="cart-title-total" data-cart-title-total>
           <span class="text-title">Subtotal</span>
           <button type="button" class="btn btn-warning cart-title-button mdc-ripple-surface" routerLink="/checkout"
-            style="margin-right: 30px;"><i class="fa-sharp fa-solid fa-cart-shopping"></i>&nbsp;&nbsp;Checkout</button>
+            style="margin-right: 30px;"><i class="fa-sharp fa-solid fa-cart-shopping" *ngIf="auth"></i>&nbsp;&nbsp;Checkout</button>
         </div>
         <span class="text-title">Rs. {{totalPrice(cart) | number : '1.2-2'}}</span>
 

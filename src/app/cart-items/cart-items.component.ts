@@ -3,6 +3,8 @@ import { CartService } from '../cart.service';
 import { Cartitems } from '../cartitems';
 import { Router } from '@angular/router';
 import Swal from 'sweetalert2';
+import { UserService } from '../user.service';
+
 
 @Component({
   selector: 'app-cart-items',
@@ -11,7 +13,8 @@ import Swal from 'sweetalert2';
 })
 export class CartItemsComponent implements OnInit {
 
-  constructor(private cartSvc: CartService, private router: Router) { }
+ auth:boolean=false;
+  constructor(private cartSvc: CartService,private authService:UserService, private router: Router) { }
 
   carts: Cartitems = {
     cart_id: 0,
@@ -68,6 +71,12 @@ export class CartItemsComponent implements OnInit {
         console.log(this.cart)
       }
     )
+    this.authService.authSubject.subscribe(
+      data=>{
+        console.log('auth inside nav component:'+data);
+        this.auth=data;
+      }
+    );
   }
 
 }

@@ -1,13 +1,5 @@
 {
-  "cart": [
-    {
-      "cart_id": 1,
-      "cart_image": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/001_97054d94-f5a7-48e3-acee-4aefa950304f_938x938.png?v=1631529612",
-      "cart_name": "Sansevieria trifasciata 'Flame' With Pot",
-      "cart_price": 429,
-      "id": 1
-    }
-  ],
+  "cart": [],
   "posts": [
     {
       "id": 2,
@@ -59,7 +51,6 @@
       "img": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/AfricanMarigoldF2WhiteFlower-Seeds_381x381.jpg?v=1620130424"
     }
   ],
-  
   "users": [
     {
       "firstname": "Ramya",
