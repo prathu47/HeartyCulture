@@ -51,6 +51,9 @@ export class PalmIndoorComponent implements OnInit {
   cartsi: Cartitems[] = [];
 
   ngOnInit(): void {
+
+    
+
     this.cartsrv.getCartItems().subscribe(
       (response) => {
         this.cartsi = response;

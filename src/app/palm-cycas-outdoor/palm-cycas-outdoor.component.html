@@ -91,7 +91,7 @@
         <img [src]="product.img" class="prodimg" style="padding-right: 27px; height: 200px; width: 235px;">
         <div class="card-body">
           <p style="font-size: 16px;color:rgb(16, 16, 24);">{{product.pname}}</p>
-          <p style="font-size: 14px; color: grey " class="desc"> {{product.pdescription}} </p>
+          <a href="/allproducts" style="font-size: 14px; color: grey " class="desc"> {{product.pdescription}} </a>
 
           <p style="color:rgb(235, 37, 37);">{{ product.price |  currency:'Rs. '}}</p>
         </div>

@@ -6,6 +6,48 @@
       "cart_name": "Vermicompost (Pure Desi cow) - 900g",
       "cart_price": 350,
       "id": 1
+    },
+    {
+      "cart_id": 20,
+      "cart_image": "https://cdn.shopify.com/s/files/1/0579/7924/0580/products/flora_product_image_shot_900x1200px.png?v=1661310215&width=375",
+      "cart_name": "Vermicompost (Pure Desi cow) - 900g",
+      "cart_price": 350,
+      "id": 2
+    },
+    {
+      "cart_id": 2,
+      "cart_image": "/assets/images/bismarckia.jpg",
+      "cart_name": "Bismarckia Nobilis Blue Form",
+      "cart_price": 749,
+      "id": 5
+    },
+    {
+      "cart_id": 1,
+      "cart_image": "/assets/images/bamboopalm.jpg",
+      "cart_name": "Bamboo Palm",
+      "cart_price": 366,
+      "id": 6
+    },
+    {
+      "cart_id": 7,
+      "cart_image": "https://nurserynisarga.in/wp-content/uploads/2022/03/2.webp",
+      "cart_name": "Red Palm",
+      "cart_price": 679,
+      "id": 7
+    },
+    {
+      "cart_id": 3,
+      "cart_image": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/bio-char-fruits-flowers-1.5kg_876x873_logo_changed_383x381.png?v=1624170324",
+      "cart_name": "Bio Charcoal for fruits and flowers (Charcoal + Topper) - 1.5 kg",
+      "cart_price": 500,
+      "id": 8
+    },
+    {
+      "cart_id": 7,
+      "cart_image": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/KAV06223_396x396.jpg?v=1632486754",
+      "cart_name": "Fairies Washboard | Haworthia limifolia 'Jewel'",
+      "cart_price": 320,
+      "id": 9
     }
   ],
   "admin": [
@@ -102,7 +144,6 @@
       "password": "Raksha14",
       "id": 14
     }
-   
   ],
   "posts": [
     {
@@ -318,6 +359,14 @@
     {
       "useremail": "jancy@gmail.com",
       "id": 14
+    },
+    {
+      "useremail": "ramyashree1301@gmail.com",
+      "id": 15
+    },
+    {
+      "useremail": "jancy@gmail.com",
+      "id": 16
     }
   ]
 }

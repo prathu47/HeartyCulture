@@ -27,9 +27,13 @@
     visibility: visible;
     
 }
-/*sorting*/
+.card-body a{
+    text-decoration: none;
+    color: grey;
+}
 .navbar-custom{
     background-color: #f6f6f6;
     margin-left: 35px;
     margin-right: 40px;
 }
+
