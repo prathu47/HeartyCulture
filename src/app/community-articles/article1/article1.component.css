@@ -47,9 +47,7 @@ i{
 @media screen and (max-width:550px){
 .author-container {
     flex-direction: column;
-    text-align: center;
-    
-    
+    text-align: center;  
 }
 }
 .para{
