@@ -53,11 +53,11 @@ img{
     padding-top: 10px;
     margin-bottom: 20px;
 }
-.header{
+/* .header{
   
     color: #484848;
     font-family:Georgia, 'Times New Roman', Times, serif;
-}
+} */
 
 .card-hover{
     height: 360px;
@@ -75,3 +75,25 @@ img{
     
 }
 
+.breadcrumb {
+    margin-left: 2px;
+    padding: 10px;
+    padding-top: 18px;
+}
+
+.breadcrumb a {
+    padding-right: 8px;
+    color: red;
+    text-decoration: none;
+}
+
+.breadcrumb__item {
+    padding-left: 8px;
+    color: grey;
+}
+
+.header {
+    margin-left: 20px;
+    color: #484848;
+    font-family: 'Lato', sans-serif;
+}
