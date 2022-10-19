@@ -62,6 +62,7 @@ import { FruitsDetailsComponent } from './fruit-trees/fruits-details/fruits-deta
 import { AllproductsdetailsComponent } from './allproducts/allproductsdetails/allproductsdetails.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,

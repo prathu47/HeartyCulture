@@ -1,10 +1,13 @@
 {
   "cart": [
+    
+  ],
+  "admin": [
     {
-      "cart_id": 2,
-      "cart_image": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/002_10_902x902.jpg?v=1633236420",
-      "cart_name": "Sanseveria trifasciata 'Stars and Stripes'",
-      "cart_price": 450,
+      "username": "sandhya",
+      "useremail": "admin@gmail.com",
+      "password": "admin@123",
+      "mobile": "9675843223",
       "id": 1
     }
   ],
@@ -23,20 +26,14 @@
       "password": "prathu123",
       "id": 4
     }
+   
   ],
   "posts": [
-    {
-      "id": 2,
-      "pname": "Tulsi Plant seeds",
-      "pdescription": "Heartyculture Nursery",
-      "price": 60,
-      "img": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/download_7fa81907-27a8-40b3-a5d4-601a29e86bb7_225x225.jpg?v=1633095387"
-    },
     {
       "id": 3,
       "pname": "Rosemary Seeds",
       "pdescription": "Heartyculture Nursery",
-      "price": 139,
+      "price": "138",
       "img": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Rosemary_33fbd848-d467-4ef4-a4ef-3ff55e1c834a_381x254.jpg?v=1643524181"
     },
     {
@@ -136,6 +133,10 @@
     {
       "useremail": "jancy@gmail.com",
       "id": 13
+    },
+    {
+      "useremail": "jancy@gmail.com",
+      "id": 14
     }
   ]
 }

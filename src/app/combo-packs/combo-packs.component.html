@@ -1,18 +1,27 @@
 <div>
-  <div>
-    <a class="nav-link" style="font-weight: 500;color:rgb(246, 70, 70)" aria-current="page" href="#">Home</a>
-  </div>
-  <div>
-    <p style="margin-top:-23px;font-weight:350;margin-left:50px;font-style: Lato;">>Combo packs</p>
-  </div>
+  <header class="main__header" role="banner">
+    <nav aria-label="Breadcrumb">
+      <ol class="breadcrumb" role="list">
+        <li>
+          <a routerLink="/">Home</a>
+          <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" fill="currentColor" class="bi bi-chevron-right"
+            viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+          </svg>
+        </li>
+        <li class="breadcrumb__item">
+          <span class="breadcrumb-item-current">Combo packs</span>
+        </li>
+      </ol>
+    </nav>
+  </header>
 </div>
-
 <br>
 <div class="header">
-    <h1>Combo Packs</h1>
+  <h1>Combo packs</h1>
 </div>
 <br>
-
 <div class="container">
     <div class="row">
       <div class="col col-3 col-sm-6 col-md-3 mt-4" *ngFor="let combo of combodetails">

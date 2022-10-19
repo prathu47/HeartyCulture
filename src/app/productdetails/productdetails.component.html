@@ -1,22 +1,22 @@
-<nav class="navbar navbar-dark bg-dark">
+<nav class="navbar navbar-custom" style="background-color:rgb(175, 244, 175);">
     <div class="container-fluid">
-      <h1 style="color: aliceblue; font-size: 20px;">PRODUCT DETAILS</h1>
+      <h1 style="color:black; font-size: 20px;margin-left:500px;">Nursery Details</h1>
       <div class="d-flex">
         <!-- Button trigger modal -->
         <button (click)="clickAddProduct()" type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
-          <i class="fa-solid fa-plus"></i>
+          Add Nursery
         </button>
       </div>
     </div>
   </nav>
-  <table class="table table-hover">
+  <table class="table table-hover-bordered" style="border:3px solid black;">
     <thead>
       <tr>
-        <th scope="col">Product ID</th>
-        <th scope="col">Product Name</th>
-        <th scope="col">Description</th>
+        <th scope="col">Nursery ID</th>
+        <th scope="col">Nursery Name</th>
+        <th scope="col">Details</th>
         <th scope="col">Price</th>
-        <th scope="col">Product Image</th>
+        <th scope="col" >Nursery Image</th>
         <th scope="col">Action</th>
       </tr>
     </thead>

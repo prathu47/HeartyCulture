@@ -8,7 +8,8 @@ export const environment = {
   cartapi:"http://localhost:3000/cart",
   userapi:"http://localhost:3000/users",
   contactapi:"http://localhost:3000/contact",
-  subscribeapi:"http://localhost:3000/subscribe"
+  subscribeapi:"http://localhost:3000/subscribe",
+  adminapi:"http://localhost:3000/admin"
 
 };
 
