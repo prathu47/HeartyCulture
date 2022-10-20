@@ -18,81 +18,11 @@
       "id": 3
     },
     {
-      "firstname": "vvb",
-      "lastname": "vvc",
-      "useremail": "tt@gmail.com",
-      "password": "tt123",
+      "firstname": "prathu",
+      "lastname": "reddy",
+      "useremail": "prathu@gmail.com",
+      "password": "prathu123",
       "id": 4
-    },
-    {
-      "firstname": "vvb",
-      "lastname": "vvc",
-      "useremail": "shree@gmail.com",
-      "password": "123456",
-      "id": 5
-    },
-    {
-      "firstname": "Pooja",
-      "lastname": "G",
-      "useremail": "tt123@gmail.com",
-      "password": "123456",
-      "id": 6
-    },
-    {
-      "firstname": "pallavi",
-      "lastname": "katari",
-      "useremail": "pallavikatari@gmail.com",
-      "password": "pallavi",
-      "id": 7
-    },
-    {
-      "firstname": "san",
-      "lastname": "h",
-      "useremail": "shree@gmail.com",
-      "password": "",
-      "id": 8
-    },
-    {
-      "firstname": "fff",
-      "lastname": "g",
-      "useremail": "tt@gmail.com",
-      "password": "",
-      "id": 9
-    },
-    {
-      "firstname": "Ramya",
-      "lastname": "shree",
-      "useremail": "ramyashree1301@gmail.com",
-      "password": "",
-      "id": 10
-    },
-    {
-      "firstname": "Ramya",
-      "lastname": "shree",
-      "useremail": "ramyashree1301@gmail.com",
-      "password": "",
-      "id": 11
-    },
-    {
-      "firstname": "Ramya",
-      "lastname": "shree",
-      "useremail": "ramyashree1301@gmail.com",
-      "password": "",
-      "id": 12
-    },
-    {
-      "firstname": "Ramya",
-      "lastname": "shree",
-      "useremail": "ramyashree1301@gmail.com",
-      "password": "",
-      "id": 13
-    },
-    {
-      "firstname": "Raksha",
-      "lastname": "Kademani",
-      "useremail": "raksha.rk14@gmail.com",
-      "password": "Raksha14",
-      "id": 14
     }
   ],
   "posts": [
@@ -330,7 +260,108 @@
     },
     {
       "useremail": "kiran@gmail.com",
+      "id": 16},
+      {
+      "useremail": "ramyashree1301@gmail.com",
+      "id": 15
+    },
+    {
+      "useremail": "jancy@gmail.com",
       "id": 16
+    },
+    {
+      "useremail": "raksha.rk14@gmail.com",
+      "id": 17
+    }
+  ],
+  "checkout": [
+    {
+      "country": "India",
+      "firstname": "Raksha",
+      "lastname": "Kademani",
+      "address": "sq-19,jnv",
+      "apartment": "sq19",
+      "city": "vijaypur",
+      "state": "state",
+      "phone": "9591617518",
+      "id": 1
+    },
+    {
+      "country": "India",
+      "firstname": "Raksha",
+      "lastname": "Kademani",
+      "address": "sq-19,jnv",
+      "apartment": "sq19",
+      "city": "vijaypur",
+      "state": "state",
+      "phone": "+919591617518",
+      "id": 2
+    },
+    {
+      "country": "India",
+      "firstname": "Raksha",
+      "lastname": "Kademani",
+      "address": "sq-19,jnv",
+      "apartment": "sq19",
+      "city": "vijaypur",
+      "state": "karnataka",
+      "phone": "+919591617518",
+      "id": 3
+    },
+    {
+      "country": "India",
+      "firstname": "Raksha",
+      "lastname": "Kademani",
+      "address": "sq-19,jnv",
+      "apartment": "sq19",
+      "city": "vijaypur",
+      "state": "state",
+      "phone": "+919591617518",
+      "id": 4
+    },
+    {
+      "country": "India",
+      "firstname": "Raksha",
+      "lastname": "Kademani",
+      "address": "sq-19,jnv",
+      "apartment": "sq19",
+      "city": "vijaypur",
+      "state": "state",
+      "phone": "+919591617518",
+      "id": 5
+    },
+    {
+      "country": "India",
+      "firstname": "Raksha",
+      "lastname": "Kademani",
+      "address": "sq-19,jnv",
+      "apartment": "sq19",
+      "city": "vijaypur",
+      "state": "state",
+      "phone": "+919591617518",
+      "id": 6
+    },
+    {
+      "country": "India",
+      "firstname": "Raksha",
+      "lastname": "Kademani",
+      "address": "sq-19,jnv",
+      "apartment": "sq19",
+      "city": "vijaypur",
+      "state": "karnataka",
+      "phone": "+919591617518",
+      "id": 7
+    },
+    {
+      "country": "India",
+      "firstname": "Raksha",
+      "lastname": "Kademani",
+      "address": "sq-19,jnv",
+      "apartment": "sq19",
+      "city": "vijaypur",
+      "state": "state",
+      "phone": "+919591617518",
+      "id": 8
     }
   ]
 }

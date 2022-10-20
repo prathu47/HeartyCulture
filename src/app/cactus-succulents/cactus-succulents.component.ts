@@ -9,7 +9,7 @@ import { CactusService } from '../cactus.service';
 })
 export class CactusSucculentsComponent implements OnInit {
 
-
+  searchText: string='';
   cactusdetails:Cactus[]=[];
  
 
@@ -82,7 +82,11 @@ export class CactusSucculentsComponent implements OnInit {
     return this.cactusdetails;
   }
  
-
+  onSearchTextEntered(searchValue : string){
+    this.searchText=searchValue;
+    console.log(this.searchText);
+   }
+   
   
  
 }

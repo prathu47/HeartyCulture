@@ -1,29 +1,35 @@
 import { Component, OnInit } from '@angular/core';
-import {FormBuilder, FormGroup } from '@angular/forms';
+import { FormBuilder, FormGroup, Validators, FormControl} from '@angular/forms';
 import { ProductModel } from '../product-model';
 import { ProductapiService } from '../productapi.service';
 import { Router } from '@angular/router';
+import { HttpClient } from '@angular/common/http';
+import { environment } from 'src/environments/environment';
+import Swal from 'sweetalert2';
+
 @Component({
   selector: 'app-productdetails',
   templateUrl: './productdetails.component.html',
   styleUrls: ['./productdetails.component.css']
 })
 export class ProductdetailsComponent implements OnInit {
+  
   formValue!: FormGroup;
   productModelObj : ProductModel = new ProductModel();
   productData!: any;
   showAdd!: boolean;
   showUpdate!: boolean;
 
-  constructor(private formbuilder: FormBuilder, private api:ProductapiService) { }
 
-
+  submitted = false;
+  constructor(private formbuilder: FormBuilder,private route: Router, private http: HttpClient, private api:ProductapiService) { }
+  get f() { return this.formValue.controls; }
   ngOnInit(): void {
     this.formValue = this.formbuilder.group({
-      pname:[''],
-      pdescription:[''],
-      price:[''],
-      img:['']
+      pname:['',[Validators.required]],
+      pdescription:['',[Validators.required]],
+      price:['',[Validators.required,Validators.pattern('[0-9]*')]],
+      img:['',Validators.required]
     })
     this.getProducts();
   }
@@ -35,10 +41,17 @@ export class ProductdetailsComponent implements OnInit {
   }
 
   postProductDetails(){
+    this.submitted = true;
+      if (this.formValue.invalid) {
+        return;
+      }
     this.productModelObj.pname = this.formValue.value.pname;
     this.productModelObj.pdescription = this.formValue.value.pdescription;
     this.productModelObj.price = this.formValue.value.price;
     this.productModelObj.img = this.formValue.value.img;
+
+  
+   
 
     this.api.postProducts(this.productModelObj).subscribe(res=>{
       console.log(res);
@@ -95,6 +108,5 @@ export class ProductdetailsComponent implements OnInit {
       this.getProducts();
     })
   }
-  }
-
-
+  
+}

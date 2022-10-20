@@ -37,11 +37,11 @@ img{
     margin-bottom:10px;
     
 }
-.header{
+/* .header{
     margin-left: 20px;
     color: #484848;
     font-family:Georgia, 'Times New Roman', Times, serif;
-}
+} */
 .card {
     padding-top: 10px;
     margin-bottom: 40px;
@@ -86,5 +86,31 @@ img{
     margin-left: 1rem;
     padding-left: 4px;
 
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.breadcrumb {
+    margin-left: 2px;
+    padding: 10px;
+    padding-top: 18px;
+}
+
+.breadcrumb a {
+    padding-right: 8px;
+    color: red;
+    text-decoration: none;
+}
+
+.breadcrumb__item {
+    padding-left: 8px;
+    color: grey;
+}
+
+.header {
+    margin-left: 20px;
+    color: #484848;
+    font-family: 'Lato', sans-serif;
 }
 

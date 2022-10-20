@@ -162,9 +162,7 @@ import { OrnamantalDetailsComponent } from './ornamantal-trees/ornamantal-detail
 
 BrowserAnimationsModule,
     NgbModule,
-    HttpClientModule,
-    HttpClientModule,
-    FormsModule
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
