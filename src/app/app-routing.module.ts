@@ -44,7 +44,12 @@ import { PrivacypolicyComponent } from './policy/privacypolicy/privacypolicy.com
 import { TermsComponent } from './policy/terms/terms.component';
 import { ShippingComponent } from './policy/shipping/shipping.component';
 import { RefundsComponent } from './policy/refunds/refunds.component';
-
+import { FruitsDetailsComponent } from './fruit-trees/fruits-details/fruits-details.component';
+import { AllproductsdetailsComponent } from './allproducts/allproductsdetails/allproductsdetails.component';
+import { AuthGuard } from './auth.guard';
+import { FlowerSeedsDetailsComponent } from './flower-seeds/flower-seeds-details/flower-seeds-details.component';
+import { IndoorplantsdetailsComponent } from './plants/indoor-plants/indoorplantsdetails/indoorplantsdetails.component';
+import { OrnamantalDetailsComponent } from './ornamantal-trees/ornamantal-details/ornamantal-details.component';
 
 
 const routes: Routes = [
@@ -80,7 +85,7 @@ const routes: Routes = [
   {path:'PlantTips/foundationplants',component:FoundationplantsComponent},
   {path:'PlantTips/plantselection',component:ContainergardeningComponent},
   {path:"cartitems",component:CartItemsComponent},
-  {path:"checkout", component:CheckoutComponent},
+  {path:"checkout", component:CheckoutComponent, canActivate:[AuthGuard]},
   {path:"prod_details",component:ProductdetailsComponent},
 {path:"cactuaDetail/:id",component:CactusDetailComponent},
 {path:"comboDetail/:id",component:ComboDetailComponent},
@@ -92,7 +97,17 @@ const routes: Routes = [
   {path: "allproducts", component: AllproductsComponent},
   {path:"medicinaldetails/:id", component:MedicinalHerbsDetailsComponent},
   {path:"fertilizerdetails/:id", component:FertilizerDetailsComponent},
-  {path:"indoordetails/:id", component:IndoordetailsComponent}
+  {path:"indoordetails/:id", component:IndoordetailsComponent},
+  {path:"fruitdetails/:id", component:FruitsDetailsComponent},
+  {path:"allproductdetails/:id", component:AllproductsdetailsComponent},
+  {path:"flowerseedsdetails/:id", component:FlowerSeedsDetailsComponent},
+  {path:"indoorplantDetails/:id", component:IndoorplantsdetailsComponent},
+  {path:"ornamantalDetails/:id", component:OrnamantalDetailsComponent}
+
+
+
+
+
 
 
 

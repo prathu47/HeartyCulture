@@ -1,12 +1,27 @@
-<div>
-  <div>
-    <a class="nav-link" style="font-weight: 500;color:rgb(246, 70, 70)" aria-current="page" href="#">Home</a></div>
-  <div >
-    <p style="margin-top:-23px;font-weight:380;margin-left:50px;">>Fruit Trees</p>
-  </div>
-<br>
+
 <div class="header">
-    <h1>Fruits Trees</h1>
+  <header class="main__header" role="banner">
+    <nav aria-label="Breadcrumb">
+      <ol class="breadcrumb" role="list">
+        <li>
+          <a routerLink="/">Home</a>
+          <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" fill="currentColor" class="bi bi-chevron-right"
+            viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+          </svg>
+        </li>
+        <li class="breadcrumb__item">
+          <span class="breadcrumb-item-current">Fruit Trees</span>
+        </li>
+      </ol>
+    </nav>
+  </header>
+</div>
+<app-search (searchTextChanged)="onSearchTextEntered($event)"></app-search> 
+
+<div class="header">
+  <h1>Fruit Trees</h1>
 </div>
 <br>
 <div class="sorting">
@@ -51,14 +66,13 @@
         </div>
       </div>
     </div>
-<<<<<<< HEAD
   </div>
-=======
   </div> -->
   <div class="container-fluid" style="margin-top:20px;">
     <div class="row card-group">
       <!--1st column-->
       <div class="col col-3" *ngFor="let product of productDetails">
+        <div  *ngIf="searchText==='' ||product.pname.toLowerCase().includes(searchText)"> 
         <div class="card card-hover shadow">
           <!--Property Binding-->
           <img [src]="product.img" class="prodimg mx-auto">
@@ -69,7 +83,7 @@
             <div class="product-name">
               <p style="font-size: 16px;color:rgb(16, 16, 24);">{{product.pname}}</p>
             </div>
-            <p style="font-size: 14px; color: grey " class="desc"> {{product.pdescription}} </p>
+            <a href="/allproducts" style="font-size: 14px; color: grey " class="desc"> {{product.pdescription}} </a>
            
             <p style="color:rgb(235, 37, 37);" >{{ product.price1 |  currency:'Rs. '}}</p>
            
@@ -79,16 +93,15 @@
   
           <div class="row" style="margin-bottom: 10px; margin-left: 10px;">
             <div class="col target">
-              <button type="button" class="btn btn-outline" style="margin-right: 19px; border-color: gold;"
-                data-bs-toggle="modal" data-bs-target="#exampleModal">Quick Shop</button>
+              <button type="button" class="btn btn-outline" style="margin-right: 19px; border-color: gold;"[routerLink]="['/fruitdetails',product.pid]">Quick Shop</button>
               <button type="submit" class="btn btn-warning" (click)="addToCart(product)">Add to cart</button>
             </div>
           </div>
         </div>
       </div>
     </div>
+    </div>
    
       <!--2nd column-->
     </div>
   
->>>>>>> 4bac42a9a256779172e9aa4b09480413edec6173

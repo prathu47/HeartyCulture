@@ -13,7 +13,7 @@ export class NavComponent implements OnInit {
   constructor(private cartSrv:CartService) { }
 
   // public logo="https://cdn.shopify.com/s/files/1/0487/7598/7354/files/logo_horizontal_1912x500.png?v=1614351315";
-  public logo="https://i.postimg.cc/nr3wpQpG/Hearty-Culture-Nursery-Logo-1912-X-500.png"; //Testing newly created logo
+  public logo="https://i.postimg.cc/prtkfqXh/heartyculture-logo-900-300-removebg-preview.png"; //Testing newly created logo
 
 cartCount:number=0;
   ngOnInit(): void {

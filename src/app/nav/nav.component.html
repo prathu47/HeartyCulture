@@ -1,16 +1,19 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <!--STRING INTERPOLATION-->
-      <!--PROPERTY BINDING IN img tag-->
-      <a class="navbar-brand" href="#">
-        <img [src]="logo" width="220" height="70" class="second" alt="Drizly"></a>
+<nav class="navbar navbar-expand-lg custom-nav">
+  <div class="container-fluid">
+    <!--STRING INTERPOLATION-->
+    <!--PROPERTY BINDING IN img tag-->
+    <div class="cnt-btn-container">
+      <a class="btn btn-success btn-contact" href="https://green-donation.heartfulness.org/heartfulness-green">Donate</a>
+    </div>
+    <a class="navbar-brand" href="#">
+      <img [src]="logo" width="220" height="70" class="second" alt="Drizly"></a>
 
-        <input class="form-control me-1" type="Search" placeholder="What are you looking for?" aria-label="Search" [(ngModel)]="searchTerm" (keyup)="search($event)">
-        <button class="btn btn-light"  style="background-color: rgb(235, 209, 11);width:60px; margin-right: 30px;" type="submit" ><i class="fa-solid fa-magnifying-glass"></i></button>
-    
-    <button routerLink='/cartitems' style="margin-right: 70px; padding-top: 7px;">
+    <div class="cart-btn">
+      <button routerLink='/cartitems' style="margin-right: 10px; padding-top: 7px;">
         <span class="fa-solid fa-cart-shopping" style="font-size:20px;">
-          <sup style="color: black; margin-left: 8px; font-size:small; background-color:  rgb(235, 209, 11); padding: 5px; padding-left: 8px; padding-right: 8px; border-radius: 10px 10px;">{{cartCount}}</sup></span>
+          <sup
+            style="color: black; margin-left: 8px; font-size:small; background-color:  rgb(235, 209, 11); padding: 5px; padding-left: 8px; padding-right: 8px; border-radius: 10px 10px;">{{cartCount}}</sup></span>
       </button> &nbsp; &nbsp;&nbsp;
     </div>
+  </div>
 </nav>

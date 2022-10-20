@@ -58,6 +58,12 @@ import { PrivacypolicyComponent } from './policy/privacypolicy/privacypolicy.com
 import { TermsComponent } from './policy/terms/terms.component';
 import { ShippingComponent } from './policy/shipping/shipping.component';
 import { RefundsComponent } from './policy/refunds/refunds.component';
+import { FruitsDetailsComponent } from './fruit-trees/fruits-details/fruits-details.component';
+import { AllproductsdetailsComponent } from './allproducts/allproductsdetails/allproductsdetails.component';
+import { FlowerSeedsDetailsComponent } from './flower-seeds/flower-seeds-details/flower-seeds-details.component';
+import { IndoorplantsdetailsComponent } from './plants/indoor-plants/indoorplantsdetails/indoorplantsdetails.component';
+import { OrnamantalDetailsComponent } from './ornamantal-trees/ornamantal-details/ornamantal-details.component';
+
 
 
 @NgModule({
@@ -136,7 +142,12 @@ import { RefundsComponent } from './policy/refunds/refunds.component';
     PrivacypolicyComponent,
     TermsComponent,
     ShippingComponent,
-    RefundsComponent
+    RefundsComponent,
+    FruitsDetailsComponent,
+    AllproductsdetailsComponent,
+    FlowerSeedsDetailsComponent,
+    IndoorplantsdetailsComponent,
+    OrnamantalDetailsComponent
     
 
   ],
@@ -151,9 +162,7 @@ import { RefundsComponent } from './policy/refunds/refunds.component';
 
 BrowserAnimationsModule,
     NgbModule,
-    HttpClientModule,
-    HttpClientModule,
-    FormsModule
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

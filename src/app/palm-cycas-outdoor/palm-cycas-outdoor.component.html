@@ -1,20 +1,35 @@
+
 <div>
   <div>
     <a class="nav-link" style="font-weight: 500;color:rgb(246, 70, 70)" aria-current="page" href="#">Home</a>
   </div>
   <div>
-    <p style="margin-top:-23px;font-weight:380;margin-left:50px;">>Outdoor Plants</p>
+    <p style="margin-top:-23px;font-weight:380;margin-left:50px;">>Palm > Outdoor Plants</p>
   </div>
+  <header class="main__header" role="banner">
+    <nav aria-label="Breadcrumb">
+      <ol class="breadcrumb" role="list">
+        <li>
+          <a routerLink="/">Home</a>
+          <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" fill="currentColor" class="bi bi-chevron-right"
+            viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+          </svg>
+        </li>
+        <li class="breadcrumb__item">
+          <span class="breadcrumb-item-current">Outdoor Palm</span>
+        </li>
+      </ol>
+    </nav>
+  </header>
 </div>
-
 <br>
+<app-search (searchTextChanged)="onSearchTextEntered($event)"></app-search> 
 <div class="header">
-  <h1>Palms & Cycas Outdoor Plants</h1>
+  <h1>Outdoor Palm</h1>
 </div>
 <br>
-
-
-
 <div class="sorting">
   <nav class="navbar navbar-expand navbar-custom" id="productSort">
     <ul class="navbar-nav">
@@ -34,64 +49,19 @@
     </ul>
   </nav>
 </div>
-<!-- <div *ngFor="let product of productDetail | searchFilter:searchKey:'title'" style="float:left;">
-  <div class="container" style="margin-top: 20px;">
-    <div class="row">
-      <div class="col col-3 col-sm-6 col-md-3">
-        <div class="card" style="width: 16rem;">
-          <img [src]="product.img" class="prodimage">
-          <div class="card-body">
-            <p style="font-size: 16px;color:rgb(16, 16, 24);">{{product.pname}}</p>
-            <p style="font-size: 14px;font-weight: 200;">{{product.pdescription}}</p>
-            <p style="color:rgb(235, 37, 37);">{{ product.price | currency:'Rs .'}}</p>
 
 
-<<<<<<< HEAD
-=======
-   <div  *ngFor="let product of productDetail | searchFilter:searchKey:'title'" style="float:left;">
-    <div class="container" style="margin-top: 20px;">
-      <div class="row">
-        <div class="col col-3 col-sm-6 col-md-3">
-          <div class="card card-hover shadow" style="width: 18rem;">
-            <img [src]="product.img" class="prodimage">
-            <div class="card-body">
-                    <p style="font-size: 16px;color:rgb(16, 16, 24);">{{product.pname}}</p>
-                    <p style="font-size: 14px;font-weight: 200;">{{product.pdescription}}</p>
-<<<<<<< HEAD
-                    <p style="color:rgb(235, 37, 37);" >{{ product.price | currency:'Rs. '}}</p>
-                    
-        
-=======
-                    <p style="color:rgb(235, 37, 37);" >{{ product.price | currency:'Rs .'}}</p>
-                <div class="col target">
-                      <button type="button" class="btn btn-outline" style="margin-right: 19px; border-color: gold;" data-bs-toggle="modal" data-bs-target="#exampleModal">Quick Shop</button>
-                      <button type="button"  class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#centralModalSm">Add to cart</button>
-                </div>
->>>>>>> b39f6af8b0cbd477694381a50ea8c3a2990fab2e
-               
-            </div>
-            
->>>>>>> eee13cae3537367325f41e962dc515d7591ca7b2
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </div>
-<<<<<<< HEAD
-</div> -->
-<!-- <app-search (searchTextChanged)="onSearchTextEntered($event)"></app-search> -->
 <div class="container ">
   <div class="row card-group">
     <!--1st column-->
     <div class="col col-3" *ngFor="let product of productDetail">
-      <!-- <div  *ngIf="searchText==='' ||product.pname.toLowerCase().includes(searchText)"> -->
+      <div  *ngIf="searchText==='' ||product.pname.toLowerCase().includes(searchText)"> 
       <div class="card card-hover shadow" style="width: 260px;">
         <!--Property Binding-->
         <img [src]="product.img" class="prodimg" style="padding-right: 27px; height: 200px; width: 235px;">
         <div class="card-body">
           <p style="font-size: 16px;color:rgb(16, 16, 24);">{{product.pname}}</p>
-          <p style="font-size: 14px; color: grey " class="desc"> {{product.pdescription}} </p>
+          <a href="/allproducts" style="font-size: 14px; color: grey " class="desc"> {{product.pdescription}} </a>
 
           <p style="color:rgb(235, 37, 37);">{{ product.price |  currency:'Rs. '}}</p>
         </div>
@@ -99,7 +69,7 @@
         <div class="row" style="margin-bottom: 10px; margin-left: 5px;">
           <div class="col target">
             <button type="button" class="btn btn-outline" style="margin-right: 19px; border-color: gold;" data-bs-toggle="modal" data-bs-target="#exampleModal">Quick Shop</button>
-            <button type="button"  class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#centralModalSm">Add to cart</button>
+            <button type="button"  class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#centralModalSm" (click)="addToCart(product)">Add to cart</button>
           </div>
         </div>
       </div>
@@ -107,7 +77,7 @@
 
     </div>
     </div>
-    
+    </div>
     <!--2nd column-->
   
   
