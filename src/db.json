@@ -1,6 +1,5 @@
 {
-  "cart": [
-  ],
+  "cart": [],
   "admin": [
     {
       "username": "sandhya",
@@ -95,14 +94,13 @@
       "password": "Raksha14",
       "id": 14
     }
-   
   ],
   "posts": [
     {
       "id": 3,
       "pname": "Rosemary Seeds",
       "pdescription": "Heartyculture Nursery",
-      "price": "138",
+      "price": "136",
       "img": "https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Rosemary_33fbd848-d467-4ef4-a4ef-3ff55e1c834a_381x254.jpg?v=1643524181"
     },
     {
@@ -253,6 +251,20 @@
       "mobile": "9901188059",
       "message": "bbvv",
       "id": 16
+    },
+    {
+      "name": "rachana",
+      "useremail": "rachana@gmail.com",
+      "mobile": "7656789876",
+      "message": "Hi",
+      "id": 17
+    },
+    {
+      "name": "rachana nayak",
+      "useremail": "rachana@gmail.com",
+      "mobile": "7656789876",
+      "message": "Hi",
+      "id": 18
     }
   ],
   "subscribe": [
@@ -311,6 +323,14 @@
     {
       "useremail": "jancy@gmail.com",
       "id": 14
+    },
+    {
+      "useremail": "nayakrachana28@gmail.com",
+      "id": 15
+    },
+    {
+      "useremail": "kiran@gmail.com",
+      "id": 16
     }
   ]
 }
