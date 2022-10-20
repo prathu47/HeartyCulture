@@ -17,12 +17,12 @@
     </nav>
   </header>
 </div>
-<br>
+<app-search (searchTextChanged)="onSearchTextEntered($event)"></app-search> 
+
 <div class="header">
   <h1>Medicinal Herbs</h1>
 </div>
 <br>
-<app-search (searchTextChanged)="onSearchTextEntered($event)"></app-search> 
 
 <div class="sorting">
   <nav class="navbar navbar-expand navbar-custom" id="productSort">

@@ -63,7 +63,7 @@ export class LoginComponent implements OnInit {
           timer:3000,
         })
 
-        Toast.fire({
+        Swal.fire({
           icon: 'success',
           title: 'Login Successful'
         })

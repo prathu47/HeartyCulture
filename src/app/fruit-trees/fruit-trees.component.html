@@ -1,13 +1,5 @@
-<div>
-  <div>
-    <a class="nav-link" style="font-weight: 500;color:rgb(246, 70, 70)" aria-current="page" href="#">Home</a></div>
-  <div >
-    <p style="margin-top:-23px;font-weight:380;margin-left:50px;">>Fruit Trees</p>
-  </div>
-<br>
-<app-search (searchTextChanged)="onSearchTextEntered($event)"></app-search> 
+
 <div class="header">
-    <h1>Fruits Trees</h1>
   <header class="main__header" role="banner">
     <nav aria-label="Breadcrumb">
       <ol class="breadcrumb" role="list">
@@ -26,12 +18,12 @@
     </nav>
   </header>
 </div>
-<br>
+<app-search (searchTextChanged)="onSearchTextEntered($event)"></app-search> 
+
 <div class="header">
   <h1>Fruit Trees</h1>
 </div>
 <br>
-
 <div class="sorting">
   <nav class="navbar navbar-expand navbar-custom" id="productSort">
     <ul class="navbar-nav">
