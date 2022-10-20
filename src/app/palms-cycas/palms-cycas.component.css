@@ -10,7 +10,11 @@
 } 
 .container{
     margin-left: 60px;
+    display: flex;
+    flex-wrap: wrap;
 } 
+
+
 .card-body a{
     text-decoration: none;
     color: grey;

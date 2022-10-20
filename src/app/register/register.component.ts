@@ -54,7 +54,7 @@ export class RegisterComponent implements OnInit {
           timerProgressBar: true,
         })
     
-        Toast.fire({
+        Swal.fire({
           icon: 'success',
           title: 'Sign Up Successful'
         })

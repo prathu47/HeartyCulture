@@ -18,6 +18,8 @@
   </header>
 </div>
 <br>
+
+<app-search (searchTextChanged)="onSearchTextEntered($event)"></app-search> 
 <div class="header">
   <h1>Cactus & Succulents</h1>
 </div>
@@ -47,9 +49,10 @@
 <div class="container">
   <div class="row">
     <div class="col col-3 col-sm-6 col-md-3 mt-4" *ngFor="let cactus of cactusdetails">
-
+      <div  *ngIf="searchText==='' ||cactus.cactus_name.toLowerCase().includes(searchText)"> 
 
       <app-cactus-chils [product_cactus]="cactus"></app-cactus-chils>
+      </div>
       </div>
     </div>
   </div>

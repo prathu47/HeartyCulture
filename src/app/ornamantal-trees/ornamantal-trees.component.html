@@ -69,7 +69,7 @@
     <div class="row card-group">
       <!--1st column-->
       <div class="col col-3" *ngFor="let product of productDetails">
-        <div class="card card-hover shadow">
+        <div class="card card-hover" style="margin-top: 30px;" >
           <!--Property Binding-->
           <img [src]="product.img" class="prodimg mx-auto">
           <span *ngif="product.discount > 0" class="menu_label">

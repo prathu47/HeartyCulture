@@ -5,5 +5,6 @@ export class Combo {
     combo_image2:string|undefined;
     combo_image3:string|undefined;
     combo_name:string|any;
+ 
     combo_price:number|any;
 }

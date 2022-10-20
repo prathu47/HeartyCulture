@@ -39,6 +39,10 @@ img{
     margin-left: 35px;
     margin-right: 40px;
 }
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
 .breadcrumb {
     margin-left: 2px;
     padding: 10px;

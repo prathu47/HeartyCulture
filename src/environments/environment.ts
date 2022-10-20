@@ -6,9 +6,10 @@ export const environment = {
   production: true,
   postsapi:"http://localhost:3000/posts",
   cartapi:"http://localhost:3000/cart",
-  userapi:"http://localhost:3000/users",
+  userapi:"  http://localhost:3000/users",
   contactapi:"http://localhost:3000/contact",
   subscribeapi:"http://localhost:3000/subscribe",
+  checkoutapi:"http://localhost:3000/checkout",
   adminapi:"http://localhost:3000/admin"
 
 };

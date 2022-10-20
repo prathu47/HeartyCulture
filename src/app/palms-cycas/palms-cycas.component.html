@@ -1,4 +1,16 @@
 <div>
+<<<<<<< HEAD
+  <div>
+    <a class="nav-link" style="font-weight: 500;color:rgb(246, 70, 70)" aria-current="page" href="#">Home</a>
+  </div>
+  <div>
+    <p style="margin-top:-23px;font-weight:380;margin-left:50px;">>Indoor Plants</p>
+  </div>
+</div>
+<app-search (searchTextChanged)="onSearchTextEntered($event)"></app-search> 
+<div class="header">
+    <h1>Palms & Cycas Indoor Plants</h1>
+=======
   <header class="main__header" role="banner">
     <nav aria-label="Breadcrumb">
       <ol class="breadcrumb" role="list">
@@ -16,6 +28,7 @@
       </ol>
     </nav>
   </header>
+>>>>>>> ac6ae590fe15989c265599a7b98913454c0df683
 </div>
 <br>
 <div class="header">
@@ -47,7 +60,9 @@
 <div class="container">
   <div class="row">
     <div class="col col-3 col-sm-6 col-md-3 mt-4" *ngFor="let indoor of palmplant ">
+      <div  *ngIf="searchText==='' ||indoor.pname.toLowerCase().includes(searchText)"> 
       <app-palm-indoor [product]="indoor"></app-palm-indoor>
+      </div>
     </div>
   </div>
 </div>
