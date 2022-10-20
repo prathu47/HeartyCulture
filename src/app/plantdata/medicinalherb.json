@@ -5,7 +5,10 @@
         "pdescription":"Heartyculture Nursery",
         "price":199.00,
         "discount":200,
-        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/002_9_391x391.png?v=1633686907"
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/002_9_391x391.png?v=1633686907",
+        "img1":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Cymbopogoncitratus_800x800.jpg?v=1633686985",
+        "img2":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/001_9_902x902.png?v=1633686907",
+        "img3":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/003_9_902x902.png?v=1633686907"
     },
     {
         "pid":2,
@@ -13,7 +16,10 @@
         "pdescription":"Heartyculture Nursery",
         "price":199.00,
         "discount":0,
-        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Murrayakoenigii_256x256.jpg?v=1608907943"
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Murrayakoenigii_256x256.jpg?v=1608907943",
+        "img1":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Murrayakoenigii_800x800.jpg?v=1608907943",
+        "img2":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Murrayakoenigii_800x800.jpg?v=1608907943",
+        "img3":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Murrayakoenigii_800x800.jpg?v=1608907943"
     },
     {
         "pid":3,
@@ -21,7 +27,10 @@
         "pdescription":"Heartyculture Nursery",
         "price":399.00,
         "discount":160,
-        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/002_6_6254b369-064d-4e28-b4a3-7cf8489f4265_476x476.png?v=1633685906"
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/002_6_6254b369-064d-4e28-b4a3-7cf8489f4265_476x476.png?v=1633685906",
+        "img1":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/003_6_e7229f7d-d2ac-4583-a924-54929bdd366a_902x902.png?v=1633685907",
+        "img2":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/001_6_902x902.png?v=1633685907",
+        "img3":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Chamaecostuscuspidatus_800x800.jpg?v=1633685927"
     },
     {
         "pid":4,
@@ -29,7 +38,10 @@
         "pdescription":"Heartyculture Nursery",
         "price":149.00,
         "discount":0,
-        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/002_2_6afa9224-1dce-46db-a5b9-ae94d2184da3_256x256.png?v=1633685031"
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/002_2_6afa9224-1dce-46db-a5b9-ae94d2184da3_256x256.png?v=1633685031",
+        "img1":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/004_2_98cc2073-424f-4161-8c7e-bffea41f2cbb_902x902.png?v=1633685030",
+        "img2":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/003_2_74c7d8f8-d9fa-4d3d-b29e-ff9f2baa3e08_902x902.png?v=1633685031",
+        "img3":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/coleusamboinicus_800x800.jpg?v=1633685061"
     },
     {
         "pid":5,
@@ -37,7 +49,10 @@
         "pdescription":"Heartyculture Nursery",
         "price":100.00,
         "discount":0,
-        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/001_3_72e5df53-3f99-40ea-9c68-44328957b6a5_256x256.png?v=1633685291"
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/001_3_72e5df53-3f99-40ea-9c68-44328957b6a5_256x256.png?v=1633685291",
+        "img1":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/004_3_8d7066b5-6116-4488-921f-7a6cc7742f7b_902x902.png?v=1633685292",
+        "img2":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/003_3_83d8d3ff-5c62-49e2-a6b5-10e009b6496a_902x902.png?v=1633685292",
+        "img3":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Aloevera_800x800.jpg?v=1633685310"
     },
     {
         "pid":6,
@@ -45,7 +60,10 @@
         "pdescription":"Heartyculture Nursery",
         "price":199.00,
         "discount":180,
-        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Rosemary_256x256.jpg?v=1615569194"
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Rosemary_256x256.jpg?v=1615569194",
+        "img1":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Rosemary_902x902.jpg?v=1615569194",
+        "img2":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Rosemary_902x902.jpg?v=1615569194",
+        "img3":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Rosemary_902x902.jpg?v=1615569194"
     },
     {
         "pid":7,
@@ -53,6 +71,9 @@
         "pdescription":"Heartyculture Nursery",
         "price":199.00,
         "discount":0,
-        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Figure-5-Catharanthus-roseus-Source-wwwinvasives-orgza_256x256.png?v=1650265968"
+        "img":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Figure-5-Catharanthus-roseus-Source-wwwinvasives-orgza_256x256.png?v=1650265968",
+        "img1":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/Figure-5-Catharanthus-roseus-Source-wwwinvasives-orgza_527x527.png?v=1650265968",
+        "img2":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/download_ecf2435d-16ce-4802-9a70-ad990faa1769_275x183.jpg?v=1650265968",
+        "img3":"https://cdn.shopify.com/s/files/1/0487/7598/7354/products/download_ecf2435d-16ce-4802-9a70-ad990faa1769_275x183.jpg?v=1650265968"
     }
 ]

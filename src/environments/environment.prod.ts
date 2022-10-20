@@ -2,8 +2,10 @@ export const environment = {
   production: true,
 
   postsapi:"http://localhost:3000/posts",
-  userapi:"http://localhost:3000/users",
-  cartapi:"http://localhost:3000/cart",  
+  //cartapi:"http://localhost:3000/cart",
+  cartapi:"https://heroku-json-heartyculture.herokuapp.com/cart",
+  //userapi:"http://localhost:3000/users"
+  userapi:"https://localhost:7002/api/Registrations", 
   checkoutapi:"http://localhost:3000/checkout",
   contactapi:"http://localhost:3000/contact",
   subscribeapi:"http://localhost:3000/subscribe",
