@@ -33,32 +33,32 @@ export class CheckoutComponent implements OnInit {
   }
   temp_cart: Cartitems[] = [];
   cart: Cartitems[] = [];
-  map = new Map();
-  cc:string[] = [];
+  mapOfProductIdCount = new Map();
+  arrayToAvoidDuplicateItems:string[] = [];
 
   ngOnInit(): void {
     this.cartSvc.getCartItems().subscribe(
       (response) => {
         this.temp_cart = response;
         for (let item1 of this.temp_cart) {
-          if(!this.map.has(item1.cart_id)) {
-            this.map.set(item1.cart_id, 1);
-            this.cc.push(item1.cart_id);
-            console.log(this.cc)
+          if(!this.mapOfProductIdCount.has(item1.cart_id)) {
+            this.mapOfProductIdCount.set(item1.cart_id, 1);
+            this.arrayToAvoidDuplicateItems.push(item1.cart_id);
+            console.log(this.arrayToAvoidDuplicateItems)
           } else {
-            let num = this.map.get(item1.cart_id);
+            let num = this.mapOfProductIdCount.get(item1.cart_id);
             num = num + 1;
-            this.map.set(item1.cart_id, num);
+            this.mapOfProductIdCount.set(item1.cart_id, num);
           }
         }
         
         for(let item1 of this.temp_cart) {
           console.log(item1)
-          if(this.cc.includes(item1.cart_id)) {
+          if(this.arrayToAvoidDuplicateItems.includes(item1.cart_id)) {
             this.cart.push(item1);
             console.log("JJJ", item1.cart_id)
-            var g = this.cc.indexOf(item1.cart_id)
-            delete this.cc[g];
+            var g = this.arrayToAvoidDuplicateItems.indexOf(item1.cart_id)
+            delete this.arrayToAvoidDuplicateItems[g];
           }
         }
       }
