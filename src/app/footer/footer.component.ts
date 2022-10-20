@@ -47,7 +47,7 @@ export class FooterComponent implements OnInit {
           timerProgressBar: true,
         })
     
-        Toast.fire({
+        Swal.fire({
           icon: 'success',
           title: 'Thanks for subscribing'
         })

@@ -12,6 +12,7 @@ import Swal from 'sweetalert2';
   styleUrls: ['./combo-packs.component.css']
 })
 export class ComboPacksComponent implements OnInit {
+  searchText: string='';
 
 
   combodetails:Combo[]=[];
@@ -55,6 +56,9 @@ export class ComboPacksComponent implements OnInit {
 
 
   ngOnInit(): void {
+
+    this.combodetails= this.combodetails.sort((low: { combo_price: number; }, high: { combo_price: number; }) => low.combo_price - high.combo_price);
+    
     
     const contObervable=this.comboService.getcombodetails();
     contObervable.subscribe((comboData:Combo[])=>{
@@ -68,8 +72,67 @@ export class ComboPacksComponent implements OnInit {
         console.log(this.cart)
       }
     )
-  }
+    }
 
+  onSearchTextEntered(searchValue : string){
+    this.searchText=searchValue;
+    console.log(this.searchText);
+   }
+   
+sort(event: any) {
+    switch (event.target.value) {
+      case "Low":
+        {
+          this.combodetails = this.combodetails.sort((low: { combo_price: number; }, high: { combo_price: number; }) => low.combo_price - high.combo_price);
+          break;
+        }
+
+      case "High":
+        {
+          this.combodetails = this.combodetails.sort((low: { combo_price: number; }, high: { combo_price: number; }) => high.combo_price - low.combo_price);
+          break;
+        }
+
+      case "Name":
+        {
+          this.combodetails = this.combodetails.sort(function (low: { combo_name: String; }, high: { combo_name: String; }) {
+            if (low.combo_name < high.combo_name) {
+              return -1;
+            }
+            else if (low.combo_name > high.combo_name) {
+              return 1;
+            }
+            else {
+              return 0;
+            }
+          })
+          break;
+        }
+        case "HName":
+          {
+            this.combodetails = this.combodetails.sort(function (low: { combo_name: String; }, high: { combo_name: String; }) {
+              if (low.combo_name > high.combo_name) {
+                return -1;
+              }
+              else if (low.combo_name < high.combo_name) {
+                return 1;
+              }
+              else {
+                return 0;
+              }
+            })
+            break;
+          }
+
+      default: {
+        this.combodetails = this.combodetails.sort((low: { combo_price: number; }, high: { combo_price: number; }) => low.combo_price - high.combo_price);
+        break;
+      }
+
+    }
+    return this.combodetails;
+  }
+ 
   
 
 }

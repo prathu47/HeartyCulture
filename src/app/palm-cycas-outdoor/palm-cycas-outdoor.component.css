@@ -74,6 +74,10 @@ img{
     visibility: visible;
     
 }
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .breadcrumb {
     margin-left: 2px;

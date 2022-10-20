@@ -17,7 +17,8 @@
     </nav>
   </header>
 </div>
-<br>
+<app-search (searchTextChanged)="onSearchTextEntered($event)"></app-search> 
+
 <div class="header">
   <h1>Medicinal Herbs</h1>
 </div>
@@ -47,17 +48,18 @@
   <div class="row card-group">
     <!--1st column-->
     <div class="col col-3" *ngFor="let product of productDetail">
+      <div  *ngIf="searchText==='' ||product.pname.toLowerCase().includes(searchText)"> 
       <div class="card card-hover shadow">
         <!--Property Binding-->
         <img [src]="product.img" class="prodimg mx-auto">
-        <span *ngif="product.discount > 0" class="menu_label">
+        <!-- <span *ngif="product.discount > 0" class="menu_label">
           Save ₹ {{product.discount}}.00
-        </span> 
+        </span>  -->
         <div class="card-body">
           <div class="product-name">
             <p style="font-size: 16px;color:rgb(16, 16, 24);">{{product.pname}}</p>
           </div>
-          <p style="font-size: 14px; color: grey " class="desc"> {{product.pdescription}} </p>
+          <a href="/allproducts" style="font-size: 14px; color: grey " class="desc"> {{product.pdescription}} </a>
           <p style="color:rgb(235, 37, 37);">{{ product.price | currency:'Rs. '}}</p>
           <span *ngIf="product.discount > 0" class="menu_label">
             Save ₹ {{product.discount}}.00
@@ -74,6 +76,12 @@
       </div>
     </div>
   </div>
+<<<<<<< HEAD
+  </div>
+ 
+
+=======
+>>>>>>> ac6ae590fe15989c265599a7b98913454c0df683
     <!--2nd column-->
   </div>
 

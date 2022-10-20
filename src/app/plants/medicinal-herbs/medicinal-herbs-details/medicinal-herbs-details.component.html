@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container main-container">
     
     <div class="row">
         <div class="col col-6">
@@ -13,13 +13,13 @@
                     <img [src]="course.img" appGallery>
                 </div>
                 <div class="img-slide">
-                    <img [src]="course.img" appGallery>
+                    <img [src]="course.img1" appGallery>
                 </div>
                 <div class="img-slide">
-                    <img [src]="course.img" appGallery>
+                    <img [src]="course.img2" appGallery>
                 </div>
                 <div class="img-slide">
-                    <img [src]="course.img" appGallery>
+                    <img [src]="course.img3" appGallery>
                 </div>
                 <!-- <div class="img-slide">
                     <img src="https://cdn.shopify.com/s/files/1/0487/7598/7354/products/BryophyllumPinnatum_634f7c2a-6892-4f1e-bb7b-d2b265fdb09b_800x800.jpg?v=1633608659" appGallery>
@@ -69,7 +69,7 @@
                 
             </div>
             <div class="btn btn-light btn-lg " style="width: 100%;border-color: yellow;margin-bottom: 1rem;" (click)="addToCart(course)">Add to Cart</div>
-            <div class="btn btn-warning btn-lg" style="width: 100%;" >Buy it now</div>
+            <div class="btn btn-warning btn-lg" style="width: 100%;" routerLink="/checkout">Buy it now</div>
             <br>
             <br>
             

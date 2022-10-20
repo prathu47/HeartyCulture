@@ -1,4 +1,25 @@
-/* .second{
-    margin-top: 10px;
+.second {
     margin-left: 10px;
-} */
+    width: 19.6rem;
+    height: 5.5rem;
+}
+
+.custom-nav {
+    background-color: #E5EBB2;
+}
+
+.cnt-btn-container {
+    padding: 10px;
+    margin-left: 10px;
+    
+}
+
+.btn-contact {
+    border-radius: 0.3rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+.cart-btn {
+    margin-left: 0px;
+}

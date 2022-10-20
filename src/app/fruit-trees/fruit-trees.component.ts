@@ -9,6 +9,7 @@ import Swal from 'sweetalert2';
   styleUrls: ['./fruit-trees.component.css']
 })
 export class FruitTreesComponent implements OnInit {
+  searchText: string='';
 
   constructor(private cartsrv:CartService) { }
   cart:Cartitems={
@@ -115,6 +116,11 @@ export class FruitTreesComponent implements OnInit {
 
   
   productDetails:any=(product as any).default;
+  onSearchTextEntered(searchValue : string){
+    this.searchText=searchValue;
+    console.log(this.searchText);
+   }
+   
 
 }
 

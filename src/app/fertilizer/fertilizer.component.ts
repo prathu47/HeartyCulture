@@ -10,6 +10,7 @@ import Swal from 'sweetalert2';
   styleUrls: ['./fertilizer.component.css']
 })
 export class FertilizerComponent implements OnInit {
+  searchText: string='';
 
   constructor(private cartsrv:CartService) { }
   cart:Cartitems={
@@ -130,6 +131,10 @@ export class FertilizerComponent implements OnInit {
     }
     return this.productDetail;
   }
+  onSearchTextEntered(searchValue : string){
+    this.searchText=searchValue;
+    console.log(this.searchText);
+   }
 
   
   

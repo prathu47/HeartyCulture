@@ -128,3 +128,8 @@ img {
     margin-left: 35px;
     margin-right: 40px;
 }
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}

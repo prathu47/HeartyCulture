@@ -11,7 +11,7 @@ import * as outplants from 'src/app/palm-cycas-outdoor/palmoutdoor.json'
   styleUrls: ['./palm-cycas-outdoor.component.css']
 })
 export class PalmCycasOutdoorComponent implements OnInit {
-  // searchText: string='';
+  searchText: string='';
 
   @Input() product:any
 
@@ -115,10 +115,10 @@ productDetail:any=(outplants as any).default;
     }
     return this.productDetail;
   }
-  // onSearchTextEntered(searchValue : string){
-  //   this.searchText=searchValue;
-  //   // console.log(this.searchText);
-
+  onSearchTextEntered(searchValue : string){
+   this.searchText=searchValue;
+   console.log(this.searchText);
+  }
   
   
 

@@ -2,6 +2,11 @@ import { Component, Input, OnInit } from '@angular/core';
 import { CartService } from '../cart.service';
 import { Cartitems } from '../cartitems';
 import { Router } from '@angular/router';
+import { FormGroup,FormControl, Validators } from '@angular/forms';
+import { HttpClient } from '@angular/common/http';
+import { FormBuilder } from '@angular/forms';
+import { environment } from 'src/environments/environment';
+import  Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-checkout',
@@ -9,8 +14,21 @@ import { Router } from '@angular/router';
   styleUrls: ['./checkout.component.css']
 })
 export class CheckoutComponent implements OnInit {
+  checkout=environment.checkoutapi;
+  checkoutForm = new FormGroup({
+    country: new FormControl(''),
+    firstname : new FormControl(''),
+    lastname : new FormControl(''),
+    address: new FormControl(''),
+    apartment : new FormControl(''),
+    city : new FormControl(''),
+    state : new FormControl(''),
+    phone : new FormControl('')
+  })
 
-  constructor(private cartSvc: CartService, private router: Router) { }
+  submitted = false;
+
+  constructor(private formBuilder: FormBuilder, private http: HttpClient, private cartSvc: CartService, private router: Router) { }
   carts: Cartitems = {
     cart_id: 0,
     cart_image: '',
@@ -33,37 +51,78 @@ export class CheckoutComponent implements OnInit {
   }
   temp_cart: Cartitems[] = [];
   cart: Cartitems[] = [];
-  map = new Map();
-  cc:string[] = [];
+  mapOfProductIdCount = new Map();
+  arrayToAvoidDuplicateItems:string[] = [];
 
   ngOnInit(): void {
+    this.checkoutForm = this.formBuilder.group({
+      country: ['', Validators.required],
+      firstname: ['', Validators.required],
+      lastname: ['', Validators.required],
+      address: ['', Validators.required],
+      apartment: ['',Validators.required],
+      city: ['', Validators.required],
+      state: ['', Validators.required],
+      phone: ['', Validators.required,Validators.pattern('[0-9]*')]
+      
+    });
+    
     this.cartSvc.getCartItems().subscribe(
       (response) => {
         this.temp_cart = response;
         for (let item1 of this.temp_cart) {
-          if(!this.map.has(item1.cart_id)) {
-            this.map.set(item1.cart_id, 1);
-            this.cc.push(item1.cart_id);
-            console.log(this.cc)
+          if(!this.mapOfProductIdCount.has(item1.cart_id)) {
+            this.mapOfProductIdCount.set(item1.cart_id, 1);
+            this.arrayToAvoidDuplicateItems.push(item1.cart_id);
+            console.log(this.arrayToAvoidDuplicateItems)
           } else {
-            let num = this.map.get(item1.cart_id);
+            let num = this.mapOfProductIdCount.get(item1.cart_id);
             num = num + 1;
-            this.map.set(item1.cart_id, num);
+            this.mapOfProductIdCount.set(item1.cart_id, num);
           }
         }
         
         for(let item1 of this.temp_cart) {
           console.log(item1)
-          if(this.cc.includes(item1.cart_id)) {
+          if(this.arrayToAvoidDuplicateItems.includes(item1.cart_id)) {
             this.cart.push(item1);
             console.log("JJJ", item1.cart_id)
-            var g = this.cc.indexOf(item1.cart_id)
-            delete this.cc[g];
+            var g = this.arrayToAvoidDuplicateItems.indexOf(item1.cart_id)
+            delete this.arrayToAvoidDuplicateItems[g];
           }
         }
       }
     );
   }
+  //jsonstore
+  get f() { return this.checkoutForm.controls; }
+  submitHandler() {
+    this.submitted = true;
+    if (this.checkoutForm.invalid) {
+      return;
+    }
+
+    this.http.post<any>(this.checkout, this.checkoutForm.value)
+      .subscribe(res => {
+        const Toast = Swal.mixin({
+          toast: true,
+          position: 'top',
+          showConfirmButton: false,
+          timer: 3000,
+          timerProgressBar: true,
+        })
+    
+        Swal.fire({
+          icon: 'success',
+          title: 'You have Entered Details'
+        })
+        this.checkoutForm.reset();
+        this.router.navigate(['payment']);
+       
+      })
+
+
+}
 
   // sortCart(cartItemsList: any) {
   //   let localCart: any = [];

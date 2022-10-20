@@ -9,6 +9,7 @@ import * as product from "src/app/flower-seeds/seeds.json";
   styleUrls: ['./flower-seeds.component.css']
 })
 export class FlowerSeedsComponent implements OnInit {
+  searchText: string='';
 
   constructor(private cartsrv:CartService) { }
   cart:Cartitems={
@@ -109,5 +110,10 @@ export class FlowerSeedsComponent implements OnInit {
     }
     return this.productDetails;
   }
+  onSearchTextEntered(searchValue : string){
+    this.searchText=searchValue;
+    console.log(this.searchText);
+   }
+   
   
 }

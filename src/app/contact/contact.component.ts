@@ -50,7 +50,7 @@ export class ContactComponent implements OnInit {
           timerProgressBar: true,
         })
     
-        Toast.fire({
+        Swal.fire({
           icon: 'success',
           title: 'Thanks for your Valuable Feedback'
         })
